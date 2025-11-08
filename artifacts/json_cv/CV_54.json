@@ -1,0 +1,54 @@
+{
+  "certifications": [
+    "B1 Preliminary English Certification"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Science",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Developed a full-stack website for managing products, orders, sales, and customer browsing. Utilized React, Tailwind CSS for frontend and Express.js with JWT for backend.",
+      "job_title": "Full-stack Developer",
+      "years_worked": "1 month"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Developed a web-based anonymous chat application. Used React, Tailwind CSS for frontend and Java Spring Boot with MySQL for backend.",
+      "job_title": "Full-stack Developer",
+      "years_worked": "1 month"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Truong Huynh Dang Khoa",
+  "normalized_job_titles": [
+    "Full-stack Developer",
+    "Web Developer"
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "Bootstrap",
+    "React",
+    "Redux",
+    "Axios",
+    "Node.js",
+    "Express.js",
+    "JWT",
+    "Postman",
+    "JavaScript",
+    "Java",
+    "MySQL",
+    "Spring Boot"
+  ],
+  "years_of_experience": 0
+}

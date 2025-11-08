@@ -1,0 +1,55 @@
+{
+"certifications": [
+"Aptis Certificate"
+],
+"detected_industry": "information_technology",
+"education": [
+{
+"degree": "Computer Science",
+"graduation_year": "Present",
+"institution_name": "Ton Duc Thang University"
+}
+],
+"experience": [
+{
+"company_name": "KDI Education",
+"description": "Prepared teaching materials, managed student attendance, maintained classroom environment, and assisted lead teacher in lesson delivery and student engagement.",
+"job_title": "Teaching Assistant",
+"years_worked": "Mar 2022 — Feb 2023"
+},
+{
+"company_name": "mangoSTEEMS Vietnam",
+"description": "Assisted lead teacher in designing lesson plans, collaborated on identifying learning challenges, and provided additional instruction to students.",
+"job_title": "Teaching Assistant",
+"years_worked": "Aug 2022 — Dec 2022"
+},
+{
+"company_name": "Algorithmics Vietnam",
+"description": "Led coding classes for students (7-18) in Scratch, Python, and Lua. Managed multiple classes, adapted teaching methods, monitored progress, and communicated with parents.",
+"job_title": "Programming Teacher",
+"years_worked": "Apr 2023 — Aug 2025"
+}
+],
+"languages": [
+"English"
+],
+"name": "Vu Minh Phuc",
+"normalized_job_titles": [
+"Teaching Assistant",
+"Programming Teacher"
+],
+"skills": [
+"Python",
+"Git",
+"CI/CD",
+"DevOps/SRE",
+"MySQL",
+"JavaScript",
+"React",
+"Java",
+"Communication",
+"Teamwork",
+"Problem Solving"
+],
+"years_of_experience": 4
+}

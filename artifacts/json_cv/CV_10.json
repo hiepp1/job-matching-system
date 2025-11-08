@@ -1,0 +1,80 @@
+{
+  "certifications": [
+    "APTIS GENERAL (OVERALL B2)",
+    "AGILE DEVELOPMENT & SCRUM FRAMEWORK"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Software Engineering",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    },
+    {
+      "degree": "Master of Computer Science",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "SMARTLOCK - Smart Lock Project",
+      "description": "Developed features related to smart lock functionalities, including an IoT system combining a smart lock with smartphone control for unlocking, temporary key codes, firmware updates, door locking, abnormal activity alerts, and unlock history.",
+      "job_title": "Team member, Coder",
+      "years_worked": "January 2025 - April 2025 (4 months)"
+    },
+    {
+      "company_name": "Movie Ticket Booking App Project",
+      "description": "Developed an Android app for online movie ticket booking with features such as viewing showtimes, movie details, booking tickets, seat selection, payment, booking history, and reviews.",
+      "job_title": "Team leader, Coder",
+      "years_worked": "April 2024 - June 2024 (3 months)"
+    },
+    {
+      "company_name": "Student Management App Project",
+      "description": "Developed a full-featured Android app for managing student information, including adding, deleting, and editing student details, viewing timetables, study paths, and lecturer teaching lists.",
+      "job_title": "Team leader",
+      "years_worked": "April 2024 - June 2024 (3 months)"
+    },
+    {
+      "company_name": "E-commerce Website Project",
+      "description": "Developed an e-commerce website with typical functions like viewing order details, purchasing, adding to cart, viewing product information, payment, and a separate Admin website for product updates.",
+      "job_title": "Team leader, Coder",
+      "years_worked": "January 2024 - March 2024 (3 months)"
+    },
+    {
+      "company_name": "TASMANA - Work Management Software Project",
+      "description": "Implemented a comprehensive Work Management system, including Employee Management and Work Tracking, managing member information across departments, coordinating work, and maintaining a central database.",
+      "job_title": "Team member, Coder",
+      "years_worked": "August 2023 - December 2023 (5 months)"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "NGUYỄN THỊ BẢO TRÂN",
+  "normalized_job_titles": [
+    "Software Engineer",
+    "IT Intern",
+    "Team Lead",
+    "Team Member"
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "PHP",
+    "SQL",
+    "MySQL",
+    "C#",
+    "Java",
+    "XML",
+    "NoSQL",
+    "C++",
+    "Python",
+    "Kotlin",
+    "TSQL",
+    "Dart"
+  ],
+  "years_of_experience": 1
+}

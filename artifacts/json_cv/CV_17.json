@@ -1,0 +1,60 @@
+{
+  "certifications": [
+    "English: B2 APTIS – British Council"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Software Engineering",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Group Project",
+      "description": "Developed backend using Spring Boot, MySQL (JPA/Hibernate). Designed RESTful APIs, implemented JWT authentication, premium features, and email notifications with Spring Mail. Generated vocabulary exports to PDF and Word; ensured code quality with JUnit and Mockito tests.",
+      "job_title": "Lead Backend",
+      "years_worked": "N/A"
+    },
+    {
+      "company_name": "AISC",
+      "description": "Built a platform connecting users to eco-friendly products using Node.js, Express, MS SQL Server. Developed REST APIs, implemented auth, and designed frontend with EJS + Bootstrap. Handled image uploads, deployed via XAMPP.",
+      "job_title": "Backend Developer",
+      "years_worked": "N/A"
+    },
+    {
+      "company_name": "Group Project",
+      "description": "Built a full-stack E-commerce Website using React (Vite), Node.js/Express, MongoDB, and Redis in a Microservices Architecture. Containerized services with Docker, implemented horizontal scaling and load balancing using Nginx as a reverse proxy. Designed and implemented secure RESTful APIs for user authentication, product management, and shopping cart features.",
+      "job_title": "Backend Developer",
+      "years_worked": "N/A"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Nguyen Trung Duc",
+  "normalized_job_titles": [
+    "Backend Developer",
+    "Lead Backend"
+  ],
+  "skills": [
+    "JavaScript",
+    "Java",
+    "Python",
+    "C/C++",
+    "Node.js",
+    "Spring Boot",
+    "React.js",
+    "Docker",
+    "Nginx",
+    "MySQL",
+    "MongoDB",
+    "Swagger",
+    "Git",
+    "AWS (EC2)",
+    "Postman"
+  ],
+  "years_of_experience": 0
+}

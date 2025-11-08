@@ -1,0 +1,38 @@
+{
+  "certifications": [
+    "Aptis ESOL English Certificate (10/2023)",
+    "Ethical Hacker Course Completion Certificate (04/2025)",
+    "Microsoft Office Specialist (MOS) Certificate (08/2025)"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Networks and Data Communication",
+      "graduation_year": "N/A",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Trần Lê Yên Nhiên",
+  "normalized_job_titles": [],
+  "skills": [
+    "C Programming",
+    "Python Programming",
+    "Java Programming",
+    "Cisco Packet Tracer",
+    "EVE-NG",
+    "Network Design",
+    "Network Configuration",
+    "Network Security",
+    "IoT Product Design",
+    "Office Software",
+    "Teamwork",
+    "Eagerness to Learn",
+    "Cisco Networking"
+  ],
+  "years_of_experience": 0
+}

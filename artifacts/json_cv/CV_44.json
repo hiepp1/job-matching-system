@@ -1,0 +1,73 @@
+{
+  "certifications": [
+    "TOEIC L&R - 805",
+    "Aptis ESOL General - C level",
+    "CCNA: Introduction to Networks",
+    "CCNA: Switching, Routing, and Wireless Essentials"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Software Engineering",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Job Website Project",
+      "description": "Developed a web platform that supports job registration and application using HTML, CSS (Frontend) and PHP (Backend).",
+      "job_title": "Leader & Developer",
+      "years_worked": "2024"
+    },
+    {
+      "company_name": "Ecommerce Website Project",
+      "description": "Built an e-commerce platform providing a complete shopping and management experience using React, Tailwind CSS, Vite (Frontend & Admin); Node.js, Express (Backend); Docker, Docker Compose, Nginx.",
+      "job_title": "Leader & Developer",
+      "years_worked": "2024"
+    },
+    {
+      "company_name": "Multilingual Recipe Application Project",
+      "description": "Developed a multilingual recipe management application using Flutter and Dart (Frontend & Backend).",
+      "job_title": "Leader & Developer",
+      "years_worked": "2025"
+    },
+    {
+      "company_name": "Simulated Email Service Application Project",
+      "description": "Developed a simulated mail service application using Flutter and Dart (Frontend & Backend).",
+      "job_title": "Leader & Developer",
+      "years_worked": "2025"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "PHAM DUY BAO",
+  "normalized_job_titles": [
+    "Software Developer",
+    "Leader"
+  ],
+  "skills": [
+    "OOP",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "PHP",
+    "Node.js",
+    "MySQL",
+    "MongoDB",
+    "Restful API",
+    "SVN",
+    "GIT",
+    "React",
+    "Tailwind CSS",
+    "Vite",
+    "Express",
+    "Docker",
+    "Nginx",
+    "Dart",
+    "Flutter",
+    ".NET"
+  ],
+  "years_of_experience": 0
+}

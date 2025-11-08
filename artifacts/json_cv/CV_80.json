@@ -1,0 +1,66 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Built a real-time video processing system in Python with OpenCV to detect and emphasize traffic signs in road footage. The pipeline utilized HSV color thresholding to isolate red and blue areas, combined with template matching to recognize valid signs, and displayed them on video frames in real time.",
+      "job_title": "Digital Image Processing Projects",
+      "years_worked": "2 months"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Implemented an object detection model leveraging Transformer-based attention mechanisms. The system independently encoded image regions and their surrounding context, then fused these representations to improve detection accuracy. Trained and evaluated the model on the COCO dataset, achieving competitive performance compared to baseline CNN models.",
+      "job_title": "Computer Vision Project",
+      "years_worked": "2 months"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Conducted research on Top-K frequent pattern mining for uncertain datasets and implemented efficient algorithms. Designed an interactive tool that allows users to customize the number of retrieved patterns, enhancing flexibility and practical application.",
+      "job_title": "Design and Analysis of Algorithms Project",
+      "years_worked": "3 months"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Designed a sentiment analysis model leveraging Transformer architecture with attention mechanisms. The system independently encoded short texts and their contextual information, then integrated both representations to achieve accurate sentiment classification.",
+      "job_title": "Deep Learning Project",
+      "years_worked": "3 months"
+    }
+  ],
+  "languages": [
+    "Vietnamese",
+    "English"
+  ],
+  "name": "NGUYEN NHAT KHOA",
+  "normalized_job_titles": [
+    "Computer Vision Engineer",
+    "Deep Learning Engineer",
+    "Algorithm Developer",
+    "Software Developer"
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "C#",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "VS Code",
+    "OpenCV",
+    "Computer Vision",
+    "Deep Learning",
+    "Object Detection",
+    "Sentiment Analysis",
+    "Transformers",
+    "Algorithms"
+  ],
+  "years_of_experience": 0
+}

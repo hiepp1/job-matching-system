@@ -1,0 +1,37 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Software Engineering",
+      "graduation_year": "2024",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Personal Project",
+      "description": "Designed user interface for an e-commerce website. Implemented product management features (add, delete, edit) for the store, enabled product viewing and purchasing. Developed user authentication including sign-in and sign-up functionalities.",
+      "job_title": "Fullstack Developer",
+      "years_worked": "2 months"
+    }
+  ],
+  "languages": [
+    "English (B2)"
+  ],
+  "name": "Ngô Hoàng Khôi",
+  "normalized_job_titles": [
+    "Fullstack Developer"
+  ],
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Javascript",
+    "Node.js",
+    "SQL",
+    "Python",
+    "Figma",
+    "draw.io"
+  ],
+  "years_of_experience": 0
+}

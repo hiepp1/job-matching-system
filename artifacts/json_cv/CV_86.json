@@ -1,0 +1,47 @@
+{
+  "certifications": [
+    "Deep Research with LangGraph (Credential ID: zyfwh9jkyz) by LangChain Academy",
+    "Long-Term Agentic Memory with LangGraph by DeepLearning.AI"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Major in Computer Science",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "NLP & KD Lab, Ton Duc Thang University Ho Chi Minh City",
+      "description": "Collaborated in a 2-member team to design and implement an AI-powered website for the lab, integrating natural language interfaces for both users and administrators. Developed a User Agent using LangChain to introduce lab information and retrieve research papers. Built an Admin Agent with secure user management features. Focused on end-to-end AI system design, FastAPI backend integration, and creating intuitive user experiences through AI agents.",
+      "job_title": "AI Intern",
+      "years_worked": "Apr 2025 - Jul 2025"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "Ngoc Minh Nguyen",
+  "normalized_job_titles": [
+    "AI Intern"
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "Langchain",
+    "Pytorch",
+    "Chainlit",
+    "Gradio",
+    "Langgraph",
+    "Hugging Face",
+    "Unsloth",
+    "OpenCV",
+    "Scikit-learn",
+    "Pandas",
+    "SQLite",
+    "MongoDB",
+    "FastAPI"
+  ],
+  "years_of_experience": 0
+}

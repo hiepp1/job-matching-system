@@ -1,0 +1,46 @@
+{
+  "certifications": [
+    "Toeic 715"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Science",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Cybersoft Programming Training Center",
+      "description": "Completed theoretical lessons in Flutter, covering the fundamentals of Dart and UI design. Explored advanced Flutter topics independently beyond what was taught in class. Learned additional frameworks such as NestJS and React to support project development. Expanded programming skills from Dart to JavaScript and TypeScript, which share similar concepts. Currently learning Java to use in Spring backend development.",
+      "job_title": "Mobile Developer",
+      "years_worked": "04/2025 - present"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "Nguyễn Quốc Thái",
+  "normalized_job_titles": [
+    "Mobile Developer"
+  ],
+  "skills": [
+    "Flutter",
+    "NestJS",
+    "React Native",
+    "React",
+    "Dart",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "SQLite",
+    "GetX",
+    "Provider",
+    "Riverpod",
+    "UI Design",
+    "Backend Development",
+    "Team Leadership"
+  ],
+  "years_of_experience": 0
+}

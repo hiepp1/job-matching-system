@@ -1,0 +1,42 @@
+{
+  "certifications": [
+    "Aptis Esol B2",
+    "MOS Word 2016",
+    "MOS Excel 2016"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Software Engineering",
+      "graduation_year": "N/A",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Lương Mai Thanh Khôi",
+  "normalized_job_titles": [
+    "Intern"
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "C",
+    "C#",
+    "PHP",
+    "SQL",
+    "Kotlin",
+    "HTML",
+    "CSS",
+    "ASP.NET Core",
+    "Java Spring",
+    "Android",
+    "Figma",
+    "MySQL",
+    "Git"
+  ],
+  "years_of_experience": 0
+}

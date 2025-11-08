@@ -1,0 +1,60 @@
+{
+  "certifications": [
+    "Aptis ESOL (162pts)"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Software Engineering",
+      "graduation_year": "2020 - now",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Developed a full-stack e-commerce web application as a final-year university project, utilizing Node.js and Express.js for the backend. Followed the Model-View-Controller (MVC) architectural pattern and containerized using Docker and Docker Compose for streamlined deployment. Implemented user authentication, product management (CRUD operations), a dynamic shopping cart system, order processing, and ensured responsive design. Demonstrated proficiency in backend development, RESTful API design, and containerization.",
+      "job_title": "Full-stack Developer",
+      "years_worked": "September 2024 - December 2024"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Developed a real-time chat application utilizing the MERN stack (MongoDB, Express.js, React.js, Node.js). Features include secure user authentication, instant messaging capabilities, responsive design, backend integration for server-side operations and API endpoints, frontend development using React.js, and database management with MongoDB. Demonstrated proficiency in full-stack web development and real-time communication technologies.",
+      "job_title": "Full-stack Developer",
+      "years_worked": "January 2025 - April 2025"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Developed a digital version of the classic 2048 puzzle game using Unity. Implemented core game logic, including tile movement, merging, and score calculation. Designed a user-friendly interface displaying the game grid, current score, and game status. Built and packaged the game for multiple platforms, ensuring accessibility and performance. Demonstrated skills in Unity game development, C# programming, and software deployment.",
+      "job_title": "Game Developer",
+      "years_worked": "May 2024 - July 2024"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Nguyễn Quốc Dũng",
+  "normalized_job_titles": [
+    "Full-stack Developer",
+    "Game Developer"
+  ],
+  "skills": [
+    "Software Engineering",
+    "Node.js",
+    "Express.js",
+    "React.js",
+    "MongoDB",
+    "Docker",
+    "HTML/CSS",
+    "JavaScript",
+    "Java",
+    "C#",
+    "Unity",
+    "SQL Server",
+    "MySQL",
+    "RESTful API Design",
+    "Data Structures and Algorithms"
+  ],
+  "years_of_experience": 0
+}

@@ -1,0 +1,30 @@
+{
+  "certifications": [
+    "TOEIC 2-skill 925 (475/495 Listening, 450/495 Reading)"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Networks and Data Communication",
+      "graduation_year": "Present",
+      "institution_name": "Tôn Đức Thắng University"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "English"
+  ],
+  "name": "HOÀNG MINH QUÂN",
+  "normalized_job_titles": [],
+  "skills": [
+    "Node.js",
+    "HTML",
+    "JavaScript",
+    "Packet Tracer",
+    "Office Informatics",
+    "English Comprehension",
+    "Attention to Detail",
+    "Adaptability"
+  ],
+  "years_of_experience": 0
+}

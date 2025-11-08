@@ -1,0 +1,14 @@
+faiss-cpu
+pdfplumber
+PyMuPDF
+nltk
+rank_bm25
+gradio
+matplotlib
+numpy
+pandas
+pydantic
+tqdm
+sentence-transformers
+google-generativeai
+python-dotenv

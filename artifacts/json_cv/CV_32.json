@@ -1,0 +1,36 @@
+{
+  "certifications": [
+    "B1 Cambridge"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Science",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "English"
+  ],
+  "name": "Hoàng Đức Minh",
+  "normalized_job_titles": [],
+  "skills": [
+    "Python",
+    "Java",
+    "MySQL",
+    "Firebase",
+    "Communication",
+    "Problem-solving",
+    "Teamwork",
+    "Self-discipline",
+    "Machine Learning",
+    "Data Processing",
+    "Data Balancing",
+    "Feature Selection",
+    "PyTorch",
+    "RS-GAN"
+  ],
+  "years_of_experience": 0
+}

@@ -1,0 +1,38 @@
+{
+  "certifications": [
+    "Cambridge PET B1 - 145 Overall -Jul 2024",
+    "AGILE DEVELOPMENT & SCRUM FRAMEWORK COURSE 2022"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Software Engineering",
+      "graduation_year": "2024",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "English"
+  ],
+  "name": "Nguyen Thai Bao",
+  "normalized_job_titles": [],
+  "skills": [
+    "Java",
+    "JavaScript",
+    "C#",
+    "React",
+    "Next.js",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "Firebase",
+    "MongoDB",
+    "REST APIs",
+    "Git",
+    "Visual Studio Code",
+    "Design Patterns",
+    "Problem Solving"
+  ],
+  "years_of_experience": 0
+}

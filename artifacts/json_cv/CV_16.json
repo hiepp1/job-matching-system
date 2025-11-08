@@ -1,0 +1,58 @@
+{
+  "certifications": [
+    "Aptis ESOL Certified by British Council"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Networks and Data Communications",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Designed UI/UX, utilized ReactJS for reusable components and responsive design. Delivered a user-friendly demo product with optimized performance and scalability.",
+      "job_title": "Front-End Developer",
+      "years_worked": "N/A"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Contributed to UI/UX design, feature development, and system testing using ReactJS, Debian 12, and FusionPBX. Completed a call center system with a friendly interface for call management and VoIP integration.",
+      "job_title": "Front-End Developer",
+      "years_worked": "N/A"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Built user interface with C# WinForms, designed and implemented business logic for login, rental/return tracking, billing, and customer management. Managed SQL Server database and performed comprehensive testing.",
+      "job_title": "Developer",
+      "years_worked": "N/A"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "ĐẶNG MINH THẮNG",
+  "normalized_job_titles": [
+    "Front-End Developer"
+  ],
+  "skills": [
+    "HTML/CSS",
+    "Javascript",
+    "ReactJS",
+    "C#",
+    "Java",
+    "SQL Server",
+    "MySQL",
+    "UI/UX Design",
+    "Responsive Design",
+    "Postman",
+    "Visual Studio Code",
+    "GitHub",
+    "Teamwork",
+    "Communication",
+    "Analytical Thinking"
+  ],
+  "years_of_experience": 0
+}

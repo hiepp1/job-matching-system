@@ -1,0 +1,51 @@
+{
+  "certifications": [
+    "IELTS 7.0 (2024)"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "B.Sc. in Software Engineering",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University, Vietnam"
+    },
+    {
+      "degree": "Exchange Student in Computer Science",
+      "graduation_year": "2025",
+      "institution_name": "Regensburg University of Applied Sciences, Germany"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Skilled in Spring Boot, experienced with REST APIs, databases, and cloud platforms, with strong problem-solving skills.",
+      "job_title": "Back-end Developer Intern",
+      "years_worked": "N/A"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "Ho Nguyen An Khang",
+  "normalized_job_titles": [
+    "Back-end Developer Intern"
+  ],
+  "skills": [
+    "Java",
+    "JavaScript",
+    "Python",
+    "C++",
+    "HTML/CSS",
+    "ReactJS",
+    "Bootstrap",
+    "Spring Boot",
+    "NodeJS",
+    "Django",
+    "MySQL",
+    "MongoDB",
+    "OOP",
+    "Design Patterns",
+    "AWS S3"
+  ],
+  "years_of_experience": 0
+}

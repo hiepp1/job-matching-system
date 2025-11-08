@@ -1,0 +1,53 @@
+{
+  "certifications": [
+    "IELTS Certificate with band 6.0"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Science",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Applied knowledge of machine learning, deep learning, computer vision, and natural language processing in real-world projects, building intelligent and practical technology solutions.",
+      "job_title": "AI Engineer Intern",
+      "years_worked": "10/2022 - Present"
+    },
+    {
+      "company_name": "SPORTPLUS JOINT STOCK COMPANY",
+      "description": "Crawled data and created a demo customer service AI agent including tool crawler, SQLite, RAG, and Groq API.",
+      "job_title": "AI Agent Creator Intern",
+      "years_worked": "07/2025 - 08/2025"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "Doan Ngoc Bao",
+  "normalized_job_titles": [
+    "AI Engineer Intern",
+    "AI Agent Creator Intern"
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "C",
+    "PyTorch",
+    "TensorFlow",
+    "LangChain",
+    "Transformer",
+    "OpenCV",
+    "Ultralytics",
+    "RAG",
+    "YOLO",
+    "Pandas",
+    "GitHub",
+    "Linux",
+    "SQLite"
+  ],
+  "years_of_experience": 1
+}

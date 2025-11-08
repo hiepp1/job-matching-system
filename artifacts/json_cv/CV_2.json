@@ -1,0 +1,70 @@
+{
+  "certifications": [
+    "English APTIS Level B1 (CEFR)",
+    "TECH BASE Vietnam: Agile Development & Scrum Framework Course (2024)"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Information Technology - Software Engineering",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Personal Project",
+      "description": "A mobile application for learning English with an XML-based UI, applying design patterns for clean architecture, and using Firebase for real-time data storage and authentication. Implemented structured design patterns to improve maintainability; integrated Firebase Authentication and Realtime Database for seamless user experience.",
+      "job_title": "Software Developer",
+      "years_worked": "4 months"
+    },
+    {
+      "company_name": "Personal Project",
+      "description": "A responsive website for managing electronic components inventory and sales. Built secure authentication and authorization with JWT; designed an intuitive UI using Tailwind CSS; implemented CRUD operations with MongoDB.",
+      "job_title": "Web Developer",
+      "years_worked": "4 months"
+    },
+    {
+      "company_name": "Personal Project",
+      "description": "A multi-platform e-commerce application for electronic components, supporting both customers and administrators, with real-time communication features. Developed cross-platform UI with Flutter; integrated Python backend for specific processing tasks; used WebSocket for real-time updates and Firebase for data storage.",
+      "job_title": "Cross-Platform Developer",
+      "years_worked": "4 months"
+    },
+    {
+      "company_name": "Personal Project",
+      "description": "A web-based platform for managing and tracking high school student scores. Designed a user-friendly ReactJS interface; implemented RESTful APIs with Node.js; handled data storage and queries with MongoDB.",
+      "job_title": "Web Developer",
+      "years_worked": "5 months"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "Nguyễn Hà My",
+  "normalized_job_titles": [
+    "Software Developer",
+    "Web Developer",
+    "Mobile Developer"
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "Dart",
+    "C#",
+    "C",
+    "Express.js",
+    "Flutter",
+    "ReactJS",
+    "Node.js",
+    "SQL Server",
+    "MongoDB",
+    "Firebase",
+    "Git",
+    "Docker",
+    "RESTful API",
+    "AWS",
+    "Tailwind CSS",
+    "JavaScript"
+  ],
+  "years_of_experience": 0
+}

@@ -1,0 +1,54 @@
+{
+  "certifications": [
+    "APTIS (B2)"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "graduation_year": "N/A",
+      "institution_name": "Tôn Đức Thắng University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Developed a high-performance Chinese dictionary application for Windows/MacOS, handling large datasets (60,000 types). Optimized MySQL queries, implemented fast data retrieval (Chinese, Sino-Vietnamese, Pinyin, stroke count, radicals, conversions). Designed user-friendly UI/UX with customization. Integrated AI for Chinese character recognition and image-based lookup.",
+      "job_title": "Software Engineer",
+      "years_worked": "6/2025 - Present"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Designed responsive UI/UX for an e-commerce website. Developed core features including product search, filtering, login, contact, chatbox, buy/sell posts, and a sales dashboard. Optimized database architecture and SQL queries for efficient data processing.",
+      "job_title": "Web Developer",
+      "years_worked": "8 months"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Lê Tự Huy",
+  "normalized_job_titles": [
+    "Software Engineer",
+    "Web Developer"
+  ],
+  "skills": [
+    "Python",
+    "HTML",
+    "CSS",
+    "PHP",
+    "SQL Server",
+    "MySQL",
+    "Qt Designer",
+    "Laravel",
+    "UI/UX Design",
+    "Responsive Design",
+    "AI Integration",
+    "Data Analysis",
+    "System Architecture Optimization",
+    "Teamwork",
+    "Work Management"
+  ],
+  "years_of_experience": 0
+}

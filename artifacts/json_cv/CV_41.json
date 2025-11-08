@@ -1,0 +1,48 @@
+{
+  "certifications": [
+    "Google Cybersecurity Certificate",
+    "Cambridge English Preliminary (PET)"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Software Engineering",
+      "graduation_year": "2025",
+      "institution_name": "Tôn Đức Thắng University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Actively learning and building skills in network security, website vulnerabilities, and penetration testing while seeking a cybersecurity role.",
+      "job_title": "Cybersecurity Intern",
+      "years_worked": "N/A"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Nguyễn Anh Quân",
+  "normalized_job_titles": [
+    "Cybersecurity Intern"
+  ],
+  "skills": [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Docker",
+    "JWT",
+    "Cybersecurity",
+    "NIST Cybersecurity Framework",
+    "Network Security",
+    "Penetration Testing",
+    "Kali Linux",
+    "Burp Suite",
+    "Wireshark",
+    "Linux",
+    "Python",
+    "Android Java"
+  ],
+  "years_of_experience": 0
+}

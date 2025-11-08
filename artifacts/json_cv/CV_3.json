@@ -1,0 +1,49 @@
+{
+  "certifications": [
+    "B2 Aptis English Certificate – British Council 2024",
+    "Advanced Computer Vision with TensorFlow – Coursera 2025",
+    "Neural Networks and Deep Learning – Coursera 2025",
+    "Python for Data Analysis: Pandas & NumPy – Coursera 2025",
+    "Sequences, Time Series and Prediction – Coursera 2025",
+    "Time Series Mastery: Forecasting with ETS, ARIMA, Python – Coursera 2025",
+    "Attention Mechanisms and Transformer Models Course – Coursera 2025"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University (TDTU)"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University (TDTU)"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "Vietnamese",
+    "English"
+  ],
+  "name": "NGUYỄN THÀNH LONG",
+  "normalized_job_titles": [],
+  "skills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-learn",
+    "HuggingFace Transformers",
+    "OpenCV",
+    "CNNs",
+    "YOLO",
+    "BERT",
+    "GPT",
+    "Pandas",
+    "NumPy",
+    "SQL"
+  ],
+  "years_of_experience": 0
+}

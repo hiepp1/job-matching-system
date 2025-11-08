@@ -1,0 +1,65 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "University Project",
+      "description": "Developed an efficient hybrid retrieval architecture for a RAG-based chatbot, combining ChromaDB for vector and Rank BM25 for keyword search. Implemented a re-ranking mechanism with FlagEmbedding to ensure high-quality, relevant information for GPT-4 answer generation.",
+      "job_title": "RAG Chatbot Developer",
+      "years_worked": "4 months (8/2024 - 12/2024)"
+    },
+    {
+      "company_name": "Personal Project",
+      "description": "Developed a comprehensive Computer Vision project for multi-object tracking. Managed the full ML pipeline, including data preprocessing (MOT17 to YOLO format) and fine-tuning a pre-trained YOLOv8 model for object detection.",
+      "job_title": "Computer Vision Project Developer",
+      "years_worked": "2 months (06/2025 - 07/2025)"
+    },
+    {
+      "company_name": "Personal Project",
+      "description": "Independently developed a deep learning model for automated poem generation. Involved data collection, preprocessing, PyTorch model training, and integration of special tokens and temperature sampling for creative verse generation.",
+      "job_title": "Deep Learning Project Developer",
+      "years_worked": "2 months (06/2025 - 07/2025)"
+    },
+    {
+      "company_name": "Personal Project",
+      "description": "Applied Traditional Machine Learning techniques for traffic sign detection. Used OpenCV for image processing, extracted features, and trained an SVM classifier with Scikit-learn to categorize traffic signs.",
+      "job_title": "Machine Learning Project Developer",
+      "years_worked": "1 month (05/2025 - 05/2025)"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "Pham Tien Dat",
+  "normalized_job_titles": [
+    "AI Engineer Intern",
+    "AI Engineer",
+    "Computer Vision Engineer",
+    "Machine Learning Engineer"
+  ],
+  "skills": [
+    "Python",
+    "PyTorch",
+    "Scikit-learn",
+    "NumPy",
+    "Pandas",
+    "OpenCV",
+    "GPT-4o",
+    "YOLOv8",
+    "ChromaDB",
+    "Hybrid Search",
+    "FlagEmbedding",
+    "Deep Learning",
+    "Computer Vision",
+    "Large Language Models",
+    "Problem-Solving"
+  ],
+  "years_of_experience": 0
+}

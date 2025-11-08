@@ -1,0 +1,47 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "graduation_year": "N/A",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Developed a role-play, farming game. Responsibilities included character finite state machine and interaction, item, inventory, farming, trading, and NPC dialog systems. Solo developed crafting, placeable objects, item conversion, HP, stamina, damage, enemies, and scene consistency (saving system).",
+      "job_title": "Game Developer",
+      "years_worked": "Sep 2024 – Feb 2025"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Created a 2D UI-focused quiz game using Unity UI and C#. Implemented question panel, clickable answers, score tracking, correct answer unveiling, and game restart functionality.",
+      "job_title": "Game Developer",
+      "years_worked": "June 2025 – July 2025"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Developed a 2D Mario-like tile-based game using Unity tile and tilemap system. Features included player character with score, lives, monster interaction, obstacles, and a multi-stage level progression with state preservation.",
+      "job_title": "Game Developer",
+      "years_worked": "July 2025 – Sep 2025"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Nguyen Anh Tuan (Galvaron)",
+  "normalized_job_titles": [
+    "Game Developer"
+  ],
+  "skills": [
+    "Unity",
+    "C#",
+    "Excel",
+    "Word",
+    "Powerpoint"
+  ],
+  "years_of_experience": 0
+}

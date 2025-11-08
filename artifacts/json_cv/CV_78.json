@@ -1,0 +1,52 @@
+{
+  "certifications": [
+    "Cambridge English: Preliminary (PET) B1"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Software Engineer",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University (TDTU)"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "E-Study (Project)",
+      "description": "Developed an English learning application for the Android platform, integrated with Firebase. Key features included login, registration, CRUD operations for vocabulary and topics, and a vocabulary learning function.",
+      "job_title": "App Developer Intern",
+      "years_worked": "3 months"
+    },
+    {
+      "company_name": "CompoTech Shop (Project)",
+      "description": "Developed a Flutter e-commerce application integrated with Firebase. Key features included login, registration, product search, filter, sort, adding products to cart, purchasing items, and CRUD operations for products, orders, customers, and vouchers.",
+      "job_title": "App Developer Intern",
+      "years_worked": "2 months"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "PHAM TRUONG VIET THONG",
+  "normalized_job_titles": [
+    "App Developer Intern",
+    "Software Engineer Intern"
+  ],
+  "skills": [
+    "Flutter",
+    "Dart",
+    "Firebase",
+    "Android Native",
+    "Java",
+    "MySQL",
+    "Python",
+    "FastAPI",
+    "HTML",
+    "CSS",
+    "Programming",
+    "Databases",
+    "Application Development",
+    "Cross-platform Development"
+  ],
+  "years_of_experience": 0
+}

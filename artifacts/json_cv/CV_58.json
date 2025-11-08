@@ -1,0 +1,38 @@
+{
+  "certifications": [
+    "CCNA Certification",
+    "B1 Aptis ESOL Certificate"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Networks and Data Communication",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "English"
+  ],
+  "name": "NGUYEN CONG TOAN",
+  "normalized_job_titles": [],
+  "skills": [
+    "Snort (IDS/IPS)",
+    "Wazuh (SIEM)",
+    "Burp Suite",
+    "Wireshark",
+    "Nmap",
+    "Python",
+    "Bash",
+    "C",
+    "C++",
+    "SQL",
+    "Linux",
+    "Windows Server",
+    "Computer Networks",
+    "System Security",
+    "Log Analysis"
+  ],
+  "years_of_experience": 0
+}

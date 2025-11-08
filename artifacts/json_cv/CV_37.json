@@ -1,0 +1,38 @@
+{
+  "certifications": [
+    "B1 Preliminary English Test, Cambridge English",
+    "CCNA Intensive Course (1-on-1), HaiNguyenIT"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Networks and Data Communications",
+      "graduation_year": "present",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "English"
+  ],
+  "name": "Huynh Minh Phuoc",
+  "normalized_job_titles": [],
+  "skills": [
+    "CCNA",
+    "Routing & Switching",
+    "VLANs",
+    "OSPF",
+    "NAT",
+    "ACLs",
+    "Windows Server",
+    "Ubuntu",
+    "Check Point R81",
+    "Fortigate",
+    "Python",
+    "MySQL",
+    "SQL Server",
+    "Wireshark",
+    "Docker"
+  ],
+  "years_of_experience": 0
+}

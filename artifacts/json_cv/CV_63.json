@@ -1,0 +1,42 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Software Engineering",
+      "graduation_year": "N/A",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Developed e-commerce web features, including server-side logic, RESTful APIs for frontend-backend communication, and handling HTTP requests. Performed CRUD operations with MongoDB, implemented user authentication using JWT, and protected user data with bcrypt encryption. Utilized Git and GitHub for source code management and teamwork. Gained familiarity with system access management, system performance monitoring and analysis, and developed/deployed enterprise software like ERP and CRM. Customized Odoo ERP systems to optimize business processes, including creating and tailoring Odoo modules and troubleshooting integration issues. Applied basic security measures like access control, data encryption, and system backup.",
+      "job_title": "Software Engineer",
+      "years_worked": "N/A"
+    }
+  ],
+  "languages": [],
+  "name": "PHAM DUY TAM",
+  "normalized_job_titles": [
+    "Software Engineer"
+  ],
+  "skills": [
+    "Software Development",
+    "Web Development",
+    "RESTful API Development",
+    "MongoDB",
+    "Git",
+    "GitHub",
+    "ERP Systems",
+    "CRM Systems",
+    "Odoo Customization",
+    "Problem Solving",
+    "System Performance Analysis",
+    "Data Security",
+    "Technical Process Improvement",
+    "Teamwork",
+    "Business Process Analysis"
+  ],
+  "years_of_experience": 0
+}

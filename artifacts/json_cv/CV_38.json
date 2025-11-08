@@ -1,0 +1,43 @@
+{
+  "certifications": [
+    "Cambridge English B1 Preliminary"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Science",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "English"
+  ],
+  "name": "Phạm Nhật Tuyên",
+  "normalized_job_titles": [],
+  "skills": [
+    "Machine Learning",
+    "Transformers",
+    "Data Preprocessing",
+    "Tokenization",
+    "Embedding",
+    "Classification",
+    "Seq2seq",
+    "Image Captioning",
+    "Model Fine-tuning",
+    "Python",
+    "Java",
+    "C",
+    "JavaScript",
+    "Node.js",
+    "SpringBoot",
+    "Angular",
+    "MySQL",
+    "MongoDB",
+    "Firebase",
+    "Natural Language Processing",
+    "Computer Vision"
+  ],
+  "years_of_experience": 0
+}

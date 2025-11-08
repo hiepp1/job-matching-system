@@ -1,0 +1,64 @@
+{
+  "certifications": [
+    "Aptis ESOL Certificate – Level B1 (2023)",
+    "Agile Development & Scrum Course (2024)",
+    "Ethical Hacker on Cisco (2025)"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Information Technology - Computer Networks and Data Communication",
+      "graduation_year": "2025",
+      "institution_name": "Tôn Đức Thắng University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Course Project",
+      "description": "Designed and developed a gym system. Implemented Front-End with HTML, CSS, JavaScript, and Back-End with C#, .NET Core, MVC. Managed SQL Server database, applied MVC architecture, optimized SEO, and ensured website security through debugging and testing.",
+      "job_title": "Web Developer (Project)",
+      "years_worked": "4 months (September 2024 - December 2024)"
+    },
+    {
+      "company_name": "Course Project",
+      "description": "Configured and managed SharePoint Server. Performed network system configuration, Active Directory account creation, SQL Server and SharePoint Server installation, and managed permissions and security settings.",
+      "job_title": "System Administrator (Project)",
+      "years_worked": "4 months (September 2023 - December 2023)"
+    },
+    {
+      "company_name": "Course Project",
+      "description": "Designed and secured WiFi networks for SMEs. Implemented network diagrams, security solutions, DHCP, VLAN, ACL, WLC, WPA2/WPA3, and ASA firewall configurations.",
+      "job_title": "Network Security Specialist (Project)",
+      "years_worked": "4 months (February 2025 - May 2025)"
+    }
+  ],
+  "languages": [
+    "Vietnamese",
+    "English"
+  ],
+  "name": "Nguyễn Trường Duy",
+  "normalized_job_titles": [
+    "Network Intern",
+    "Web Developer",
+    "System Administrator",
+    "Network Security Specialist"
+  ],
+  "skills": [
+    "Computer Networking",
+    "System Administration",
+    "Network Security",
+    "Network Design",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "C#",
+    ".NET Core",
+    "MVC",
+    "SQL Server",
+    "MongoDB",
+    "Git",
+    "VMware",
+    "Business Analysis"
+  ],
+  "years_of_experience": 0
+}

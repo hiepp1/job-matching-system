@@ -1,0 +1,54 @@
+{
+  "certifications": [
+    "IELTS 7.0 English Certificate"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Software Engineering",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Developed interface and functions for player management and performance statistics using HTML, CSS, Javascript, Dexie.js.",
+      "job_title": "Programmer, Software Tester",
+      "years_worked": "1 month"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Developed interface and functions for managing players, statistics, indices, and biographies of individual players using HTML, CSS, Javascript, Typescript, Prisma.",
+      "job_title": "Programmer, Software Tester",
+      "years_worked": "2 months"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Hồ Lê Trung Tín",
+  "normalized_job_titles": [
+    "Programmer",
+    "Software Tester"
+  ],
+  "skills": [
+    "Python",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "SQL",
+    "IndexedDB",
+    "PostgreSQL",
+    "Prisma (ORM)",
+    "Dexie.js",
+    "IntelliJ",
+    "Visual Studio",
+    "Visual Studio Code",
+    "PyCharm",
+    "Typescript",
+    "Teamwork"
+  ],
+  "years_of_experience": 0
+}

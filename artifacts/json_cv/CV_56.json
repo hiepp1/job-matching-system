@@ -1,0 +1,71 @@
+{
+  "certifications": [
+    "Data Analyst Certificate Program",
+    "Python Programming Course"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Science",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Developed a machine translation system using LSTM with Bahdanau attention, processing over 250,000 English-Vietnamese sentence pairs and optimizing translation quality with BLEU score evaluation.",
+      "job_title": "Machine Learning Engineer",
+      "years_worked": "Mar–Apr2025"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Built a medical chatbot using Transformer and GPT architectures with PyTorch, fine-tuned with Reinforcement Learning (PPO, DPO), and achieved high accuracy in heart disease detection using TensorFlow and EDA.",
+      "job_title": "Deep Learning Engineer",
+      "years_worked": "Apr–Jun2025"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Created a custom dataset for NLP fake news classification, implementing traditional ML algorithms (Naive Bayes, Logistic Regression, Decision Tree) and deep learning with Doc2Vec, comparing approaches for optimal text classification.",
+      "job_title": "NLP Engineer",
+      "years_worked": "Feb–Mar2025"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Developed a real-time face recognition system using OpenCV and deep learning face embeddings, including dataset construction, face encoding, and recognition on static images and live video streams.",
+      "job_title": "Computer Vision Engineer",
+      "years_worked": "Nov2024–Jan2025"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "TRAN DINH QUANG VINH",
+  "normalized_job_titles": [
+    "AI Developer",
+    "Data Engineer",
+    "Machine Learning Engineer",
+    "Deep Learning Engineer",
+    "NLP Engineer",
+    "Computer Vision Engineer"
+  ],
+  "skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-learn",
+    "OpenCV",
+    "Hugging Face",
+    "Machine Learning",
+    "Deep Learning",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Data Structures & Algorithms",
+    "SQL",
+    "Git",
+    "Transformer",
+    "Reinforcement Learning"
+  ],
+  "years_of_experience": 0
+}

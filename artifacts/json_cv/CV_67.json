@@ -1,0 +1,76 @@
+{
+  "certifications": [
+    "Aptis"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Software Engineering",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Fixora Project",
+      "description": "Collaborated with a team of 4 to build an e-commerce website using ReactJS, Spring Boot, and MySQL.",
+      "job_title": "Full Stack Developer",
+      "years_worked": "February 2025 - May 2025"
+    },
+    {
+      "company_name": "BoxyBunny Project",
+      "description": "Collaborated with a team of 2 to build an e-commerce website using ReactJS, Node.js, and MongoDB.",
+      "job_title": "Full Stack Developer",
+      "years_worked": "September 2024 - December 2024"
+    },
+    {
+      "company_name": "Jewelry_Shop Project",
+      "description": "Collaborated with a team of 2 to build an e-commerce website using HTML, CSS, JS, and PHP.",
+      "job_title": "Full Stack Developer",
+      "years_worked": "March 2024 - June 2024"
+    },
+    {
+      "company_name": "Reis project",
+      "description": "Collaborated with a team of 3 to build a travel booking website using HTML, CSS, JS, and PHP.",
+      "job_title": "Full Stack Developer",
+      "years_worked": "2024 - April 2024"
+    },
+    {
+      "company_name": "Team_Building project",
+      "description": "Collaborated with a team of 3 to build a team building website interface using Figma.",
+      "job_title": "UI/UX Designer",
+      "years_worked": "2024"
+    }
+  ],
+  "languages": [
+    "Vietnamese"
+  ],
+  "name": "Phan Bội Thúy",
+  "normalized_job_titles": [
+    "Full Stack Developer",
+    "UI/UX Designer"
+  ],
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "HTML5",
+    "CSS3",
+    "SASS",
+    "TailwindCSS",
+    "SQL",
+    "NoSQL",
+    "MySQL",
+    "MongoDB",
+    "ReactJS",
+    "Next.js",
+    "Git",
+    "Docker",
+    "Figma",
+    "Teamwork",
+    "Time Management",
+    "Communication",
+    "Problem-solving"
+  ],
+  "years_of_experience": 1
+}

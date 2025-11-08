@@ -1,0 +1,61 @@
+{
+  "certifications": [
+    "Aptis ESOL 165/200 (B2)",
+    "Data Analysis & Power BI – Institute for Business and Economics Policy (TDTU)",
+    "Basic Data Visualization with Power BI – STARTTRAIN",
+    "Supervised Machine Learning: Regression and Classification – Coursera"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Databel dataset (Case study)",
+      "description": "Analyzed customer data and identified key trends in retention; grouped customers by demographics and usage to find high-risk segments; found main reasons for churn such as service issues and usage patterns; suggested strategies like targeted offers and better service to reduce churn and keep revenue.",
+      "job_title": "Data Analyst",
+      "years_worked": "09/2025 – Present"
+    },
+    {
+      "company_name": "STARTTRAIN Training Center (Case study)",
+      "description": "Analyzed global retail sales data to evaluate payment methods and product performance; created interactive dashboards in Power BI to visualize trends and support decision-making; recommended strategies to optimize order methods and adjust pricing for key product categories.",
+      "job_title": "Data Analyst",
+      "years_worked": "06/2025"
+    },
+    {
+      "company_name": "TDTU (Final Project)",
+      "description": "Developed an interactive dashboard in Streamlit with real-time updates; built a data collection form integrated with the Google Sheets API with automatic storage of submissions; applied Python (Pandas, Matplotlib, Scikit-learn) and Tableau to analyze retail performance and present insights effectively.",
+      "job_title": "Data Analyst",
+      "years_worked": "10/2024 – 12/2024"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "GIA-MY (ASTRID) NGUYEN",
+  "normalized_job_titles": [
+    "Data Analyst"
+  ],
+  "skills": [
+    "Python",
+    "JavaScript",
+    "Power BI",
+    "Tableau",
+    "MongoDB",
+    "SQL Server",
+    "PostgreSQL",
+    "Pandas",
+    "Matplotlib",
+    "Scikit-learn",
+    "Streamlit",
+    "Google Sheets API",
+    "Data Analysis",
+    "Business Intelligence",
+    "Machine Learning"
+  ],
+  "years_of_experience": 0
+}

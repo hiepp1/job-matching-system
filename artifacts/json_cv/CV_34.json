@@ -1,0 +1,55 @@
+{
+  "certifications": [
+    "British Council - IELTS 6.0",
+    "Udemy - LLM Engineering: Master AI and Large Language Models"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "FUNiX",
+      "description": "Designed and taught English communication courses, leveraging AI to create personalized learning paths for each student.",
+      "job_title": "English Tutors (Part-time)",
+      "years_worked": "10 months"
+    },
+    {
+      "company_name": "Garena",
+      "description": "Operated and monitored IT systems & electronic devices during professional esports tournaments, ensuring network stability and hardware reliability. Applied knowledge of network configuration (DNS and IP), data handling, and troubleshooting to maintain high-performance environments under real-time pressure.",
+      "job_title": "Esports Match Operations (Part-time)",
+      "years_worked": "9 months"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "LE NGUYEN VIET HIEP",
+  "normalized_job_titles": [
+    "IT Intern",
+    "English Tutor",
+    "Esports Match Operations"
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "C++",
+    "CNN",
+    "RNN",
+    "Transformer",
+    "Attention Mechanism",
+    "LLM Fine-tuning",
+    "TensorFlow",
+    "PyTorch",
+    "Hugging Face",
+    "LangChain",
+    "RAG",
+    "GitHub",
+    "Agile/Scrum"
+  ],
+  "years_of_experience": 1
+}

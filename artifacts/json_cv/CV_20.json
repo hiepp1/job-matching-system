@@ -1,0 +1,41 @@
+{
+  "certifications": [
+    "CAMBRIDGE B2",
+    "SEO GOOGLE"
+  ],
+  "detected_industry": "finance",
+  "education": [
+    {
+      "degree": "Bachelor of Science, Computer Science",
+      "graduation_year": "2025",
+      "institution_name": "TON DUC THANG UNIV."
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "SHINHAN VIETNAM FINANCE COMPANY",
+      "description": "A skilled and results-driven professional with a strong background in sales. Proven ability to communicate, negotiate, and build lasting client relationships. Expert at problem-solving and managing sales targets to ensure successful outcomes.",
+      "job_title": "Business Staff",
+      "years_worked": "1 year 2 months"
+    }
+  ],
+  "languages": [],
+  "name": "LE PHAM HOANG PHUONG",
+  "normalized_job_titles": [
+    "Business Staff"
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "JavaScript",
+    "Java",
+    "C#",
+    "HTML",
+    "CSS",
+    "Node.js",
+    "Classic Machine Learning",
+    "Business Intelligence",
+    "Enterprise Information System Management"
+  ],
+  "years_of_experience": 1
+}

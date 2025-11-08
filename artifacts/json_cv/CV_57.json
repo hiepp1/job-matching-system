@@ -1,0 +1,45 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University HCMC"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "WISDOM Engineering & Business Solutions",
+      "description": "Contributed to research and prototyping of AI models for business and engineering solutions. Preprocessed datasets, applied NLP and ML algorithms, evaluated model performance, collaborated with senior engineers, and produced technical documentation.",
+      "job_title": "AI R&D Research Engineer Intern",
+      "years_worked": "0 years 4 months"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "TRAN TRUNG DUNG",
+  "normalized_job_titles": [
+    "AI/ML Engineer Intern",
+    "Research Engineer Intern"
+  ],
+  "skills": [
+    "Python",
+    "Machine Learning",
+    "NLP",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "SQL",
+    "Pandas",
+    "NumPy",
+    "Git",
+    "Data Modeling",
+    "Algorithms",
+    "Data Structures",
+    "Matplotlib",
+    "Communication Skills"
+  ],
+  "years_of_experience": 0
+}

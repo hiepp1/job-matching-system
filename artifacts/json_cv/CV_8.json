@@ -1,0 +1,68 @@
+{
+  "certifications": [
+    "DeepLearning.AI",
+    "Prompt Engineering"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Ton Duc Thang University",
+      "description": "Led a team in developing an application for product details recognition and expiration date management, implementing YOLOv11 for label detection and fine-tuning multiple OCR models.",
+      "job_title": "Research Project Lead",
+      "years_worked": "2024-2025"
+    },
+    {
+      "company_name": "Deep Learning Course Project",
+      "description": "Developed a Vietnamese OCR system using a ResNet–Transformer architecture, trained and evaluated models, and deployed for experimentation.",
+      "job_title": "Machine Learning Developer",
+      "years_worked": "2024-2025"
+    },
+    {
+      "company_name": "Software Engineering Course Project",
+      "description": "Collaborated in an Agile team to develop a C# desktop application for dental clinics, designing UX/UI and implementing core features for patient records and scheduling.",
+      "job_title": "Software Developer",
+      "years_worked": "2024-2025"
+    },
+    {
+      "company_name": "Software Engineering Course Project",
+      "description": "Engineered a complete C# attendance management system from scratch, integrating Google Sheets for data management and automating the attendance process.",
+      "job_title": "System Developer",
+      "years_worked": "2024-2025"
+    }
+  ],
+  "languages": [
+    "Vietnamese (Native)",
+    "English (Intermediate - Reading/Writing technical docs)"
+  ],
+  "name": "HA TRONG NGUYEN",
+  "normalized_job_titles": [
+    "Machine Learning Engineer",
+    "Software Developer",
+    "Research Assistant"
+  ],
+  "skills": [
+    "Python",
+    "C#",
+    "Java",
+    "PyTorch",
+    "Scikit-learn",
+    "Ultralytics",
+    "FastAPI",
+    "Git",
+    "Docker",
+    "Deep Learning",
+    "Computer Vision",
+    "Data Analysis",
+    "Agile/Scrum",
+    "OCR",
+    "Image Processing"
+  ],
+  "years_of_experience": 0
+}

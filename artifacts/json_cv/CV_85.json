@@ -1,0 +1,47 @@
+{
+  "certifications": [
+    "TOEIC 850"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Software Technology",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "NAM LONG MEDIA & ADVERTISING CO., LTD.",
+      "description": "Assisted in customizing and improving website interfaces using Wordpress. Integrated Gmail API via Google Console to enable automated email notifications to administrators. Explored the company's PHP-based web applications for better understanding of system development.",
+      "job_title": "Front-End Developer Intern",
+      "years_worked": "2 months"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "Chí Kha",
+  "normalized_job_titles": [
+    "Backend Developer Intern",
+    "Front-End Developer Intern"
+  ],
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Python",
+    "Laravel",
+    "React",
+    "Data Structures and Algorithms",
+    "Object-Oriented Programming",
+    "MySQL",
+    "MongoDB",
+    "Git",
+    "Docker",
+    "FastAPI",
+    "Django",
+    "HTML",
+    "CSS"
+  ],
+  "years_of_experience": 0
+}

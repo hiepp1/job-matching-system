@@ -1,0 +1,62 @@
+{
+  "certifications": [
+    "ISTQB Certified Tester Foundation Level",
+    "ISTQB Certified - Agile Tester",
+    "TOEIC Listening & Reading 845"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Software Engineering",
+      "graduation_year": "N/A",
+      "institution_name": "TON DUC THANG UNIVERSITY"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Superfine",
+      "description": "Developed automation scripts using Java and Selenium, performed functional and regression testing, reported bugs in Jira, and collaborated with developers to define acceptance criteria for an ad network management platform.",
+      "job_title": "QA Analyst",
+      "years_worked": "0.5 years"
+    },
+    {
+      "company_name": "DXC Viet Nam",
+      "description": "Performed testing for an AI-powered API platform (RIM.AI) and a banking modernization project (OCBC BA Teller). Developed API automation scripts using Java and JUnit, worked in Agile Scrum teams, managed a small team, defined test cases, and reported defects in Jira.",
+      "job_title": "Software Tester/ QC",
+      "years_worked": "1.5 years"
+    },
+    {
+      "company_name": "HCL Viet Nam Company Limited",
+      "description": "Completed technical training in Testing Fundamentals, Java, Selenium, SQL, Page Object Model (POM), Apache POI, BDD (Cucumber), Appium, and soft skills for an international business environment.",
+      "job_title": "Tester Trainee",
+      "years_worked": "0.4 years"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "TRAN HOANG SON",
+  "normalized_job_titles": [
+    "QA Analyst",
+    "Software Tester",
+    "Tester Trainee"
+  ],
+  "skills": [
+    "Java",
+    "SQL",
+    "Black Box Testing",
+    "White Box Testing",
+    "API Testing",
+    "Selenium",
+    "Cucumber",
+    "JUnit",
+    "Jira",
+    "Git",
+    "Agile Scrum",
+    "Postman",
+    "SDLC",
+    "STLC",
+    "User Acceptance Testing"
+  ],
+  "years_of_experience": 2
+}

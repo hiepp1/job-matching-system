@@ -1,0 +1,37 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Network & System Administration",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Informatics Center of University of Science",
+      "description": "Participated in the Railway website project, a train ticket booking website. Responsibilities included performing smoke and integration tests, writing and executing test cases, creating bug lists, and writing daily reports.",
+      "job_title": "Student",
+      "years_worked": "Apr 2024 – Aug 2024"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "VÂN ĐẠI KIỆT",
+  "normalized_job_titles": [
+    "QA Tester"
+  ],
+  "skills": [
+    "OOP",
+    "Manual Testing",
+    "Word",
+    "Excel",
+    "PowerPoint",
+    "Teamwork",
+    "Creativity",
+    "Database Management System"
+  ],
+  "years_of_experience": 0
+}

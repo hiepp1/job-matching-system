@@ -1,0 +1,80 @@
+{
+  "certifications": [
+    "APTIS English Certificate"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Science",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Built a WinForms C# checklist system for daily tracking and automated Excel/PDF reporting.",
+      "job_title": "Software Developer",
+      "years_worked": "3 months"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Developed a graph-based user-movie rating analysis system, implementing efficient query algorithms and achieving 100% score.",
+      "job_title": "Data Analyst",
+      "years_worked": "3 months"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Developed AI games (Tic-Tac-Toe, Pacman) using Alpha-Beta Pruning, Uniform Cost Search, and A* algorithms.",
+      "job_title": "AI Developer",
+      "years_worked": "4 months"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Implemented Apriori algorithm with Hadoop MapReduce for frequent customer analysis on large-scale data, optimizing scalability and throughput.",
+      "job_title": "Big Data Engineer",
+      "years_worked": "2 months"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Implemented Google's PageRank algorithm in PySpark for web graph analysis and page importance ranking, leveraging Spark DataFrame APIs.",
+      "job_title": "Big Data Engineer",
+      "years_worked": "2 months"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Trained and deployed a custom YOLOv11 model for real-time football object detection, achieving high mAP and low latency.",
+      "job_title": "Computer Vision Engineer",
+      "years_worked": "3 months"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Nguyen Quang Trung",
+  "normalized_job_titles": [
+    "Software Engineer",
+    "AI Engineer",
+    "Data Engineer",
+    "Computer Vision Engineer"
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "C#",
+    "C/C++",
+    "PyTorch",
+    "TensorFlow",
+    "OpenCV",
+    "Hadoop",
+    "MapReduce",
+    "Git",
+    "MySQL",
+    "MS SQL Server",
+    "MongoDB",
+    "Problem-solving",
+    "Critical thinking"
+  ],
+  "years_of_experience": 1
+}

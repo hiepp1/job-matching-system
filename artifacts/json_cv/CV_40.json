@@ -1,0 +1,35 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Networks and Data Communications (in progress)",
+      "graduation_year": "N/A",
+      "institution_name": "Ton Duc Thang University, Ho Chi Minh City"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "English"
+  ],
+  "name": "Tuấn Đăng Khoa Lê",
+  "normalized_job_titles": [],
+  "skills": [
+    "Subnetting",
+    "VLAN",
+    "VPN",
+    "DHCP",
+    "DNS",
+    "Cisco Router/Switch",
+    "Packet Tracer",
+    "GNS3",
+    "Windows Server",
+    "Ubuntu",
+    "Firewall Configuration",
+    "IPSec VPN",
+    "Teamwork",
+    "Communication",
+    "Problem Solving"
+  ],
+  "years_of_experience": 0
+}

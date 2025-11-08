@@ -1,0 +1,37 @@
+{
+  "certifications": [
+    "Aptis – B2 (Score: 162), British Council 22/12/2023"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Information Technology (Software Engineering)",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "English"
+  ],
+  "name": "Huynh Lau Chanh Hy",
+  "normalized_job_titles": [],
+  "skills": [
+    "Node.js",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "Python",
+    "Express.js",
+    "NextJS",
+    "Spring Boot",
+    "MySQL",
+    "MongoDB",
+    "RESTful API",
+    "Docker",
+    "Git",
+    "GitHub",
+    "Postman"
+  ],
+  "years_of_experience": 0
+}

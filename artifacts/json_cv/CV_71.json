@@ -1,0 +1,47 @@
+{
+  "certifications": [
+    "Aptis ESOL (CEFR Level B2)"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Science (Final-year student)",
+      "graduation_year": "N/A",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "TDTU NLP-KD Lab",
+      "description": "Provided research support, focusing on exploring AI and NLP technologies, and applying them to real-world problems. Gained experience in training language models with limited hardware resources, including data collection and processing.",
+      "job_title": "Research Assistant",
+      "years_worked": "N/A"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Mai Nhat Duy",
+  "normalized_job_titles": [
+    "Research Assistant"
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "PyTorch",
+    "Unsloth",
+    "Transformer",
+    "DeepSpeed",
+    "Elasticsearch",
+    "LangGraph",
+    "LangChain",
+    "Artificial Intelligence (AI)",
+    "Natural Language Processing (NLP)",
+    "Large Language Models (LLM)",
+    "Data Collection",
+    "Data Preprocessing",
+    "Model Training"
+  ],
+  "years_of_experience": 0
+}

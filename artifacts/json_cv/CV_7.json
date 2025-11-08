@@ -1,0 +1,37 @@
+{
+"certifications": [
+"Aptis ESOL B2"
+],
+"detected_industry": "information_technology",
+"education": [
+{
+"degree": "Computer Science",
+"graduation_year": "Present",
+"institution_name": "Ton Duc Thang University"
+}
+],
+"experience": [],
+"languages": [
+"English"
+],
+"name": "HUNG TRUONG THAI GIA",
+"normalized_job_titles": [],
+"skills": [
+"Python",
+"SQL",
+"Pandas",
+"Scikit-Learn",
+"Tableau",
+"Data Cleaning",
+"Data Analysis",
+"Data Visualization",
+"Machine Learning",
+"Data Preprocessing",
+"GUI Programming",
+"Analytical Thinking",
+"Model Evaluation",
+"Logistic Regression",
+"Random Forest"
+],
+"years_of_experience": 0
+}

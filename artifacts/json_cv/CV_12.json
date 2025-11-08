@@ -1,0 +1,47 @@
+{
+  "certifications": [
+    "APTIS ESOL"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Information Technology",
+      "graduation_year": "N/A",
+      "institution_name": "TonDucThang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Top On Seek",
+      "description": "Developed and customized WordPress themes and plugins using WordPress Core and PHP, including custom post types, taxonomies, and meta fields. Built custom Elementor elements and implemented ACF Pro for flexible content management. Maintained and optimized websites for performance and security. Handled website maintenance, debugging, and feature extensions across staging environments, with deployments via FileZilla. Ensured mobile responsiveness and cross-browser compatibility. Applied SEO best practices using Yoast SEO. Worked in Agile Scrum teams, collaborating with designers and project managers.",
+      "job_title": "WordPress PHP Developer",
+      "years_worked": "6 months"
+    }
+  ],
+  "languages": [
+    "English Intermediate"
+  ],
+  "name": "TANG CHAN HUNG",
+  "normalized_job_titles": [
+    "Backend Developer",
+    "WordPress PHP Developer"
+  ],
+  "skills": [
+    "PHP",
+    "WordPress",
+    "MySQL",
+    "SEO",
+    "Ajax",
+    "Scrum Agile",
+    "ACF Pro",
+    "WPBakery",
+    "Elementor",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "FileZilla",
+    "GitLab",
+    "Yoast SEO"
+  ],
+  "years_of_experience": 0
+}

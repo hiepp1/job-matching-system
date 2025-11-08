@@ -1,0 +1,50 @@
+{
+  "certifications": [
+    "German Language Proficiency, A2 Level",
+    "Project Management Certification",
+    "IELTS Academic – Band 6.5",
+    "Hànyǔ Shuǐpíng Kǎoshì (HSK) Level 3"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "MAC Language Center",
+      "description": "Delivered academic English training and exam preparation, provided personalized mentoring and feedback, and developed and adapted learning resources.",
+      "job_title": "Instructor in Academic English & IELTS Training",
+      "years_worked": "2023 - Present"
+    }
+  ],
+  "languages": [
+    "English",
+    "German",
+    "Chinese"
+  ],
+  "name": "Dang Nguyen Le",
+  "normalized_job_titles": [
+    "Instructor"
+  ],
+  "skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "Numpy",
+    "Pandas",
+    "SQL",
+    "Data Analysis",
+    "Algorithms",
+    "Data Structures",
+    "CNN",
+    "RNN",
+    "Transformers"
+  ],
+  "years_of_experience": 1
+}

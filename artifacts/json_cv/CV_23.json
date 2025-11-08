@@ -1,0 +1,52 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Software Engineering",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Personal Project",
+      "description": "Streamlined library operations by digitizing data and connecting services on a unified platform. Enabled users to search, borrow, and return books easily, while staff managed inventory and members more efficiently. Improved service quality, reduced errors, and scaled with business growth.",
+      "job_title": "Software Developer",
+      "years_worked": "3 months"
+    },
+    {
+      "company_name": "Team Project",
+      "description": "Developed an e-commerce platform for selling toys online, expanding business reach and boosting revenue. Managed product browsing, cart management, and secure order placement. Provided a responsive interface optimized for desktop and mobile users, improving customer convenience and supporting store owners with better inventory and order management.",
+      "job_title": "Full-Stack Developer",
+      "years_worked": "3 months"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Nguyen Tran Mai Thanh",
+  "normalized_job_titles": [
+    "Software Developer",
+    "Full-Stack Developer"
+  ],
+  "skills": [
+    "Java",
+    "JavaScript",
+    "Spring Boot",
+    "Spring Cloud",
+    "React",
+    "Axon Framework",
+    "Microservices",
+    "CQRS",
+    "Event Sourcing",
+    "Docker",
+    "Kubernetes",
+    "Apache Kafka",
+    "MySQL",
+    "Git/GitHub",
+    "Keycloak"
+  ],
+  "years_of_experience": 0
+}

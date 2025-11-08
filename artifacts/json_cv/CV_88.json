@@ -1,0 +1,49 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Software Engineering",
+      "graduation_year": "Ongoing",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Personal Project",
+      "description": "Developed an English vocabulary learning website with CRUD operations for users, vocabulary, and topics. Implemented traditional and flashcard learning methods, personal word notebooks, and progress tracking. Utilized Javascript (TSX, Vite), HTML/CSS for frontend and Java (Servlet) for backend.",
+      "job_title": "Web Developer",
+      "years_worked": "5 months"
+    },
+    {
+      "company_name": "Personal Project",
+      "description": "Built an e-commerce website for online clothing sales, deployed with Docker. Features included customer browsing, purchasing, coupon usage, order confirmations, and product reviews. Admin panel for product, order, and coupon management. Utilized Reactjs for frontend and Node.js + Express for backend.",
+      "job_title": "Web Developer",
+      "years_worked": "4 months"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "Trần Bỉnh Quyền",
+  "normalized_job_titles": [
+    "Web Developer"
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Jquery",
+    "Bootstrap",
+    "ReactJS",
+    "PHP",
+    "C#",
+    "Java",
+    "Spring Boot",
+    "ASP.NET",
+    "Node.js",
+    "Express",
+    "Docker"
+  ],
+  "years_of_experience": 0
+}

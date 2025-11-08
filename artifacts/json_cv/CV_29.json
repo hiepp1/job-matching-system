@@ -1,0 +1,36 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Networks and Data Communications",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "Vietnamese",
+    "English"
+  ],
+  "name": "DANG QUANG VINH",
+  "normalized_job_titles": [],
+  "skills": [
+    "Network Protocols",
+    "Network Configuration",
+    "Cisco Packet Tracer",
+    "GNS3",
+    "Firewall",
+    "VPN",
+    "Wireshark",
+    "VMware",
+    "VirtualBox",
+    "Windows Server",
+    "Linux",
+    "Python Programming",
+    "Java Programming",
+    "MySQL",
+    "SQL Server"
+  ],
+  "years_of_experience": 0
+}

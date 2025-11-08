@@ -1,0 +1,67 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "graduation_year": "N/A",
+      "institution_name": "Ton Duc Thang University, HCM City"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Developed a real-time video processing pipeline in Python using OpenCV to detect and highlight traffic signs in road footage. The system applied HSV color thresholding to filter red and blue regions and used template matching to identify valid traffic signs. Successfully highlighted detected signs on video frames in real time.",
+      "job_title": "Digital Image Processing Project",
+      "years_worked": "October 2024 - November 2024"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Built a sentiment analysis model using a Transformer-based architecture with attention mechanisms. The model processes short text and its supplementary context independently, then fuses their representations to predict sentiment labels accurately.",
+      "job_title": "Deep Learning Project",
+      "years_worked": "March 2025 - May 2025"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Built a restaurant management system using ASP.NET MVC and C#. Key features include real-time table availability, order management, a reservations system with customer requests, and payment processing. The backend was built with a modular object-oriented design and relational database. Applied UML modeling, CRC cards, and rigorous workflow analysis to ensure scalability, reliability, and high cohesion across components.",
+      "job_title": "Software Engineering Project",
+      "years_worked": "November 2024 - December 2024"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Researched and implemented algorithms for mining Top-K frequent patterns from uncertain datasets. Developed an interactive system that allows users to specify the number of top itemsets to retrieve, enhancing flexibility and efficiency in pattern discovery.",
+      "job_title": "Design and Analysis of Algorithms Project",
+      "years_worked": "November 2024 - December 2024"
+    }
+  ],
+  "languages": [
+    "Vietnamese",
+    "English",
+    "Japanese"
+  ],
+  "name": "TONG NGUYEN KHANG",
+  "normalized_job_titles": [
+    "Software Developer",
+    "Data Scientist",
+    "Algorithm Engineer"
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "C#",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git",
+    "VSCode",
+    "Linux Terminal",
+    "OpenCV",
+    "Deep Learning",
+    "Transformer Architecture",
+    "Sentiment Analysis",
+    "ASP.NET MVC",
+    "UML Modeling",
+    "Algorithm Design"
+  ],
+  "years_of_experience": 0
+}

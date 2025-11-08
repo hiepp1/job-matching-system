@@ -1,0 +1,49 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor's in Software Engineering",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "ELLIOT COMPANY LIMITED",
+      "description": "Managed and processed data, including collection, storage, processing, error checking, and entering product data, to support organizational decisions.",
+      "job_title": "DATA PROCESSING STAFF",
+      "years_worked": "6 months"
+    },
+    {
+      "company_name": "Elliot Company Limited",
+      "description": "Coordinated with testers to perform manual testing based on provided scenarios.",
+      "job_title": "TESTING COLLABORATOR",
+      "years_worked": "6 months"
+    }
+  ],
+  "languages": [],
+  "name": "Lê Hữu Thắng",
+  "normalized_job_titles": [
+    "Data Processor",
+    "QA Tester"
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "C#",
+    "Spring Boot",
+    "Hibernate",
+    "Android",
+    "MySQL",
+    "SQL Server",
+    "SQLite",
+    "IntelliJ IDEA",
+    "Visual Studio Code",
+    "Git",
+    "Design Patterns",
+    "UI/UX",
+    "APIs"
+  ],
+  "years_of_experience": 0
+}

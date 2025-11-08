@@ -1,0 +1,52 @@
+{
+  "certifications": [
+    "Aptis ESOL B1"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Software Engineering",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Personal Project",
+      "description": "Developed a web-based application to manage student accounts with login, registration, and admin dashboard.",
+      "job_title": "Frontend Developer",
+      "years_worked": "3 months"
+    },
+    {
+      "company_name": "Personal Project",
+      "description": "Created a frontend dashboard to visualize datasets from the backend API. Implemented responsive UI and data-driven charts.",
+      "job_title": "Frontend Developer",
+      "years_worked": "2 months"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "DOAN THAI TU",
+  "normalized_job_titles": [
+    "Frontend Developer"
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "Git",
+    "GitHub",
+    "Node.js",
+    "REST API",
+    "PHP",
+    "MySQL",
+    "Vite",
+    "Tailwind CSS",
+    "Teamwork",
+    "Communication"
+  ],
+  "years_of_experience": 0
+}

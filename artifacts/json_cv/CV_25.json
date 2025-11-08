@@ -1,0 +1,67 @@
+{
+  "certifications": [
+    "TOEIC (Listening & Reading: 910, Speaking: 160, Writing: 190)",
+    "Agile & Scrum Framework Course"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Software Engineering",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Personal Project",
+      "description": "Developed a cross-platform pharmacy store application as a solo project, integrating Firebase for authentication, real-time storage, and synchronization. Optimized data retrieval by adding local caching and integrated Google Cloud APIs for address validation. Designed and tested the UI for smooth functionality.",
+      "job_title": "Fullstack Developer",
+      "years_worked": "4 months"
+    },
+    {
+      "company_name": "Collaborative Project",
+      "description": "Collaborated in a team of 3 to develop a Quizlet-inspired cross-platform app for vocabulary learning. Applied MVC design pattern for project architecture, implemented UI components, and ensured correct data synchronization with Firebase. Gained proficiency in Flutter state management and improved error reporting workflow.",
+      "job_title": "Fullstack Developer",
+      "years_worked": "3 months"
+    },
+    {
+      "company_name": "Collaborative Project",
+      "description": "Developed a scaled-down version of a delivery app as a final project in a team of 2. Designed and implemented the UI, integrating data from Firebase into Android XML layouts. Integrated Google Maps API for delivery route visualization and location tracking. Contributed to testing, debugging, and writing the submission report.",
+      "job_title": "Frontend Developer",
+      "years_worked": "2 months"
+    },
+    {
+      "company_name": "Research Project",
+      "description": "Conducted a research project on prompt injection attacks in large language models, analyzing how malicious inputs can manipulate outputs. Implemented and tested multiple attack vectors using Python and the Gemini API. Evaluated effectiveness of existing mitigation strategies and documented limitations, producing a written report.",
+      "job_title": "Researcher",
+      "years_worked": "4 months"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "Le Nguyen Huu Duc",
+  "normalized_job_titles": [
+    "Fullstack Developer",
+    "Frontend Developer",
+    "Researcher"
+  ],
+  "skills": [
+    "Dart",
+    "Python",
+    "Java",
+    "JavaScript",
+    "SQL",
+    "C++",
+    "C#",
+    "HTML/CSS",
+    "Flutter",
+    "Node.js",
+    "Firebase",
+    "Google Cloud APIs",
+    "Git",
+    "Android Studio",
+    "UI Design"
+  ],
+  "years_of_experience": 1
+}

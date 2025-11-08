@@ -1,0 +1,57 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "COMPUTER NETWORKS AND DATA COMMUNICATIONS",
+      "graduation_year": "N/A",
+      "institution_name": "Tôn Đức Thắng University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Designed 4 microservices with RESTful APIs, secured via JWT and routed through API Gateway. Integrated RabbitMQ for event-driven messaging and Redis for caching to boost performance. Managed MSSQL database with EF Core for scalable data operations.",
+      "job_title": "Backend Intern",
+      "years_worked": "3 months"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Developed an Android app for project and task management, integrating RESTful APIs with Retrofit. Implemented real-time task updates via polling for seamless UX. Secured user authentication with JWT and designed UI with RecyclerView.",
+      "job_title": "Project Leader",
+      "years_worked": "3 months"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Built e-commerce website for pet supplies and mobile phones using .NET Core MVC. Designed SQL Server schemas for products, categories, orders, and users. Implemented search and filter APIs for efficient product discovery.",
+      "job_title": "Developer",
+      "years_worked": "2 months"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "LU PHUC PHU",
+  "normalized_job_titles": [
+    "Backend Intern",
+    "Project Leader",
+    "Developer"
+  ],
+  "skills": [
+    "C#",
+    "Java",
+    ".NET Core",
+    "Laravel",
+    "Android SDK",
+    "MSSQL",
+    "MySQL",
+    "Docker",
+    "Docker Compose",
+    "Git",
+    "RESTful API",
+    "JWT",
+    "EF Core",
+    "API Gateway"
+  ],
+  "years_of_experience": 0
+}

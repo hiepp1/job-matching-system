@@ -1,0 +1,36 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "graduation_year": "Present",
+      "institution_name": "Ton Duc Thang University, Vietnam"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Huynh Anh Tu",
+  "normalized_job_titles": [],
+  "skills": [
+    "Python",
+    "Java",
+    "Kotlin",
+    "SQL",
+    "MySQL",
+    "SQLite",
+    "Spring Boot",
+    "PyTorch",
+    "TensorFlow",
+    "LangChain",
+    "FastAPI",
+    "Hugging Face Transformers",
+    "PyQt5",
+    "Machine Learning",
+    "Backend Programming"
+  ],
+  "years_of_experience": 0
+}

@@ -1,0 +1,33 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Information Technology",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [],
+  "name": "Nguyen Ngoc Ai Dan",
+  "normalized_job_titles": [],
+  "skills": [
+    "HTML",
+    "CSS",
+    "C",
+    "C++",
+    "Java",
+    "Python",
+    "JavaScript",
+    "OOP",
+    "Data Structures",
+    "Algorithms",
+    "Git/GitHub",
+    "Teamwork",
+    "Project Coordination",
+    "Communication",
+    "Presentation"
+  ],
+  "years_of_experience": 0
+}

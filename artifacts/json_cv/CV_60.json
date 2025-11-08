@@ -1,0 +1,36 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science / Information Technology",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "Vietnamese",
+    "English"
+  ],
+  "name": "PHẠM THÁI AN BÌNH",
+  "normalized_job_titles": [],
+  "skills": [
+    "C#",
+    "Python",
+    "SQL",
+    "JavaScript",
+    "Dart",
+    "ASP.NET Core",
+    "HTML",
+    "CSS",
+    "Flutter",
+    "Data Analysis",
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Database Design",
+    "Git",
+    "Visual Studio"
+  ],
+  "years_of_experience": 0
+}

@@ -1,0 +1,66 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Networks and Data Communications",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Academic Project (Ton Duc Thang University)",
+      "description": "Designed a multi-step pipeline with FlowiseAI and LangChain for a RAG system. Tested via FlowiseAI interface and locally to evaluate accuracy.",
+      "job_title": "AI Project Developer",
+      "years_worked": "N/A"
+    },
+    {
+      "company_name": "Academic Project (Ton Duc Thang University)",
+      "description": "Trained a sentiment classification model on 51,000 Kaggle samples, achieving 87% accuracy. Deployed a demo using Streamlit, supporting text and Reddit data input.",
+      "job_title": "Machine Learning Project Member",
+      "years_worked": "N/A"
+    },
+    {
+      "company_name": "Academic Project (Ton Duc Thang University)",
+      "description": "Designed requirements, ERD diagrams, and system architecture. Implemented with MySQL and MongoDB using a microservices model.",
+      "job_title": "System Developer",
+      "years_worked": "N/A"
+    },
+    {
+      "company_name": "Academic Project (Ton Duc Thang University)",
+      "description": "Configured Odoo modules (Recruitment, Employees, Surveys, Fixed Assets). Simulated recruitment and fixed asset management processes in a classroom setting.",
+      "job_title": "ERP Business Analyst",
+      "years_worked": "N/A"
+    }
+  ],
+  "languages": [
+    "Vietnamese (Native)",
+    "English (B1 PET)",
+    "Chinese (Studying for HSK5)"
+  ],
+  "name": "Thằng Ngọc Quỳnh",
+  "normalized_job_titles": [
+    "AI Developer",
+    "Machine Learning Engineer",
+    "System Developer",
+    "ERP Consultant"
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "APIs",
+    "SDLC",
+    "Flowise",
+    "Streamlit",
+    "Odoo",
+    "Git",
+    "GitHub",
+    "MS Office",
+    "Jira",
+    "Communication",
+    "Teamwork",
+    "Time Management"
+  ],
+  "years_of_experience": 0
+}

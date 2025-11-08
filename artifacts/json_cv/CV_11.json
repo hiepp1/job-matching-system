@@ -1,0 +1,52 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Software Engineering",
+      "graduation_year": "2025",
+      "institution_name": "TON DUC THANG UNIVERSITY"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Developed user registration, event booking, and QR code check-in features. Designed and executed test cases for event workflows, validated results with SQL/Firebase, and performed API testing with Postman, reporting bugs.",
+      "job_title": "Project Developer / Tester",
+      "years_worked": "2024-2025"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Designed and executed test cases (Excel) for a simulated application, classified results, and created bug reports (Excel) with reproduction steps, severity, priority, and expected vs. actual results.",
+      "job_title": "Software Testing Project Lead",
+      "years_worked": "2023-2024"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Nguyễn Thạch Trường Lạc",
+  "normalized_job_titles": [
+    "Software Tester",
+    "Software Developer"
+  ],
+  "skills": [
+    "Test Case Design",
+    "Manual Testing",
+    "API Testing",
+    "SQL Database Testing",
+    "Java",
+    "C#",
+    ".Net",
+    "Dart",
+    "SQL",
+    "MongoDB",
+    "Git",
+    "GitHub",
+    "SDLC",
+    "STLC",
+    "Problem-Solving"
+  ],
+  "years_of_experience": 0
+}

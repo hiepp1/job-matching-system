@@ -1,0 +1,46 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor's in Software Engineering",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "FPT IS",
+      "description": "N/A",
+      "job_title": "Mobile Developer Intern",
+      "years_worked": "2 months"
+    }
+  ],
+  "languages": [
+    "Myanmar",
+    "English"
+  ],
+  "name": "PHONE WAI YAN MOE",
+  "normalized_job_titles": [
+    "Software Engineer",
+    "Mobile Developer"
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Node.js",
+    "PHP",
+    "Python",
+    "Flutter",
+    "Android",
+    "Java",
+    "Kotlin",
+    "MySQL",
+    "Firebase",
+    "MongoDB",
+    "Git",
+    "Docker"
+  ],
+  "years_of_experience": 0
+}

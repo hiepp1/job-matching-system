@@ -1,0 +1,38 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Science",
+      "graduation_year": "Ongoing",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "TRAN THANH DAI",
+  "normalized_job_titles": [
+    "IT Intern"
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "C#",
+    "Kotlin",
+    "Firebase",
+    "MySQL",
+    "Git",
+    "OpenCV",
+    "Android Studio",
+    "Visual Studio",
+    "PySpark",
+    "Google Colab",
+    "Kaggle",
+    "TensorFlow",
+    "PyTorch"
+  ],
+  "years_of_experience": 0
+}

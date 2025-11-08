@@ -1,0 +1,49 @@
+{
+  "certifications": [
+    "Preliminary English Test (B1)",
+    "Agile-Scrum certificate"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Software Engineering",
+      "graduation_year": "2025",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "FPT IS - HCM BRANCH",
+      "description": "Gained in-depth knowledge and hands-on experience with the Oracle ERP system, focusing on Inventory Management, Accounts Payable, Accounts Receivable, Purchase Order, and Order Management modules. Proficiently utilized Oracle reporting tools like BI Publisher, XML Publisher, and Form Builder.",
+      "job_title": "ERP Programmer Intern",
+      "years_worked": "3 months"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "Nguyễn Hoàng Sang",
+  "normalized_job_titles": [
+    "Software Engineer Intern"
+  ],
+  "skills": [
+    "Javascript",
+    "Java",
+    "Typescript",
+    "NestJs",
+    "ReactJs",
+    "ExpressJs",
+    "ReactNative",
+    "NextJs",
+    "MongoDB",
+    "PostgreSQL",
+    "Git",
+    "Docker",
+    "RESTful API",
+    "Microservices",
+    "OOP",
+    "Teamwork",
+    "Problem-solving"
+  ],
+  "years_of_experience": 0
+}

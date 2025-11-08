@@ -1,0 +1,54 @@
+{
+  "certifications": [
+    "Aptis Esol B2"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Science",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "N/A",
+      "description": "Developed product module (pagination, variants, advanced search/filter/sort) with optimized Firestore queries and Hive caching. Built cart, checkout, discounts, and loyalty program; moved complex business logic to Cloud Functions for scalability. Integrated Firebase for real-time product reviews & ratings and managed product data on Firestore. Developed responsive UI across Android, Windows, and Web.",
+      "job_title": "Flutter Developer",
+      "years_worked": "2 months"
+    },
+    {
+      "company_name": "N/A",
+      "description": "Developed task management features: add, edit, delete, search, and filter tasks. Designed and implemented responsive UI/UX with Riverpod state management. Integrated Firebase Realtime Database for instant updates across devices.",
+      "job_title": "Flutter Developer",
+      "years_worked": "1 month"
+    }
+  ],
+  "languages": [
+    "English"
+  ],
+  "name": "QUANG NGUYEN",
+  "normalized_job_titles": [
+    "Flutter Developer",
+    "Mobile Developer"
+  ],
+  "skills": [
+    "Dart",
+    "Java",
+    "JavaScript",
+    "Flutter",
+    "Riverpod",
+    "GetX",
+    "Provider",
+    "Firebase",
+    "MySQL",
+    "SQL Server",
+    "REST APIs",
+    "Retrofit",
+    "Hive",
+    "Git/GitHub",
+    "Android Studio",
+    "VS Code"
+  ],
+  "years_of_experience": 0
+}

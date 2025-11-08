@@ -1,0 +1,32 @@
+{
+  "certifications": [],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "graduation_year": "N/A",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [],
+  "languages": [],
+  "name": "VO DAT CONG KHANH",
+  "normalized_job_titles": [],
+  "skills": [
+    "Python",
+    "JavaScript",
+    "Microsoft SQL Server",
+    "MongoDB",
+    "PostgreSQL",
+    "Communication",
+    "Critical Thinking",
+    "Problem-Solving",
+    "Teamwork",
+    "PyTorch",
+    "Hugging Face Transformers",
+    "TRL",
+    "Unsloth",
+    "TensorBoard"
+  ],
+  "years_of_experience": 0
+}

@@ -1,0 +1,57 @@
+{
+  "certifications": [
+    "IELTS 7.5"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "High School Diploma",
+      "graduation_year": "2021",
+      "institution_name": "Albert Einstein High School"
+    },
+    {
+      "degree": "Software Engineering",
+      "graduation_year": "N/A",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Cotemi Cafe",
+      "description": "N/A",
+      "job_title": "Barista, Cashier, Waiter",
+      "years_worked": "May 2023 - Sep 2023"
+    },
+    {
+      "company_name": "Arrow Education",
+      "description": "Crafted clear translations of lessons, boosting student understanding. Graded homework swiftly, delivering sharp, skill-building feedback. Fixed tech issues as a part-time IT assistant.",
+      "job_title": "Teacher Assistant, IT Assistant",
+      "years_worked": "Nov 2023 - Mar 2024"
+    }
+  ],
+  "languages": [
+    "English",
+    "Vietnamese"
+  ],
+  "name": "Hoang Phong Do",
+  "normalized_job_titles": [
+    "Barista",
+    "Cashier",
+    "Waiter",
+    "Teacher Assistant",
+    "IT Assistant"
+  ],
+  "skills": [
+    "Communication Skills",
+    "Problem Solving Skills",
+    "Time Management",
+    "Adaptability",
+    "Customer Service",
+    "Teamwork",
+    "Document Management",
+    "Python",
+    "Java",
+    "HTML"
+  ],
+  "years_of_experience": 0
+}

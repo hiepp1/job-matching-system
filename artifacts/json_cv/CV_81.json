@@ -1,0 +1,44 @@
+{
+  "certifications": [
+    "Cisco Network Academy - Ethical Hacker"
+  ],
+  "detected_industry": "information_technology",
+  "education": [
+    {
+      "degree": "Computer Networks and Data Communication",
+      "graduation_year": "2026",
+      "institution_name": "Ton Duc Thang University"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Ton Duc Thang University",
+      "description": "Designed and deployed enterprise networks, configured VLAN and VPN, implemented Network Access Protection. Researched keylogging detection and data encryption methods. Built recommendation systems, applied Machine Learning with PySpark for data mining, and analyzed Business Intelligence systems. Developed basic chat applications and e-commerce websites, and customized Salesforce CRM.",
+      "job_title": "Network & Data Analyst Intern",
+      "years_worked": "Jan 2024 - Present"
+    }
+  ],
+  "languages": [],
+  "name": "Tung Huynh Minh",
+  "normalized_job_titles": [
+    "Network and Data Analyst Intern"
+  ],
+  "skills": [
+    "Networking",
+    "VLAN",
+    "VPN",
+    "Cisco Packet Tracer",
+    "Wireshark",
+    "Cybersecurity",
+    "Python",
+    "PySpark",
+    "SQL",
+    "Hadoop",
+    "Data Visualization",
+    "Salesforce",
+    "AWS",
+    "VMware",
+    "Linux"
+  ],
+  "years_of_experience": 0
+}
