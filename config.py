@@ -27,7 +27,6 @@ ID_MAP_FILE = "faiss_id_map_rich.json"
 BM25_INDEX_FILE = "bm25_tokenized_corpus.json"
 
 # --- ĐƯỜNG DẪN ĐẦY ĐỦ ĐẾN FILE INDEX ---
-# Dùng để load trong app.py và run_indexing.py
 INDEX_PATH = os.path.join(CV_DATASET_FOLDER, FAISS_INDEX_FILE)
 MAP_PATH = os.path.join(CV_DATASET_FOLDER, ID_MAP_FILE)
 BM25_INDEX_PATH = os.path.join(CV_DATASET_FOLDER, BM25_INDEX_FILE)

@@ -13,10 +13,9 @@ from nltk.stem import WordNetLemmatizer
 from typing import List
 import re 
 
-# Import config
 import config
 
-# --- CẤU HÌNH MODEL EMBEDDING (Từ phần Imports) ---
+# --- CẤU HÌNH MODEL EMBEDDING ---
 try:
     print(f"Loading embedding model: {config.EMBEDDING_MODEL_NAME}...")
     GLOBAL_MODEL = SentenceTransformer(config.EMBEDDING_MODEL_NAME)
@@ -25,7 +24,7 @@ except Exception as e:
     print(f"Error loading model: {e}.")
     GLOBAL_MODEL = None
 
-# --- CẤU HÌNH NLTK (Từ phần Imports và VI) ---
+# --- CẤU HÌNH NLTK ---
 try:
     _create_unverified_https_context = ssl._create_unverified_context
 except AttributeError:
@@ -240,13 +239,11 @@ def build_bm25_index(map_path: str, bm25_index_path: str):
 
     tokenized_corpus = []
     
-    # Đây là logic (for i, item in enumerate(rich_metadata)) của bạn
     for i, item in enumerate(rich_metadata):
         item['doc_id'] = i
         raw_text = item.get("summary_content", "")
         skills = item.get("skills", [])
         
-        # Dùng hàm tokenize_with_skills đã di chuyển vào file này
         processed_tokens = tokenize_with_skills(raw_text, skills=skills)
         tokenized_corpus.append(processed_tokens)
 
@@ -262,7 +259,6 @@ def build_bm25_index(map_path: str, bm25_index_path: str):
         "rich_metadata_with_id": rich_metadata
     }
 
-    # Dùng bm25_index_path được truyền vào
     with open(bm25_index_path, 'w', encoding='utf-8') as f:
         json.dump(storage_data, f, indent=2)
 

@@ -120,7 +120,6 @@ def run_job_matching_demo(jd_file_object):
     print(f"Đã nhận file: {uploaded_jd_path}")
     print("------------------------------------------------------------")
     
-    # Xóa kết quả cũ (nếu có)
     yield "", "", "Processing..." 
 
     # --- B. Chạy Pipeline ---
@@ -148,7 +147,7 @@ def run_job_matching_demo(jd_file_object):
             time.sleep(0.005) 
             yield summary_stream, skills_stream, "Processing..."
 
-        # --- E. Chạy tìm kiếm (Sau khi đã xong typewriter) ---
+        # --- E. Chạy tìm kiếm---
         print(f"\nĐang tìm kiếm và xếp hạng {TOP_N_TO_DISPLAY} kết quả hàng đầu...")
         results = hybrid_search_v2(
             jd_summary, 
@@ -182,7 +181,6 @@ def run_job_matching_demo(jd_file_object):
         
         df['Job'] = df['Job'].apply(lambda x: "Match" if x == 1.0 else "Not Match")
 
-        # Lấy tên
         df['Candidate Name'] = df['summary_file'].apply(get_name_from_json)
         df['Candidate Name'] = df['Candidate Name'].apply(normalize_vietnamese_name)
         
@@ -192,7 +190,6 @@ def run_job_matching_demo(jd_file_object):
         jd_skills_set = norm_set(jd_struct.get("skills", []))
         df['Common Skills'] = df['cv_skills_list'].apply(lambda cv_list: find_common_skills(cv_list, jd_skills_set))
 
-        # Chọn cột
         columns_to_show = ['CV File', 'Candidate Name', 'Match Score', 'Skill', 'Job', 'Common Skills']
         df_display = df[columns_to_show] 
         
@@ -241,6 +238,5 @@ with gr.Blocks(theme=theme) as demo_ui:
 
 if __name__ == "__main__":
     print("Đang tải các index...")
-    # (Bạn có thể thêm các hàm pre-load index ở đây nếu muốn)
     print("Khởi động Gradio UI...")
-    demo_ui.launch(debug=True) # Bỏ share=True khi chạy local
+    demo_ui.launch(debug=True) 
