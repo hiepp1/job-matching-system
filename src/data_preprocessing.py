@@ -29,18 +29,15 @@ def process_cvs_to_json(cv_folder_path: str, json_output_folder: str):
     files_path = [os.path.join(cv_folder_path, file_name) for file_name in files if file_name.endswith('.pdf')]
     print(f"Tìm thấy {len(files_path)} file PDF.")
 
-    # Đây là extracted_dict của bạn
     extracted_dict = {
         os.path.basename(file): extract_text_from_pdf(file)
         for file in tqdm(files_path, desc="Đang trích xuất text từ PDF")
     }
 
-    # Đây là os.makedirs của bạn
     os.makedirs(json_output_folder, exist_ok=True)
     
     all_results = {}
     
-    # Đây là vòng lặp for ... tqdm(extracted_dict.items()) của bạn
     for original_filename, pdf_text in tqdm(extracted_dict.items(), desc="Đang trích xuất JSON bằng Gemini"):
         
         if not pdf_text:
@@ -59,7 +56,6 @@ def process_cvs_to_json(cv_folder_path: str, json_output_folder: str):
         full_prompt = prompt.replace('PDF_TEXT', pdf_text)
         print(f"\nProcessing new file: {original_filename}")
         try:
-            # Đây là logic gọi model.generate_content của bạn
             result = model.generate_content(
                 full_prompt,
                 generation_config=genai.GenerationConfig(
@@ -95,7 +91,6 @@ def generate_summaries(json_input_folder: str, summary_output_folder: str):
     
     json_files = [f for f in os.listdir(json_input_folder) if f.endswith('.json')]
     
-    # Đây là vòng lặp for ... tqdm(json_files) của bạn
     for json_filename in tqdm(json_files, desc="Đang tạo summaries"):
         input_filepath_json = os.path.join(json_input_folder, json_filename)
         base_name, _ = os.path.splitext(json_filename)
@@ -112,7 +107,6 @@ def generate_summaries(json_input_folder: str, summary_output_folder: str):
 
             summary_request_prompt = SUMMARY_PROMPT_CV.replace('CV_JSON_DATA', json_string)
             
-            # Đây là logic gọi model.generate_content của bạn
             summary_result = model.generate_content(
                 summary_request_prompt,
                 generation_config=genai.GenerationConfig(temperature=0.3),
