@@ -9,7 +9,7 @@ app_file: app.py
 pinned: false
 ---
 
-#  Hệ thống Gợi ý CV (AI Job Matching System)
+#  AI Job Matching System
 
 Đây là dự án demo cho một hệ thống gợi ý CV thông minh, sử dụng AI tạo sinh (Gemini) và kỹ thuật tìm kiếm lai (Hybrid Search) để tìm kiếm các CV phù hợp nhất với một bản mô tả công việc (JD) được cung cấp.
 
@@ -42,8 +42,8 @@ pinned: false
 
 ## 📋 Cách sử dụng Demo
 
-**You can try the live application here:**
-[**https://huggingface.co/spaces/leviethiep/My-Job-Matching-System**](https://huggingface.co/spaces/leviethiep/My-Job-Matching-System)
+**Try the live application here:**
+👉 **Dùng thử ngay tại đây:** [My Job Matching System Demo](https://huggingface.co/spaces/leviethiep/My-Job-Matching-System)
 
 1.  Tải lên một file Mô tả công việc (Job Description) định dạng `.pdf`.
 2.  Nhấn nút "Submit".
