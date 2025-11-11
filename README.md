@@ -43,7 +43,7 @@ pinned: false
 ## 📋 Cách sử dụng Demo
 
 **Try the live application here:**
-👉 **Dùng thử ngay tại đây:** [My Job Matching System Demo](https://huggingface.co/spaces/leviethiep/My-Job-Matching-System)
+[My Job Matching System Demo](https://huggingface.co/spaces/leviethiep/My-Job-Matching-System)
 
 1.  Tải lên một file Mô tả công việc (Job Description) định dạng `.pdf`.
 2.  Nhấn nút "Submit".
