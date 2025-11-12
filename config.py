@@ -9,7 +9,8 @@ TOP_N_TO_DISPLAY = 10
 # --- CẤU HÌNH MODEL ---
 EMBEDDING_MODEL_NAME = 'BAAI/bge-base-en-v1.5'
 EMBEDDING_DIMENSION = 768
-CROSS_ENCODER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+# CROSS_ENCODER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+CROSS_ENCODER_MODEL = os.path.join(BASE_DIR, 'artifacts', 'my_fine_tuned_model')
 
 # --- CẤU HÌNH THƯ MỤC DỮ LIỆU ---
 CV_FOLDER = os.path.join(BASE_DIR, 'cv_data')

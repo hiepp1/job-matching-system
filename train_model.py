@@ -11,13 +11,13 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATASET_PATH = os.path.join(BASE_DIR, 'artifacts', 'golden_dataset.csv')
 OUTPUT_MODEL_PATH = os.path.join(BASE_DIR, 'artifacts', 'my_fine_tuned_model')
 
-# Model gốc (chưa học) - Dùng bản MiniLM cho nhẹ
+# Model gốc (chưa học) - Dùng bản MiniLM 
 PRETRAINED_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 
 # Tham số huấn luyện
-BATCH_SIZE = 8        # CPU thì để batch nhỏ thôi
-NUM_EPOCHS = 5        # Số vòng train
-LEARNING_RATE = 2e-5  # Tốc độ học
+BATCH_SIZE = 8        
+NUM_EPOCHS = 5       
+LEARNING_RATE = 2e-5  
 
 def main():
     # 1. Đọc dữ liệu
@@ -67,14 +67,12 @@ def main():
         evaluator=evaluator,
         epochs=NUM_EPOCHS,
         warmup_steps=warmup_steps,
-        output_path=OUTPUT_MODEL_PATH, # Lưu checkpoint tốt nhất vào đây
+        output_path=OUTPUT_MODEL_PATH, 
         optimizer_params={'lr': LEARNING_RATE},
         show_progress_bar=True,
-        save_best_model=True # Quan trọng: Chỉ lưu model tốt nhất
+        save_best_model=True # Chỉ lưu model tốt nhất
     )
 
-    # --- QUAN TRỌNG: LƯU MODEL THỦ CÔNG LẦN CUỐI ---
-    # Đảm bảo dù thế nào cũng có file config.json và pytorch_model.bin
     print("💾 Đang lưu model lần cuối...")
     model.save(OUTPUT_MODEL_PATH)
 

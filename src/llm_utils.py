@@ -10,7 +10,7 @@ from .indexing import GLOBAL_MODEL
 
 # --- TẢI API KEY ---
 load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY_1")
 if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY not found in .env file")
 genai.configure(api_key=GEMINI_API_KEY)
