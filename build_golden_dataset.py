@@ -128,7 +128,7 @@ def generate_synthetic_jds(cv_list, num_jds=20):
 def score_batch(jd_text, cv_list):
     """
     Kỹ thuật Batching: Gửi 1 JD + 10 CV cùng lúc.
-    Tiết kiệm 90% số request.
+    Prompt V2: Thêm luật Seniority & Tech Stack chặt chẽ.
     """
     # Chuẩn bị text input
     candidates_text = ""
@@ -136,7 +136,7 @@ def score_batch(jd_text, cv_list):
         candidates_text += f"--- START CANDIDATE: {cv['id']} ---\n{cv['content']}\n--- END CANDIDATE ---\n\n"
     
     prompt = f"""
-    You are an AI Ranking Engine. 
+    You are a Strict AI Recruitment Manager. Your job is to evaluate candidates for a specific Job Description (JD).
     
     JOB DESCRIPTION:
     {jd_text}
@@ -145,12 +145,21 @@ def score_batch(jd_text, cv_list):
     {candidates_text}
     
     TASK:
-    Evaluate the relevance of each candidate to the Job Description on a scale of 0.0 to 1.0.
-    - 0.0: Irrelevant.
-    - 0.3: Low relevance.
-    - 0.7: Good match.
-    - 1.0: Perfect match.
+    Rate the relevance of each candidate on a scale from 0.0 to 1.0 based on the following STRICT RULES.
     
+    SCORING RULES (MUST FOLLOW):
+    1. TECH STACK (50%): 
+       - Must match core technologies (e.g., Java, Python, React). 
+       - If core skills are missing -> Max Score 0.3.
+       
+    2. EXPERIENCE & SENIORITY (30% - CRITICAL):
+       - JD asks for "Senior"/"Lead" (3+ years) AND Candidate has < 2 years exp -> PENALTY: Max Score 0.4 (Even if skills are perfect).
+       - JD asks for "Junior"/"Intern" AND Candidate has > 5 years exp -> PENALTY: Max Score 0.6 (Overqualified).
+       - JD asks for "Intern" AND Candidate has 0 years -> FULL SCORE possible.
+       
+    3. DOMAIN FIT (20%):
+       - Example: JD needs "Web" but CV is "Embedded" -> Low score.
+
     OUTPUT FORMAT (Strict JSON):
     Return a single JSON object where keys are the Candidate IDs and values are the scores (float).
     Example: {{"CV_1.json": 0.8, "CV_2.json": 0.1}}
