@@ -10,5 +10,6 @@ pandas
 pydantic
 tqdm
 sentence-transformers
+groq
 google-generativeai
 python-dotenv
