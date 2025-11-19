@@ -18,6 +18,14 @@ except Exception as e:
     print("Error loading cross encoder:", e)
     cross_encoder = None
 
+# Bảng quy đổi CEFR ra điểm số để so sánh toán học
+CEFR_MAP = {
+    "null": 0, "unknown": 0,
+    "a1": 1, "a2": 2,
+    "b1": 3, "b2": 4,
+    "c1": 5, "c2": 6, "native": 7
+}
+
 ## ============== MAIN CODE =============== #
 def load_faiss_index():
     try:
@@ -42,9 +50,11 @@ def load_bm25_index():
         return None, None
 
 def search_faiss_index(index, query_vector, k: int = 5):
+
     query_vector = query_vector.reshape(1, -1).astype('float32')
     faiss.normalize_L2(query_vector)
     D, I = index.search(query_vector, k)
+
     results = []
     for rank, (score, index_id) in enumerate(zip(D[0], I[0])):
         if index_id >= 0:
@@ -169,37 +179,57 @@ def compute_final_scores(faiss_results, bm25_results, rich_metadata, jd_struct: 
         doc_scores[doc_id]["bm25_norm"] = bm25_norm[i]
 
     # 3. Lấy dữ liệu thông minh từ JD (đã được LLM trích xuất)
-    jd_skills = jd_struct.get("skills", [])
-    jd_title = jd_struct.get("job", "")
-    jd_industry = jd_struct.get("detected_industry", "unknown")
+    jd_skills_dict = jd_struct.get("skills", {})
+    if isinstance(jd_skills_dict, dict):
+        req_skills = jd_skills_dict.get("required", [])
+        pref_skills = jd_skills_dict.get("preferred", [])
+        jd_skills = req_skills + pref_skills 
+    else:
+        # Fallback cho cấu trúc cũ (nếu có)
+        jd_skills = jd_skills_dict if isinstance(jd_skills_dict, list) else []
+
+    job_info = jd_struct.get("job_info", {})
+    jd_title = job_info.get("job_title", jd_struct.get("job", ""))
+    jd_industry = job_info.get("domain", jd_struct.get("detected_industry", "unknown"))
+
+    job_info = jd_struct.get("job_info", {})
+    jd_min_yoe = job_info.get("min_years_experience", 0)
+    jd_level = job_info.get("seniority_level", "").lower()
 
     # 4. Tính điểm cho từng CV
+    doc_ids = list(doc_scores.keys())
+    
     for doc_id in doc_ids:
-        # Lấy dữ liệu thông minh từ CV (đã được LLM trích xuất)
         md = rich_metadata[doc_id]
+
+        cv_yoe = md.get("yoe", 0)
+        cv_level = md.get("seniority", "").lower()
+        print(f"JD min YOE: {jd_min_yoe}, CV YOE: {cv_yoe}, JD level: {jd_level}, CV level: {cv_level}")
+
+        seniority_factor = calculate_seniority_penalty(jd_min_yoe, cv_yoe, jd_level, cv_level)
+
         cv_skills = md.get("skills", [])
-        cv_titles = md.get("job_titles", [])
+        cv_titles = [md.get("role", "")]
         cv_industry = md.get("industry", "unknown")
 
-        # Tính toán các tín hiệu
         skill_score = compute_skill_overlap(jd_skills, cv_skills)
         title_score = compute_title_match(jd_title, cv_titles)
-        industry_match = 1.0 if (cv_industry != "unknown" and cv_industry == jd_industry) else 0.0
-
+        
+        industry_match = 0.0 
+        
         doc_scores[doc_id]["skill_score"] = skill_score
         doc_scores[doc_id]["title_score"] = title_score
         doc_scores[doc_id]["industry_match"] = industry_match
 
-        # 5. Tính điểm tổng hợp (Weighted Sum)
         base = (weights["semantic"] * doc_scores[doc_id]["semantic_norm"]
                 + weights["bm25"] * doc_scores[doc_id]["bm25_norm"]
                 + weights["skill"] * skill_score
                 + weights["title"] * title_score)
 
-        # Áp dụng bộ nhân ngành (Industry Multiplier)
-        final = base * (1.0 + weights["industry"] * industry_match)
+        final = (base * (1.0 + weights["industry"] * industry_match)) * seniority_factor
         doc_scores[doc_id]["final_score"] = final
-
+        doc_scores[doc_id]["seniority_factor"] = seniority_factor
+    
     # 6. Trả về kết quả đã sắp xếp
     sorted_docs = sorted(doc_scores.items(), key=lambda kv: kv[1]["final_score"], reverse=True)
     results = []
@@ -243,4 +273,59 @@ def hybrid_search_v2(jd_query: str, jd_struct: dict = None, k_faiss=50, k_bm25=1
     # rerank top candidates with cross-encoder (optional)
     reranked = cross_encoder_rerank(jd_query, final_candidates, top_k=top_show)
 
-    return reranked
+    return final_candidates
+
+
+## ========================= PENALTY ==================== #
+def calculate_english_penalty(jd_cefr_str, cv_cefr_str):
+    """So sánh dựa trên thang chuẩn CEFR"""
+    jd_score = CEFR_MAP.get(str(jd_cefr_str).lower(), 0)
+    cv_score = CEFR_MAP.get(str(cv_cefr_str).lower(), 0)
+    
+    if jd_score == 0: return 1.0
+    if cv_score >= jd_score: return 1.0 
+    
+    if jd_score - cv_score == 1: return 0.8
+    
+    return 0.4
+
+def calculate_location_penalty(jd_loc, cv_loc):
+    """So sánh địa điểm đã chuẩn hóa"""
+    if not jd_loc or not cv_loc: return 1.0
+    
+    j_clean = jd_loc.strip().lower()
+    c_clean = cv_loc.strip().lower()
+    
+    if j_clean == c_clean: return 1.0
+    
+    return 0.5
+
+def calculate_seniority_penalty(jd_min_yoe, cv_yoe, jd_level, cv_level):
+    """
+    Tính hệ số phạt dựa trên chênh lệch kinh nghiệm (Phiên bản Logic: Research-Grade).
+    """
+    # 1. Nếu JD không yêu cầu kinh nghiệm hoặc yêu cầu = 0 -> Không phạt
+    if jd_min_yoe is None or jd_min_yoe <= 0:
+        return 1.0
+
+    # 2. Xử lý dữ liệu thiếu
+    if cv_yoe is None:
+        cv_yoe = 0.0
+
+    # 3. Nếu CV dư hoặc đủ kinh nghiệm -> Tốt (1.0)
+    if cv_yoe >= jd_min_yoe:
+        return 1.0
+    
+    gap = jd_min_yoe - cv_yoe
+
+    # TRƯỜNG HỢP 1: JD "Senior" (Yêu cầu >= 3 năm)
+    if jd_min_yoe >= 3.0 and gap > 2.0:
+        return 0.1 
+
+    # TRƯỜNG HỢP 2: JD "Junior" (Yêu cầu <= 2 năm)
+    if jd_min_yoe <= 2.0:
+        return 0.85 
+
+    # TRƯỜNG HỢP 3: Các trường hợp còn lại (Middle)
+    ratio = cv_yoe / jd_min_yoe
+    return max(0.4, ratio) 

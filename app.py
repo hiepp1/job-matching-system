@@ -1,242 +1,302 @@
-## Import
 import gradio as gr
 import pandas as pd
 import time
 import os
-import re
 import json
+from dotenv import load_dotenv
 
+# Load API Keys
+load_dotenv()
+
+# Import modules
 import config
 from src.llm_utils import process_jd_query
 from src.search import hybrid_search_v2
 
-## ====================== MAIN CODE ====================
+# --- CẤU HÌNH ---
+TOP_N = 15
+
+# --- HELPER: TẠO BẢNG HTML (SOFT PASTEL PINK) ---
 def convert_df_to_html(df, drive_folder_url):
-    """Tạo bảng HTML tùy chỉnh từ DataFrame và thêm link Google Drive."""
     html = """
     <style>
-        .gradio-table { width: 100%; border-collapse: collapse; }
-        .gradio-table th, .gradio-table td { 
-            padding: 8px 12px; 
-            border: 1px solid #e0e0e0; 
-            text-align: left; 
-            font-family: 'Times New Roman', serif;
-            font-size: 0.9rem;
+        .pro-table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            font-family: 'Segoe UI', Helvetica, Arial, sans-serif; 
+            font-size: 0.95rem; 
+            color: #333;
+            background-color: #fff;
+            border: 1px solid #fce7f3; /* Viền bảng hồng rất nhạt */
         }
-        .gradio-table th { background-color: #f9f9f9; }
-        .gradio-table tr:hover { background-color: #f1f1f1; }
-        .gradio-table a { color: #0b57d0; text-decoration: none; }
-        .gradio-table a:hover { text-decoration: underline; }
+        /* Header màu Hồng Phấn Nhạt */
+        .pro-table th { 
+            text-align: left; 
+            padding: 12px 15px; 
+            border-bottom: 2px solid #f472b6; /* Pink-400 */
+            background-color: #fdf2f8; /* Pink-50 (Rất nhạt) */
+            color: #9d174d; /* Pink-800 (Chữ đậm để dễ đọc) */
+            font-weight: 700; 
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+        .pro-table td { 
+            padding: 12px 15px; 
+            border-bottom: 1px solid #f3f4f6; 
+            vertical-align: top;
+        }
+        .pro-table tr:last-child td { border-bottom: none; }
+        .pro-table tr:hover { background-color: #fff1f2; } 
+        
+        /* Tên ứng viên */
+        .candidate-name { font-weight: 700; font-size: 1rem; color: #1f2937; margin-bottom: 4px; }
+        .candidate-role { font-size: 0.85rem; color: #64748b; margin-bottom: 6px; }
+        
+        /* Link CV - Nút nhỏ gọn */
+        .cv-link a { 
+            color: #db2777; 
+            text-decoration: none; 
+            font-size: 0.75rem; 
+            font-weight: 600;
+            border: 1px solid #fbcfe8; 
+            padding: 3px 8px;
+            border-radius: 4px;
+            background-color: #fff;
+            transition: all 0.2s;
+        }
+        .cv-link a:hover { background-color: #fce7f3; border-color: #db2777; }
+
+        /* Điểm số */
+        .score-val { font-weight: 800; font-size: 1.1rem; color: #be185d; }
+
+        /* Skills Tags - Sạch sẽ */
+        .skill-tag { 
+            display: inline-block; 
+            border: 1px solid #e2e8f0; 
+            color: #475569; 
+            padding: 3px 8px; 
+            border-radius: 4px; 
+            font-size: 0.8rem; 
+            margin: 2px; 
+            background-color: #f8fafc;
+            font-weight: 500;
+        }
+        /* Skill trùng khớp - Hồng nhạt */
+        .skill-match {
+            border-color: #fbcfe8;
+            background-color: #fdf2f8;
+            color: #be185d;
+        }
+        .no-skill { color: #94a3b8; font-style: italic; font-size: 0.85rem; }
     </style>
-    <table class='gradio-table'>
+    
+    <table class='pro-table'>
+    <thead>
+        <tr>
+            <th style="width: 40%">Candidate Profile</th>
+            <th style="width: 15%">Score</th>
+            <th style="width: 45%">Matching Skills</th>
+        </tr>
+    </thead>
+    <tbody>
     """
     
-    # Tạo header
-    html += "<thead><tr>"
-    for col in df.columns:
-        html += f"<th>{col}</th>"
-    html += "</tr></thead>"
-    
-    # Tạo body
-    html += "<tbody>"
     for _, row in df.iterrows():
-        html += "<tr>"
-        for col_name, val in row.items():
-            if col_name == 'CV File':
-                filename = val 
-                html += f"<td><a href='{drive_folder_url}' target='_blank'>{filename}</a></td>"
-            else:
-                html += f"<td>{val}</td>"
-        html += "</tr>"
+        common_skills = row['Common Skills']
+        if common_skills:
+            skills_html = "".join([f"<span class='skill-tag skill-match'>{s}</span>" for s in common_skills.split(', ')])
+        else:
+            skills_html = "<span class='no-skill'>No direct match</span>"
+        
+        cv_link_html = f"<span class='cv-link'><a href='{drive_folder_url}' target='_blank'>View CV PDF</a></span>"
+
+        html += f"""
+        <tr>
+            <td>
+                <div class="candidate-name">{row['Candidate Name']}</div>
+                <div class="candidate-role">{row['Job']}</div>
+                {cv_link_html}
+            </td>
+            <td><div class="score-val">{row['Match Score']}</div></td>
+            <td>{skills_html}</td>
+        </tr>
+        """
     html += "</tbody></table>"
     return html
 
-def strip_accents(text):
-    """Xóa dấu tiếng Việt."""
-    s = text
-    s = re.sub(r'[àáạảãâầấậẩẫăằắặẳẵ]', 'a', s)
-    s = re.sub(r'[ÀÁẠẢÃÂẦẤẬẨẪĂẰẮẶẲẴ]', 'A', s)
-    s = re.sub(r'[èéẹẻẽêềếệểễ]', 'e', s)
-    s = re.sub(r'[ÈÉẸẺẼÊỀẾỆỂỄ]', 'E', s)
-    s = re.sub(r'[òóọỏõôồốộổỗơờớợởỡ]', 'o', s)
-    s = re.sub(r'[ÒÓỌỎÕÔỒỐỘỔỖƠỜỚỢỞỠ]', 'O', s)
-    s = re.sub(r'[ìíịỉĩ]', 'i', s)
-    s = re.sub(r'[ÌÍỊỈĨ]', 'I', s)
-    s = re.sub(r'[ùúụủũưừứựửữ]', 'u', s)
-    s = re.sub(r'[ÙÚỤỦŨƯỪỨỰỬỮ]', 'U', s)
-    s = re.sub(r'[ỳýỵỷỹ]', 'y', s)
-    s = re.sub(r'[ỲÝỴỶỸ]', 'Y', s)
-    s = re.sub(r'[đ]', 'd', s)
-    s = re.sub(r'[Đ]', 'D', s)
-    return s
-
-def normalize_vietnamese_name(name):
-    """Chuẩn hóa tên: Xóa dấu và viết HOA."""
-    if not name or name == "N/A" or name == "Error N/A":
-        return "N/A"
-    name_no_accents = strip_accents(name)
-    return name_no_accents.upper()
-
-def get_name_from_json(summary_filename):
-    """Lấy tên ứng viên từ file JSON."""
-    if not summary_filename or not isinstance(summary_filename, str):
-        return "N/A"
+# --- METADATA HELPERS ---
+def get_metadata_from_json(summary_filename):
     try:
         base_name = os.path.splitext(summary_filename)[0]
-        json_filepath = os.path.join(config.CV_JSON_FOLDER, f"{base_name}.json")
-        with open(json_filepath, 'r', encoding='utf-8') as f:
-            json_data = json.load(f)
-        return json_data.get("name", "Unknown Name")
-    except Exception as e:
-        return "Error N/A"
+        json_path = os.path.join(config.CV_JSON_FOLDER, f"{base_name}.json")
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            profile = data.get("candidate_profile", {})
+            name = profile.get("name", "Unknown").upper()
+            role = profile.get('role_focus', 'N/A')
+            level = profile.get('seniority_level', '')
+            full_role = f"{role} • {level}" if level else role
+            return name, full_role
+    except:
+        return "UNKNOWN CANDIDATE", "N/A"
 
-def norm_set(lst):
-    """Chuẩn hóa list skills thành một set."""
-    return set([re.sub(r'[^a-z0-9]', '', s.lower()).strip() for s in lst if s])
-
-def find_common_skills(cv_skills_list, jd_skills_set):
-    """Tìm các skill chung giữa CV và JD."""
-    if not cv_skills_list: return "N/A"
-    cv_skills_set = norm_set(cv_skills_list)
-    common_skills = jd_skills_set & cv_skills_set
-    if not common_skills: return "None"
-    return ", ".join(sorted(list(common_skills)))
-
-
-# DEMO FUNCTION
+# --- MAIN LOGIC ---
 def run_job_matching_demo(jd_file_object):
-
-    TOP_N_TO_DISPLAY = config.TOP_N_TO_DISPLAY
-
-    # --- A. Kiểm tra Input ---
     if jd_file_object is None:
-        raise gr.Error("Lỗi: Bạn chưa tải lên file JD.")
-        
+        raise gr.Error("Please upload a JD file.")
+
     uploaded_jd_path = jd_file_object.name
-    
-    if not uploaded_jd_path.lower().endswith('.pdf'):
-        raise gr.Error("Lỗi: File tải lên phải là dạng .pdf. Vui lòng thử lại.")
+    yield "", gr.update(value="Processing..."), ""
 
-    print(f"Đã nhận file: {uploaded_jd_path}")
-    print("------------------------------------------------------------")
-    
-    yield "", "", "Processing..." 
-
-    # --- B. Chạy Pipeline ---
     try:
-        print("Đang xử lý JD...")
-        jd_result = process_jd_query(uploaded_jd_path) 
-        jd_summary = jd_result['summary']
+        # 1. Xử lý JD
+        print(f"Processing JD: {uploaded_jd_path}")
+        jd_result = process_jd_query(uploaded_jd_path)
+        
+        jd_summary = jd_result.get('summary', '')
         jd_struct = jd_result.get('extracted', {})
+        job_info = jd_struct.get("job_info", {})
+        skills = jd_struct.get("skills", {})
 
-        # --- C. TYPEWRITER JD SUMMARY ---
-        output_jd_summary = jd_summary
-        jd_skills_list = jd_struct.get("skills", [])
-        output_jd_skills = ", ".join(jd_skills_list) if jd_skills_list else "No skills extracted."
+        # --- FORMAT TEXT JD (Chuẩn bị nội dung) ---
+        full_jd_text = f"""
+### JD ANALYSIS REPORT
+* **Job Title:** {job_info.get('job_title', 'N/A')}
+* **Level / Exp:** {job_info.get('seniority_level', 'N/A')} (Min {job_info.get('min_years_experience', 0)} years)
+* **Location:** {job_info.get('location', 'N/A')}
 
-        summary_stream = ""
-        for char in output_jd_summary:
-            summary_stream += char
-            time.sleep(0.005) 
-            yield summary_stream, "", "Processing..."
+#### REQUIRED SKILLS
+{', '.join(skills.get('required', []))}
 
-        # --- D. TYPEWRITER JD SKILLS ---
-        skills_stream = ""
-        for char in output_jd_skills:
-            skills_stream += char
-            time.sleep(0.005) 
-            yield summary_stream, skills_stream, "Processing..."
+#### PREFERRED SKILLS
+{', '.join(skills.get('preferred', []))}
+"""
+        # --- TYPEWRITER EFFECT (Chạy chữ từng đoạn) ---
+        stream_buffer = ""
+        # Chạy nhanh hơn một chút (bước nhảy 3 ký tự) để không bị lag
+        for i in range(0, len(full_jd_text), 3):
+            stream_buffer = full_jd_text[:i+3]
+            yield jd_summary, stream_buffer, "Searching..."
+            time.sleep(0.005)
+        
+        # Đảm bảo hiện hết chữ cuối cùng
+        yield jd_summary, full_jd_text, "Searching..."
 
-        # --- E. Chạy tìm kiếm---
-        print(f"\nĐang tìm kiếm và xếp hạng {TOP_N_TO_DISPLAY} kết quả hàng đầu...")
+        # 2. Chạy Search
         results = hybrid_search_v2(
-            jd_summary, 
-            jd_struct, 
-            k_faiss=100, 
-            k_bm25=200, 
-            top_show=TOP_N_TO_DISPLAY
+            jd_query=jd_summary, 
+            jd_struct=jd_struct,
+            k_faiss=50, k_bm25=50, top_show=TOP_N
         )
 
         if not results:
-            print("Không tìm thấy kết quả nào.")
-            yield summary_stream, skills_stream, "Không tìm thấy kết quả phù hợp."
+            yield jd_summary, full_jd_text, "No suitable candidates found."
             return
 
-        # --- F. Xử lý Output thành DataFrame ---
-        print(f"===== TOP {TOP_N_TO_DISPLAY} RESULTS  =====")
+        # 3. Xử lý Kết quả
         df = pd.DataFrame(results)
-        df = df.sort_values(by='rank')
-
-        # Đổi tên cột
-        df = df.rename(columns={
-            'rank': 'Rank',
-            'final_score': 'Match Score', 
-            'skill': 'Skill',
-            'industry_match': 'Job'
-        })
-        
-        # Làm tròn cột điểm
-        df['Match Score'] = df['Match Score'].round(2)
-        df['Skill'] = df['Skill'].round(2)
-        
-        df['Job'] = df['Job'].apply(lambda x: "Match" if x == 1.0 else "Not Match")
-
-        df['Candidate Name'] = df['summary_file'].apply(get_name_from_json)
-        df['Candidate Name'] = df['Candidate Name'].apply(normalize_vietnamese_name)
-        
+        meta_data = df['summary_file'].apply(get_metadata_from_json)
+        df['Candidate Name'] = [x[0] for x in meta_data]
+        df['Job'] = [x[1] for x in meta_data]
         df['CV File'] = df['pdf_path'].apply(os.path.basename)
 
-        # Tính Common Skills
-        jd_skills_set = norm_set(jd_struct.get("skills", []))
-        df['Common Skills'] = df['cv_skills_list'].apply(lambda cv_list: find_common_skills(cv_list, jd_skills_set))
+        req_skills = set([s.lower().strip() for s in skills.get('required', [])])
+        pref_skills = set([s.lower().strip() for s in skills.get('preferred', [])])
+        all_jd_skills = req_skills.union(pref_skills)
+        
+        def find_common(cv_skills_list):
+            if not isinstance(cv_skills_list, list): return ""
+            found = []
+            for s in cv_skills_list:
+                s_lower = s.lower().strip()
+                for target in all_jd_skills:
+                    if target in s_lower or s_lower in target:
+                        found.append(s)
+                        break
+            return ", ".join(sorted(list(set(found))))
 
-        columns_to_show = ['CV File', 'Candidate Name', 'Match Score', 'Skill', 'Job', 'Common Skills']
-        df_display = df[columns_to_show] 
+        df['Common Skills'] = df['cv_skills_list'].apply(find_common)
+        df['Match Score'] = df['final_score'].apply(lambda x: f"{x:.4f}")
+
+        final_df = df[['Candidate Name', 'Job', 'CV File', 'Match Score', 'Common Skills']]
+        html_table = convert_df_to_html(final_df, config.DRIVE_FOLDER_URL)
         
-        # --- G. CHUYỂN DF SANG HTML VÀ TRẢ VỀ ---
-        final_html_table = convert_df_to_html(df_display, config.DRIVE_FOLDER_URL)
-        
-        yield summary_stream, skills_stream, final_html_table
+        yield jd_summary, full_jd_text, html_table
 
     except Exception as e:
-        print(f"\n❌ ĐÃ XẢY RA LỖI TRONG QUÁ TRÌNH XỬ LÝ: {e}")
-        raise gr.Error(f"Lỗi xử lý: {e}. Vui lòng kiểm tra file PDF hoặc API key.")
-    
+        import traceback
+        traceback.print_exc()
+        raise gr.Error(f"System Error: {str(e)}")
+
+# --- UI CONFIGURATION (SOFT PASTEL PINK) ---
 theme = gr.themes.Soft(
-    font=["Times New Roman", "serif"],
-    font_mono=["IBM Plex Mono", "monospace"],
-    text_size=gr.themes.sizes.text_sm,
+    primary_hue="pink",    
+    neutral_hue="slate",
+    text_size="sm",
+    radius_size="sm"
+).set(
+    # Nút bấm: Hồng cam phấn (#ea7e8d - Mã bạn thích)
+    button_primary_background_fill="#ea7e8d", 
+    button_primary_background_fill_hover="#e11d48", 
+    button_primary_text_color="#ffffff",
+    block_title_text_color="#be185d",
 )
 
-with gr.Blocks(theme=theme) as demo_ui:
+# CSS Tùy chỉnh (Fix lỗi 2 thanh scroll + Màu sắc)
+css_style = """
+.gradio-container { font-family: 'Segoe UI', sans-serif; }
+h1 { color: #9d174d !important; font-weight: 800 !important; text-transform: uppercase; letter-spacing: 1px; }
 
-    gr.Markdown("## Job Matching ")
-    gr.Markdown("Upload a Job Description file (pdf). System will returns top 10 match CV")
-    
-    with gr.Row():
-        input_file = gr.File(label="Upload a JD", file_types=[".pdf"])
-    
-    with gr.Row():
-        submit_button = gr.Button("Submit", variant="primary")
+/* FIX LỖI 2 THANH SCROLL: Ẩn thanh cuộn của container ngoài */
+.jd-analysis-box {
+    height: 300px !important;
+    border: 1px solid #fecdd3 !important; /* Viền hồng phấn */
+    background-color: #fff1f2 !important; /* Nền hồng rất nhạt */
+    border-radius: 8px !important;
+    padding: 0 !important; /* Bỏ padding ngoài để scrollbar sát lề */
+    overflow: hidden !important; /* Ẩn scrollbar thừa */
+}
 
-    with gr.Row():
-        output_jd_summary = gr.Textbox(label="JD Summary", lines=5)
-    with gr.Row():
-        output_jd_skills = gr.Textbox(label="JD Skills", lines=3)
+/* Chỉ cho phép scroll ở nội dung bên trong (Prose) */
+.jd-analysis-box .prose {
+    height: 100% !important;
+    overflow-y: auto !important;
+    padding: 15px !important;
+}
+
+/* Tùy chỉnh thanh cuộn cho đẹp (Chrome/Webkit) */
+.jd-analysis-box .prose::-webkit-scrollbar { width: 6px; }
+.jd-analysis-box .prose::-webkit-scrollbar-track { background: transparent; }
+.jd-analysis-box .prose::-webkit-scrollbar-thumb { background: #fda4af; border-radius: 3px; }
+.jd-analysis-box .prose::-webkit-scrollbar-thumb:hover { background: #f43f5e; }
+"""
+
+with gr.Blocks(theme=theme, css=css_style, title="Job Matching System") as demo:
+    gr.Markdown("# JOB MATCHING SYSTEM")
+    gr.Markdown("Professional CV Screening & Ranking.")
     
     with gr.Row():
-        output_html_table = gr.HTML(
-            label=f"Top {config.TOP_N_TO_DISPLAY} CV Phù Hợp"
-        )
-    
-    # Logic
-    submit_button.click(
+        with gr.Column(scale=4):
+            input_file = gr.File(label="Upload JD (PDF)", file_types=[".pdf"])
+            btn = gr.Button("ANALYZE & MATCH", variant="primary")
+        
+        with gr.Column(scale=6):
+            # Dùng Markdown và gán class CSS để fix scroll
+            jd_display_box = gr.Markdown(
+                label="JD Analysis", 
+                elem_classes=["jd-analysis-box"],
+                value="*Waiting for input...*"
+            )
+            
+    result_area = gr.HTML(label="Ranking Results")
+    hidden_summary = gr.Textbox(visible=False)
+
+    btn.click(
         fn=run_job_matching_demo,
-        inputs=input_file,
-        outputs=[output_jd_summary, output_jd_skills, output_html_table]
+        inputs=[input_file],
+        outputs=[hidden_summary, jd_display_box, result_area]
     )
 
 if __name__ == "__main__":
-    print("Đang tải các index...")
-    print("Khởi động Gradio UI...")
-    demo_ui.launch(debug=True) 
+    demo.launch()
