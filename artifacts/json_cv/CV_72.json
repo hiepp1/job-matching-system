@@ -1,55 +1,98 @@
 {
-"certifications": [
-"Aptis Certificate"
-],
-"detected_industry": "information_technology",
-"education": [
-{
-"degree": "Computer Science",
-"graduation_year": "Present",
-"institution_name": "Ton Duc Thang University"
-}
-],
-"experience": [
-{
-"company_name": "KDI Education",
-"description": "Prepared teaching materials, managed student attendance, maintained classroom environment, and assisted lead teacher in lesson delivery and student engagement.",
-"job_title": "Teaching Assistant",
-"years_worked": "Mar 2022 — Feb 2023"
-},
-{
-"company_name": "mangoSTEEMS Vietnam",
-"description": "Assisted lead teacher in designing lesson plans, collaborated on identifying learning challenges, and provided additional instruction to students.",
-"job_title": "Teaching Assistant",
-"years_worked": "Aug 2022 — Dec 2022"
-},
-{
-"company_name": "Algorithmics Vietnam",
-"description": "Led coding classes for students (7-18) in Scratch, Python, and Lua. Managed multiple classes, adapted teaching methods, monitored progress, and communicated with parents.",
-"job_title": "Programming Teacher",
-"years_worked": "Apr 2023 — Aug 2025"
-}
-],
-"languages": [
-"English"
-],
-"name": "Vu Minh Phuc",
-"normalized_job_titles": [
-"Teaching Assistant",
-"Programming Teacher"
-],
-"skills": [
-"Python",
-"Git",
-"CI/CD",
-"DevOps/SRE",
-"MySQL",
-"JavaScript",
-"React",
-"Java",
-"Communication",
-"Teamwork",
-"Problem Solving"
-],
-"years_of_experience": 4
+  "candidate_profile": {
+    "name": "Vu Minh Phuc",
+    "role_focus": "DevOps Engineer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "Scratch",
+      "Lua"
+    ],
+    "frameworks_libraries": [
+      "React"
+    ],
+    "databases": [
+      "MySQL"
+    ],
+    "devops_cloud": [
+      "CI/CD",
+      "DevOps",
+      "SRE"
+    ],
+    "tools_platforms": [
+      "Git"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Software Development",
+      "Logical Thinking",
+      "Foundational Programming Skills",
+      "Communication",
+      "Teamwork",
+      "Problem-solving"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "KDI Education",
+      "role": "Teaching Assistant",
+      "start_date": "2022-03",
+      "end_date": "2023-02",
+      "duration_months": 12,
+      "is_internship": false,
+      "tech_used": [],
+      "responsibilities": "Prepared teaching materials and equipment; managed student attendance and records; maintained a clean, safe, and organized classroom; assisted lead teacher in supporting student engagement and reinforcing key concepts."
+    },
+    {
+      "company": "mangoSTEEMS Vietnam",
+      "role": "Teaching Assistant",
+      "start_date": "2022-08",
+      "end_date": "2022-12",
+      "duration_months": 5,
+      "is_internship": false,
+      "tech_used": [],
+      "responsibilities": "Assisted lead teacher in designing and organizing effective lesson plans; collaborated with instructors to identify learning challenges and propose interventions; provided additional instruction and clarification to students requiring extra support."
+    },
+    {
+      "company": "Algorithmics Vietnam",
+      "role": "Programming Teacher",
+      "start_date": "2023-04",
+      "end_date": "Present",
+      "duration_months": 8,
+      "is_internship": false,
+      "tech_used": [
+        "Scratch",
+        "Python",
+        "Lua"
+      ],
+      "responsibilities": "Independently led coding classes for students aged 7-18, covering Scratch, Python, and Lua; took full responsibility as main instructor for multiple classes, ensuring lesson delivery, student engagement, and classroom management; adapted teaching methods to different age groups and learning styles; monitored student progress, provided constructive feedback, and maintained communication with parents."
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor of Computer Science",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Aptis Certificate",
+      "issuer": null,
+      "year": null
+    }
+  ]
 }

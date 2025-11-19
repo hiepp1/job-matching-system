@@ -1,49 +1,85 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "Trần Bỉnh Quyền",
+    "role_focus": "Web Developer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Java",
+      "PHP",
+      "C#",
+      "Node.js"
+    ],
+    "frameworks_libraries": [
+      "Vite",
+      "Jquery",
+      "BootStrap",
+      "React JS",
+      "Spring Boot",
+      "ASP.NET",
+      "Express",
+      "Servlet"
+    ],
+    "databases": [],
+    "devops_cloud": [
+      "Docker"
+    ],
+    "tools_platforms": [
+      "Git"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "CRUD",
+      "OOP",
+      "RESTful"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Software Engineering",
-      "graduation_year": "Ongoing",
-      "institution_name": "Ton Duc Thang University"
-    }
-  ],
-  "experience": [
-    {
-      "company_name": "Personal Project",
-      "description": "Developed an English vocabulary learning website with CRUD operations for users, vocabulary, and topics. Implemented traditional and flashcard learning methods, personal word notebooks, and progress tracking. Utilized Javascript (TSX, Vite), HTML/CSS for frontend and Java (Servlet) for backend.",
-      "job_title": "Web Developer",
-      "years_worked": "5 months"
+      "name": "Website học từ vựng tiếng anh",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Javascript",
+        "TSX",
+        "Vite",
+        "HTML",
+        "CSS",
+        "Java",
+        "Servlet"
+      ],
+      "description": "Developed a website for learning and reviewing English vocabulary. Key features include CRUD operations for users, vocabulary, and topics; providing traditional and flashcard learning methods; allowing users to add favorite words to a notebook; and tracking learning progress."
     },
     {
-      "company_name": "Personal Project",
-      "description": "Built an e-commerce website for online clothing sales, deployed with Docker. Features included customer browsing, purchasing, coupon usage, order confirmations, and product reviews. Admin panel for product, order, and coupon management. Utilized Reactjs for frontend and Node.js + Express for backend.",
-      "job_title": "Web Developer",
-      "years_worked": "4 months"
+      "name": "Website bán quần áo online",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Reactjs",
+        "Node.js",
+        "Express",
+        "Docker"
+      ],
+      "description": "Built an online clothing sales website. Customers can view and purchase items, use coupons for discounts, receive order confirmation emails, and rate purchased products. The admin panel allows tracking products, orders, and managing coupons."
     }
   ],
-  "languages": [
-    "English"
+  "education": [
+    {
+      "institution": "Tôn Đức Thắng University",
+      "degree": "Bachelor",
+      "major": "Software Engineering",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "Trần Bỉnh Quyền",
-  "normalized_job_titles": [
-    "Web Developer"
-  ],
-  "skills": [
-    "HTML",
-    "CSS",
-    "Javascript",
-    "Jquery",
-    "Bootstrap",
-    "ReactJS",
-    "PHP",
-    "C#",
-    "Java",
-    "Spring Boot",
-    "ASP.NET",
-    "Node.js",
-    "Express",
-    "Docker"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

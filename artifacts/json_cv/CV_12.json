@@ -1,47 +1,161 @@
 {
-  "certifications": [
-    "APTIS ESOL"
+  "candidate_profile": {
+    "name": "TANG CHAN HUNG",
+    "role_focus": "Backend Developer",
+    "seniority_level": "Junior"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": null,
+    "years_experience": 0.5
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "PHP",
+      "JavaScript",
+      "HTML5",
+      "SCSS",
+      "CSS3",
+      "Java",
+      "C#"
+    ],
+    "frameworks_libraries": [
+      "WordPress",
+      "ACF Pro",
+      "WPBakery",
+      "Elementor",
+      "jQuery",
+      "Spring Boot",
+      "JSP",
+      "ASP .NET Core MVC",
+      "Laravel",
+      "Bootstrap",
+      "Laravel Sanctum"
+    ],
+    "databases": [
+      "MySQL",
+      "SQL Server",
+      "SQL"
+    ],
+    "devops_cloud": [
+      "GitLab",
+      "FileZilla",
+      "SMTP",
+      "Google reCAPTCHA"
+    ],
+    "tools_platforms": [
+      "Git",
+      "Yoast SEO",
+      "Lighthouse",
+      "PageSpeed Insights",
+      "Composer"
+    ],
+    "architectures_models": [
+      "MVC"
+    ],
+    "techniques_concepts": [
+      "SEO",
+      "Ajax",
+      "Scrum Agile",
+      "Agile Process",
+      "Team Collaboration",
+      "Performance Optimization",
+      "Security",
+      "Mobile Responsiveness",
+      "Cross-browser compatibility",
+      "Schema Markup",
+      "Breadcrumbs",
+      "Meta Optimization",
+      "Lazy Loading",
+      "Caching",
+      "Database Optimization",
+      "Minification"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "Top On Seek",
+      "role": "WordPress PHP Developer",
+      "start_date": "2024-10",
+      "end_date": "Present",
+      "duration_months": 3,
+      "is_internship": false,
+      "tech_used": [
+        "WordPress",
+        "PHP",
+        "MySQL",
+        "ACF Pro",
+        "WPBakery",
+        "Elementor",
+        "JavaScript",
+        "jQuery",
+        "HTML5",
+        "SCSS",
+        "CSS3",
+        "Google reCAPTCHA",
+        "SMTP",
+        "FileZilla",
+        "GitLab",
+        "Yoast SEO",
+        "Lighthouse",
+        "PageSpeed Insights",
+        "Agile Process"
+      ],
+      "responsibilities": "Developed and customized WordPress themes and plugins, including custom post types, taxonomies, and meta fields. Built custom Elementor elements and implemented ACF Pro for flexible content management. Maintained and optimized websites for performance (lazy load, caching, database optimization) and security (reCAPTCHA, SSL, regular updates). Handled website maintenance, debugging, and feature extensions across staging environments, with deployments via FileZilla. Ensured mobile responsiveness and cross-browser compatibility. Applied SEO best practices using Yoast SEO (schema markup, breadcrumbs, meta optimization). Worked in Agile Scrum teams, collaborating with designers and project managers, and participating in sprints and daily stand-ups. Contributed to projects like Happiness Clinic and Hospital, Top On Seek, and SNA School, focusing on theme/plugin development, content management, performance, security, and responsive design."
+    }
   ],
-  "detected_industry": "information_technology",
+  "projects": [
+    {
+      "name": "Ecommerce with Java",
+      "type": "Academic",
+      "tech_used": [
+        "Java",
+        "Spring Boot",
+        "MVC",
+        "SQL Server",
+        "JSP"
+      ],
+      "description": "Developed a comprehensive online shopping platform with core e-commerce functionalities including user authentication, product catalog, shopping cart, and integrated checkout. Incorporated secure payment gateways and responsive design, built with scalability and security best practices."
+    },
+    {
+      "name": "Ecommerce with .Net",
+      "type": "Academic",
+      "tech_used": [
+        "C#",
+        "ASP .NET Core MVC",
+        "SQL"
+      ],
+      "description": "Created a robust online shopping solution using the .NET framework, featuring user authentication, product management, shopping cart, and a streamlined checkout process. Included secure payment integration and a responsive user interface, adhering to industry best practices for scalability and security."
+    },
+    {
+      "name": "Ecommerce with Laravel",
+      "type": "Academic",
+      "tech_used": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "Laravel Sanctum",
+        "Composer"
+      ],
+      "description": "Built a comprehensive online shopping platform using Laravel, featuring user authentication, product management, and a secure checkout process. Leveraged Eloquent ORM for database interactions, Blade templating for frontend, Bootstrap for responsive design, and Laravel Sanctum for API token authentication."
+    }
+  ],
   "education": [
     {
-      "degree": "Information Technology",
-      "graduation_year": "N/A",
-      "institution_name": "TonDucThang University"
+      "institution": "TonDucThang University",
+      "degree": "Bachelor",
+      "major": "Information Technology",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "Top On Seek",
-      "description": "Developed and customized WordPress themes and plugins using WordPress Core and PHP, including custom post types, taxonomies, and meta fields. Built custom Elementor elements and implemented ACF Pro for flexible content management. Maintained and optimized websites for performance and security. Handled website maintenance, debugging, and feature extensions across staging environments, with deployments via FileZilla. Ensured mobile responsiveness and cross-browser compatibility. Applied SEO best practices using Yoast SEO. Worked in Agile Scrum teams, collaborating with designers and project managers.",
-      "job_title": "WordPress PHP Developer",
-      "years_worked": "6 months"
+      "name": "APTIS ESOL",
+      "issuer": "APTIS ESOL",
+      "year": "2023"
     }
-  ],
-  "languages": [
-    "English Intermediate"
-  ],
-  "name": "TANG CHAN HUNG",
-  "normalized_job_titles": [
-    "Backend Developer",
-    "WordPress PHP Developer"
-  ],
-  "skills": [
-    "PHP",
-    "WordPress",
-    "MySQL",
-    "SEO",
-    "Ajax",
-    "Scrum Agile",
-    "ACF Pro",
-    "WPBakery",
-    "Elementor",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "FileZilla",
-    "GitLab",
-    "Yoast SEO"
-  ],
-  "years_of_experience": 0
+  ]
 }

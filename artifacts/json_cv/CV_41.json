@@ -1,48 +1,108 @@
 {
-  "certifications": [
-    "Google Cybersecurity Certificate",
-    "Cambridge English Preliminary (PET)"
+  "candidate_profile": {
+    "name": "Nguyễn Anh Quân",
+    "role_focus": "Cybersecurity Engineer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": "7.5/10",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Node.js",
+      "Android Java",
+      "Python"
+    ],
+    "frameworks_libraries": [
+      "Express.js",
+      "Flutter",
+      ".NET"
+    ],
+    "databases": [
+      "MongoDB",
+      "MySQL"
+    ],
+    "devops_cloud": [
+      "Docker"
+    ],
+    "tools_platforms": [
+      "Kali Linux",
+      "Burp Suite",
+      "Wireshark",
+      "Git",
+      "picoCTF",
+      "vibloCTF"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Basic Cybersecurity Concepts",
+      "NIST Cybersecurity Framework (CSF)",
+      "Common Vulnerabilities",
+      "Network Security",
+      "Website Vulnerabilities",
+      "Penetration Testing",
+      "Web Exploitation",
+      "Forensics",
+      "User Authentication",
+      "Data Management",
+      "JWT"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": null,
+      "role": "Cybersecurity Intern",
+      "start_date": null,
+      "end_date": null,
+      "duration_months": 0,
+      "is_internship": true,
+      "tech_used": [
+        "Kali Linux",
+        "Burp Suite",
+        "Wireshark",
+        "Penetration Testing",
+        "picoCTF",
+        "vibloCTF"
+      ],
+      "responsibilities": "Actively learning and building skills in network security, website vulnerabilities, and penetration testing. Gained practical experience solving challenges in CTF competitions and hands-on experience with cybersecurity tools."
+    }
   ],
-  "detected_industry": "information_technology",
+  "projects": [
+    {
+      "name": "Retail POS System for Mobile Phones and Accessories",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Docker"
+      ],
+      "description": "Developed a backend system for a web application, incorporating features such as user authentication and data management."
+    }
+  ],
   "education": [
     {
-      "degree": "Software Engineering",
+      "institution": "Tôn Đức Thắng University",
+      "degree": "Bachelor",
+      "major": "Software Engineering",
       "graduation_year": "2025",
-      "institution_name": "Tôn Đức Thắng University"
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "N/A",
-      "description": "Actively learning and building skills in network security, website vulnerabilities, and penetration testing while seeking a cybersecurity role.",
-      "job_title": "Cybersecurity Intern",
-      "years_worked": "N/A"
+      "name": "Google Cybersecurity Certificate",
+      "issuer": "Google",
+      "year": null
+    },
+    {
+      "name": "Cambridge English Preliminary (PET)",
+      "issuer": "Cambridge English",
+      "year": null
     }
-  ],
-  "languages": [
-    "English",
-    "Vietnamese"
-  ],
-  "name": "Nguyễn Anh Quân",
-  "normalized_job_titles": [
-    "Cybersecurity Intern"
-  ],
-  "skills": [
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "Docker",
-    "JWT",
-    "Cybersecurity",
-    "NIST Cybersecurity Framework",
-    "Network Security",
-    "Penetration Testing",
-    "Kali Linux",
-    "Burp Suite",
-    "Wireshark",
-    "Linux",
-    "Python",
-    "Android Java"
-  ],
-  "years_of_experience": 0
+  ]
 }

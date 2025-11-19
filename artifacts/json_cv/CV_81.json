@@ -1,44 +1,245 @@
 {
-  "certifications": [
-    "Cisco Network Academy - Ethical Hacker"
+  "candidate_profile": {
+    "name": "Tung Huynh Minh",
+    "role_focus": "DevOps/Data Analytics",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": null,
+    "gpa": 7.2,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "C",
+      "PHP",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "frameworks_libraries": [
+      "PySpark"
+    ],
+    "databases": [
+      "Hadoop"
+    ],
+    "devops_cloud": [
+      "AWS",
+      "VMware",
+      "VirtualBox",
+      "Linux",
+      "Windows Server",
+      "Salesforce"
+    ],
+    "tools_platforms": [
+      "Cisco Packet Tracer",
+      "GNS3",
+      "Wireshark",
+      "XAMPP"
+    ],
+    "architectures_models": [
+      "OSI Model",
+      "TCP/IP Model",
+      "Singular Value Decomposition",
+      "Collaborative Filtering",
+      "Machine Learning",
+      "Deep Learning",
+      "Attention Mechanisms"
+    ],
+    "techniques_concepts": [
+      "Subnetting",
+      "Routing",
+      "Switching",
+      "VLAN",
+      "VPN",
+      "ACL",
+      "Wi-Fi Security",
+      "Data Encryption",
+      "Keylogging Detection",
+      "Network Access Protection",
+      "Data Visualization",
+      "TCP/UDP Programming",
+      "Association Rules",
+      "Named Entity Recognition",
+      "Machine Translation",
+      "Medical Text Extraction",
+      "Network Design",
+      "Network Configuration",
+      "Network Automation",
+      "Cloud Technologies",
+      "Data Analytics",
+      "Business Intelligence",
+      "E-commerce Strategies",
+      "Decision Making"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "Ton Duc Thang University",
+      "role": "Network & Data Analyst Intern",
+      "start_date": "2024-01",
+      "end_date": "Present",
+      "duration_months": 5,
+      "is_internship": true,
+      "tech_used": [
+        "Cisco Packet Tracer",
+        "GNS3",
+        "Wireshark",
+        "VLAN",
+        "VPN",
+        "Network Access Protection",
+        "Wi-Fi security",
+        "Data encryption methods",
+        "Keylogging detection",
+        "Python",
+        "PySpark",
+        "SQL",
+        "Hadoop",
+        "Singular Value Decomposition",
+        "Collaborative Filtering",
+        "Machine Learning",
+        "Deep Learning",
+        "Attention mechanisms",
+        "Named Entity Recognition",
+        "TCP/UDP",
+        "PHP",
+        "HTML",
+        "CSS",
+        "XAMPP",
+        "Salesforce"
+      ],
+      "responsibilities": "Engaged in academic projects focusing on network design, cybersecurity, data analytics, AI, and software development within the university environment, applying theoretical knowledge to practical scenarios."
+    }
   ],
-  "detected_industry": "information_technology",
+  "projects": [
+    {
+      "name": "Enterprise Network Design & Deployment",
+      "type": "Academic",
+      "tech_used": [
+        "VLAN",
+        "VPN",
+        "Wi-Fi security",
+        "Cisco Packet Tracer",
+        "GNS3"
+      ],
+      "description": "Designed and deployed enterprise networks for multi-branch organizations, including building and securing enterprise Wi-Fi systems."
+    },
+    {
+      "name": "VLAN, VPN Configuration & NAP Implementation",
+      "type": "Academic",
+      "tech_used": [
+        "VLAN",
+        "VPN",
+        "Network Access Protection"
+      ],
+      "description": "Configured VLANs and VPNs, and implemented Network Access Protection."
+    },
+    {
+      "name": "Keylogging Detection Research & Implementation",
+      "type": "Academic",
+      "tech_used": [
+        "Keylogging detection"
+      ],
+      "description": "Researched and implemented methods for keylogging detection."
+    },
+    {
+      "name": "Encryption Methods Study",
+      "type": "Academic",
+      "tech_used": [
+        "Data encryption methods"
+      ],
+      "description": "Studied various encryption methods to ensure secure data transmission."
+    },
+    {
+      "name": "Recommendation System",
+      "type": "Academic",
+      "tech_used": [
+        "Python",
+        "Singular Value Decomposition",
+        "Collaborative Filtering"
+      ],
+      "description": "Developed a recommendation system leveraging Singular Value Decomposition and Collaborative Filtering techniques."
+    },
+    {
+      "name": "Mining Massive Data Sets with PySpark",
+      "type": "Academic",
+      "tech_used": [
+        "PySpark",
+        "Machine Learning",
+        "Association Rules",
+        "Hadoop"
+      ],
+      "description": "Applied association rules and Machine Learning techniques using PySpark for mining massive data sets."
+    },
+    {
+      "name": "Business Intelligence System Analysis for Co.op Mart",
+      "type": "Academic",
+      "tech_used": [
+        "Data Analytics",
+        "Business Intelligence",
+        "SQL"
+      ],
+      "description": "Analyzed and managed a Business Intelligence system for Co.op Mart, contributing to e-commerce strategies and decision-making processes."
+    },
+    {
+      "name": "Vietnamese NER & Attention Mechanisms Research",
+      "type": "Academic",
+      "tech_used": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "Named Entity Recognition",
+        "Attention Mechanisms",
+        "Machine Translation",
+        "Medical Text Extraction"
+      ],
+      "description": "Experimented with Vietnamese Named Entity Recognition using ML/DL, and researched Attention mechanisms for machine translation and medical text extraction."
+    },
+    {
+      "name": "Basic Chat Application",
+      "type": "Academic",
+      "tech_used": [
+        "TCP/UDP programming"
+      ],
+      "description": "Designed and developed a basic chat application utilizing TCP/UDP protocols."
+    },
+    {
+      "name": "E-commerce Website",
+      "type": "Academic",
+      "tech_used": [
+        "PHP",
+        "HTML",
+        "CSS",
+        "XAMPP"
+      ],
+      "description": "Developed an e-commerce website using PHP, HTML/CSS, hosted on XAMPP."
+    },
+    {
+      "name": "Salesforce CRM Deployment & Customization",
+      "type": "Academic",
+      "tech_used": [
+        "Salesforce"
+      ],
+      "description": "Deployed and customized a Customer Relationship Management (CRM) system using Salesforce."
+    }
+  ],
   "education": [
     {
-      "degree": "Computer Networks and Data Communication",
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Networks and Data Communication",
       "graduation_year": "2026",
-      "institution_name": "Ton Duc Thang University"
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "Ton Duc Thang University",
-      "description": "Designed and deployed enterprise networks, configured VLAN and VPN, implemented Network Access Protection. Researched keylogging detection and data encryption methods. Built recommendation systems, applied Machine Learning with PySpark for data mining, and analyzed Business Intelligence systems. Developed basic chat applications and e-commerce websites, and customized Salesforce CRM.",
-      "job_title": "Network & Data Analyst Intern",
-      "years_worked": "Jan 2024 - Present"
+      "name": "Ethical Hacker",
+      "issuer": "Cisco Network Academy",
+      "year": "2024"
     }
-  ],
-  "languages": [],
-  "name": "Tung Huynh Minh",
-  "normalized_job_titles": [
-    "Network and Data Analyst Intern"
-  ],
-  "skills": [
-    "Networking",
-    "VLAN",
-    "VPN",
-    "Cisco Packet Tracer",
-    "Wireshark",
-    "Cybersecurity",
-    "Python",
-    "PySpark",
-    "SQL",
-    "Hadoop",
-    "Data Visualization",
-    "Salesforce",
-    "AWS",
-    "VMware",
-    "Linux"
-  ],
-  "years_of_experience": 0
+  ]
 }

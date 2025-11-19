@@ -1,67 +1,113 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
+  "candidate_profile": {
+    "name": "TONG NGUYEN KHANG",
+    "role_focus": "Software Engineer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Advanced/IELTS 7.5",
+    "gpa": "8.00",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "C#",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "frameworks_libraries": [
+      "OpenCV",
+      "ASP.NET MVC"
+    ],
+    "databases": [],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Git",
+      "VSCode",
+      "Linux Terminal"
+    ],
+    "architectures_models": [
+      "Transformer-based architecture",
+      "Attention mechanisms",
+      "Modular object-oriented design",
+      "UML modeling",
+      "CRC cards"
+    ],
+    "techniques_concepts": [
+      "HSV color thresholding",
+      "Template matching",
+      "Sentiment analysis",
+      "Real-time video processing",
+      "Relational database (concept)",
+      "Workflow analysis",
+      "Algorithms",
+      "Top-K frequent pattern mining",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Object-Oriented Programming"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Traffic Sign Detection in Road Videos",
+      "type": "Academic",
+      "tech_used": [
+        "Python",
+        "OpenCV",
+        "HSV color thresholding",
+        "Template matching",
+        "Real-time video processing"
+      ],
+      "description": "Developed a real-time video processing pipeline in Python using OpenCV to detect and highlight traffic signs in road footage. The system applied HSV color thresholding to filter red and blue regions and used template matching to identify valid traffic signs. Successfully highlighted detected signs on video frames in real time."
+    },
+    {
+      "name": "Context-Aware Sentiment Analysis Using Transformers",
+      "type": "Academic",
+      "tech_used": [
+        "Transformer-based architecture",
+        "Attention mechanisms",
+        "Sentiment analysis",
+        "Natural Language Processing"
+      ],
+      "description": "Built a sentiment analysis model using a Transformer-based architecture with attention mechanisms. The model processes short text and its supplementary context independently, then fuses their representations to predict sentiment labels accurately."
+    },
+    {
+      "name": "Restaurant Information System",
+      "type": "Academic",
+      "tech_used": [
+        "ASP.NET MVC",
+        "C#",
+        "Relational database (concept)",
+        "UML modeling",
+        "CRC cards",
+        "Object-oriented design",
+        "Workflow analysis"
+      ],
+      "description": "Built a restaurant management system using ASP.NET MVC and C#. Key features include real-time table availability, order management, a reservations system with customer requests, and payment processing. The backend was built with a modular object-oriented design and relational database. Applied UML modeling, CRC cards, and rigorous workflow analysis to ensure scalability, reliability, and high cohesion across components."
+    },
+    {
+      "name": "Interactive Top-K Frequent Pattern Mining from Uncertain Data",
+      "type": "Academic",
+      "tech_used": [
+        "Algorithms",
+        "Top-K frequent pattern mining"
+      ],
+      "description": "Researched and implemented algorithms for mining Top-K frequent patterns from uncertain datasets. Developed an interactive system that allows users to specify the number of top itemsets to retrieve, enhancing flexibility and efficiency in pattern discovery."
+    }
+  ],
   "education": [
     {
+      "institution": "Ton Duc Thang University, HCM City",
       "degree": "Bachelor of Computer Science",
-      "graduation_year": "N/A",
-      "institution_name": "Ton Duc Thang University, HCM City"
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [
-    {
-      "company_name": "N/A",
-      "description": "Developed a real-time video processing pipeline in Python using OpenCV to detect and highlight traffic signs in road footage. The system applied HSV color thresholding to filter red and blue regions and used template matching to identify valid traffic signs. Successfully highlighted detected signs on video frames in real time.",
-      "job_title": "Digital Image Processing Project",
-      "years_worked": "October 2024 - November 2024"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Built a sentiment analysis model using a Transformer-based architecture with attention mechanisms. The model processes short text and its supplementary context independently, then fuses their representations to predict sentiment labels accurately.",
-      "job_title": "Deep Learning Project",
-      "years_worked": "March 2025 - May 2025"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Built a restaurant management system using ASP.NET MVC and C#. Key features include real-time table availability, order management, a reservations system with customer requests, and payment processing. The backend was built with a modular object-oriented design and relational database. Applied UML modeling, CRC cards, and rigorous workflow analysis to ensure scalability, reliability, and high cohesion across components.",
-      "job_title": "Software Engineering Project",
-      "years_worked": "November 2024 - December 2024"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Researched and implemented algorithms for mining Top-K frequent patterns from uncertain datasets. Developed an interactive system that allows users to specify the number of top itemsets to retrieve, enhancing flexibility and efficiency in pattern discovery.",
-      "job_title": "Design and Analysis of Algorithms Project",
-      "years_worked": "November 2024 - December 2024"
-    }
-  ],
-  "languages": [
-    "Vietnamese",
-    "English",
-    "Japanese"
-  ],
-  "name": "TONG NGUYEN KHANG",
-  "normalized_job_titles": [
-    "Software Developer",
-    "Data Scientist",
-    "Algorithm Engineer"
-  ],
-  "skills": [
-    "Python",
-    "Java",
-    "C#",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "Git",
-    "VSCode",
-    "Linux Terminal",
-    "OpenCV",
-    "Deep Learning",
-    "Transformer Architecture",
-    "Sentiment Analysis",
-    "ASP.NET MVC",
-    "UML Modeling",
-    "Algorithm Design"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

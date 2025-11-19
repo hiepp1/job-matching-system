@@ -1,1 +1,101 @@
-{"certifications":[],"detected_industry":"information_technology","education":[{"degree":"Bachelor's Degree in Computer Networks and Data Communications","graduation_year":"2026","institution_name":"Ton Duc Thang University"}],"experience":[{"company_name":"CHEESE COFFEE - CHEESE COFFEE JOINT STOCK COMPANY","description":"Served as a Server, demonstrating strong communication, customer service, and multi-tasking skills. Later promoted to Barista, where responsibilities included customer advising and equipment management and maintenance.","job_title":"Server, Barista","years_worked":"7 months"}],"languages":["English (Aptis 159/200, TOEIC 600)","Japanese (self-studying)"],"name":"Vo Thi Lan Chi","normalized_job_titles":["Server","Barista"],"skills":["Network Administration","Network Security","Configuration","Troubleshooting","VPN","Network Design","System Administration","Linux","Windows","Virtualization","Python","SQL","HTML/CSS","Java","Command Line Interface"],"years_of_experience":0}
+{
+  "candidate_profile": {
+    "name": "Võ Thị Lan Chi",
+    "role_focus": "Network Engineer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": "7.49/10",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "HTML",
+      "CSS",
+      "Python",
+      "Java",
+      "SQL"
+    ],
+    "frameworks_libraries": [],
+    "databases": [
+      "SQL"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Virtual Box",
+      "VMware",
+      "Terminal",
+      "PowerShell",
+      "Command Prompt",
+      "LaTeX",
+      "Word",
+      "Excel",
+      "PowerPoint",
+      "Canva"
+    ],
+    "architectures_models": [
+      "VPN"
+    ],
+    "techniques_concepts": [
+      "Network Configuration",
+      "Network Monitoring",
+      "Troubleshooting",
+      "Network Administration",
+      "Network Design",
+      "IoT",
+      "User Authentication",
+      "Virtualization"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "CHEESE COFFEE - CHEESE COFFEE JOINT STOCK COMPANY",
+      "role": "Server, Barista",
+      "start_date": "2024-03",
+      "end_date": "2024-09",
+      "duration_months": 7,
+      "is_internship": false,
+      "tech_used": [],
+      "responsibilities": "Communicated and built rapport with customers, handled multiple tasks efficiently, managed and maintained equipment, provided customer consultation."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Deploying, Managing, and Configuring VPN",
+      "type": "Academic",
+      "tech_used": [
+        "VPN"
+      ],
+      "description": "Final project for Network Administration course, focusing on practical VPN implementation."
+    },
+    {
+      "name": "Designing a Network System for a Small Business",
+      "type": "Academic",
+      "tech_used": [
+        "Network Design"
+      ],
+      "description": "Final project for Network Design course, involving the creation of a network architecture for a small enterprise."
+    },
+    {
+      "name": "Building a System for Booking Classrooms/Meeting Rooms with IoT Integration and User Authentication",
+      "type": "Academic",
+      "tech_used": [
+        "IoT",
+        "User Authentication"
+      ],
+      "description": "Ongoing project to develop a room booking system incorporating IoT devices and secure user authentication."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Networks and Data Communication",
+      "graduation_year": "2026",
+      "status": "In Progress"
+    }
+  ],
+  "certifications": []
+}

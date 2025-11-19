@@ -1,53 +1,152 @@
 {
-  "certifications": [
-    "IELTS Certificate with band 6.0"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "Doan Ngoc Bao",
+    "role_focus": "AI Engineer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "IELTS 6.0+",
+    "gpa": "3.3/4.0",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "C",
+      "Java"
+    ],
+    "frameworks_libraries": [
+      "Pandas",
+      "Numpy",
+      "Matplotlib",
+      "Seaborn",
+      "OpenCV",
+      "PyTorch",
+      "TensorFlow",
+      "Ultralytics",
+      "LangChain",
+      "Gradio",
+      "Transformer",
+      "YOLO",
+      "Torch",
+      "crawl4ai"
+    ],
+    "databases": [
+      "SQLite"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Visual Studio Code",
+      "Jupyter Notebook",
+      "Linux",
+      "Google Colab",
+      "GitHub",
+      "GIT",
+      "Hugging Face",
+      "Roboflow"
+    ],
+    "architectures_models": [
+      "YOLOv11n",
+      "ViT5",
+      "Sequence to Sequence"
+    ],
+    "techniques_concepts": [
+      "RAG",
+      "Machine Learning",
+      "Deep Learning",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Object Detection",
+      "Data Annotation",
+      "Real-time Systems",
+      "Grammatical Error Correction",
+      "LLM"
+    ]
+  },
+  "work_experience": [
     {
-      "degree": "Computer Science",
-      "graduation_year": "Present",
-      "institution_name": "Ton Duc Thang University"
+      "company": "SPORTPLUS JOINT STOCK COMPANY",
+      "role": "AI Agent Creator Intern",
+      "start_date": "2025-07",
+      "end_date": "2025-08",
+      "duration_months": 1,
+      "is_internship": true,
+      "tech_used": [
+        "Python",
+        "SQLite",
+        "RAG",
+        "Groq API",
+        "crawler"
+      ],
+      "responsibilities": "Crawl data and create a demo customer service AI agent including tool crawler, SQLite, RAG, Groq API."
     }
   ],
-  "experience": [
+  "projects": [
     {
-      "company_name": "N/A",
-      "description": "Applied knowledge of machine learning, deep learning, computer vision, and natural language processing in real-world projects, building intelligent and practical technology solutions.",
-      "job_title": "AI Engineer Intern",
-      "years_worked": "10/2022 - Present"
+      "name": "Parking Detection Project",
+      "type": "Personal",
+      "tech_used": [
+        "Python",
+        "YOLO",
+        "OpenCV",
+        "Ultralytics",
+        "Roboflow"
+      ],
+      "description": "Built a real-time parking detection system using YOLOv11n model with Ultralytics. Collected diverse data from multiple sources and used Roboflow to annotate the data."
     },
     {
-      "company_name": "SPORTPLUS JOINT STOCK COMPANY",
-      "description": "Crawled data and created a demo customer service AI agent including tool crawler, SQLite, RAG, and Groq API.",
-      "job_title": "AI Agent Creator Intern",
-      "years_worked": "07/2025 - 08/2025"
+      "name": "OCR Receipt - Extract text content from invoice image",
+      "type": "Personal",
+      "tech_used": [
+        "Python",
+        "Gradio",
+        "Torch",
+        "OpenCV",
+        "NumPy"
+      ],
+      "description": "Built a system to extract text content from images, applied extraction to English invoices and taxes. Built an untrained model that can be extended and modified for other versions by changing the dataset."
+    },
+    {
+      "name": "GEC - Gramma Error Correction for Vietnamese document based on sequence to sequence",
+      "type": "Personal",
+      "tech_used": [
+        "Python",
+        "Torch",
+        "Gradio",
+        "NumPy",
+        "Transformer"
+      ],
+      "description": "Built a spelling correction system in Vietnamese text based on sequential structure with input-target data. Developed a model based on the pre-trained ViT5 model to identify errors and automatically correct complete sentences according to the sentence generation structure in sequence."
+    },
+    {
+      "name": "DUPR customer service AI Agent - Demo version",
+      "type": "Personal",
+      "tech_used": [
+        "Python",
+        "crawl4ai",
+        "SQLite",
+        "RAG",
+        "LangChain",
+        "GroqAPI"
+      ],
+      "description": "Built an AI Agent to serve customers in the sports field, specifically Pickleball. Included a data collection tool and AI Agent for customers. Built AI Agent with RAG + LLM, connected to get data from a database, used LangChain to store chat history and called Groq API to create a customer care AI Agent demo."
     }
   ],
-  "languages": [
-    "English"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "Doan Ngoc Bao",
-  "normalized_job_titles": [
-    "AI Engineer Intern",
-    "AI Agent Creator Intern"
-  ],
-  "skills": [
-    "Python",
-    "Java",
-    "C",
-    "PyTorch",
-    "TensorFlow",
-    "LangChain",
-    "Transformer",
-    "OpenCV",
-    "Ultralytics",
-    "RAG",
-    "YOLO",
-    "Pandas",
-    "GitHub",
-    "Linux",
-    "SQLite"
-  ],
-  "years_of_experience": 1
+  "certifications": [
+    {
+      "name": "IELTS Certificate",
+      "issuer": null,
+      "year": "2025"
+    }
+  ]
 }

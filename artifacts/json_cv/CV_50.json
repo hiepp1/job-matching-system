@@ -1,42 +1,105 @@
 {
-  "certifications": [
-    "Aptis Esol B2",
-    "MOS Word 2016",
-    "MOS Excel 2016"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "Lương Mai Thanh Khôi",
+    "role_focus": "Software Engineer (Web/Mobile)",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "B2",
+    "gpa": "7.1/10",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Java",
+      "Python",
+      "C",
+      "C#",
+      "PHP",
+      "SQL",
+      "Kotlin"
+    ],
+    "frameworks_libraries": [
+      "ASP.NET Core",
+      "Java Spring",
+      "Spring Boot",
+      "HTML",
+      "CSS",
+      "Thymeleaf"
+    ],
+    "databases": [
+      "MySQL",
+      "Firebase",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "devops_cloud": [
+      "Firebase",
+      "Git"
+    ],
+    "tools_platforms": [
+      "Figma",
+      "MOS Word",
+      "MOS Excel"
+    ],
+    "architectures_models": [
+      "Microservices"
+    ],
+    "techniques_concepts": [
+      "OOP",
+      "RESTful APIs",
+      "Mobile Development (Android)",
+      "UI/UX Design"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Software Engineering",
-      "graduation_year": "N/A",
-      "institution_name": "Ton Duc Thang University"
+      "name": "Real Estate Trading/Rental Web System",
+      "type": "Personal",
+      "tech_used": [
+        "Java Spring Boot",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Thymeleaf"
+      ],
+      "description": "Developed a web system for real estate trading and rental, featuring 5 core services: Listing, Sales, Rental, Payment, and Security. Implemented using Java Spring Boot with MySQL/PostgreSQL and MongoDB for databases. Built CRUD APIs and developed the user interface with Thymeleaf, resulting in a functional basic real estate website."
+    },
+    {
+      "name": "Phone Sales POS Web System",
+      "type": "Personal",
+      "tech_used": [
+        "PHP"
+      ],
+      "description": "Created a web-based Point of Sale (POS) system for a phone store, designed for staff and administrators. The system supports sales transaction processing, product management, employee management, customer management, and generates reports and statistics. Key functionalities include account, product, customer management, and sales transaction handling, successfully meeting all sales management requirements."
     }
   ],
-  "experience": [],
-  "languages": [
-    "English",
-    "Vietnamese"
+  "education": [
+    {
+      "institution": "Tôn Đức Thắng University",
+      "degree": "Bachelor of Software Engineering",
+      "major": "Software Engineering",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "Lương Mai Thanh Khôi",
-  "normalized_job_titles": [
-    "Intern"
-  ],
-  "skills": [
-    "Java",
-    "Python",
-    "C",
-    "C#",
-    "PHP",
-    "SQL",
-    "Kotlin",
-    "HTML",
-    "CSS",
-    "ASP.NET Core",
-    "Java Spring",
-    "Android",
-    "Figma",
-    "MySQL",
-    "Git"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "Aptis Esol B2",
+      "issuer": null,
+      "year": null
+    },
+    {
+      "name": "MOS Word 2016",
+      "issuer": null,
+      "year": "2016"
+    },
+    {
+      "name": "MOS Excel 2016",
+      "issuer": null,
+      "year": "2016"
+    }
+  ]
 }

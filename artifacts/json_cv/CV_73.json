@@ -1,47 +1,70 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
+  "candidate_profile": {
+    "name": "Nguyen Anh Tuan",
+    "role_focus": "Game Developer",
+    "seniority_level": "Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Upper Intermediate",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "C#"
+    ],
+    "frameworks_libraries": [
+      "Unity"
+    ],
+    "databases": [],
+    "devops_cloud": [],
+    "tools_platforms": [],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Game Development",
+      "Finite State Machine",
+      "Object-Oriented Programming"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Field Of Echoes",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Unity",
+        "C#"
+      ],
+      "description": "A role-play, farming game developed as a final academic project and subsequently continued as a personal Information Technology Project. Responsibilities included character finite state machine and interaction, item, inventory, farming, trading, NPC dialog, crafting, placeable objects, item conversion, combat systems (HP, stamina, damage, enemies), and scene consistency with a saving system."
+    },
+    {
+      "name": "Quizza",
+      "type": "Personal",
+      "tech_used": [
+        "Unity",
+        "C#"
+      ],
+      "description": "A simple 2D UI-focused quiz game developed to gain familiarity with the Unity UI system and C#. Features include a question panel with four clickable answer buttons, questions and answers stored as scriptable objects, score tracking based on correct answers and time, a progress slider, and a game restart option."
+    },
+    {
+      "name": "Maze Runner",
+      "type": "Personal",
+      "tech_used": [
+        "Unity",
+        "C#"
+      ],
+      "description": "A 2D Mario-like tile-based game created to learn Unity's tile and tilemap system. Players escape a jungle environment with monsters and obstacles, earning points by killing monsters or collecting coins. The character has three lives, with progress saved per stage, and a full reset upon losing all lives."
+    }
+  ],
   "education": [
     {
-      "degree": "Bachelor of Science in Computer Science",
-      "graduation_year": "N/A",
-      "institution_name": "Ton Duc Thang University"
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor of Science",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [
-    {
-      "company_name": "N/A",
-      "description": "Developed a role-play, farming game. Responsibilities included character finite state machine and interaction, item, inventory, farming, trading, and NPC dialog systems. Solo developed crafting, placeable objects, item conversion, HP, stamina, damage, enemies, and scene consistency (saving system).",
-      "job_title": "Game Developer",
-      "years_worked": "Sep 2024 – Feb 2025"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Created a 2D UI-focused quiz game using Unity UI and C#. Implemented question panel, clickable answers, score tracking, correct answer unveiling, and game restart functionality.",
-      "job_title": "Game Developer",
-      "years_worked": "June 2025 – July 2025"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Developed a 2D Mario-like tile-based game using Unity tile and tilemap system. Features included player character with score, lives, monster interaction, obstacles, and a multi-stage level progression with state preservation.",
-      "job_title": "Game Developer",
-      "years_worked": "July 2025 – Sep 2025"
-    }
-  ],
-  "languages": [
-    "English",
-    "Vietnamese"
-  ],
-  "name": "Nguyen Anh Tuan (Galvaron)",
-  "normalized_job_titles": [
-    "Game Developer"
-  ],
-  "skills": [
-    "Unity",
-    "C#",
-    "Excel",
-    "Word",
-    "Powerpoint"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

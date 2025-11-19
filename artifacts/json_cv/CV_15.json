@@ -1,51 +1,138 @@
 {
-  "certifications": [
-    "IELTS 7.0 (2024)"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "Ho Nguyen An Khang",
+    "role_focus": "Back-end Developer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Advanced/IELTS 7.0+",
+    "gpa": "8.48",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Java",
+      "JavaScript",
+      "Python",
+      "C++",
+      "HTML/CSS"
+    ],
+    "frameworks_libraries": [
+      "ReactJS",
+      "Bootstrap",
+      "Spring Boot",
+      "NodeJS",
+      "Django",
+      "Spring Security",
+      "Spring Data JPA",
+      "JWT",
+      "Bulma",
+      "Selenium",
+      "BeautifulSoup",
+      "Android Native"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB",
+      "SQLite",
+      "Firebase Database"
+    ],
+    "devops_cloud": [
+      "AWS S3",
+      "AWS Lambda",
+      "AWS ECS",
+      "AWS API Gateway",
+      "Docker",
+      "Gitlab"
+    ],
+    "tools_platforms": [
+      "Stripe",
+      "Git",
+      "GitHub"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "OOP",
+      "Design Patterns",
+      "Data Structures",
+      "Algorithms",
+      "REST APIs",
+      "Problem-solving",
+      "Secure Authentication",
+      "Online Payments",
+      "Cloud-based Image Storage",
+      "Web Scraping"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "B.Sc. in Software Engineering",
-      "graduation_year": "Present",
-      "institution_name": "Ton Duc Thang University, Vietnam"
+      "name": "Yolma Food App",
+      "type": "Personal",
+      "tech_used": [
+        "Spring Boot",
+        "Spring Security",
+        "Spring Data JPA",
+        "JWT",
+        "Stripe",
+        "AWS S3",
+        "ReactJS"
+      ],
+      "description": "Actively developing a full-stack food ordering website with secure authentication, online payments, and cloud-based image storage."
     },
     {
-      "degree": "Exchange Student in Computer Science",
-      "graduation_year": "2025",
-      "institution_name": "Regensburg University of Applied Sciences, Germany"
-    }
-  ],
-  "experience": [
+      "name": "IMDb Actor Insights Platform",
+      "type": "Personal",
+      "tech_used": [
+        "Django",
+        "ReactJS",
+        "Bulma",
+        "SQLite",
+        "Selenium",
+        "BeautifulSoup"
+      ],
+      "description": "A Django & React web app using scraped IMDb data to visualize actor filmographies, awards, and ratings."
+    },
     {
-      "company_name": "N/A",
-      "description": "Skilled in Spring Boot, experienced with REST APIs, databases, and cloud platforms, with strong problem-solving skills.",
-      "job_title": "Back-end Developer Intern",
-      "years_worked": "N/A"
+      "name": "Cloud Document Converter (AWS)",
+      "type": "Personal",
+      "tech_used": [
+        "NodeJS",
+        "ReactJS",
+        "AWS Lambda",
+        "AWS S3",
+        "AWS API Gateway",
+        "Docker"
+      ],
+      "description": "Lightweight web app for converting Word documents to PDF"
+    },
+    {
+      "name": "English Learning App",
+      "type": "Personal",
+      "tech_used": [
+        "Android Native",
+        "Firebase Database",
+        "Gitlab"
+      ],
+      "description": "Led a team of 3 to develop an Android app for learning English vocabulary with flashcards, quizzes, and progress tracking."
     }
   ],
-  "languages": [
-    "English"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University, Vietnam",
+      "degree": "B.Sc.",
+      "major": "Software Engineering",
+      "graduation_year": null,
+      "status": "In Progress"
+    },
+    {
+      "institution": "Regensburg University of Applied Sciences, Germany",
+      "degree": "Exchange Student",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "Ho Nguyen An Khang",
-  "normalized_job_titles": [
-    "Back-end Developer Intern"
-  ],
-  "skills": [
-    "Java",
-    "JavaScript",
-    "Python",
-    "C++",
-    "HTML/CSS",
-    "ReactJS",
-    "Bootstrap",
-    "Spring Boot",
-    "NodeJS",
-    "Django",
-    "MySQL",
-    "MongoDB",
-    "OOP",
-    "Design Patterns",
-    "AWS S3"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

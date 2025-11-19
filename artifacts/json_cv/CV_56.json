@@ -1,71 +1,168 @@
 {
-  "certifications": [
-    "Data Analyst Certificate Program",
-    "Python Programming Course"
+  "candidate_profile": {
+    "name": "TRAN DINH QUANG VINH",
+    "role_focus": "AI Developer or Data Engineer",
+    "seniority_level": "Junior"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "C",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks_libraries": [
+      "OpenCV",
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "NLTK",
+      "Pandas",
+      "Scikit-learn",
+      "Matplotlib",
+      "Hugging Face",
+      "Gensim",
+      "NumPy",
+      "Pickle"
+    ],
+    "databases": [
+      "SQL",
+      "Microsoft SQL Server"
+    ],
+    "devops_cloud": [
+      "Google Drive"
+    ],
+    "tools_platforms": [
+      "Postman",
+      "Git",
+      "GitHub",
+      "Draw.io"
+    ],
+    "architectures_models": [
+      "LSTM",
+      "Transformer",
+      "GPT",
+      "Seq2Seq",
+      "Doc2Vec",
+      "Naive Bayes",
+      "Logistic Regression",
+      "Decision Tree",
+      "Large Language Models (LLMs)",
+      "Deep Learning (face embeddings)",
+      "Bag of Words (BoW)"
+    ],
+    "techniques_concepts": [
+      "OOP",
+      "Data Structures & Algorithms",
+      "Machine Learning",
+      "Deep Learning",
+      "NLP",
+      "Big Data",
+      "Computer Vision",
+      "Attention Mechanism",
+      "Bahdanau Attention",
+      "BLEU score evaluation",
+      "Reinforcement Learning (RL)",
+      "Proximal Policy Optimization (PPO)",
+      "Direct Preference Optimization (DPO)",
+      "Exploratory Data Analysis (EDA)",
+      "Byte Pair Encoding (BPE)",
+      "Data Preprocessing",
+      "Text Classification",
+      "Face Encoding",
+      "Real-time Face Recognition",
+      "Hyperparameter Optimization",
+      "Data Cleaning",
+      "Version Control",
+      "Data-driven approaches",
+      "Scalable AI solutions",
+      "Sequence-to-sequence model",
+      "Document embeddings",
+      "Text representation methods",
+      "Teamwork",
+      "Problem Solving",
+      "Continuous Learning",
+      "Attention to Detail"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Machine Translation Using LSTM with Attention",
+      "type": "Academic",
+      "tech_used": [
+        "Python",
+        "PyTorch",
+        "Hugging Face",
+        "Seq2Seq with LSTM",
+        "Bahdanau Attention"
+      ],
+      "description": "Collected and preprocessed over 250,000 English–Vietnamese sentence pairs. Implemented a sequence-to-sequence model with LSTM encoder–decoder and Bahdanau attention mechanism. Experimented with baseline LSTM for comparison. Managed dataset training and evaluation pipelines on HuggingFace Datasets. Applied BLEU score evaluation and monitored validation loss to optimize hyperparameters."
+    },
+    {
+      "name": "Medical Bot with Transformer and GPT",
+      "type": "Academic",
+      "tech_used": [
+        "PyTorch (Transformer, GPT, RL with PPO & DPO)",
+        "TensorFlow",
+        "Byte Pair Encoding",
+        "EDA",
+        "Google Drive"
+      ],
+      "description": "Built deep learning models from scratch using Transformer and GPT architectures with PyTorch, trained on Vietnamese medical datasets. Applied Byte Pair Encoding for efficient dataset preprocessing. Integrated Reinforcement Learning (RL) approaches (PPO, DPO) to fine-tune language models. Conducted Exploratory Data Analysis (EDA) on UCI Heart Disease dataset. Trained and evaluated multiple machine learning models in TensorFlow, optimizing hyperparameters. Designed training pipelines, implemented data cleaning, and maintained datasets on Google Drive."
+    },
+    {
+      "name": "NLP Fake News Classification",
+      "type": "Academic",
+      "tech_used": [
+        "Python",
+        "Scikit-learn (Naive Bayes, Logistic Regression, Decision Tree)",
+        "Gensim (Doc2Vec)",
+        "Large Language Models",
+        "Data Preprocessing"
+      ],
+      "description": "Constructed a custom dataset for text classification, partially synthesized data using Large Language Models (LLMs). Implemented traditional text representation (Bag of Words) with Naive Bayes, Logistic Regression, and Decision Tree. Applied deep learning with Doc2Vec for document embeddings, experimenting with and without pre-trained models. Compared approaches based on text representation, dataset quality, and learning methods. Derived insights on effective strategies for text classification."
+    },
+    {
+      "name": "Face Recognition System Using OpenCV and Deep Learning",
+      "type": "Academic",
+      "tech_used": [
+        "Python",
+        "OpenCV",
+        "Deep Learning (face embeddings)",
+        "NumPy",
+        "Pickle"
+      ],
+      "description": "Explored Computer Vision fundamentals and OpenCV applications. Built a face recognition pipeline including dataset construction, face encoding, and recognition on static images and live video streams. Implemented core modules: build_dataset, encode_face, recognize_faces_image, recognize_faces_video. Applied Deep Learning face embedding techniques. Conducted experiments with multiple test images and live webcam streams to evaluate system performance."
+    }
   ],
-  "detected_industry": "information_technology",
   "education": [
     {
-      "degree": "Computer Science",
-      "graduation_year": "Present",
-      "institution_name": "Ton Duc Thang University"
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor of Computer Science",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "N/A",
-      "description": "Developed a machine translation system using LSTM with Bahdanau attention, processing over 250,000 English-Vietnamese sentence pairs and optimizing translation quality with BLEU score evaluation.",
-      "job_title": "Machine Learning Engineer",
-      "years_worked": "Mar–Apr2025"
+      "name": "Data Analyst Certificate Program",
+      "issuer": "Dataquest",
+      "year": null
     },
     {
-      "company_name": "N/A",
-      "description": "Built a medical chatbot using Transformer and GPT architectures with PyTorch, fine-tuned with Reinforcement Learning (PPO, DPO), and achieved high accuracy in heart disease detection using TensorFlow and EDA.",
-      "job_title": "Deep Learning Engineer",
-      "years_worked": "Apr–Jun2025"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Created a custom dataset for NLP fake news classification, implementing traditional ML algorithms (Naive Bayes, Logistic Regression, Decision Tree) and deep learning with Doc2Vec, comparing approaches for optimal text classification.",
-      "job_title": "NLP Engineer",
-      "years_worked": "Feb–Mar2025"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Developed a real-time face recognition system using OpenCV and deep learning face embeddings, including dataset construction, face encoding, and recognition on static images and live video streams.",
-      "job_title": "Computer Vision Engineer",
-      "years_worked": "Nov2024–Jan2025"
+      "name": "Python Programming Course",
+      "issuer": "MCI",
+      "year": null
     }
-  ],
-  "languages": [
-    "English",
-    "Vietnamese"
-  ],
-  "name": "TRAN DINH QUANG VINH",
-  "normalized_job_titles": [
-    "AI Developer",
-    "Data Engineer",
-    "Machine Learning Engineer",
-    "Deep Learning Engineer",
-    "NLP Engineer",
-    "Computer Vision Engineer"
-  ],
-  "skills": [
-    "Python",
-    "PyTorch",
-    "TensorFlow",
-    "Scikit-learn",
-    "OpenCV",
-    "Hugging Face",
-    "Machine Learning",
-    "Deep Learning",
-    "Natural Language Processing",
-    "Computer Vision",
-    "Data Structures & Algorithms",
-    "SQL",
-    "Git",
-    "Transformer",
-    "Reinforcement Learning"
-  ],
-  "years_of_experience": 0
+  ]
 }

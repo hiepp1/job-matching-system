@@ -1,38 +1,117 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "TRAN THANH DAI",
+    "role_focus": "AI/Data Engineer Intern",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Advanced",
+    "gpa": "7.13",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "C#",
+      "Kotlin"
+    ],
+    "frameworks_libraries": [
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "PySpark",
+      "OpenCV",
+      "YOLOv5",
+      "YOLOv8",
+      "DeepSORT"
+    ],
+    "databases": [
+      "MySQL",
+      "Firebase"
+    ],
+    "devops_cloud": [
+      "Git",
+      "Google Colab",
+      "Kaggle",
+      "Firebase"
+    ],
+    "tools_platforms": [
+      "Android Studio",
+      "Visual Studio",
+      "LaTeX",
+      "Ubuntu"
+    ],
+    "architectures_models": [
+      "LSTM",
+      "Attention Mechanism",
+      "Apriori",
+      "FP-Growth",
+      "HUOMIL",
+      "HUOPM"
+    ],
+    "techniques_concepts": [
+      "AI Engineering",
+      "Datamining",
+      "Natural Language Processing",
+      "Computer Vision",
+      "Object Detection",
+      "Big Data",
+      "Context Detection"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Computer Science",
-      "graduation_year": "Ongoing",
-      "institution_name": "Ton Duc Thang University"
+      "name": "Design LLM model to correct grammar in Vietnamese",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "LSTM",
+        "Attention Mechanism"
+      ],
+      "description": "Built an automatic Vietnamese grammar correction model (with context detection) with LSTM and attention mechanism."
+    },
+    {
+      "name": "Research and Adapt Datamining Algorithm for big Data",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Python",
+        "PySpark",
+        "Google Colab",
+        "Ubuntu",
+        "Apriori",
+        "FP-Growth",
+        "HUOMIL",
+        "HUOPM"
+      ],
+      "description": "Understood and smoothly applied datamining algorithms like Apriori, FP-Growth, implemented High Utility Occupancy Datamining Algorithm (HUOMIL and HUOPM) and adapted them to work on Big Data."
+    },
+    {
+      "name": "Detect and Classify Objects on Images and Videos",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "YOLOv5",
+        "YOLOv8",
+        "OpenCV",
+        "DeepSORT",
+        "Computer Vision"
+      ],
+      "description": "Applied Computer Vision knowledge to build an AI agent and classify objects appearing in real-time video or still images."
     }
   ],
-  "experience": [],
-  "languages": [
-    "English",
-    "Vietnamese"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "TRAN THANH DAI",
-  "normalized_job_titles": [
-    "IT Intern"
-  ],
-  "skills": [
-    "Python",
-    "Java",
-    "C#",
-    "Kotlin",
-    "Firebase",
-    "MySQL",
-    "Git",
-    "OpenCV",
-    "Android Studio",
-    "Visual Studio",
-    "PySpark",
-    "Google Colab",
-    "Kaggle",
-    "TensorFlow",
-    "PyTorch"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

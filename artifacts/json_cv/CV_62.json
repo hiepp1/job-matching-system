@@ -1,37 +1,65 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
+  "candidate_profile": {
+    "name": "Ngô Hoàng Khôi",
+    "role_focus": "Fullstack Developer",
+    "seniority_level": "Junior"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate (B2)",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Java",
+      "Javascript",
+      "Python",
+      "SQL"
+    ],
+    "frameworks_libraries": [
+      "Spring Boot",
+      "Node.js"
+    ],
+    "databases": [
+      "Relational Databases"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Figma",
+      "draw.io",
+      "Git"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Authentication",
+      "RESTful",
+      "OOP"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "E-commerce Website",
+      "type": "Personal",
+      "tech_used": [
+        "SQL",
+        "Spring Boot",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Developed an e-commerce website with features for product management (add, delete, edit), customer purchasing, and user authentication (sign-in, sign-up). Designed the user interface."
+    }
+  ],
   "education": [
     {
-      "degree": "Software Engineering",
+      "institution": "Tôn Đức Thắng University",
+      "degree": "Bachelor",
+      "major": "Software Engineering",
       "graduation_year": "2024",
-      "institution_name": "Ton Duc Thang University"
+      "status": "Graduated"
     }
   ],
-  "experience": [
-    {
-      "company_name": "Personal Project",
-      "description": "Designed user interface for an e-commerce website. Implemented product management features (add, delete, edit) for the store, enabled product viewing and purchasing. Developed user authentication including sign-in and sign-up functionalities.",
-      "job_title": "Fullstack Developer",
-      "years_worked": "2 months"
-    }
-  ],
-  "languages": [
-    "English (B2)"
-  ],
-  "name": "Ngô Hoàng Khôi",
-  "normalized_job_titles": [
-    "Fullstack Developer"
-  ],
-  "skills": [
-    "Java",
-    "Spring Boot",
-    "Javascript",
-    "Node.js",
-    "SQL",
-    "Python",
-    "Figma",
-    "draw.io"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

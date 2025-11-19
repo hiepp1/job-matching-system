@@ -1,33 +1,48 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
+  "candidate_profile": {
+    "name": "Nguyễn Ngọc Ái Đan",
+    "role_focus": "Software Developer Intern",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor's Degree",
+    "english_proficiency": null,
+    "gpa": 7.3,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "HTML",
+      "CSS",
+      "C",
+      "C++",
+      "Java",
+      "Python",
+      "JavaScript"
+    ],
+    "frameworks_libraries": [],
+    "databases": [],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Git",
+      "GitHub"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "OOP",
+      "Data Structures & Algorithms"
+    ]
+  },
+  "work_experience": [],
+  "projects": [],
   "education": [
     {
-      "degree": "Information Technology",
+      "institution": "Tôn Đức Thắng University",
+      "degree": "Bachelor's Degree",
+      "major": "Information Technology",
       "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
+      "status": "In Progress"
     }
   ],
-  "experience": [],
-  "languages": [],
-  "name": "Nguyen Ngoc Ai Dan",
-  "normalized_job_titles": [],
-  "skills": [
-    "HTML",
-    "CSS",
-    "C",
-    "C++",
-    "Java",
-    "Python",
-    "JavaScript",
-    "OOP",
-    "Data Structures",
-    "Algorithms",
-    "Git/GitHub",
-    "Teamwork",
-    "Project Coordination",
-    "Communication",
-    "Presentation"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

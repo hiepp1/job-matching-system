@@ -1,37 +1,53 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
+  "candidate_profile": {
+    "name": "VÂN ĐẠI KIỆT",
+    "role_focus": "Student (IT)",
+    "seniority_level": "Student"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": "7.01/10",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [],
+    "frameworks_libraries": [],
+    "databases": [],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Word",
+      "Excel",
+      "PowerPoint"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Object-Oriented Programming (OOP)",
+      "Manual Testing",
+      "Smoke Testing",
+      "Integration Testing"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Railway website",
+      "type": "Academic",
+      "tech_used": [],
+      "description": "A train ticket booking website project undertaken at the Informatics Center of University of Science. Key responsibilities included performing smoke and integration tests, writing and executing test cases, creating bug lists, and writing daily reports.",
+      "start_date": "2024-04",
+      "end_date": "2024-08",
+      "duration_months": 5
+    }
+  ],
   "education": [
     {
-      "degree": "Computer Network & System Administration",
-      "graduation_year": "Present",
-      "institution_name": "Ton Duc Thang University"
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Network & System Administration",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [
-    {
-      "company_name": "Informatics Center of University of Science",
-      "description": "Participated in the Railway website project, a train ticket booking website. Responsibilities included performing smoke and integration tests, writing and executing test cases, creating bug lists, and writing daily reports.",
-      "job_title": "Student",
-      "years_worked": "Apr 2024 – Aug 2024"
-    }
-  ],
-  "languages": [
-    "English"
-  ],
-  "name": "VÂN ĐẠI KIỆT",
-  "normalized_job_titles": [
-    "QA Tester"
-  ],
-  "skills": [
-    "OOP",
-    "Manual Testing",
-    "Word",
-    "Excel",
-    "PowerPoint",
-    "Teamwork",
-    "Creativity",
-    "Database Management System"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

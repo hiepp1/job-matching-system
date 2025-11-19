@@ -1,47 +1,176 @@
 {
-  "certifications": [
-    "TOEIC 850"
+  "candidate_profile": {
+    "name": "Chí Kha",
+    "role_focus": "Backend Developer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Advanced/TOEIC 850",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Java",
+      "Python",
+      "PHP",
+      "JavaScript",
+      "C++"
+    ],
+    "frameworks_libraries": [
+      "Spring",
+      "Spring Boot",
+      "Laravel",
+      "React.js",
+      "Django",
+      "FastAPI",
+      "JQuery",
+      "Bootstrap",
+      "TailwindCSS",
+      "Flowbite",
+      "Blade",
+      "Vite",
+      "Laravel Breeze",
+      "JUnit",
+      "Mockito",
+      "Caffeine",
+      "WebSocket"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB",
+      "Redis"
+    ],
+    "devops_cloud": [
+      "Docker",
+      "GitHub",
+      "RabbitMQ",
+      "Google Cloud Vision API",
+      "Google Drive API"
+    ],
+    "tools_platforms": [
+      "Git",
+      "Postman",
+      "Swagger",
+      "Wordpress",
+      "npm",
+      "Google Console",
+      "VNPay"
+    ],
+    "architectures_models": [
+      "RESTful APIs",
+      "Microservices"
+    ],
+    "techniques_concepts": [
+      "Data Structure and Algorithms",
+      "Object-Oriented Programming",
+      "Version Control",
+      "JWT Authentication/Authorization",
+      "Caching",
+      "Asynchronous Task Handling",
+      "Unit Testing",
+      "Modular Design",
+      "Dependency Management",
+      "Automated Tests",
+      "Responsive UI",
+      "Real-time Chat",
+      "System Design",
+      "Scalable Web Solutions"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "NAM LONG MEDIA & ADVERTISING CO., LTD.",
+      "role": "Front-End Developer Intern",
+      "start_date": "2025-03",
+      "end_date": "2025-05",
+      "duration_months": 3,
+      "is_internship": true,
+      "tech_used": [
+        "Wordpress",
+        "Gmail API",
+        "Google Console",
+        "PHP"
+      ],
+      "responsibilities": "Assisted in customizing and improving website interfaces using Wordpress. Integrated Gmail API via Google Console to enable automated email notifications to administrators. Explored the company's PHP-based web applications for better understanding of system development."
+    }
   ],
-  "detected_industry": "information_technology",
+  "projects": [
+    {
+      "name": "Real Estate Website",
+      "type": "Personal",
+      "tech_used": [
+        "Spring Boot",
+        "React",
+        "MySQL",
+        "Docker",
+        "JWT",
+        "Caffeine",
+        "Redis",
+        "RabbitMQ",
+        "VNPay",
+        "Spring Mail",
+        "Google Drive API",
+        "Google Cloud Vision",
+        "WebSocket",
+        "JUnit",
+        "Mockito"
+      ],
+      "description": "Developed a full-stack real estate marketplace where users can create paid property listings, browse properties, and communicate through an integrated chat system. Designed optimized database schema and developed RESTful APIs with advanced filtering. Implemented JWT authentication/authorization, caching, and RabbitMQ for async task handling. Integrated VNPay sandbox for payments, Spring Mail for email, Google Drive API for storage, and Google Cloud Vision for image analysis. Developed a responsive UI with real-time chat and lead capture forms. Wrote unit tests."
+    },
+    {
+      "name": "iBanking Application – Tuition Payment Subsystem",
+      "type": "Academic",
+      "tech_used": [
+        "Python",
+        "FastAPI",
+        "MySQL",
+        "Docker"
+      ],
+      "description": "Developed a tuition payment micro-subsystem as part of a larger iBanking application, responsible for handling all logic related to student payments. Built using Python with modular design to ensure maintainability and testability. Containerized via Docker for consistent development and deployment environments. Designed database schema and implemented RESTful APIs to interact with frontend or other subsystems. Included dependency management and automated tests to ensure system reliability."
+    },
+    {
+      "name": "Laptop Shop App",
+      "type": "Personal",
+      "tech_used": [
+        "Laravel 10",
+        "MySQL 8",
+        "TailwindCSS",
+        "Flowbite",
+        "Blade templating",
+        "Laravel Breeze",
+        "Vite",
+        "npm",
+        "PHP"
+      ],
+      "description": "Developed an e-commerce web application for laptop shopping using Laravel 10, MySQL 8, TailwindCSS, and Flowbite. Features for users include searching laptops by name/price, managing shopping cart, placing orders, and viewing shipment status. Features for admins include adding/editing/deleting laptops, managing users, updating order status, and locking user accounts."
+    }
+  ],
   "education": [
     {
-      "degree": "Software Technology",
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor of Software Technology",
+      "major": "Software Technology",
       "graduation_year": "2026",
-      "institution_name": "Ton Duc Thang University"
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "NAM LONG MEDIA & ADVERTISING CO., LTD.",
-      "description": "Assisted in customizing and improving website interfaces using Wordpress. Integrated Gmail API via Google Console to enable automated email notifications to administrators. Explored the company's PHP-based web applications for better understanding of system development.",
-      "job_title": "Front-End Developer Intern",
-      "years_worked": "2 months"
+      "name": "TOEIC 850",
+      "issuer": "ETS",
+      "year": "2025"
+    },
+    {
+      "name": "Top 30 – “Code Your Future” IT Contest",
+      "issuer": "CJ Group",
+      "year": "2024"
+    },
+    {
+      "name": "Top 5 – IT Competency Assessment Contest (Backend Track)",
+      "issuer": "TDTU",
+      "year": "2024"
     }
-  ],
-  "languages": [
-    "English"
-  ],
-  "name": "Chí Kha",
-  "normalized_job_titles": [
-    "Backend Developer Intern",
-    "Front-End Developer Intern"
-  ],
-  "skills": [
-    "Java",
-    "Spring Boot",
-    "Python",
-    "Laravel",
-    "React",
-    "Data Structures and Algorithms",
-    "Object-Oriented Programming",
-    "MySQL",
-    "MongoDB",
-    "Git",
-    "Docker",
-    "FastAPI",
-    "Django",
-    "HTML",
-    "CSS"
-  ],
-  "years_of_experience": 0
+  ]
 }

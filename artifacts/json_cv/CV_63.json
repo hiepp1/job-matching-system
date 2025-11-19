@@ -1,42 +1,93 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
+  "candidate_profile": {
+    "name": "PHẠM DUY TÂM",
+    "role_focus": "Software Engineer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": null,
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [],
+    "frameworks_libraries": [
+      "Odoo"
+    ],
+    "databases": [
+      "MongoDB"
+    ],
+    "devops_cloud": [
+      "DevOps"
+    ],
+    "tools_platforms": [
+      "Git",
+      "GitHub",
+      "JWT",
+      "bcrypt",
+      "Microsoft Word",
+      "Microsoft Excel",
+      "Microsoft PowerPoint"
+    ],
+    "architectures_models": [
+      "RESTful API"
+    ],
+    "techniques_concepts": [
+      "Data Structures & Algorithms",
+      "Software Project Management",
+      "Web Technology",
+      "Mobile Application Development",
+      "Agile",
+      "Server-side Logic",
+      "HTTP",
+      "CRUD",
+      "System Access Management",
+      "System Performance Monitoring",
+      "ERP",
+      "CRM",
+      "Access Control",
+      "Data Encryption",
+      "System Backup",
+      "Software Development",
+      "Technical Process Improvement",
+      "Problem Solving",
+      "Teamwork",
+      "Creative Thinking"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "E-commerce Web Development",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "MongoDB",
+        "JWT",
+        "bcrypt",
+        "Git",
+        "GitHub",
+        "RESTful API"
+      ],
+      "description": "Developed server-side logic to handle user requests, created and managed RESTful APIs for frontend-backend communication, processed HTTP requests (GET, POST, PUT, DELETE), performed CRUD operations with MongoDB, implemented user authentication using JWT, secured user information by encrypting passwords with bcrypt, and utilized Git and GitHub for source code management and teamwork."
+    },
+    {
+      "name": "Odoo ERP System Deployment and Customization",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Odoo"
+      ],
+      "description": "Gained deep understanding of business processes, created and customized Odoo modules to meet specific business requirements (e.g., batch/expiry product management, HR management), understood basic security measures like access control, data encryption, and system backup, and improved logical thinking by resolving issues in module customization and system integration. Also learned to monitor and analyze system performance."
+    }
+  ],
   "education": [
     {
-      "degree": "Software Engineering",
-      "graduation_year": "N/A",
-      "institution_name": "Ton Duc Thang University"
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor's Degree",
+      "major": "Software Engineering",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [
-    {
-      "company_name": "N/A",
-      "description": "Developed e-commerce web features, including server-side logic, RESTful APIs for frontend-backend communication, and handling HTTP requests. Performed CRUD operations with MongoDB, implemented user authentication using JWT, and protected user data with bcrypt encryption. Utilized Git and GitHub for source code management and teamwork. Gained familiarity with system access management, system performance monitoring and analysis, and developed/deployed enterprise software like ERP and CRM. Customized Odoo ERP systems to optimize business processes, including creating and tailoring Odoo modules and troubleshooting integration issues. Applied basic security measures like access control, data encryption, and system backup.",
-      "job_title": "Software Engineer",
-      "years_worked": "N/A"
-    }
-  ],
-  "languages": [],
-  "name": "PHAM DUY TAM",
-  "normalized_job_titles": [
-    "Software Engineer"
-  ],
-  "skills": [
-    "Software Development",
-    "Web Development",
-    "RESTful API Development",
-    "MongoDB",
-    "Git",
-    "GitHub",
-    "ERP Systems",
-    "CRM Systems",
-    "Odoo Customization",
-    "Problem Solving",
-    "System Performance Analysis",
-    "Data Security",
-    "Technical Process Improvement",
-    "Teamwork",
-    "Business Process Analysis"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

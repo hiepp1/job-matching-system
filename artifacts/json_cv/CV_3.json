@@ -1,49 +1,222 @@
 {
-  "certifications": [
-    "B2 Aptis English Certificate – British Council 2024",
-    "Advanced Computer Vision with TensorFlow – Coursera 2025",
-    "Neural Networks and Deep Learning – Coursera 2025",
-    "Python for Data Analysis: Pandas & NumPy – Coursera 2025",
-    "Sequences, Time Series and Prediction – Coursera 2025",
-    "Time Series Mastery: Forecasting with ETS, ARIMA, Python – Coursera 2025",
-    "Attention Mechanisms and Transformer Models Course – Coursera 2025"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "NGUYỄN THÀNH LONG",
+    "role_focus": "AI Engineer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Master",
+    "english_proficiency": "Advanced",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "SQL"
+    ],
+    "frameworks_libraries": [
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "Keras",
+      "HuggingFace Transformers",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Streamlit",
+      "FastAPI",
+      "XGBoost",
+      "Random Forest",
+      "Linear Regression",
+      "Decision Tree",
+      "Heapq"
+    ],
+    "databases": [],
+    "devops_cloud": [
+      "Git",
+      "Linux"
+    ],
+    "tools_platforms": [
+      "OpenCV",
+      "Google Colab",
+      "Jupyter",
+      "Tableau"
+    ],
+    "architectures_models": [
+      "CNNs",
+      "YOLO",
+      "Transformers",
+      "BERT",
+      "GPT",
+      "LSTM",
+      "Encoder-Decoder model",
+      "GPT-3"
+    ],
+    "techniques_concepts": [
+      "Deep Learning",
+      "Time Series Forecasting",
+      "Multimodal Learning",
+      "Computer Vision",
+      "Sequence Modeling",
+      "Transformer-based architectures",
+      "Image Segmentation",
+      "Visual Question Answering",
+      "Natural Language Processing",
+      "Text Summarization",
+      "Sentiment Analysis",
+      "Data Science",
+      "Data Visualization",
+      "Mixed-precision training",
+      "Data augmentation",
+      "Image preprocessing",
+      "Binarization",
+      "Noise reduction",
+      "SHAP",
+      "ColumnTransformer",
+      "Imputation",
+      "Scaling",
+      "Encoding",
+      "Top-K High Utility Itemset Mining",
+      "Depth-first search (DFS)",
+      "Pruning strategies",
+      "Uncertain data",
+      "Interactive mining",
+      "Agile Workflow",
+      "Research & Technical Writing",
+      "Problem-solving",
+      "Teamwork",
+      "Leadership"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Master of Science in Computer Science",
-      "graduation_year": "Present",
-      "institution_name": "Ton Duc Thang University (TDTU)"
+      "name": "Visual Question Answering (VQA) System",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Python",
+        "PyTorch",
+        "CNN",
+        "Transformer"
+      ],
+      "description": "Designed a deep learning pipeline combining CNN and Transformer architectures to answer natural language questions about images, achieving 78% accuracy on the COCO-VQA dataset and optimizing model inference speed by 25%."
     },
     {
-      "degree": "Bachelor of Science in Computer Science",
-      "graduation_year": "2026",
-      "institution_name": "Ton Duc Thang University (TDTU)"
+      "name": "Neural Machine Translation with GPT",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "HuggingFace Transformers",
+        "PyTorch",
+        "GPT-3",
+        "FastAPI"
+      ],
+      "description": "Fine-tuned a GPT-3 model for Vietnamese-to-English translation, achieving a BLEU score of 32, preprocessed a dataset of 50,000 sentence pairs, and deployed the model using FastAPI for real-time translation."
+    },
+    {
+      "name": "Image Captioning System",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Python",
+        "CNN",
+        "LSTM",
+        "Transformer",
+        "PyTorch",
+        "Streamlit"
+      ],
+      "description": "Developed an encoder-decoder model using CNN and LSTM to generate descriptive captions for images, achieving a BLEU-4 score of 0.65 on the Flickr8k dataset, and integrated the model into a web app using Streamlit."
+    },
+    {
+      "name": "OCR System for Scanned Documents",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "OpenCV",
+        "CNN",
+        "Transformer",
+        "Python"
+      ],
+      "description": "Built an OCR pipeline for extracting text from scanned documents, applying image preprocessing techniques to improve text recognition, and automating processing of over 1,000 documents."
+    },
+    {
+      "name": "Real Estate Price Prediction",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Pandas",
+        "Scikit-learn",
+        "XGBoost",
+        "Random Forest",
+        "Linear Regression",
+        "Decision Tree",
+        "SHAP",
+        "ColumnTransformer"
+      ],
+      "description": "Developed a Random Forest regression model to predict resale HDB prices in Singapore, achieving an R2 score of 0.89, applied SHAP to interpret predictions, and processed over 10,000 listings with 'ColumnTransformer'."
+    },
+    {
+      "name": "Top-K High Utility Itemset Mining",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Python",
+        "Heapq",
+        "Data Mining"
+      ],
+      "description": "Implemented a Top-K High Utility Itemset Mining algorithm using depth-first search (DFS) and pruning strategies, simulated uncertain databases, and visualized performance trends using Matplotlib."
     }
   ],
-  "experience": [],
-  "languages": [
-    "Vietnamese",
-    "English"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University (TDTU)",
+      "degree": "Master of Science",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
+    },
+    {
+      "institution": "Ton Duc Thang University (TDTU)",
+      "degree": "Bachelor of Science",
+      "major": "Computer Science",
+      "graduation_year": "2026",
+      "status": "In Progress"
+    }
   ],
-  "name": "NGUYỄN THÀNH LONG",
-  "normalized_job_titles": [],
-  "skills": [
-    "Python",
-    "Java",
-    "JavaScript",
-    "PyTorch",
-    "TensorFlow",
-    "Scikit-learn",
-    "HuggingFace Transformers",
-    "OpenCV",
-    "CNNs",
-    "YOLO",
-    "BERT",
-    "GPT",
-    "Pandas",
-    "NumPy",
-    "SQL"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "B2 Aptis English Certificate",
+      "issuer": "British Council",
+      "year": "2024"
+    },
+    {
+      "name": "Advanced Computer Vision with TensorFlow",
+      "issuer": "Coursera",
+      "year": "2025"
+    },
+    {
+      "name": "Neural Networks and Deep Learning",
+      "issuer": "Coursera",
+      "year": "2025"
+    },
+    {
+      "name": "Python for Data Analysis: Pandas & NumPy",
+      "issuer": "Coursera",
+      "year": "2025"
+    },
+    {
+      "name": "Sequences, Time Series and Prediction",
+      "issuer": "Coursera",
+      "year": "2025"
+    },
+    {
+      "name": "Time Series Mastery: Forecasting with ETS, ARIMA, Python",
+      "issuer": "Coursera",
+      "year": "2025"
+    },
+    {
+      "name": "Attention Mechanisms and Transformer Models Course",
+      "issuer": "Coursera",
+      "year": "2025"
+    }
+  ]
 }

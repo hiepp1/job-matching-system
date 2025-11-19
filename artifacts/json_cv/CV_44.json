@@ -1,73 +1,125 @@
 {
-  "certifications": [
-    "TOEIC L&R - 805",
-    "Aptis ESOL General - C level",
-    "CCNA: Introduction to Networks",
-    "CCNA: Switching, Routing, and Wireless Essentials"
+  "candidate_profile": {
+    "name": "PHAM DUY BAO",
+    "role_focus": "Software Developer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Advanced",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "Dart"
+    ],
+    "frameworks_libraries": [
+      "Node.js",
+      "React",
+      "Tailwind CSS",
+      "Express",
+      "Flutter"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB"
+    ],
+    "devops_cloud": [
+      "Docker",
+      "Docker Compose",
+      "Nginx"
+    ],
+    "tools_platforms": [
+      "SVN",
+      "GIT",
+      "Vite"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "OOP",
+      "RESTful API"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Job Website",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "HTML",
+        "CSS",
+        "PHP"
+      ],
+      "description": "A web platform that supports job registration and application."
+    },
+    {
+      "name": "Ecommerce Website",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "React",
+        "Tailwind CSS",
+        "Vite",
+        "Node.js",
+        "Express",
+        "Docker",
+        "Docker Compose",
+        "Nginx"
+      ],
+      "description": "An e-commerce platform providing a complete shopping and management experience."
+    },
+    {
+      "name": "Multilingual Managing Recipe Flutter Application",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Flutter",
+        "Dart"
+      ],
+      "description": "A multilingual recipe management application built with Flutter."
+    },
+    {
+      "name": "Simulated Email Service Application",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Flutter",
+        "Dart"
+      ],
+      "description": "A simulated mail service application developed using Flutter."
+    }
   ],
-  "detected_industry": "information_technology",
   "education": [
     {
+      "institution": "Ton Duc Thang University",
       "degree": "Bachelor of Software Engineering",
+      "major": "Software Engineering",
       "graduation_year": "2026",
-      "institution_name": "Ton Duc Thang University"
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "Job Website Project",
-      "description": "Developed a web platform that supports job registration and application using HTML, CSS (Frontend) and PHP (Backend).",
-      "job_title": "Leader & Developer",
-      "years_worked": "2024"
+      "name": "TOEIC L&R - 805",
+      "issuer": "ETS",
+      "year": null
     },
     {
-      "company_name": "Ecommerce Website Project",
-      "description": "Built an e-commerce platform providing a complete shopping and management experience using React, Tailwind CSS, Vite (Frontend & Admin); Node.js, Express (Backend); Docker, Docker Compose, Nginx.",
-      "job_title": "Leader & Developer",
-      "years_worked": "2024"
+      "name": "Aptis ESOL General - C level",
+      "issuer": "British Council",
+      "year": null
     },
     {
-      "company_name": "Multilingual Recipe Application Project",
-      "description": "Developed a multilingual recipe management application using Flutter and Dart (Frontend & Backend).",
-      "job_title": "Leader & Developer",
-      "years_worked": "2025"
+      "name": "CCNA: Introduction to Networks",
+      "issuer": "Cisco",
+      "year": null
     },
     {
-      "company_name": "Simulated Email Service Application Project",
-      "description": "Developed a simulated mail service application using Flutter and Dart (Frontend & Backend).",
-      "job_title": "Leader & Developer",
-      "years_worked": "2025"
+      "name": "CCNA: Switching, Routing, and Wireless Essentials",
+      "issuer": "Cisco",
+      "year": null
     }
-  ],
-  "languages": [
-    "English"
-  ],
-  "name": "PHAM DUY BAO",
-  "normalized_job_titles": [
-    "Software Developer",
-    "Leader"
-  ],
-  "skills": [
-    "OOP",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "PHP",
-    "Node.js",
-    "MySQL",
-    "MongoDB",
-    "Restful API",
-    "SVN",
-    "GIT",
-    "React",
-    "Tailwind CSS",
-    "Vite",
-    "Express",
-    "Docker",
-    "Nginx",
-    "Dart",
-    "Flutter",
-    ".NET"
-  ],
-  "years_of_experience": 0
+  ]
 }

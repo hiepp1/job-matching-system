@@ -1,36 +1,90 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "ĐẶNG QUANG VINH",
+    "role_focus": "Network Administrator / System Administrator",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": null,
+    "gpa": 7.76,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "SQL"
+    ],
+    "frameworks_libraries": [],
+    "databases": [
+      "MySQL",
+      "SQL Server"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Cisco Packet Tracer",
+      "GNS3",
+      "Wireshark",
+      "VMware",
+      "VirtualBox",
+      "Windows Server",
+      "Linux"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Network Systems",
+      "LAN/WAN",
+      "TCP/IP",
+      "OSI",
+      "VLAN",
+      "NAT",
+      "ACL",
+      "EIGRP",
+      "OSPF",
+      "Firewall",
+      "VPN",
+      "SSL/TLS",
+      "DHCP",
+      "Script Automation",
+      "Data Processing",
+      "Object-Oriented Programming"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Computer Networks and Data Communications",
-      "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
+      "name": "Small Enterprise Network Simulation",
+      "type": "Academic",
+      "tech_used": [
+        "Packet Tracer",
+        "VLAN",
+        "EIGRP",
+        "NAT",
+        "DHCP",
+        "WAN"
+      ],
+      "description": "Designed network diagram including VLAN, EIGRP, NAT, DHCP, and WAN connection."
+    },
+    {
+      "name": "DoH and Non-DoH Traffic Dataset Research",
+      "type": "Academic",
+      "tech_used": [
+        "Wireshark",
+        "Java",
+        "Python"
+      ],
+      "description": "Collected data using Wireshark; data processed and analyzed with Java and Python to extract network flow characteristics such as inter-packet latency, size, byte count, symmetry, and correlation within the flow."
     }
   ],
-  "experience": [],
-  "languages": [
-    "Vietnamese",
-    "English"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Networks and Data Communications",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "DANG QUANG VINH",
-  "normalized_job_titles": [],
-  "skills": [
-    "Network Protocols",
-    "Network Configuration",
-    "Cisco Packet Tracer",
-    "GNS3",
-    "Firewall",
-    "VPN",
-    "Wireshark",
-    "VMware",
-    "VirtualBox",
-    "Windows Server",
-    "Linux",
-    "Python Programming",
-    "Java Programming",
-    "MySQL",
-    "SQL Server"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

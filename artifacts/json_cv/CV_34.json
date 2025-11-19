@@ -1,55 +1,176 @@
 {
-  "certifications": [
-    "British Council - IELTS 6.0",
-    "Udemy - LLM Engineering: Master AI and Large Language Models"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "LE NGUYEN VIET HIEP",
+    "role_focus": "AI Engineer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "IELTS 6.0",
+    "gpa": null,
+    "years_experience": 1.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "C++"
+    ],
+    "frameworks_libraries": [
+      "TensorFlow",
+      "PyTorch",
+      "Hugging Face",
+      "LangChain",
+      "n8n",
+      "XChart"
+    ],
+    "databases": [
+      "PostgreSQL"
+    ],
+    "devops_cloud": [
+      "Firebase",
+      "GitHub"
+    ],
+    "tools_platforms": [
+      "VSCode",
+      "Google Colab",
+      "Google Gemini API",
+      "Facebook Messenger"
+    ],
+    "architectures_models": [
+      "CNN",
+      "RNN",
+      "Transformer",
+      "DenseNet201",
+      "GPT",
+      "Gemini"
+    ],
+    "techniques_concepts": [
+      "Attention Mechanism",
+      "Fine-tuning LLMs",
+      "RAG",
+      "Tokenization",
+      "Padding",
+      "Adam optimizer",
+      "BLEU score",
+      "Data preprocessing",
+      "Deployment",
+      "Integration",
+      "Network configuration",
+      "DNS",
+      "IP",
+      "Data handling",
+      "Troubleshooting",
+      "Data mining",
+      "Utility-based",
+      "DFS tree structures",
+      "PRIU pruning strategies",
+      "PLIU pruning strategies",
+      "Deep learning",
+      "NLP",
+      "Intelligent systems",
+      "Agile",
+      "Scrum",
+      "Machine Learning",
+      "LLMs",
+      "AI solutions",
+      "End-to-end AI solutions",
+      "Low-code AI integration"
+    ]
+  },
+  "work_experience": [
     {
-      "degree": "Bachelor of Computer Science",
-      "graduation_year": "Present",
-      "institution_name": "Ton Duc Thang University"
-    }
-  ],
-  "experience": [
-    {
-      "company_name": "FUNiX",
-      "description": "Designed and taught English communication courses, leveraging AI to create personalized learning paths for each student.",
-      "job_title": "English Tutors (Part-time)",
-      "years_worked": "10 months"
+      "company": "FUNiX",
+      "role": "English Tutors (Part-time)",
+      "start_date": "2024-06",
+      "end_date": "2025-03",
+      "duration_months": 10,
+      "is_internship": false,
+      "tech_used": [
+        "AI"
+      ],
+      "responsibilities": "Designed and taught English communication courses, leveraging AI to create personalized learning paths for each student."
     },
     {
-      "company_name": "Garena",
-      "description": "Operated and monitored IT systems & electronic devices during professional esports tournaments, ensuring network stability and hardware reliability. Applied knowledge of network configuration (DNS and IP), data handling, and troubleshooting to maintain high-performance environments under real-time pressure.",
-      "job_title": "Esports Match Operations (Part-time)",
-      "years_worked": "9 months"
+      "company": "Garena",
+      "role": "Esports Match Operations (Part-time)",
+      "start_date": "2024-09",
+      "end_date": "2025-05",
+      "duration_months": 9,
+      "is_internship": false,
+      "tech_used": [
+        "IT systems",
+        "Network configuration",
+        "DNS",
+        "IP",
+        "Data handling",
+        "Troubleshooting"
+      ],
+      "responsibilities": "Operated and monitored IT systems & electronic devices (PCs, storage, headsets) during professional esports tournaments, ensuring network stability and hardware reliability. Applied knowledge of network configuration (DNS and IP), data handling, and troubleshooting to maintain high-performance environments under real-time pressure."
     }
   ],
-  "languages": [
-    "English"
+  "projects": [
+    {
+      "name": "Short-time Mining of Top-K Periodic High-Utility Probabilistic Itemsets",
+      "type": "Personal",
+      "tech_used": [
+        "Java",
+        "XChart",
+        "Data mining algorithm",
+        "Probability-based utility",
+        "DFS tree structures",
+        "PRIU pruning strategies",
+        "PLIU pruning strategies"
+      ],
+      "description": "Developed a data mining algorithm in Java to extract high-utility itemsets from transactional data, utilized probability-based utility and DFS tree structures, incorporating PRIU and PLIU pruning strategies for optimization. Evaluated using XChart."
+    },
+    {
+      "name": "Image Captioning",
+      "type": "Personal",
+      "tech_used": [
+        "CNN-LSTM architecture",
+        "DenseNet201",
+        "TensorFlow",
+        "Tokenization",
+        "Padding",
+        "Adam optimizer",
+        "BLEU score"
+      ],
+      "description": "A deep learning model using CNN-LSTM architecture with DenseNet201 and TensorFlow to generate image captions. Applied tokenization, padding, and Adam optimizer for training. Evaluated with BLEU score."
+    },
+    {
+      "name": "Personal AI Agent Assistant",
+      "type": "Personal",
+      "tech_used": [
+        "n8n",
+        "Google Gemini API",
+        "PostgreSQL",
+        "LangChain",
+        "Facebook Messenger chatbot",
+        "NLP"
+      ],
+      "description": "An intelligent Facebook Messenger chatbot using n8n for automation, Google Gemini API for NLP, PostgreSQL for memory, and LangChain for scalable conversations. Demonstrates low-code AI integration."
+    }
   ],
-  "name": "LE NGUYEN VIET HIEP",
-  "normalized_job_titles": [
-    "IT Intern",
-    "English Tutor",
-    "Esports Match Operations"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor of Computer Science",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "skills": [
-    "Python",
-    "Java",
-    "C++",
-    "CNN",
-    "RNN",
-    "Transformer",
-    "Attention Mechanism",
-    "LLM Fine-tuning",
-    "TensorFlow",
-    "PyTorch",
-    "Hugging Face",
-    "LangChain",
-    "RAG",
-    "GitHub",
-    "Agile/Scrum"
-  ],
-  "years_of_experience": 1
+  "certifications": [
+    {
+      "name": "IELTS 6.0",
+      "issuer": "British Council",
+      "year": "2023"
+    },
+    {
+      "name": "LLM Engineering: Master AI and Large Language Models",
+      "issuer": "Udemy",
+      "year": "2025"
+    }
+  ]
 }

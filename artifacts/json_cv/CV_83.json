@@ -1,54 +1,139 @@
 {
-  "certifications": [
-    "APTIS ESOL - C1 (183/200)"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "L A N G U Y E N Q U O C T H I N H",
+    "role_focus": "AI Engineer",
+    "seniority_level": "Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Advanced (C1)",
+    "gpa": 7.3,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python"
+    ],
+    "frameworks_libraries": [
+      "PyTorch",
+      "TensorFlow",
+      "LangChain",
+      "Hugging Face Transformers",
+      "LLaMAIndex",
+      "SentenceTransformers",
+      "Pandas",
+      "NumPy",
+      "spaCy",
+      "OpenCV",
+      "BeautifulSoup4",
+      "Rank-BM25",
+      "Streamlit",
+      "Matplotlib",
+      "Google GenAI",
+      "Torchvision",
+      "PIL"
+    ],
+    "databases": [
+      "Pinecone"
+    ],
+    "devops_cloud": [
+      "Docker",
+      "Gemini API"
+    ],
+    "tools_platforms": [
+      "Git",
+      "Colab",
+      "Kaggle"
+    ],
+    "architectures_models": [
+      "ResNet",
+      "LSTM",
+      "Attention",
+      "Beam Search",
+      "LLaMA",
+      "Gemini Pro",
+      "Gemini Flash",
+      "BM25"
+    ],
+    "techniques_concepts": [
+      "RAG",
+      "Vision-Language Models",
+      "Multi-modal Systems",
+      "AI Infrastructure",
+      "Retrieval",
+      "LLMs",
+      "Computer Vision",
+      "NLP",
+      "Prompt Engineering",
+      "Data Collection",
+      "Chunking",
+      "Embedding",
+      "Hybrid Retrieval",
+      "Parent-Document Retrieval",
+      "LLMs-as-a-judge",
+      "VQA",
+      "Transfer Learning",
+      "Early Stopping",
+      "Image Augmentation",
+      "Tokenization",
+      "Vocabulary Creation"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Bachelor of Computer Science",
-      "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
-    }
-  ],
-  "experience": [
-    {
-      "company_name": "Personal Project",
-      "description": "Built a question-answering system using Retrieval-Augmented Generation (RAG) to answer academic questions, involving data collection, chunking, hybrid retrieval, prompt templating with Gemini Pro/Flash, LLM-as-a-judge evaluation, and a Streamlit UI.",
-      "job_title": "AI Engineer",
-      "years_worked": "1 month"
+      "name": "RAG Chatbot for History of Communist Party of Vietnam and Marxist Philosophy Education",
+      "type": "Academic",
+      "tech_used": [
+        "Pandas",
+        "NumPy",
+        "LangChain",
+        "BeautifulSoup4",
+        "Rank-BM25",
+        "Streamlit",
+        "Matplotlib",
+        "Google GenAI",
+        "Google Generative AI",
+        "SentenceTransformers",
+        "Pinecone",
+        "Gemini Pro",
+        "Gemini Flash"
+      ],
+      "description": "Built a question-answering system using Retrieval-Augmented Generation (RAG) to answer academic questions from foundational university subjects. Involved data collection, chunking, hybrid and parent-document retrieval, generation with LLMs, and evaluation using LLMs-as-a-judge. UI built with Streamlit."
     },
     {
-      "company_name": "Personal Project",
-      "description": "Developed an AI model for Visual Question Answering (VQA) to generate full-sentence answers from images, achieving a BLEU score of 0.5978. Designed a pipeline transforming VQA classification into a generation task using Gemini 1.5 Flash, incorporating image/text preprocessing, ResNet-50 for feature extraction, LSTM for question encoding, and a decoder with Beam Search.",
-      "job_title": "AI Engineer",
-      "years_worked": "1 month"
+      "name": "VQA Generate-based | Resnet50-LSTM",
+      "type": "Academic",
+      "tech_used": [
+        "PyTorch",
+        "spaCy",
+        "Matplotlib",
+        "Torchvision",
+        "PIL",
+        "NumPy",
+        "Pandas",
+        "ResNet-50",
+        "LSTM",
+        "Beam Search",
+        "Gemini 1.5 Flash"
+      ],
+      "description": "Built an AI model to generate full-sentence answers from images using Visual Question Answering (VQA). Designed a pipeline to transform VQA classification into a generation task, using Gemini 1.5 Flash. Involved image/text preprocessing, feature extraction with ResNet-50, LSTM for question encoding, and a decoder for answer generation with Beam Search."
     }
   ],
-  "languages": [
-    "English",
-    "Vietnamese"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor of Computer Science",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "LANGUYEN QUOC THINH",
-  "normalized_job_titles": [
-    "AI Engineer",
-    "Machine Learning Engineer"
-  ],
-  "skills": [
-    "PyTorch",
-    "TensorFlow",
-    "LangChain",
-    "Pinecone",
-    "Gemini API",
-    "Hugging Face Transformers",
-    "LLaMA",
-    "Prompt Engineering",
-    "Docker",
-    "Git",
-    "Streamlit",
-    "Pandas",
-    "NumPy",
-    "OpenCV",
-    "spaCy"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "APTIS ESOL - C1",
+      "issuer": null,
+      "year": "2025"
+    }
+  ]
 }

@@ -1,50 +1,103 @@
 {
-  "certifications": [
-    "German Language Proficiency, A2 Level",
-    "Project Management Certification",
-    "IELTS Academic – Band 6.5",
-    "Hànyǔ Shuǐpíng Kǎoshì (HSK) Level 3"
+  "candidate_profile": {
+    "name": "Dang Nguyen Le",
+    "role_focus": "AI Engineer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Advanced/IELTS 6.0+",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "SQL"
+    ],
+    "frameworks_libraries": [
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "Numpy",
+      "Pandas"
+    ],
+    "databases": [],
+    "devops_cloud": [],
+    "tools_platforms": [],
+    "architectures_models": [
+      "CNN",
+      "RNN",
+      "Transformers",
+      "Deep Neural Networks",
+      "Supervised Learning Models",
+      "Unsupervised Learning Models"
+    ],
+    "techniques_concepts": [
+      "Machine Learning",
+      "Deep Learning",
+      "Data Cleaning",
+      "Data Transformation",
+      "Exploratory Data Analysis (EDA)",
+      "Search Algorithms",
+      "Sorting Algorithms",
+      "Classification Algorithms",
+      "Data Structures",
+      "Trees",
+      "Graphs",
+      "Queues",
+      "Stacks"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "MAC Language Center",
+      "role": "Instructor in Academic English & IELTS Training",
+      "start_date": "2023-01",
+      "end_date": "Present",
+      "duration_months": 17,
+      "is_internship": false,
+      "tech_used": [],
+      "responsibilities": "Delivered academic English training and exam preparation, helping learners improve performance across IELTS modules. Provided personalized mentoring and feedback, enhancing students’ communication and critical thinking skills. Developed and adapted learning resources, demonstrating curriculum design and digital content creation abilities."
+    }
   ],
-  "detected_industry": "information_technology",
+  "projects": [],
   "education": [
     {
+      "institution": "Ton Duc Thang University",
       "degree": "Bachelor of Computer Science",
+      "major": "Computer Science",
       "graduation_year": "2026",
-      "institution_name": "Ton Duc Thang University"
-    }
-  ],
-  "experience": [
+      "status": "In Progress"
+    },
     {
-      "company_name": "MAC Language Center",
-      "description": "Delivered academic English training and exam preparation, provided personalized mentoring and feedback, and developed and adapted learning resources.",
-      "job_title": "Instructor in Academic English & IELTS Training",
-      "years_worked": "2023 - Present"
+      "institution": "OTH Regensburg",
+      "degree": "Exchange Semester",
+      "major": null,
+      "graduation_year": null,
+      "status": "Completed"
     }
   ],
-  "languages": [
-    "English",
-    "German",
-    "Chinese"
-  ],
-  "name": "Dang Nguyen Le",
-  "normalized_job_titles": [
-    "Instructor"
-  ],
-  "skills": [
-    "Machine Learning",
-    "Deep Learning",
-    "TensorFlow",
-    "PyTorch",
-    "Scikit-learn",
-    "Numpy",
-    "Pandas",
-    "SQL",
-    "Data Analysis",
-    "Algorithms",
-    "Data Structures",
-    "CNN",
-    "RNN",
-    "Transformers"
-  ],
-  "years_of_experience": 1
+  "certifications": [
+    {
+      "name": "German Language Proficiency, A2 Level",
+      "issuer": "OTH Regensburg",
+      "year": "2024"
+    },
+    {
+      "name": "Project Management Certification",
+      "issuer": "Virtuelle Hochschule Bayern, Germany",
+      "year": "2024"
+    },
+    {
+      "name": "IELTS Academic – Band 6.5",
+      "issuer": null,
+      "year": "2022"
+    },
+    {
+      "name": "Hànyǔ Shuǐpíng Kǎoshì (HSK) Level 3",
+      "issuer": null,
+      "year": "2021"
+    }
+  ]
 }

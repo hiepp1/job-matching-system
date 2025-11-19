@@ -1,54 +1,92 @@
 {
-  "certifications": [
-    "B1 Preliminary English Certification"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "Truong Huynh Dang Khoa",
+    "role_focus": "Full-stack Developer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": 2.77,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "JavaScript",
+      "Java",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks_libraries": [
+      "React",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Express.js",
+      "Spring Boot",
+      "Node.js",
+      "Redux",
+      "Axios"
+    ],
+    "databases": [
+      "MySQL"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Postman",
+      "Git"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Authorization",
+      "Authentication",
+      "API Integration",
+      "State Management",
+      "Component-based Architecture",
+      "Session-based Authentication"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Computer Science",
-      "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
-    }
-  ],
-  "experience": [
-    {
-      "company_name": "N/A",
-      "description": "Developed a full-stack website for managing products, orders, sales, and customer browsing. Utilized React, Tailwind CSS for frontend and Express.js with JWT for backend.",
-      "job_title": "Full-stack Developer",
-      "years_worked": "1 month"
+      "name": "Computer shop management website",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "React",
+        "Tailwind CSS",
+        "Express.js",
+        "Node.js",
+        "MySQL",
+        "JWT"
+      ],
+      "description": "Developed a website for employees to manage products, orders, sales, calculate revenue, and allow customers to browse and purchase products. Responsible for both frontend and backend development."
     },
     {
-      "company_name": "N/A",
-      "description": "Developed a web-based anonymous chat application. Used React, Tailwind CSS for frontend and Java Spring Boot with MySQL for backend.",
-      "job_title": "Full-stack Developer",
-      "years_worked": "1 month"
+      "name": "Anonymous chat app",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "React",
+        "Tailwind CSS",
+        "Java",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "description": "Developed a web-based chat application enabling anonymous user interaction. Responsible for both frontend and backend development."
     }
   ],
-  "languages": [
-    "English",
-    "Vietnamese"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "Truong Huynh Dang Khoa",
-  "normalized_job_titles": [
-    "Full-stack Developer",
-    "Web Developer"
-  ],
-  "skills": [
-    "HTML",
-    "CSS",
-    "Tailwind CSS",
-    "Bootstrap",
-    "React",
-    "Redux",
-    "Axios",
-    "Node.js",
-    "Express.js",
-    "JWT",
-    "Postman",
-    "JavaScript",
-    "Java",
-    "MySQL",
-    "Spring Boot"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "B1 Preliminary English Certification",
+      "issuer": null,
+      "year": null
+    }
+  ]
 }

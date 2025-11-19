@@ -1,64 +1,161 @@
 {
-  "certifications": [
-    "Aptis ESOL Certificate – Level B1 (2023)",
-    "Agile Development & Scrum Course (2024)",
-    "Ethical Hacker on Cisco (2025)"
+  "candidate_profile": {
+    "name": "Nguyễn Trường Duy",
+    "role_focus": "Network Engineer / System Administrator",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate (B1)",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "C#",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks_libraries": [
+      ".NET core",
+      "MVC",
+      "Entity Framework Core",
+      "Razor"
+    ],
+    "databases": [
+      "SQL Server",
+      "MySQL",
+      "MongoDB",
+      "phpMyAdmin"
+    ],
+    "devops_cloud": [
+      "SharePoint Server",
+      "VMWare",
+      "Active Directory",
+      "DHCP",
+      "VLAN",
+      "ACL",
+      "WLC",
+      "WPA2",
+      "WPA3",
+      "Cisco ASA",
+      "Cisco Packet Tracer"
+    ],
+    "tools_platforms": [
+      "Git",
+      "GitHub",
+      "Gitlab",
+      "Visual Studio",
+      "ILogger"
+    ],
+    "architectures_models": [
+      "MVC"
+    ],
+    "techniques_concepts": [
+      "SEO",
+      "System Administration",
+      "Network Security",
+      "Network Design",
+      "Business Analysis",
+      "System Analysis",
+      "Configuration Management",
+      "Deployment",
+      "CRUD",
+      "HTTPS",
+      "SSL Certificate",
+      "Backup/Restore",
+      "Debugging",
+      "Testing",
+      "Agile",
+      "Scrum"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Gym System Design",
+      "type": "Academic",
+      "tech_used": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C#",
+        ".NET core",
+        "MVC",
+        "SQL Server",
+        "phpMyAdmin",
+        "Razor",
+        "Entity Framework Core",
+        "GitHub"
+      ],
+      "description": "Developed a gym management web application using .NET Core, C#, MVC architecture, and SQL Server. Implemented dynamic UI with Razor, integrated Entity Framework Core for database operations, and included features like token-based authentication, access control, and basic SEO optimization."
+    },
+    {
+      "name": "SharePoint Server Configuration, Deployment, Management",
+      "type": "Academic",
+      "tech_used": [
+        "MySQL",
+        "SQL Server",
+        "MongoDB",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C#",
+        ".NET core",
+        "MVC",
+        "Github",
+        "Gitlab",
+        "Git",
+        "VMWare",
+        "Active Directory",
+        "SharePoint Server",
+        "Visual Studio",
+        "HTTPS",
+        "SSL Certificate"
+      ],
+      "description": "Configured, deployed, and managed a SharePoint Server environment. Tasks included setting up network and domain, integrating Active Directory for user management, installing SQL Server, creating Web Applications and Site Collections, and implementing access control. Ensured security with HTTPS/SSL certificates and established backup/restore procedures."
+    },
+    {
+      "name": "WiFi Network Design and Security for SMEs",
+      "type": "Academic",
+      "tech_used": [
+        "Cisco Packet Tracer",
+        "DHCP",
+        "VLAN",
+        "ACL",
+        "WLC",
+        "WPA2",
+        "WPA3",
+        "Cisco ASA"
+      ],
+      "description": "Designed and secured a WiFi network for small and medium-sized enterprises using Cisco Packet Tracer. Implemented solutions for device and network security, dynamic IP allocation (DHCP), network segmentation (VLAN, ACL), access control, WLC-based WiFi security (WPA2/WPA3), and firewall configuration using Cisco ASA."
+    }
   ],
-  "detected_industry": "information_technology",
   "education": [
     {
-      "degree": "Information Technology - Computer Networks and Data Communication",
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Information Technology (Computer Network and Data Communication)",
       "graduation_year": "2025",
-      "institution_name": "Tôn Đức Thắng University"
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "Course Project",
-      "description": "Designed and developed a gym system. Implemented Front-End with HTML, CSS, JavaScript, and Back-End with C#, .NET Core, MVC. Managed SQL Server database, applied MVC architecture, optimized SEO, and ensured website security through debugging and testing.",
-      "job_title": "Web Developer (Project)",
-      "years_worked": "4 months (September 2024 - December 2024)"
+      "name": "Aptis ESOL – Level B1",
+      "issuer": "British Council (implied)",
+      "year": "2023"
     },
     {
-      "company_name": "Course Project",
-      "description": "Configured and managed SharePoint Server. Performed network system configuration, Active Directory account creation, SQL Server and SharePoint Server installation, and managed permissions and security settings.",
-      "job_title": "System Administrator (Project)",
-      "years_worked": "4 months (September 2023 - December 2023)"
+      "name": "Agile Development & Scrum Course",
+      "issuer": null,
+      "year": "2024"
     },
     {
-      "company_name": "Course Project",
-      "description": "Designed and secured WiFi networks for SMEs. Implemented network diagrams, security solutions, DHCP, VLAN, ACL, WLC, WPA2/WPA3, and ASA firewall configurations.",
-      "job_title": "Network Security Specialist (Project)",
-      "years_worked": "4 months (February 2025 - May 2025)"
+      "name": "Ethical Hacker on Cisco",
+      "issuer": "Cisco (implied)",
+      "year": "2025"
     }
-  ],
-  "languages": [
-    "Vietnamese",
-    "English"
-  ],
-  "name": "Nguyễn Trường Duy",
-  "normalized_job_titles": [
-    "Network Intern",
-    "Web Developer",
-    "System Administrator",
-    "Network Security Specialist"
-  ],
-  "skills": [
-    "Computer Networking",
-    "System Administration",
-    "Network Security",
-    "Network Design",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "C#",
-    ".NET Core",
-    "MVC",
-    "SQL Server",
-    "MongoDB",
-    "Git",
-    "VMware",
-    "Business Analysis"
-  ],
-  "years_of_experience": 0
+  ]
 }

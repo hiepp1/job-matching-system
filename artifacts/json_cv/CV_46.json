@@ -1,39 +1,126 @@
 {
-  "certifications": [
-    "English, Pet B1",
-    "CCNA Course Completion",
-    "Juniper Networks, JNCIA-Junos"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "LÂM CHẤN KHẢI",
+    "role_focus": "Network/System Administrator Intern",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": "3.3",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [],
+    "frameworks_libraries": [],
+    "databases": [],
+    "devops_cloud": [
+      "Azure Sentinel",
+      "Azure Security Center"
+    ],
+    "tools_platforms": [
+      "Wireshark",
+      "TCP dump",
+      "Packet Tracer",
+      "GNS3"
+    ],
+    "architectures_models": [
+      "OSI model",
+      "TCP/IP model",
+      "Hybrid Window Server"
+    ],
+    "techniques_concepts": [
+      "Networking",
+      "Redundancy",
+      "Security",
+      "VLAN",
+      "OSPF",
+      "RIP",
+      "TRUNKING",
+      "ACI",
+      "NAT",
+      "Linux",
+      "Windows Server",
+      "DNS",
+      "DHCP",
+      "VPN",
+      "RADIUS",
+      "NAP",
+      "ADDS",
+      "CA",
+      "Group Policy",
+      "GPO management",
+      "Folder Redirection",
+      "Auditing",
+      "Disaster Recovery",
+      "Load balancing (NLB)",
+      "Backup strategies",
+      "System restore procedures",
+      "Troubleshooting",
+      "HSRP",
+      "ACL",
+      "SVI",
+      "AP",
+      "WLC"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "COMPUTER NETWORK",
-      "graduation_year": "2026",
-      "institution_name": "Ton Duc Thang University"
+      "name": "Network Simulation Model for a Bank",
+      "type": "Academic",
+      "tech_used": [
+        "HSRP",
+        "NAT",
+        "ACL",
+        "SVI",
+        "Packet Tracer"
+      ],
+      "description": "Designed and configured a network system for a bank, ensuring redundancy, load balancing, and security."
+    },
+    {
+      "name": "Corporate Wireless Network",
+      "type": "Academic",
+      "tech_used": [
+        "AP",
+        "WLC",
+        "Packet Tracer"
+      ],
+      "description": "Deployed and configured a corporate wireless network."
+    },
+    {
+      "name": "GNS3 Basic Network Topology",
+      "type": "Academic",
+      "tech_used": [
+        "GNS3"
+      ],
+      "description": "Constructed a basic network topology."
     }
   ],
-  "experience": [],
-  "languages": [
-    "English"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Network",
+      "graduation_year": "2026",
+      "status": "In Progress"
+    }
   ],
-  "name": "LÂM CHẤN KHẢI",
-  "normalized_job_titles": [],
-  "skills": [
-    "Networking",
-    "OSI/TCP-IP Models",
-    "VLAN",
-    "OSPF",
-    "NAT",
-    "Linux",
-    "Windows Server",
-    "DNS",
-    "DHCP",
-    "VPN",
-    "ADDS",
-    "Group Policy Management",
-    "Azure Sentinel",
-    "Disaster Recovery",
-    "Wireshark"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "Pet B1 English",
+      "issuer": null,
+      "year": null
+    },
+    {
+      "name": "Cisco Certified Network Associate (CCNA) Course Completion",
+      "issuer": "Cisco",
+      "year": null
+    },
+    {
+      "name": "JNCIA-Junos",
+      "issuer": "Juniper Networks",
+      "year": null
+    }
+  ]
 }

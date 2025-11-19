@@ -1,36 +1,78 @@
 {
-  "certifications": [
-    "B1 Cambridge"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "Hoàng Đức Minh",
+    "role_focus": "AI Engineer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": "7.2/10",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java"
+    ],
+    "frameworks_libraries": [
+      "PyTorch"
+    ],
+    "databases": [
+      "MySQL",
+      "Firebase"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "GitHub"
+    ],
+    "architectures_models": [
+      "RS-GAN"
+    ],
+    "techniques_concepts": [
+      "Machine Learning",
+      "Fraud Detection",
+      "Steganography Detection",
+      "Data Processing",
+      "Data Balancing",
+      "Feature Selection"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Computer Science",
-      "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
+      "name": "Machine Learning Fraud Detection",
+      "type": "Academic",
+      "tech_used": [
+        "Python",
+        "Machine Learning"
+      ],
+      "description": "Built a machine learning model to detect fraudulent transactions in financial data, achieving a balanced trade-off between precision and recall."
+    },
+    {
+      "name": "Steganography Detection using RS-GAN",
+      "type": "Academic",
+      "tech_used": [
+        "PyTorch",
+        "RS-GAN"
+      ],
+      "description": "Re-implemented the RS-GAN model from a research paper to detect hidden data files and protect information from hackers, achieving relatively high results despite hardware and memory limitations."
     }
   ],
-  "experience": [],
-  "languages": [
-    "English"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Science",
+      "graduation_year": "2025",
+      "status": "In Progress"
+    }
   ],
-  "name": "Hoàng Đức Minh",
-  "normalized_job_titles": [],
-  "skills": [
-    "Python",
-    "Java",
-    "MySQL",
-    "Firebase",
-    "Communication",
-    "Problem-solving",
-    "Teamwork",
-    "Self-discipline",
-    "Machine Learning",
-    "Data Processing",
-    "Data Balancing",
-    "Feature Selection",
-    "PyTorch",
-    "RS-GAN"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "B1 Cambridge",
+      "issuer": null,
+      "year": "2025"
+    }
+  ]
 }

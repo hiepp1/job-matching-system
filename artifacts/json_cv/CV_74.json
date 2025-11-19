@@ -1,57 +1,80 @@
 {
-  "certifications": [
-    "IELTS 7.5"
+  "candidate_profile": {
+    "name": "Đỗ Hoàng Phong",
+    "role_focus": "Software Engineer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Advanced/IELTS 7.5",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "HTML"
+    ],
+    "frameworks_libraries": [],
+    "databases": [],
+    "devops_cloud": [],
+    "tools_platforms": [],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Machine Learning",
+      "Data Analysis",
+      "Prediction Models"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "Cotemi Cafe",
+      "role": "Barista, Cashier, Waiter",
+      "start_date": "2023-05",
+      "end_date": "2023-09",
+      "duration_months": 5,
+      "is_internship": false,
+      "tech_used": [],
+      "responsibilities": null
+    },
+    {
+      "company": "Arrow Education",
+      "role": "Teacher Assistant, IT",
+      "start_date": "2023-11",
+      "end_date": "2024-03",
+      "duration_months": 5,
+      "is_internship": false,
+      "tech_used": [],
+      "responsibilities": "Crafted clear translations of lessons, boosting student understanding. Graded homework swiftly, delivering sharp, skill-building feedback. Fixed tech issues as a part-time IT assistant."
+    }
   ],
-  "detected_industry": "information_technology",
+  "projects": [
+    {
+      "name": "Intelligent Traffic Density Prediction and Navigation System",
+      "type": "Academic",
+      "tech_used": [
+        "Machine Learning",
+        "Data Analysis"
+      ],
+      "description": "Student Scientific Research Project focused on intelligent traffic density prediction and navigation system development."
+    }
+  ],
   "education": [
     {
+      "institution": "Albert Einstein High School",
       "degree": "High School Diploma",
+      "major": null,
       "graduation_year": "2021",
-      "institution_name": "Albert Einstein High School"
+      "status": "Graduated"
     },
     {
-      "degree": "Software Engineering",
-      "graduation_year": "N/A",
-      "institution_name": "Ton Duc Thang University"
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Software Engineering",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [
-    {
-      "company_name": "Cotemi Cafe",
-      "description": "N/A",
-      "job_title": "Barista, Cashier, Waiter",
-      "years_worked": "May 2023 - Sep 2023"
-    },
-    {
-      "company_name": "Arrow Education",
-      "description": "Crafted clear translations of lessons, boosting student understanding. Graded homework swiftly, delivering sharp, skill-building feedback. Fixed tech issues as a part-time IT assistant.",
-      "job_title": "Teacher Assistant, IT Assistant",
-      "years_worked": "Nov 2023 - Mar 2024"
-    }
-  ],
-  "languages": [
-    "English",
-    "Vietnamese"
-  ],
-  "name": "Hoang Phong Do",
-  "normalized_job_titles": [
-    "Barista",
-    "Cashier",
-    "Waiter",
-    "Teacher Assistant",
-    "IT Assistant"
-  ],
-  "skills": [
-    "Communication Skills",
-    "Problem Solving Skills",
-    "Time Management",
-    "Adaptability",
-    "Customer Service",
-    "Teamwork",
-    "Document Management",
-    "Python",
-    "Java",
-    "HTML"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

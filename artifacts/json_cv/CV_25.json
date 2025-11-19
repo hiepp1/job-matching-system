@@ -1,67 +1,129 @@
 {
-  "certifications": [
-    "TOEIC (Listening & Reading: 910, Speaking: 160, Writing: 190)",
-    "Agile & Scrum Framework Course"
+  "candidate_profile": {
+    "name": "Le Nguyen Huu Duc",
+    "role_focus": "Fullstack Developer",
+    "seniority_level": "Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Advanced",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Dart",
+      "Python",
+      "Java",
+      "JavaScript",
+      "SQL",
+      "C/C++",
+      "C#",
+      "HTML/CSS",
+      "GDScript"
+    ],
+    "frameworks_libraries": [
+      "Flutter",
+      "Node.js",
+      "Google Maps API",
+      "Gemini API"
+    ],
+    "databases": [
+      "Firebase"
+    ],
+    "devops_cloud": [
+      "Firebase",
+      "Google Cloud APIs"
+    ],
+    "tools_platforms": [
+      "Git",
+      "Android Studio",
+      "VS Code",
+      "Godot"
+    ],
+    "architectures_models": [
+      "MVC"
+    ],
+    "techniques_concepts": [
+      "Agile",
+      "Scrum",
+      "Prompt Injection",
+      "Prompt Engineering",
+      "UI/UX Design",
+      "Data Synchronization",
+      "State Management",
+      "Error Reporting",
+      "Local Caching",
+      "Authentication",
+      "Real-time Storage",
+      "Location Tracking",
+      "Cross-platform Development"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Pharmacy App",
+      "type": "Personal",
+      "tech_used": [
+        "Dart",
+        "Flutter",
+        "Firebase",
+        "Google Cloud APIs"
+      ],
+      "description": "Developed a cross-platform pharmacy store application as a solo project, integrating Firebase for authentication, real-time storage, and synchronization. Optimized data retrieval by adding local caching, improving efficiency by up to 2x. Integrated Google Cloud APIs for address validation and enhanced user experience. Designed and tested the UI to ensure smooth functionality and usability."
+    },
+    {
+      "name": "English Learning App",
+      "type": "Academic",
+      "tech_used": [
+        "Flutter",
+        "Dart",
+        "Firebase"
+      ],
+      "description": "Collaborated in a team of 3 to develop a Quizlet-inspired cross-platform app for vocabulary learning. Applied MVC design pattern for project architecture and maintainability. Implemented UI components and ensured correct data synchronization with Firebase. Gained proficiency in Flutter state management and improved error reporting workflow."
+    },
+    {
+      "name": "Android Delivery App",
+      "type": "Academic",
+      "tech_used": [
+        "Java",
+        "Android Studio",
+        "Firebase",
+        "Google Maps API"
+      ],
+      "description": "Developed a scaled-down version of the Giao H`ang Nhanh delivery app as a final project in a team of 2. Designed and implemented the UI, integrating data from Firebase into Android XML layouts. Integrated Google Maps API for delivery route visualization and location tracking. Contributed to testing, debugging, and writing the submission report."
+    },
+    {
+      "name": "Prompt Injection in Large Language Models",
+      "type": "Research",
+      "tech_used": [
+        "Research",
+        "Python",
+        "Gemini API"
+      ],
+      "description": "Conducted a research project on prompt injection attacks in large language models, analyzing how malicious inputs can manipulate outputs. Implemented and tested multiple attack vectors using Python and the Gemini API. Evaluated effectiveness of existing mitigation strategies and documented limitations. Produced a written report summarizing findings and recommendations for safer prompt design."
+    }
   ],
-  "detected_industry": "information_technology",
   "education": [
     {
+      "institution": "Ton Duc Thang University",
       "degree": "Bachelor of Software Engineering",
+      "major": "Software Engineering",
       "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "Personal Project",
-      "description": "Developed a cross-platform pharmacy store application as a solo project, integrating Firebase for authentication, real-time storage, and synchronization. Optimized data retrieval by adding local caching and integrated Google Cloud APIs for address validation. Designed and tested the UI for smooth functionality.",
-      "job_title": "Fullstack Developer",
-      "years_worked": "4 months"
+      "name": "TOEIC (Listening & Reading: 910, Speaking: 160, Writing: 190)",
+      "issuer": "IIG Vietnam",
+      "year": "2023"
     },
     {
-      "company_name": "Collaborative Project",
-      "description": "Collaborated in a team of 3 to develop a Quizlet-inspired cross-platform app for vocabulary learning. Applied MVC design pattern for project architecture, implemented UI components, and ensured correct data synchronization with Firebase. Gained proficiency in Flutter state management and improved error reporting workflow.",
-      "job_title": "Fullstack Developer",
-      "years_worked": "3 months"
-    },
-    {
-      "company_name": "Collaborative Project",
-      "description": "Developed a scaled-down version of a delivery app as a final project in a team of 2. Designed and implemented the UI, integrating data from Firebase into Android XML layouts. Integrated Google Maps API for delivery route visualization and location tracking. Contributed to testing, debugging, and writing the submission report.",
-      "job_title": "Frontend Developer",
-      "years_worked": "2 months"
-    },
-    {
-      "company_name": "Research Project",
-      "description": "Conducted a research project on prompt injection attacks in large language models, analyzing how malicious inputs can manipulate outputs. Implemented and tested multiple attack vectors using Python and the Gemini API. Evaluated effectiveness of existing mitigation strategies and documented limitations, producing a written report.",
-      "job_title": "Researcher",
-      "years_worked": "4 months"
+      "name": "Agile & Scrum Framework Course",
+      "issuer": "Techbase Vietnam",
+      "year": "2022"
     }
-  ],
-  "languages": [
-    "English"
-  ],
-  "name": "Le Nguyen Huu Duc",
-  "normalized_job_titles": [
-    "Fullstack Developer",
-    "Frontend Developer",
-    "Researcher"
-  ],
-  "skills": [
-    "Dart",
-    "Python",
-    "Java",
-    "JavaScript",
-    "SQL",
-    "C++",
-    "C#",
-    "HTML/CSS",
-    "Flutter",
-    "Node.js",
-    "Firebase",
-    "Google Cloud APIs",
-    "Git",
-    "Android Studio",
-    "UI Design"
-  ],
-  "years_of_experience": 1
+  ]
 }

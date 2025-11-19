@@ -1,42 +1,72 @@
 {
-  "certifications": [
-    "2023 B1 Preliminary - Aptis English (4 skills) Intermediate Level"
+  "candidate_profile": {
+    "name": "Nguyễn Anh Tuấn",
+    "role_focus": "Tester",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "frameworks_libraries": [],
+    "databases": [
+      "SQL"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Manual Testing",
+      "Test Case Writing",
+      "Test Plan Writing",
+      "Software Testing Life Cycle (STLC)",
+      "Software Development Life Cycle (SDLC)",
+      "Bug Reporting",
+      "Automation Testing",
+      "SRS Analysis",
+      "Module Interaction Testing"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Restaurant Management Software Gimji",
+      "type": "Academic",
+      "tech_used": [
+        "HTML",
+        "CSS",
+        "SQL",
+        "Manual Testing",
+        "Test Case Writing",
+        "Bug Reporting",
+        "SRS Analysis",
+        "Module Interaction Testing"
+      ],
+      "description": "As a Tester in a 5-member team, analyzed SRS documents, developed test plans and methods, wrote and refined test cases, performed unit testing, checked module interactions, reported bugs, and tracked development team's bug resolution progress."
+    }
   ],
-  "detected_industry": "information_technology",
   "education": [
     {
-      "degree": "Bachelor's Degree in Computer Science",
+      "institution": "Tôn Đức Thắng University",
+      "degree": "Bachelor",
+      "major": "Computer Science",
       "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "Gimji Project (Restaurant Management Software)",
-      "description": "Analyzed SRS documents and developed test plans and methods for testing. Wrote and modified test cases, performed unit testing. Checked the interaction between modules. Prepared test reports and project documentation related to the entire testing process. Monitored bug resolution by the development team and compiled test progress reports.",
-      "job_title": "Tester",
-      "years_worked": "N/A"
+      "name": "B1 Preliminary - Aptis English (4 skills)",
+      "issuer": "Aptis English",
+      "year": "2023"
     }
-  ],
-  "languages": [
-    "English"
-  ],
-  "name": "Nguyen Anh Tuan",
-  "normalized_job_titles": [
-    "Tester",
-    "Software Tester"
-  ],
-  "skills": [
-    "Manual Testing",
-    "Test Case Writing",
-    "Test Plan Writing",
-    "Software Testing Life Cycle (STLC)",
-    "Software Development Life Cycle (SDLC)",
-    "Bug Reporting",
-    "SQL",
-    "HTML",
-    "CSS",
-    "Automation Fundamentals"
-  ],
-  "years_of_experience": 0
+  ]
 }

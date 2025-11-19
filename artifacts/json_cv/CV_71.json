@@ -1,47 +1,101 @@
 {
-  "certifications": [
-    "Aptis ESOL (CEFR Level B2)"
+  "candidate_profile": {
+    "name": "Mai Nhat Duy",
+    "role_focus": "AI/NLP Engineer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "B2",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java"
+    ],
+    "frameworks_libraries": [
+      "PyTorch",
+      "Unsloth",
+      "Transformer",
+      "DeepSpeed",
+      "Hugging Face",
+      "LangGraph",
+      "LangChain"
+    ],
+    "databases": [
+      "Elasticsearch",
+      "Vector Database",
+      "SQL Database"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Marker",
+      "Datatrove"
+    ],
+    "architectures_models": [
+      "LLM",
+      "SLM",
+      "Agnetic RAG"
+    ],
+    "techniques_concepts": [
+      "Artificial Intelligence (AI)",
+      "Natural Language Processing (NLP)",
+      "Model Training",
+      "Data Collection",
+      "Data Preprocessing",
+      "Fine-tuning",
+      "Chatbot Development",
+      "Information Retrieval",
+      "Indexing",
+      "Retrieval",
+      "Generation"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Lightweight LLM for Vietnamese Medical Texts",
+      "type": "Academic",
+      "tech_used": [
+        "Marker",
+        "Datatrove",
+        "Unsloth",
+        "Hugging Face",
+        "LLM",
+        "SLM"
+      ],
+      "description": "Applied Marker technologies to digitize medical documents, Datatrove for data cleaning, and Unsloth to train language models on limited GPU infrastructure, aiming to create an efficient small language model (SLM) capable of understanding and accurately answering Vietnamese medical questions. Responsible for the entire process, including raw data collection, preprocessing, and training implementation."
+    },
+    {
+      "name": "Chatbot Integrated with Agnetic RAG",
+      "type": "Academic",
+      "tech_used": [
+        "LangGraph",
+        "LangChain",
+        "Elasticsearch",
+        "Agnetic RAG",
+        "Vector Database",
+        "SQL Database"
+      ],
+      "description": "Developed a chatbot integrated with Agnetic RAG using AI Agent frameworks like LangGraph, LangChain, and Elasticsearch. The chatbot is capable of simultaneously querying vector and SQL databases to enhance flexibility and accuracy in information retrieval. Designed the workflow and implemented supporting modules (Indexing, Retrieval, Generation)."
+    }
   ],
-  "detected_industry": "information_technology",
   "education": [
     {
-      "degree": "Computer Science (Final-year student)",
-      "graduation_year": "N/A",
-      "institution_name": "Ton Duc Thang University"
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "TDTU NLP-KD Lab",
-      "description": "Provided research support, focusing on exploring AI and NLP technologies, and applying them to real-world problems. Gained experience in training language models with limited hardware resources, including data collection and processing.",
-      "job_title": "Research Assistant",
-      "years_worked": "N/A"
+      "name": "Aptis ESOL",
+      "issuer": null,
+      "year": null
     }
-  ],
-  "languages": [
-    "English",
-    "Vietnamese"
-  ],
-  "name": "Mai Nhat Duy",
-  "normalized_job_titles": [
-    "Research Assistant"
-  ],
-  "skills": [
-    "Python",
-    "Java",
-    "PyTorch",
-    "Unsloth",
-    "Transformer",
-    "DeepSpeed",
-    "Elasticsearch",
-    "LangGraph",
-    "LangChain",
-    "Artificial Intelligence (AI)",
-    "Natural Language Processing (NLP)",
-    "Large Language Models (LLM)",
-    "Data Collection",
-    "Data Preprocessing",
-    "Model Training"
-  ],
-  "years_of_experience": 0
+  ]
 }

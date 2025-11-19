@@ -1,37 +1,92 @@
 {
-"certifications": [
-"Aptis ESOL B2"
-],
-"detected_industry": "information_technology",
-"education": [
-{
-"degree": "Computer Science",
-"graduation_year": "Present",
-"institution_name": "Ton Duc Thang University"
-}
-],
-"experience": [],
-"languages": [
-"English"
-],
-"name": "HUNG TRUONG THAI GIA",
-"normalized_job_titles": [],
-"skills": [
-"Python",
-"SQL",
-"Pandas",
-"Scikit-Learn",
-"Tableau",
-"Data Cleaning",
-"Data Analysis",
-"Data Visualization",
-"Machine Learning",
-"Data Preprocessing",
-"GUI Programming",
-"Analytical Thinking",
-"Model Evaluation",
-"Logistic Regression",
-"Random Forest"
-],
-"years_of_experience": 0
+  "candidate_profile": {
+    "name": "HUNG TRUONG THAI GIA",
+    "role_focus": "Data Analyst",
+    "seniority_level": "Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "SQL"
+    ],
+    "frameworks_libraries": [
+      "Pandas",
+      "Scikit-Learn",
+      "PyQt6"
+    ],
+    "databases": [],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Tableau",
+      "GitHub"
+    ],
+    "architectures_models": [
+      "Logistic Regression",
+      "KNN",
+      "Random Forest",
+      "SVM"
+    ],
+    "techniques_concepts": [
+      "Data Cleaning",
+      "Data Analysis",
+      "Data Visualization",
+      "GUI Programming",
+      "Data Organization",
+      "Search System Design",
+      "Data Preprocessing",
+      "Machine Learning Process",
+      "Exploratory Data Analysis (EDA)",
+      "Model Evaluation",
+      "Classification Problem"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Building Han-Nom dictionary software in desktop",
+      "type": "Academic",
+      "tech_used": [
+        "Python",
+        "PyQt6",
+        "JSON"
+      ],
+      "description": "Built a Han Nom dictionary software using Python and PyQt6, featuring lookup, root search, stroke writing, and conversion. Collected and converted data from JSON, designed processing flowcharts, and labeled image data to enhance search accuracy and efficiency. Improved GUI programming, data organization, and practical search system building skills."
+    },
+    {
+      "name": "Machine Learning for classification problem",
+      "type": "Academic",
+      "tech_used": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Logistic Regression",
+        "KNN",
+        "Random Forest",
+        "SVM"
+      ],
+      "description": "Implemented a complete classification process using the White Wine Quality dataset from UCI. Performed data preprocessing (cleaning, normalizing, type transformation) and built various classification models including Logistic Regression, KNN, Random Forest, and SVM to classify wines into 'good' or 'bad' categories. Enhanced data preprocessing skills and understanding of the machine learning process from EDA to model evaluation."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Aptis ESOL B2",
+      "issuer": null,
+      "year": null
+    }
+  ]
 }

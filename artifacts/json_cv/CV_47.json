@@ -1,66 +1,104 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
+  "candidate_profile": {
+    "name": "Thằng Ngọc Quỳnh",
+    "role_focus": "AI Engineer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate (B1 PET)",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "SQL"
+    ],
+    "frameworks_libraries": [
+      "LangChain",
+      "Streamlit"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "FlowiseAI",
+      "Odoo",
+      "Git",
+      "GitHub",
+      "MS Office",
+      "Jira"
+    ],
+    "architectures_models": [
+      "Microservices",
+      "TinyBERT"
+    ],
+    "techniques_concepts": [
+      "SDLC",
+      "Waterfall",
+      "Agile",
+      "Scrum",
+      "APIs",
+      "Natural Language Processing",
+      "Machine Learning",
+      "Sentiment Analysis",
+      "Service-Oriented Architecture",
+      "Enterprise Resource Planning",
+      "ERD",
+      "RAG",
+      "Logistic Regression"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Multi-Stage RAG Agent with FlowiseAI",
+      "type": "Academic",
+      "tech_used": [
+        "FlowiseAI",
+        "LangChain"
+      ],
+      "description": "Designed a multi-stage pipeline with FlowiseAI and LangChain for a RAG system. Tested via FlowiseAI interface and locally to evaluate accuracy."
+    },
+    {
+      "name": "Sentiment Analysis with TinyBERT & Logistic Regression",
+      "type": "Academic",
+      "tech_used": [
+        "TinyBERT",
+        "Streamlit"
+      ],
+      "description": "Trained a sentiment classification model on 51,000 Kaggle samples, achieving 87% accuracy. Deployed a demo using Streamlit, supporting text and Reddit data input."
+    },
+    {
+      "name": "Dental Clinic Management System",
+      "type": "Academic",
+      "tech_used": [
+        "MySQL",
+        "MongoDB",
+        "Microservices"
+      ],
+      "description": "Designed requirements, ERD, and system architecture. Implemented with MySQL and MongoDB using a microservices model."
+    },
+    {
+      "name": "Recruitment and Fixed Asset Management Process with Odoo",
+      "type": "Academic",
+      "tech_used": [
+        "Odoo"
+      ],
+      "description": "Configured Odoo modules (Recruitment, Employees, Surveys, Fixed Assets). Simulated recruitment and fixed asset management processes in class."
+    }
+  ],
   "education": [
     {
-      "degree": "Bachelor of Computer Networks and Data Communications",
+      "institution": "Tôn Đức Thắng University",
+      "degree": "Bachelor",
+      "major": "Computer Networks and Data Communications",
       "graduation_year": "2026",
-      "institution_name": "Ton Duc Thang University"
+      "status": "In Progress"
     }
   ],
-  "experience": [
-    {
-      "company_name": "Academic Project (Ton Duc Thang University)",
-      "description": "Designed a multi-step pipeline with FlowiseAI and LangChain for a RAG system. Tested via FlowiseAI interface and locally to evaluate accuracy.",
-      "job_title": "AI Project Developer",
-      "years_worked": "N/A"
-    },
-    {
-      "company_name": "Academic Project (Ton Duc Thang University)",
-      "description": "Trained a sentiment classification model on 51,000 Kaggle samples, achieving 87% accuracy. Deployed a demo using Streamlit, supporting text and Reddit data input.",
-      "job_title": "Machine Learning Project Member",
-      "years_worked": "N/A"
-    },
-    {
-      "company_name": "Academic Project (Ton Duc Thang University)",
-      "description": "Designed requirements, ERD diagrams, and system architecture. Implemented with MySQL and MongoDB using a microservices model.",
-      "job_title": "System Developer",
-      "years_worked": "N/A"
-    },
-    {
-      "company_name": "Academic Project (Ton Duc Thang University)",
-      "description": "Configured Odoo modules (Recruitment, Employees, Surveys, Fixed Assets). Simulated recruitment and fixed asset management processes in a classroom setting.",
-      "job_title": "ERP Business Analyst",
-      "years_worked": "N/A"
-    }
-  ],
-  "languages": [
-    "Vietnamese (Native)",
-    "English (B1 PET)",
-    "Chinese (Studying for HSK5)"
-  ],
-  "name": "Thằng Ngọc Quỳnh",
-  "normalized_job_titles": [
-    "AI Developer",
-    "Machine Learning Engineer",
-    "System Developer",
-    "ERP Consultant"
-  ],
-  "skills": [
-    "Python",
-    "SQL",
-    "APIs",
-    "SDLC",
-    "Flowise",
-    "Streamlit",
-    "Odoo",
-    "Git",
-    "GitHub",
-    "MS Office",
-    "Jira",
-    "Communication",
-    "Teamwork",
-    "Time Management"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

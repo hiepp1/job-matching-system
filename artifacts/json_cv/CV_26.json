@@ -1,38 +1,128 @@
 {
-  "certifications": [
-    "Cambridge PET B1 - 145 Overall -Jul 2024",
-    "AGILE DEVELOPMENT & SCRUM FRAMEWORK COURSE 2022"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "Nguyen Thai Bao",
+    "role_focus": "Fullstack Web Developer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate (B1)",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Java",
+      "JavaScript",
+      "C#",
+      "HTML",
+      "CSS",
+      "TypeScript"
+    ],
+    "frameworks_libraries": [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Firebase",
+      "Prisma ORM",
+      "AOS Animations"
+    ],
+    "databases": [
+      "MongoDB"
+    ],
+    "devops_cloud": [
+      "GitHub"
+    ],
+    "tools_platforms": [
+      "Git",
+      "Visual Studio Code",
+      "npm",
+      "Postman"
+    ],
+    "architectures_models": [
+      "RESTful API",
+      "Component-based architecture",
+      "Static site generation"
+    ],
+    "techniques_concepts": [
+      "Design Pattern",
+      "Solid Principles",
+      "Version Control",
+      "Agile",
+      "Scrum",
+      "User authentication",
+      "CRUD operations",
+      "State management",
+      "Responsive design",
+      "Asynchronous API requests"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Bachelor of Software Engineering",
-      "graduation_year": "2024",
-      "institution_name": "Ton Duc Thang University"
+      "name": "FullstackTaskManager",
+      "type": "Personal",
+      "tech_used": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Next.js API Routes",
+        "Prisma ORM",
+        "MongoDB"
+      ],
+      "description": "A full-stack task management application built from the ground up. Designed the database schema and implemented a secure RESTful API using Next.js API Routes and Prisma ORM. The frontend features a responsive and intuitive UI built with React and TypeScript, styled with Tailwind CSS. Key functionalities include user authentication, full CRUD operations for tasks, state management, and responsive design. This project demonstrates my ability to design, build, and deploy a complete full-stack application using modern technologies."
+    },
+    {
+      "name": "WeatherApp",
+      "type": "Personal",
+      "tech_used": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJS"
+      ],
+      "description": "Developed a real-time weather application using ReactJS to strengthen skills and learn how to work with APIs. Successfully integrated the OpenWeatherMap API to fetch and display weather data for specified locations, demonstrating ability to handle asynchronous API requests and present data effectively."
+    },
+    {
+      "name": "Personal-Portfolio",
+      "type": "Personal",
+      "tech_used": [
+        "Next.js 15",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "AOS Animations",
+        "App Router",
+        "React 19"
+      ],
+      "description": "This personal portfolio project was developed to practice and demonstrate growing skills in modern web development. Built a responsive, performant website using Next.js 15 with App Router, implementing React 19 components with TypeScript for better code quality. Gained hands-on experience with responsive design using Tailwind CSS, smooth animations with AOS library, and static site generation for optimization. Strengthened understanding of component-based architecture and modern development workflows through building various sections."
     }
   ],
-  "experience": [],
-  "languages": [
-    "English"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor of Software Engineering",
+      "major": "Software Engineering",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "Nguyen Thai Bao",
-  "normalized_job_titles": [],
-  "skills": [
-    "Java",
-    "JavaScript",
-    "C#",
-    "React",
-    "Next.js",
-    "HTML",
-    "CSS",
-    "Tailwind CSS",
-    "Firebase",
-    "MongoDB",
-    "REST APIs",
-    "Git",
-    "Visual Studio Code",
-    "Design Patterns",
-    "Problem Solving"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "Cambridge PET B1",
+      "issuer": "Cambridge English",
+      "year": "2024"
+    },
+    {
+      "name": "Freshman Scholarship",
+      "issuer": "Ton Duc Thang University",
+      "year": "2021"
+    },
+    {
+      "name": "AGILE DEVELOPMENT & SCRUM FRAMEWORK COURSE",
+      "issuer": null,
+      "year": "2022"
+    }
+  ]
 }

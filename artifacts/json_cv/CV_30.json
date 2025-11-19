@@ -1,46 +1,102 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
+  "candidate_profile": {
+    "name": "Wai Yan Moe",
+    "role_focus": "Software Engineer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Proficient",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Nodejs",
+      "PHP",
+      "Python",
+      "Java",
+      "Kotlin"
+    ],
+    "frameworks_libraries": [
+      "Flutter",
+      "Android SDK"
+    ],
+    "databases": [
+      "MySQL",
+      "Firebase",
+      "Mongodb",
+      "MicrosoftSQL"
+    ],
+    "devops_cloud": [
+      "Docker",
+      "Firebase"
+    ],
+    "tools_platforms": [
+      "Git",
+      "XAMPP",
+      "Eclipse",
+      "Android Studio"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Web Development",
+      "Mobile Development",
+      "Artificial intelligence",
+      "Computer Vision",
+      "AI"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "FPT IS",
+      "role": "Mobile Developer Intern",
+      "start_date": "2023-05",
+      "end_date": "2023-06",
+      "duration_months": 2,
+      "is_internship": true,
+      "tech_used": [],
+      "responsibilities": null
+    }
+  ],
+  "projects": [
+    {
+      "name": "My Portfolio Website",
+      "type": "Personal",
+      "tech_used": [],
+      "description": null
+    },
+    {
+      "name": "Real Time Traffic Prediction App",
+      "type": "Academic",
+      "tech_used": [
+        "Flutter",
+        "Artificial intelligence",
+        "Computer Vision"
+      ],
+      "description": "to predict traffic density and optimize routes in scientific research"
+    },
+    {
+      "name": "AI-powered Vietnamese water puppetry application",
+      "type": "Hackathon",
+      "tech_used": [
+        "Flutter",
+        "AI"
+      ],
+      "description": "built with Flutter in 28 hours hackathon"
+    }
+  ],
   "education": [
     {
-      "degree": "Bachelor's in Software Engineering",
-      "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor's Degree",
+      "major": "Software Engineering (Information Technology)",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [
-    {
-      "company_name": "FPT IS",
-      "description": "N/A",
-      "job_title": "Mobile Developer Intern",
-      "years_worked": "2 months"
-    }
-  ],
-  "languages": [
-    "Myanmar",
-    "English"
-  ],
-  "name": "PHONE WAI YAN MOE",
-  "normalized_job_titles": [
-    "Software Engineer",
-    "Mobile Developer"
-  ],
-  "skills": [
-    "HTML",
-    "CSS",
-    "Javascript",
-    "Node.js",
-    "PHP",
-    "Python",
-    "Flutter",
-    "Android",
-    "Java",
-    "Kotlin",
-    "MySQL",
-    "Firebase",
-    "MongoDB",
-    "Git",
-    "Docker"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

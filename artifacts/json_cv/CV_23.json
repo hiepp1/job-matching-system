@@ -1,52 +1,115 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "Nguyen Tran Mai Thanh",
+    "role_focus": "Java Engineer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "B2",
+    "gpa": "7.65",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Java",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks_libraries": [
+      "Spring Boot",
+      "Spring Cloud",
+      "React",
+      "Axon Framework"
+    ],
+    "databases": [
+      "MySQL",
+      "SQL Server",
+      "H2 Console"
+    ],
+    "devops_cloud": [
+      "Docker",
+      "Kubernetes",
+      "Apache Kafka",
+      "Git",
+      "GitHub"
+    ],
+    "tools_platforms": [
+      "IntelliJ IDEA",
+      "VS Code",
+      "Swagger",
+      "Keycloak",
+      "OAuth 2.0",
+      "OpenID Connect",
+      "JWT",
+      "Spring Cloud Gateway",
+      "Spring Cloud Netflix Eureka"
+    ],
+    "architectures_models": [
+      "Microservices",
+      "Domain-Driven Design",
+      "CQRS",
+      "EventSourcing",
+      "Saga",
+      "Restful API"
+    ],
+    "techniques_concepts": [
+      "API Documentation",
+      "Service Discovery",
+      "Message Queue"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Software Engineering",
-      "graduation_year": "Present",
-      "institution_name": "Ton Duc Thang University"
-    }
-  ],
-  "experience": [
-    {
-      "company_name": "Personal Project",
-      "description": "Streamlined library operations by digitizing data and connecting services on a unified platform. Enabled users to search, borrow, and return books easily, while staff managed inventory and members more efficiently. Improved service quality, reduced errors, and scaled with business growth.",
-      "job_title": "Software Developer",
-      "years_worked": "3 months"
+      "name": "Book Shop Service",
+      "type": "Academic",
+      "tech_used": [
+        "Java",
+        "Spring Boot",
+        "Spring Cloud",
+        "Axon Framework",
+        "Microservices",
+        "Domain-Driven Design",
+        "CQRS",
+        "EventSourcing",
+        "Saga",
+        "Docker",
+        "Kubernetes",
+        "Github",
+        "Swagger",
+        "Apache Kafka",
+        "Keycloak",
+        "OAuth 2.0",
+        "OpenID",
+        "Spring Cloud Gateway",
+        "Spring Cloud Netflix Eureka"
+      ],
+      "description": "This project streamlines library operations by digitizing data and connecting services on a unified platform. It enables users to search, borrow, and return books easily, while staff manage inventory and members more efficiently. The solution improves service quality, reduces errors, and scales with business growth."
     },
     {
-      "company_name": "Team Project",
-      "description": "Developed an e-commerce platform for selling toys online, expanding business reach and boosting revenue. Managed product browsing, cart management, and secure order placement. Provided a responsive interface optimized for desktop and mobile users, improving customer convenience and supporting store owners with better inventory and order management.",
-      "job_title": "Full-Stack Developer",
-      "years_worked": "3 months"
+      "name": "Fixora Shop",
+      "type": "Academic",
+      "tech_used": [
+        "ReactJs",
+        "CSS",
+        "JavaScript",
+        "Java",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "description": "Fixora Shop is an e-commerce platform for selling toys online, helping the business expand its reach and boost revenue. It handles product browsing, cart management, and secure order placement to streamline the shopping process. The system provides a responsive interface optimized for both desktop and mobile users. It improves customer convenience and supports store owners with better inventory and order management."
     }
   ],
-  "languages": [
-    "English",
-    "Vietnamese"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor of Software Engineering",
+      "major": "Software Engineering",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "Nguyen Tran Mai Thanh",
-  "normalized_job_titles": [
-    "Software Developer",
-    "Full-Stack Developer"
-  ],
-  "skills": [
-    "Java",
-    "JavaScript",
-    "Spring Boot",
-    "Spring Cloud",
-    "React",
-    "Axon Framework",
-    "Microservices",
-    "CQRS",
-    "Event Sourcing",
-    "Docker",
-    "Kubernetes",
-    "Apache Kafka",
-    "MySQL",
-    "Git/GitHub",
-    "Keycloak"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

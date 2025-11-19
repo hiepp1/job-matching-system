@@ -1,80 +1,163 @@
 {
-  "certifications": [
-    "APTIS English Certificate"
+  "candidate_profile": {
+    "name": "Nguyen Quang Trung",
+    "role_focus": "Software Engineer, AI Engineer",
+    "seniority_level": "Junior"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "APTIS Certified",
+    "gpa": "3.0/4.0",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "C#",
+      "C/C++"
+    ],
+    "frameworks_libraries": [
+      "PyTorch",
+      "TensorFlow",
+      "OpenCV",
+      "Hadoop",
+      "MapReduce",
+      "WinForms",
+      "PySpark",
+      "Spark DataFrame APIs",
+      "Spark SQL"
+    ],
+    "databases": [
+      "MySQL",
+      "MS SQL Server",
+      "MongoDB"
+    ],
+    "devops_cloud": [
+      "HDFS",
+      "YARN"
+    ],
+    "tools_platforms": [
+      "Git",
+      "Jupyter"
+    ],
+    "architectures_models": [
+      "YOLOv11",
+      "Alpha-Beta Pruning",
+      "Uniform Cost Search (UCS)",
+      "A*",
+      "Apriori Algorithm",
+      "PageRank Algorithm"
+    ],
+    "techniques_concepts": [
+      "Data Structures",
+      "Machine Learning",
+      "Computer Vision",
+      "Big Data",
+      "Problem-solving",
+      "Teamwork",
+      "Critical Thinking",
+      "Self-learning",
+      "Graph Data Structure",
+      "Adjacency List",
+      "Traversal Algorithms",
+      "Optimized Search Methods",
+      "Object-Oriented Programming (OOP)",
+      "Heuristics",
+      "Admissibility",
+      "Consistency",
+      "Distributed Storage",
+      "Resource Management",
+      "Data Partitioning",
+      "Preprocessing",
+      "Web Graph Analysis",
+      "Data Augmentation",
+      "Real-time Detection",
+      "CUDA"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Checklist System",
+      "type": "Academic",
+      "tech_used": [
+        "WinForms",
+        "C#"
+      ],
+      "description": "Built an automated task management desktop application for daily tracking, enabling faster task completion and reducing manual documentation through Excel/PDF reporting."
+    },
+    {
+      "name": "Movie Rating Analysis",
+      "type": "Academic",
+      "tech_used": [
+        "Data Structures",
+        "Algorithms",
+        "Graph Data Structure",
+        "Adjacency List"
+      ],
+      "description": "Developed a graph-based user-movie rating analysis project, constructing a graph from large datasets and implementing efficient query algorithms to solve analysis requirements."
+    },
+    {
+      "name": "AI Game Projects (Tic-Tac-Toe & Pacman Search)",
+      "type": "Academic",
+      "tech_used": [
+        "Alpha-Beta Pruning",
+        "Object-Oriented Programming (OOP)",
+        "Uniform Cost Search (UCS)",
+        "A*"
+      ],
+      "description": "Developed an 8x8 Tic-Tac-Toe game with AI using Alpha-Beta Pruning and implemented intelligent search for Pacman using UCS and A* with proposed heuristics."
+    },
+    {
+      "name": "Apriori Algorithm with Hadoop MapReduce",
+      "type": "Academic",
+      "tech_used": [
+        "Apriori Algorithm",
+        "Hadoop MapReduce",
+        "HDFS",
+        "YARN",
+        "Python",
+        "SQL"
+      ],
+      "description": "Implemented the Apriori algorithm with Hadoop MapReduce to discover frequent customer groups from large transactional data, utilizing HDFS and YARN, and tuning job parameters for scalability."
+    },
+    {
+      "name": "PageRank with PySpark",
+      "type": "Academic",
+      "tech_used": [
+        "PageRank Algorithm",
+        "PySpark",
+        "Spark DataFrame APIs",
+        "Spark SQL"
+      ],
+      "description": "Crawled and built a directed graph of webpages, then implemented Google's PageRank algorithm in PySpark to evaluate and rank page importance, leveraging Spark for optimization."
+    },
+    {
+      "name": "Football Object Detection using YOLOv11",
+      "type": "Academic",
+      "tech_used": [
+        "YOLOv11",
+        "OpenCV",
+        "CUDA"
+      ],
+      "description": "Trained a custom YOLOv11 model on 5K+ annotated frames for football object detection, achieving high mAP and deploying real-time detection with low latency."
+    }
   ],
-  "detected_industry": "information_technology",
   "education": [
     {
-      "degree": "B.Sc. in Computer Science",
-      "graduation_year": "Present",
-      "institution_name": "Ton Duc Thang University"
+      "institution": "Ton Duc Thang University",
+      "degree": "B.Sc.",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "N/A",
-      "description": "Built a WinForms C# checklist system for daily tracking and automated Excel/PDF reporting.",
-      "job_title": "Software Developer",
-      "years_worked": "3 months"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Developed a graph-based user-movie rating analysis system, implementing efficient query algorithms and achieving 100% score.",
-      "job_title": "Data Analyst",
-      "years_worked": "3 months"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Developed AI games (Tic-Tac-Toe, Pacman) using Alpha-Beta Pruning, Uniform Cost Search, and A* algorithms.",
-      "job_title": "AI Developer",
-      "years_worked": "4 months"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Implemented Apriori algorithm with Hadoop MapReduce for frequent customer analysis on large-scale data, optimizing scalability and throughput.",
-      "job_title": "Big Data Engineer",
-      "years_worked": "2 months"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Implemented Google's PageRank algorithm in PySpark for web graph analysis and page importance ranking, leveraging Spark DataFrame APIs.",
-      "job_title": "Big Data Engineer",
-      "years_worked": "2 months"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Trained and deployed a custom YOLOv11 model for real-time football object detection, achieving high mAP and low latency.",
-      "job_title": "Computer Vision Engineer",
-      "years_worked": "3 months"
+      "name": "APTIS English Certificate",
+      "issuer": null,
+      "year": null
     }
-  ],
-  "languages": [
-    "English",
-    "Vietnamese"
-  ],
-  "name": "Nguyen Quang Trung",
-  "normalized_job_titles": [
-    "Software Engineer",
-    "AI Engineer",
-    "Data Engineer",
-    "Computer Vision Engineer"
-  ],
-  "skills": [
-    "Python",
-    "Java",
-    "C#",
-    "C/C++",
-    "PyTorch",
-    "TensorFlow",
-    "OpenCV",
-    "Hadoop",
-    "MapReduce",
-    "Git",
-    "MySQL",
-    "MS SQL Server",
-    "MongoDB",
-    "Problem-solving",
-    "Critical thinking"
-  ],
-  "years_of_experience": 1
+  ]
 }

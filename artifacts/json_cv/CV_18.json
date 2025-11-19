@@ -1,59 +1,122 @@
 {
-  "certifications": [
-    "Aptis ESOL Certificate – Score: 154/200"
+  "candidate_profile": {
+    "name": "NGUYEN TRUNG THANG",
+    "role_focus": "AI/Machine Learning Engineer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Advanced",
+    "gpa": "7.78/10",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "C",
+      "Java",
+      "JavaScript",
+      "PHP",
+      "SQL"
+    ],
+    "frameworks_libraries": [
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "Scikit-learn",
+      "HuggingFace Transformers",
+      "Django",
+      "OpenCV",
+      "Pandas",
+      "NumPy",
+      "Matplotlib"
+    ],
+    "databases": [],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Linux",
+      "Google Colab",
+      "GitHub"
+    ],
+    "architectures_models": [
+      "ViT5",
+      "BartPho",
+      "CNN",
+      "LSTM",
+      "Attention",
+      "Transformer Decoder",
+      "BLIP",
+      "Gemini"
+    ],
+    "techniques_concepts": [
+      "Deep Learning",
+      "Machine Learning",
+      "Computer Vision",
+      "Generative AI",
+      "Text Error Correction",
+      "Visual Question Answering",
+      "OCR",
+      "Feature Extraction",
+      "Sequence Modeling",
+      "Model Design",
+      "Training",
+      "Evaluation",
+      "Optimization",
+      "Fine-tuning"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Deep Learning Research Project – Text Error Correction",
+      "type": "Academic",
+      "tech_used": [
+        "PyTorch",
+        "ViT5",
+        "BartPho"
+      ],
+      "description": "Trained and fine-tuned ViT5 and BartPho models in PyTorch, achieving strong performance in Vietnamese text correction. Improved model accuracy through iterative experiments and optimization in a 2-member team."
+    },
+    {
+      "name": "Visual Question Answering Project",
+      "type": "Academic",
+      "tech_used": [
+        "Generative AI",
+        "CNN",
+        "LSTM",
+        "Attention",
+        "BLIP",
+        "Gemini API",
+        "Google Colab"
+      ],
+      "description": "Developed an end-to-end Visual Question Answering (VQA) system using generative AI for dataset creation and a custom CNN–LSTM–Attention model for training. Automated image captioning and question–answer generation using BLIP and Gemini API, and designed and evaluated the model on animal image datasets with visual feedback and loss tracking in Google Colab."
+    },
+    {
+      "name": "OCR System with CNN+Transformer Decoder",
+      "type": "Academic",
+      "tech_used": [
+        "CNN",
+        "Transformer Decoder",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "description": "Built an OCR pipeline combining CNNs for feature extraction and Transformer Decoder for sequence modeling. Accurately extracted text from invoices, reducing manual entry errors, with limitations on blurred inputs. Applied TensorFlow and PyTorch, improving recognition performance on structured documents."
+    }
   ],
-  "detected_industry": "information_technology",
   "education": [
     {
+      "institution": "Ton Duc Thang University",
       "degree": "Bachelor of Computer Science",
+      "major": "Computer Science",
       "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "Team Project",
-      "description": "Trained and fine-tuned ViT5 and BartPho models in PyTorch, achieving strong performance in Vietnamese text correction. Improved model accuracy through iterative experiments and optimization. Collaborated in a 2-member team, handling model design, training, and evaluation.",
-      "job_title": "Deep Learning Research Project – Text Error Correction",
-      "years_worked": "Mar 2025 – Jul 2025"
-    },
-    {
-      "company_name": "Team Project",
-      "description": "Developed an end-to-end Visual Question Answering (VQA) system using generative AI for dataset creation and a custom CNN – LSTM – Attention model for training. Automated image captioning and question–answer generation using BLIP and Gemini API. Designed and evaluated the model on animal image datasets with visual feedback and loss tracking in Google Colab.",
-      "job_title": "Visual Question Answering Project",
-      "years_worked": "Mar 2025"
-    },
-    {
-      "company_name": "Team Project",
-      "description": "Built an OCR pipeline combining CNNs for feature extraction and Transformer Decoder for sequence modeling. Accurately extracted text from invoices, reducing manual entry errors, with limitations on blurred inputs. Applied TensorFlow and PyTorch, improving recognition performance on structured documents.",
-      "job_title": "OCR System with CNN+Transformer Decoder",
-      "years_worked": "Apr 2025"
+      "name": "Aptis ESOL Certificate",
+      "issuer": "Aptis ESOL",
+      "year": null
     }
-  ],
-  "languages": [
-    "English",
-    "Vietnamese"
-  ],
-  "name": "NGUYEN TRUNG THANG",
-  "normalized_job_titles": [
-    "Machine Learning Engineer"
-  ],
-  "skills": [
-    "Python",
-    "C",
-    "Java",
-    "JavaScript",
-    "PHP",
-    "SQL",
-    "PyTorch",
-    "TensorFlow",
-    "Keras",
-    "Scikit-learn",
-    "HuggingFace Transformers",
-    "Django",
-    "Linux",
-    "OpenCV",
-    "Pandas"
-  ],
-  "years_of_experience": 0
+  ]
 }

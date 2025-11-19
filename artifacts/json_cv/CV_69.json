@@ -1,54 +1,88 @@
 {
-  "certifications": [
-    "IELTS 7.0 English Certificate"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "Hồ Lê Trung Tín",
+    "role_focus": "Web Developer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "IELTS 7.0",
+    "gpa": 7.25,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Typescript"
+    ],
+    "frameworks_libraries": [
+      "Dexie.js",
+      "Prisma"
+    ],
+    "databases": [
+      "SQL",
+      "IndexedDB",
+      "PostgreSQL"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "IntelliJ",
+      "Visual Studio",
+      "Visual Studio Code",
+      "PyCharm",
+      "Git"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Software Testing",
+      "Frontend Development",
+      "Data Management",
+      "UI/UX Design"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Software Engineering",
-      "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
-    }
-  ],
-  "experience": [
-    {
-      "company_name": "N/A",
-      "description": "Developed interface and functions for player management and performance statistics using HTML, CSS, Javascript, Dexie.js.",
-      "job_title": "Programmer, Software Tester",
-      "years_worked": "1 month"
+      "name": "Website for Esports team",
+      "type": "Academic",
+      "tech_used": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Dexie.js"
+      ],
+      "description": "Built UI and functionality for player management and statistics tracking."
     },
     {
-      "company_name": "N/A",
-      "description": "Developed interface and functions for managing players, statistics, indices, and biographies of individual players using HTML, CSS, Javascript, Typescript, Prisma.",
-      "job_title": "Programmer, Software Tester",
-      "years_worked": "2 months"
+      "name": "Website for Football tournament",
+      "type": "Academic",
+      "tech_used": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Typescript",
+        "Prisma"
+      ],
+      "description": "Built UI and functionality for player management, statistics tracking, and player biographies."
     }
   ],
-  "languages": [
-    "English",
-    "Vietnamese"
+  "education": [
+    {
+      "institution": "Tôn Đức Thắng University",
+      "degree": "Bachelor of Engineering",
+      "major": "Software Engineering",
+      "graduation_year": "2025",
+      "status": "In Progress"
+    }
   ],
-  "name": "Hồ Lê Trung Tín",
-  "normalized_job_titles": [
-    "Programmer",
-    "Software Tester"
-  ],
-  "skills": [
-    "Python",
-    "HTML",
-    "CSS",
-    "Javascript",
-    "SQL",
-    "IndexedDB",
-    "PostgreSQL",
-    "Prisma (ORM)",
-    "Dexie.js",
-    "IntelliJ",
-    "Visual Studio",
-    "Visual Studio Code",
-    "PyCharm",
-    "Typescript",
-    "Teamwork"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "IELTS 7.0",
+      "issuer": "IELTS",
+      "year": "2023"
+    }
+  ]
 }

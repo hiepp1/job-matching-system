@@ -1,49 +1,135 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "Lê Hữu Thắng",
+    "role_focus": "Intern Java Developer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": null,
+    "years_experience": 0.5
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Java",
+      "Python",
+      "C#"
+    ],
+    "frameworks_libraries": [
+      "Spring MVC",
+      "Spring Boot",
+      "Hibernate",
+      "Android",
+      "Spring Data JPA",
+      "ASP.NET MVC",
+      "Thymeleaf",
+      "Winform"
+    ],
+    "databases": [
+      "MySQL",
+      "SQL Server",
+      "SQL Lite"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "IntelliJ IDEA",
+      "Eclipse",
+      "Visual Studio Code",
+      "Visual Studio",
+      "Git"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Data Structures",
+      "Algorithms",
+      "Software Engineering",
+      "Database Systems",
+      "Design pattern",
+      "UI/UX",
+      "APIs",
+      "Manual Testing",
+      "Command Pattern",
+      "Decorator Pattern",
+      "Observer Pattern",
+      "State Pattern",
+      "Template Pattern"
+    ]
+  },
+  "work_experience": [
     {
-      "degree": "Bachelor's in Software Engineering",
-      "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
-    }
-  ],
-  "experience": [
-    {
-      "company_name": "ELLIOT COMPANY LIMITED",
-      "description": "Managed and processed data, including collection, storage, processing, error checking, and entering product data, to support organizational decisions.",
-      "job_title": "DATA PROCESSING STAFF",
-      "years_worked": "6 months"
+      "company": "ELLIOT COMPANY LIMITED",
+      "role": "DATA PROCESSING STAFF",
+      "start_date": "2023-07",
+      "end_date": "2023-12",
+      "duration_months": 6,
+      "is_internship": false,
+      "tech_used": [],
+      "responsibilities": "Manage and process data to support organizational progress and operational decisions. Key responsibilities and duties include collecting, storing, processing, checking for errors, and entering decision product data."
     },
     {
-      "company_name": "Elliot Company Limited",
-      "description": "Coordinated with testers to perform manual testing based on provided scenarios.",
-      "job_title": "TESTING COLLABORATOR",
-      "years_worked": "6 months"
+      "company": "Elliot Company Limited",
+      "role": "TESTING COLLABORATOR",
+      "start_date": "2023-07",
+      "end_date": "2023-12",
+      "duration_months": 6,
+      "is_internship": false,
+      "tech_used": [],
+      "responsibilities": "Coordinate with testers to perform manual testing with given test scenarios."
     }
   ],
-  "languages": [],
-  "name": "Lê Hữu Thắng",
-  "normalized_job_titles": [
-    "Data Processor",
-    "QA Tester"
+  "projects": [
+    {
+      "name": "Winform application (Applying Design pattern)",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Winform C#",
+        "Command Pattern",
+        "Decorator Pattern",
+        "Observer Pattern",
+        "State Pattern",
+        "Template Pattern"
+      ],
+      "description": "Developed a Winform application applying various design patterns."
+    },
+    {
+      "name": "Android Driving licence Application",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Java Android",
+        "SQL Lite"
+      ],
+      "description": "Designed database, created UI, and designed an Android application for driving licenses."
+    },
+    {
+      "name": "Email website",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Spring Boot",
+        "Thymeleaf",
+        "MySQL"
+      ],
+      "description": "Designed database, model, and created APIs for an email website."
+    },
+    {
+      "name": "Ecommerce Website",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Spring Boot",
+        "Thymeleaf",
+        "MySQL"
+      ],
+      "description": "Designed database, model, created APIs for an e-commerce website."
+    }
   ],
-  "skills": [
-    "Java",
-    "Python",
-    "C#",
-    "Spring Boot",
-    "Hibernate",
-    "Android",
-    "MySQL",
-    "SQL Server",
-    "SQLite",
-    "IntelliJ IDEA",
-    "Visual Studio Code",
-    "Git",
-    "Design Patterns",
-    "UI/UX",
-    "APIs"
+  "education": [
+    {
+      "institution": "TON DUC THANG UNIVERSITY",
+      "degree": "BACHELOR'S IN SOFTWARE ENGINEERING",
+      "major": "Software Engineering",
+      "graduation_year": "2025",
+      "status": "In Progress"
+    }
   ],
-  "years_of_experience": 0
+  "certifications": []
 }

@@ -1,52 +1,84 @@
 {
-  "certifications": [
-    "Aptis ESOL B1"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "DOAN THAI TU",
+    "role_focus": "Frontend Developer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "PHP"
+    ],
+    "frameworks_libraries": [
+      "React.js",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "databases": [
+      "MySQL"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Git",
+      "GitHub"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "REST API integration",
+      "Responsive UI",
+      "Data-driven charts"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Software Engineering",
-      "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
-    }
-  ],
-  "experience": [
-    {
-      "company_name": "Personal Project",
-      "description": "Developed a web-based application to manage student accounts with login, registration, and admin dashboard.",
-      "job_title": "Frontend Developer",
-      "years_worked": "3 months"
+      "name": "Student Management System",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "MySQL"
+      ],
+      "description": "Developed a web-based application to manage student accounts with login, registration, and admin dashboard."
     },
     {
-      "company_name": "Personal Project",
-      "description": "Created a frontend dashboard to visualize datasets from the backend API. Implemented responsive UI and data-driven charts.",
-      "job_title": "Frontend Developer",
-      "years_worked": "2 months"
+      "name": "Data Visualization Frontend",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "React.js",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS"
+      ],
+      "description": "Created a frontend dashboard to visualize datasets from the backend API. Implemented responsive UI and data-driven charts."
     }
   ],
-  "languages": [
-    "English"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Software Engineering",
+      "graduation_year": "2025",
+      "status": "In Progress"
+    }
   ],
-  "name": "DOAN THAI TU",
-  "normalized_job_titles": [
-    "Frontend Developer"
-  ],
-  "skills": [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "TypeScript",
-    "React.js",
-    "Git",
-    "GitHub",
-    "Node.js",
-    "REST API",
-    "PHP",
-    "MySQL",
-    "Vite",
-    "Tailwind CSS",
-    "Teamwork",
-    "Communication"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "Aptis ESOL B1",
+      "issuer": null,
+      "year": null
+    }
+  ]
 }

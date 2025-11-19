@@ -1,1 +1,149 @@
-{"certifications":["English APTIS Level B1 (CEFR)","Agile Development & Scrum Framework Course – Techbase Vietna"],"detected_industry":"information_technology","education":[{"degree":"Bachelor of Software Engineering","graduation_year":"2026","institution_name":"Ton Duc Thang University"}],"experience":[{"company_name":"Bookworm Project","description":"Developed a cross-platform library management system; implemented user authentication, book catalog, room reservation, borrow/return, and admin functions.","job_title":"Backend Developer","years_worked":"2023 - 2024"},{"company_name":"CPMAD E-commerce Project","description":"Built a cross-platform e-commerce application; implemented user authentication, product catalog, shopping cart, checkout, order management, real-time reviews, and admin dashboard. Led frontend-backend integration.","job_title":"Backend Developer - Team Leader","years_worked":"2024 - 2025"},{"company_name":"VOPET Project","description":"Developed an English vocabulary learning app; implemented topic/folder management, CSV import/export, text-to-speech, progress tracking, and community features. Applied advanced design patterns and integrated Firebase.","job_title":"Backend Developer - Team Leader","years_worked":"2024 - 2025"}],"languages":["English"],"name":"Đoàn Thống Lĩnh","normalized_job_titles":["Software Engineer","Backend Developer","Team Leader"],"skills":["Flutter","Python","Node.js","Java","MongoDB","MySQL","Firebase","SQL Server","RESTful APIs","WebSocket","Microservices","MVC","Git","Agile/Scrum","Problem-solving"],"years_of_experience":2}
+{
+  "candidate_profile": {
+    "name": "Đoàn Thống Lĩnh",
+    "role_focus": "Backend Developer",
+    "seniority_level": "Junior"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": 8.64,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Dart",
+      "Python",
+      "C",
+      "C#",
+      "Java"
+    ],
+    "frameworks_libraries": [
+      "Flutter",
+      "Node.js",
+      "Android"
+    ],
+    "databases": [
+      "MongoDB",
+      "MySQL",
+      "SQL Server"
+    ],
+    "devops_cloud": [
+      "Firebase"
+    ],
+    "tools_platforms": [
+      "Git",
+      "GitHub",
+      "GitLab"
+    ],
+    "architectures_models": [
+      "Microservices",
+      "MVC",
+      "Message Queue",
+      "RabbitMQ",
+      "Kafka",
+      "Singleton",
+      "Strategy",
+      "Template",
+      "Command",
+      "State",
+      "Builder",
+      "Observer",
+      "Flyweight",
+      "Decorator",
+      "Factory"
+    ],
+    "techniques_concepts": [
+      "RESTful APIs",
+      "WebSocket",
+      "Agile",
+      "Scrum",
+      "Problem-solving",
+      "Logical Thinking",
+      "Team Collaboration",
+      "Communication",
+      "Documentation",
+      "System Analysis",
+      "Clean Code",
+      "Energy Optimization",
+      "Hand-crafted Architecture Systems"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Bookworm - Library Management App",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Flutter",
+        "Dart",
+        "RESTful APIs",
+        "WebSocket",
+        "MongoDB",
+        "MySQL",
+        "Firebase",
+        "SQL Server"
+      ],
+      "description": "Developed a cross-platform library management system using Flutter and backend. Implemented features like user authentication, book catalog with search/filter/sort, room reservation, borrow/return books, due date tracking, and admin functions for managing books, categories, users, and monitoring history. Designed a responsive and user-friendly UI."
+    },
+    {
+      "name": "CPMAD_ECommerceApp - Laptop Store App",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Flutter",
+        "Dart",
+        "RESTful APIs",
+        "WebSocket",
+        "Android",
+        "Web",
+        "Windows",
+        "MongoDB",
+        "MySQL",
+        "Firebase",
+        "SQL Server"
+      ],
+      "description": "Built a cross-platform e-commerce application deployed on Android, Web, and Windows. Implemented user authentication, product catalog with variants, search/filter/sort, shopping cart, checkout with coupons and loyalty points. Developed order management with tracking, history, email confirmation, and integrated real-time reviews & ratings via WebSocket. Designed an admin dashboard for product, user, order, and coupon management with analytical charts. Responsible for frontend–backend integration in Flutter, core business logic, and API flows."
+    },
+    {
+      "name": "VOPET - English Vocabulary Learning App",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Firebase",
+        "RESTful APIs",
+        "WebSocket",
+        "Singleton",
+        "Strategy",
+        "Template",
+        "Command",
+        "State",
+        "Builder",
+        "Observer",
+        "Flyweight",
+        "Decorator",
+        "Factory"
+      ],
+      "description": "Built an application for English vocabulary learning, allowing users to create topics, study, and take tests in various forms. Implemented topic & folder management, CSV import/export, text-to-speech, and progress tracking. Enabled community features like public topic sharing, leaderboards, and achievements. Applied advanced design patterns to optimize code and integrated Firebase for authentication and real-time sync."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor of Software Engineering",
+      "major": "Software Engineering",
+      "graduation_year": "2026",
+      "status": "In Progress"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "English APTIS Level B1 (CEFR)",
+      "issuer": null,
+      "year": "2023"
+    },
+    {
+      "name": "Agile Development & Scrum Framework Course",
+      "issuer": "Techbase Vietna",
+      "year": "2024"
+    }
+  ]
+}

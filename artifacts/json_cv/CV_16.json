@@ -1,58 +1,106 @@
 {
-  "certifications": [
-    "Aptis ESOL Certified by British Council"
+  "candidate_profile": {
+    "name": "ĐẶNG MINH THẮNG",
+    "role_focus": "FRONT-END DEVELOPER",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": "3.0/4.0",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Java",
+      "C#",
+      "Javascript",
+      "HTML/CSS"
+    ],
+    "frameworks_libraries": [
+      "ReactJS",
+      "Winform"
+    ],
+    "databases": [
+      "Sql Server",
+      "MySQL"
+    ],
+    "devops_cloud": [
+      "Debian 12"
+    ],
+    "tools_platforms": [
+      "Postman",
+      "Visual Studio Code",
+      "GitHub",
+      "FusionPBX"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Networking",
+      "AI",
+      "Software Development",
+      "UI/UX Design",
+      "Responsive Design",
+      "User Experience",
+      "Intuitive Interface",
+      "Optimized Performance",
+      "Scalability",
+      "Call Management",
+      "VoIP Integration",
+      "Business Logic",
+      "System Testing",
+      "Teamwork",
+      "Communication",
+      "Analytical Thinking"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Pet Grooming Website",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "ReactJS",
+        "UI/UX Design"
+      ],
+      "description": "Designed UI/UX focusing on user experience and intuitive interface. Utilized ReactJS to build reusable components and ensure responsive design. Delivered a demo product with a user-friendly interface, optimized performance, and scalability."
+    },
+    {
+      "name": "Call Center – Enterprise Communication System",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "ReactJS",
+        "Debian 12",
+        "FusionPBX",
+        "UI/UX Design",
+        "VoIP"
+      ],
+      "description": "Contributed to UI/UX design, feature development, and system testing. Completed a Call Center system with a friendly interface, enabling call management and integration with VoIP infrastructure."
+    },
+    {
+      "name": "Motorbike Rental Management System",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "C# WinForms",
+        "SQL Server"
+      ],
+      "description": "Built the user interface using C# WinForms, including login, vehicle management, billing, and admin modules. Designed and implemented business logic for rental/return tracking, billing, and customer management. Managed SQL Server database and performed comprehensive testing."
+    }
   ],
-  "detected_industry": "information_technology",
   "education": [
     {
-      "degree": "Bachelor of Computer Networks and Data Communications",
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Networks and Data Communications",
       "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "N/A",
-      "description": "Designed UI/UX, utilized ReactJS for reusable components and responsive design. Delivered a user-friendly demo product with optimized performance and scalability.",
-      "job_title": "Front-End Developer",
-      "years_worked": "N/A"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Contributed to UI/UX design, feature development, and system testing using ReactJS, Debian 12, and FusionPBX. Completed a call center system with a friendly interface for call management and VoIP integration.",
-      "job_title": "Front-End Developer",
-      "years_worked": "N/A"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Built user interface with C# WinForms, designed and implemented business logic for login, rental/return tracking, billing, and customer management. Managed SQL Server database and performed comprehensive testing.",
-      "job_title": "Developer",
-      "years_worked": "N/A"
+      "name": "Aptis ESOL",
+      "issuer": "British Council",
+      "year": null
     }
-  ],
-  "languages": [
-    "English"
-  ],
-  "name": "ĐẶNG MINH THẮNG",
-  "normalized_job_titles": [
-    "Front-End Developer"
-  ],
-  "skills": [
-    "HTML/CSS",
-    "Javascript",
-    "ReactJS",
-    "C#",
-    "Java",
-    "SQL Server",
-    "MySQL",
-    "UI/UX Design",
-    "Responsive Design",
-    "Postman",
-    "Visual Studio Code",
-    "GitHub",
-    "Teamwork",
-    "Communication",
-    "Analytical Thinking"
-  ],
-  "years_of_experience": 0
+  ]
 }

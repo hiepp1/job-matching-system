@@ -1,66 +1,106 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
+  "candidate_profile": {
+    "name": "NGUYEN NHAT KHOA",
+    "role_focus": "AI/ML Engineer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Advanced/IELTS 6.0+",
+    "gpa": 7.48,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "C#"
+    ],
+    "frameworks_libraries": [
+      "OpenCV"
+    ],
+    "databases": [],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Git",
+      "VS Code"
+    ],
+    "architectures_models": [
+      "Transformer",
+      "CNN"
+    ],
+    "techniques_concepts": [
+      "Digital Image Processing",
+      "Traffic Sign Detection",
+      "HSV Color Thresholding",
+      "Template Matching",
+      "Object Detection",
+      "Attention Mechanisms",
+      "COCO Dataset",
+      "Top-K Frequent Pattern Mining",
+      "Uncertain Data",
+      "Sentiment Analysis",
+      "Computer Vision",
+      "Deep Learning",
+      "Algorithms"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Traffic Sign Detection in Road Videos",
+      "type": "Academic",
+      "tech_used": [
+        "Python",
+        "OpenCV",
+        "HSV Color Thresholding",
+        "Template Matching",
+        "Real-time Video Processing"
+      ],
+      "description": "Built a real-time video processing system in Python with OpenCV to detect and emphasize traffic signs in road footage. The pipeline utilized HSV color thresholding to isolate red and blue areas, combined with template matching to recognize valid signs, and displayed them on video frames in real time."
+    },
+    {
+      "name": "Context-Aware Object Detection Using Transformers",
+      "type": "Academic",
+      "tech_used": [
+        "Transformer",
+        "Object Detection",
+        "Attention Mechanisms",
+        "COCO Dataset",
+        "CNN"
+      ],
+      "description": "Implemented an object detection model leveraging Transformer-based attention mechanisms. The system independently encoded image regions and their surrounding context, then fused these representations to improve detection accuracy. Trained and evaluated the model on the COCO dataset, achieving competitive performance compared to baseline CNN models."
+    },
+    {
+      "name": "Interactive Top-K Frequent Pattern Mining from Uncertain Data",
+      "type": "Academic",
+      "tech_used": [
+        "Algorithms",
+        "Top-K Frequent Pattern Mining",
+        "Uncertain Data"
+      ],
+      "description": "Conducted research on Top-K frequent pattern mining for uncertain datasets and implemented efficient algorithms. Designed an interactive tool that allows users to customize the number of retrieved patterns, enhancing flexibility and practical application."
+    },
+    {
+      "name": "Context-Aware Sentiment Analysis Using Transformers",
+      "type": "Academic",
+      "tech_used": [
+        "Transformer",
+        "Sentiment Analysis",
+        "Deep Learning",
+        "Attention Mechanisms"
+      ],
+      "description": "Designed a sentiment analysis model leveraging Transformer architecture with attention mechanisms. The system independently encoded short texts and their contextual information, then integrated both representations to achieve accurate sentiment classification."
+    }
+  ],
   "education": [
     {
+      "institution": "Ton Duc Thang University",
       "degree": "Bachelor of Computer Science",
-      "graduation_year": "Present",
-      "institution_name": "Ton Duc Thang University"
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [
-    {
-      "company_name": "N/A",
-      "description": "Built a real-time video processing system in Python with OpenCV to detect and emphasize traffic signs in road footage. The pipeline utilized HSV color thresholding to isolate red and blue areas, combined with template matching to recognize valid signs, and displayed them on video frames in real time.",
-      "job_title": "Digital Image Processing Projects",
-      "years_worked": "2 months"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Implemented an object detection model leveraging Transformer-based attention mechanisms. The system independently encoded image regions and their surrounding context, then fused these representations to improve detection accuracy. Trained and evaluated the model on the COCO dataset, achieving competitive performance compared to baseline CNN models.",
-      "job_title": "Computer Vision Project",
-      "years_worked": "2 months"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Conducted research on Top-K frequent pattern mining for uncertain datasets and implemented efficient algorithms. Designed an interactive tool that allows users to customize the number of retrieved patterns, enhancing flexibility and practical application.",
-      "job_title": "Design and Analysis of Algorithms Project",
-      "years_worked": "3 months"
-    },
-    {
-      "company_name": "N/A",
-      "description": "Designed a sentiment analysis model leveraging Transformer architecture with attention mechanisms. The system independently encoded short texts and their contextual information, then integrated both representations to achieve accurate sentiment classification.",
-      "job_title": "Deep Learning Project",
-      "years_worked": "3 months"
-    }
-  ],
-  "languages": [
-    "Vietnamese",
-    "English"
-  ],
-  "name": "NGUYEN NHAT KHOA",
-  "normalized_job_titles": [
-    "Computer Vision Engineer",
-    "Deep Learning Engineer",
-    "Algorithm Developer",
-    "Software Developer"
-  ],
-  "skills": [
-    "Python",
-    "Java",
-    "C#",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "Git",
-    "VS Code",
-    "OpenCV",
-    "Computer Vision",
-    "Deep Learning",
-    "Object Detection",
-    "Sentiment Analysis",
-    "Transformers",
-    "Algorithms"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

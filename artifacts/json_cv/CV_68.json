@@ -1,54 +1,104 @@
 {
-  "certifications": [
-    "Cambridge PET - B1 CEFR English Certificate (2023)"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "Nguyễn Hoàng Lộc",
+    "role_focus": "Software Developer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate (B1 CEFR)",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "C/C++",
+      "Java",
+      "Python",
+      "Dart",
+      "C#"
+    ],
+    "frameworks_libraries": [
+      "Flutter",
+      "Unity"
+    ],
+    "databases": [
+      "MySQL",
+      "SQLite",
+      "Firebase Realtime Database",
+      "Firestore"
+    ],
+    "devops_cloud": [
+      "Firebase"
+    ],
+    "tools_platforms": [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Android Studio",
+      "Unity Editor",
+      "Trello",
+      "Jira",
+      "Postman"
+    ],
+    "architectures_models": [
+      "MVC",
+      "MVVM"
+    ],
+    "techniques_concepts": [
+      "Object-Oriented Programming (OOP)",
+      "Error Handling",
+      "Performance Optimization",
+      "Teamwork",
+      "Version Control",
+      "Responsive Design",
+      "REST API",
+      "Game Development",
+      "Mobile Development",
+      "Web Development",
+      "UI/UX Design"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Information Technology, Software Engineering major",
-      "graduation_year": "Present",
-      "institution_name": "Ton Duc Thang University"
-    }
-  ],
-  "experience": [
-    {
-      "company_name": "N/A",
-      "description": "Designed and developed a cross-platform E-Learning app (Web, Android, Windows) inspired by Google Classroom, using Flutter (Dart), Firebase, and SQLite. Features included instructor/student interfaces, course management, assignment/quiz system, discussion forum, and responsive UI.",
-      "job_title": "Cross-Platform Mobile Developer",
-      "years_worked": "3 months"
+      "name": "E-Learning Management App",
+      "type": "Academic",
+      "tech_used": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "SQLite",
+        "REST API",
+        "GitHub"
+      ],
+      "description": "Designed and developed a cross-platform E-Learning application (Web, Android, Windows) inspired by Google Classroom. Enabled instructors and students to interact, manage, and track online learning. Features included dual roles (Instructor/Student), course/student management with CSV import, assignment/quiz system with deadlines and grading, discussion forum, chat, notifications, and a learning dashboard. Built with Flutter, integrated Firebase and SQLite for online/offline functionality. Implemented responsive UI for various devices."
     },
     {
-      "company_name": "N/A",
-      "description": "Designed and built a modern, intuitive movie ticket booking website. Key features included movie listing with posters and trailers, detailed movie information, intuitive seat selection, booking confirmation interface, and responsive design with CSS effects.",
-      "job_title": "Web Developer",
-      "years_worked": "3 months"
+      "name": "Movie Ticket Booking Website",
+      "type": "Academic",
+      "tech_used": [
+        "Web Development",
+        "CSS",
+        "Responsive Design"
+      ],
+      "description": "Designed and built a modern, intuitive movie ticket booking website. Key pages included Homepage, Movie List, Movie Details, Showtimes, Seat Selection, and Booking Confirmation. Features included movie listings with posters/trailers, detailed movie information, an intuitive seat selection system with status feedback, and a clear booking confirmation interface. Implemented responsive design for multi-platform compatibility and applied CSS effects for enhanced user experience."
     }
   ],
-  "languages": [
-    "Vietnamese",
-    "English"
+  "education": [
+    {
+      "institution": "Tôn Đức Thắng University",
+      "degree": "Bachelor of Information Technology",
+      "major": "Software Engineering",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "Nguyen Hoang Loc",
-  "normalized_job_titles": [
-    "Cross-Platform Mobile Developer",
-    "Web Developer"
-  ],
-  "skills": [
-    "C/C++",
-    "Java",
-    "Python",
-    "Dart",
-    "C#",
-    "Flutter",
-    "Unity",
-    "OOP",
-    "MVC",
-    "MVVM",
-    "REST API",
-    "MySQL",
-    "SQLite",
-    "Firebase",
-    "Git/GitHub"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "Cambridge PET – B1 (CEFR)",
+      "issuer": "Cambridge",
+      "year": "2023"
+    }
+  ]
 }

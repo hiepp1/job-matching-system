@@ -1,35 +1,121 @@
 {
-  "certifications": [],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "PHAM KHANH LINH",
+    "role_focus": "Software Developer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "C#",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "frameworks_libraries": [
+      "Spring Boot",
+      "Spring Security",
+      "Spring Data JPA",
+      "ASP.NET Core MVC",
+      "Entity Framework Core",
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "Thymeleaf",
+      "Bootstrap"
+    ],
+    "databases": [
+      "MySQL",
+      "SQL Server"
+    ],
+    "devops_cloud": [
+      "Git"
+    ],
+    "tools_platforms": [
+      "IntelliJ",
+      "Visual Studio",
+      "Google Colab",
+      "Kaggle"
+    ],
+    "architectures_models": [
+      "RESTful API",
+      "LSTM",
+      "Attention Networks"
+    ],
+    "techniques_concepts": [
+      "Deep Learning",
+      "Web Development",
+      "Database Management",
+      "JWT",
+      "Object-Oriented Programming",
+      "Teamwork",
+      "Project Management",
+      "Logical Thinking",
+      "Problem-solving",
+      "Self-learning",
+      "Responsive Design"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Computer Science",
-      "graduation_year": "Ongoing",
-      "institution_name": "Ton Duc Thang University"
+      "name": "Real Estate Transaction Website",
+      "type": "Academic",
+      "tech_used": [
+        "Java 17",
+        "Spring Security",
+        "Spring Data JPA",
+        "JWT",
+        "RESTful API",
+        "Thymeleaf",
+        "MySQL"
+      ],
+      "description": "A real estate management platform that enables users, brokers, and administrators to manage properties, transactions, and personal information. The website supports posting, searching, filtering, profile management, wishlist, transaction history, and responsive design."
+    },
+    {
+      "name": "Fast Food Ordering Website",
+      "type": "Academic",
+      "tech_used": [
+        "ASP.NET Core MVC",
+        "C#",
+        "Entity Framework Core",
+        "SQL Server",
+        "Bootstrap",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "description": "Developed a fast-food ordering website that allows users to view menus, add items to cart, place orders, and manage their accounts. Administrators can manage products, orders, and users."
+    },
+    {
+      "name": "Vietnamese Spell Correction Model using Deep Learning",
+      "type": "Academic",
+      "tech_used": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "PyTorch",
+        "LSTM",
+        "Attention Networks"
+      ],
+      "description": "Built an automatic spell correction model for Vietnamese using LSTM and attention networks."
     }
   ],
-  "experience": [],
-  "languages": [
-    "English"
+  "education": [
+    {
+      "institution": "Tôn Đức Thắng UNIVERSITY",
+      "degree": "Bachelor",
+      "major": "Computer Science",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "PHAM KHANH LINH",
-  "normalized_job_titles": [],
-  "skills": [
-    "Java",
-    "C#",
-    "Python",
-    "Spring Boot",
-    "ASP.NET MVC",
-    "IntelliJ",
-    "Git",
-    "Visual Studio",
-    "MySQL",
-    "SQL Server",
-    "Deep Learning",
-    "TensorFlow",
-    "Keras",
-    "PyTorch",
-    "RESTful API"
-  ],
-  "years_of_experience": 0
+  "certifications": []
 }

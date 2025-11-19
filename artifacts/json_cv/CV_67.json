@@ -1,76 +1,123 @@
 {
-  "certifications": [
-    "Aptis"
+  "candidate_profile": {
+    "name": "Phan Bội Thúy",
+    "role_focus": "Full Stack Developer",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": "7.52/10.0",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "JavaScript",
+      "TypeScript",
+      "HTML5",
+      "CSS3",
+      "SASS",
+      "PHP"
+    ],
+    "frameworks_libraries": [
+      "ReactJS",
+      "React Hooks",
+      "Context API",
+      "Next.js",
+      "TailwindCSS",
+      "Node.js",
+      "Spring Boot"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB"
+    ],
+    "devops_cloud": [
+      "Docker"
+    ],
+    "tools_platforms": [
+      "Git",
+      "Figma"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "SQL",
+      "NoSQL",
+      "Teamwork",
+      "Time Management",
+      "Communication",
+      "Presentation",
+      "Problem Solving",
+      "UI/UX"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Fixora Project",
+      "type": "Academic",
+      "tech_used": [
+        "ReactJS",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "description": "Collaborated with a team of 4 to build an e-commerce website."
+    },
+    {
+      "name": "BoxyBunny Project",
+      "type": "Academic",
+      "tech_used": [
+        "ReactJS",
+        "Node.js",
+        "MongoDB"
+      ],
+      "description": "Collaborated with a team of 2 to build an e-commerce website."
+    },
+    {
+      "name": "Jewelry_Shop Project",
+      "type": "Academic",
+      "tech_used": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP"
+      ],
+      "description": "Collaborated with a team of 2 to build an e-commerce website."
+    },
+    {
+      "name": "Reis project",
+      "type": "Academic",
+      "tech_used": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP"
+      ],
+      "description": "Collaborated with a team of 3 to build a travel booking website."
+    },
+    {
+      "name": "Team_Building project",
+      "type": "Academic",
+      "tech_used": [
+        "Figma"
+      ],
+      "description": "Collaborated with a team of 3 to design the interface for a team building website."
+    }
   ],
-  "detected_industry": "information_technology",
   "education": [
     {
-      "degree": "Bachelor of Software Engineering",
+      "institution": "Tôn Đức Thắng University",
+      "degree": "Bachelor's Degree",
+      "major": "Software Engineering",
       "graduation_year": "2026",
-      "institution_name": "Ton Duc Thang University"
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "Fixora Project",
-      "description": "Collaborated with a team of 4 to build an e-commerce website using ReactJS, Spring Boot, and MySQL.",
-      "job_title": "Full Stack Developer",
-      "years_worked": "February 2025 - May 2025"
-    },
-    {
-      "company_name": "BoxyBunny Project",
-      "description": "Collaborated with a team of 2 to build an e-commerce website using ReactJS, Node.js, and MongoDB.",
-      "job_title": "Full Stack Developer",
-      "years_worked": "September 2024 - December 2024"
-    },
-    {
-      "company_name": "Jewelry_Shop Project",
-      "description": "Collaborated with a team of 2 to build an e-commerce website using HTML, CSS, JS, and PHP.",
-      "job_title": "Full Stack Developer",
-      "years_worked": "March 2024 - June 2024"
-    },
-    {
-      "company_name": "Reis project",
-      "description": "Collaborated with a team of 3 to build a travel booking website using HTML, CSS, JS, and PHP.",
-      "job_title": "Full Stack Developer",
-      "years_worked": "2024 - April 2024"
-    },
-    {
-      "company_name": "Team_Building project",
-      "description": "Collaborated with a team of 3 to build a team building website interface using Figma.",
-      "job_title": "UI/UX Designer",
-      "years_worked": "2024"
+      "name": "Aptis",
+      "issuer": null,
+      "year": "2023"
     }
-  ],
-  "languages": [
-    "Vietnamese"
-  ],
-  "name": "Phan Bội Thúy",
-  "normalized_job_titles": [
-    "Full Stack Developer",
-    "UI/UX Designer"
-  ],
-  "skills": [
-    "JavaScript",
-    "TypeScript",
-    "Node.js",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "TailwindCSS",
-    "SQL",
-    "NoSQL",
-    "MySQL",
-    "MongoDB",
-    "ReactJS",
-    "Next.js",
-    "Git",
-    "Docker",
-    "Figma",
-    "Teamwork",
-    "Time Management",
-    "Communication",
-    "Problem-solving"
-  ],
-  "years_of_experience": 1
+  ]
 }

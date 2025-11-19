@@ -1,38 +1,109 @@
 {
-  "certifications": [
-    "CCNA Certification",
-    "B1 Aptis ESOL Certificate"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "NGUYEN CONG TOAN",
+    "role_focus": "Network Security Engineer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": 7.35,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "Bash",
+      "Assembly",
+      "C",
+      "C++",
+      "SQL",
+      "PHP"
+    ],
+    "frameworks_libraries": [],
+    "databases": [],
+    "devops_cloud": [
+      "Linux",
+      "Windows Server",
+      "Syslog configuration"
+    ],
+    "tools_platforms": [
+      "Snort",
+      "Wazuh",
+      "Burp Suite",
+      "Wireshark",
+      "Nmap",
+      "Git"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Computer networks",
+      "System security",
+      "Anomaly detection",
+      "Log analysis (regex)",
+      "Web Development",
+      "Information security",
+      "Cybersecurity",
+      "Network administration",
+      "Data communications",
+      "IDS/IPS",
+      "SIEM",
+      "CTF"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Computer Networks and Data Communication",
-      "graduation_year": "Present",
-      "institution_name": "Ton Duc Thang University"
+      "name": "Cybersecurity Challenges (Bandit, Natas, Leviathan, Krypton)",
+      "type": "Academic/Personal",
+      "tech_used": [
+        "Linux",
+        "Network security",
+        "System security",
+        "Log analysis",
+        "Cybersecurity"
+      ],
+      "description": "Completed various cybersecurity challenges focusing on system exploitation and security concepts within the Information Security Club."
+    },
+    {
+      "name": "Self-studied Cybersecurity Courses",
+      "type": "Personal",
+      "tech_used": [
+        "LetsDefend",
+        "TryHackMe",
+        "Cybersecurity"
+      ],
+      "description": "Undertook self-study in basic cybersecurity using online platforms to build foundational knowledge."
+    },
+    {
+      "name": "Security Materials Repository",
+      "type": "Personal/Academic",
+      "tech_used": [
+        "Git",
+        "Cybersecurity"
+      ],
+      "description": "Maintained a repository of security-related materials, potentially including code, notes, or configurations."
     }
   ],
-  "experience": [],
-  "languages": [
-    "English"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Networks and Data Communication",
+      "graduation_year": null,
+      "status": "In Progress"
+    }
   ],
-  "name": "NGUYEN CONG TOAN",
-  "normalized_job_titles": [],
-  "skills": [
-    "Snort (IDS/IPS)",
-    "Wazuh (SIEM)",
-    "Burp Suite",
-    "Wireshark",
-    "Nmap",
-    "Python",
-    "Bash",
-    "C",
-    "C++",
-    "SQL",
-    "Linux",
-    "Windows Server",
-    "Computer Networks",
-    "System Security",
-    "Log Analysis"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "CCNA certification",
+      "issuer": "Center for Natural Sciences",
+      "year": null
+    },
+    {
+      "name": "B1 Aptis ESOL Certificate",
+      "issuer": null,
+      "year": "2023"
+    }
+  ]
 }

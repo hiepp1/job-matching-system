@@ -1,30 +1,50 @@
 {
-  "certifications": [
-    "TOEIC 2-skill 925 (475/495 Listening, 450/495 Reading)"
-  ],
-  "detected_industry": "information_technology",
+  "candidate_profile": {
+    "name": "HOÀNG MINH QUÂN",
+    "role_focus": "Junior Web Developer Intern",
+    "seniority_level": "Intern/Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Advanced (TOEIC 925)",
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "JavaScript"
+    ],
+    "frameworks_libraries": [
+      "Node.js"
+    ],
+    "databases": [],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "Packet Tracer"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "HTML",
+      "Computer Networking",
+      "Data Communication"
+    ]
+  },
+  "work_experience": [],
+  "projects": [],
   "education": [
     {
-      "degree": "Computer Networks and Data Communication",
-      "graduation_year": "Present",
-      "institution_name": "Tôn Đức Thắng University"
+      "institution": "Tôn Đức Thắng University",
+      "degree": "Bachelor",
+      "major": "Computer Networks and Data Communication",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [],
-  "languages": [
-    "English"
-  ],
-  "name": "HOÀNG MINH QUÂN",
-  "normalized_job_titles": [],
-  "skills": [
-    "Node.js",
-    "HTML",
-    "JavaScript",
-    "Packet Tracer",
-    "Office Informatics",
-    "English Comprehension",
-    "Attention to Detail",
-    "Adaptability"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "TOEIC 2 skills 925 (475/495 Listening, 450/495 Reading)",
+      "issuer": null,
+      "year": null
+    }
+  ]
 }

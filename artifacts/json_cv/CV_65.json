@@ -1,46 +1,131 @@
 {
-  "certifications": [
-    "Toeic 715"
+  "candidate_profile": {
+    "name": "Nguyễn Quốc Thái",
+    "role_focus": "Mobile Developer",
+    "seniority_level": "Fresher"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": null,
+    "years_experience": 0.75
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Dart",
+      "JavaScript",
+      "TypeScript",
+      "Java"
+    ],
+    "frameworks_libraries": [
+      "Flutter",
+      "NestJS",
+      "React-Native",
+      "React-Dom",
+      "GetX",
+      "Provider",
+      "Riverpod",
+      "Spring"
+    ],
+    "databases": [
+      "SQLite"
+    ],
+    "devops_cloud": [
+      "Render",
+      "Vietnix"
+    ],
+    "tools_platforms": [
+      "Git",
+      "Gemini API"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "UI Design",
+      "State Management",
+      "Backend Development",
+      "Team Leadership",
+      "Task Delegation",
+      "Workflow Coordination",
+      "API Integration"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "Cybersoft Programming Training Center",
+      "role": "Mobile Developer",
+      "start_date": "2025-04",
+      "end_date": "Present",
+      "duration_months": 9,
+      "is_internship": false,
+      "tech_used": [
+        "Flutter",
+        "Dart",
+        "NestJS",
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "Java",
+        "Spring"
+      ],
+      "responsibilities": "Completed Flutter development course, gaining expertise in Dart, UI design, and advanced Flutter topics. Expanded skills to include NestJS, React, JavaScript, TypeScript, and currently learning Java for Spring backend development."
+    }
   ],
-  "detected_industry": "information_technology",
+  "projects": [
+    {
+      "name": "Music Streaming App Project",
+      "type": "Personal",
+      "tech_used": [
+        "Flutter",
+        "GetX",
+        "Provider",
+        "JSON"
+      ],
+      "description": "Developed a Flutter music streaming app, utilizing GetX and Provider for state management and JSON files for data storage. This project served as an initial learning experience in Flutter development."
+    ,
+      "link": "https://github.com/quocthai1810/music_app.git"
+    },
+    {
+      "name": "Supercar Showroom App Project",
+      "type": "Personal",
+      "tech_used": [
+        "Flutter",
+        "SQLite",
+        "Riverpod",
+        "Gemini API"
+      ],
+      "description": "Created a Flutter mobile app for supercar showroom appointment bookings. Features include a Flutter frontend, simulated backend with SQLite, Riverpod for state management, and Gemini API integration for supercar specification comparison."
+    ,
+      "link": "https://github.com/quocthai1810/velocita.git"
+    },
+    {
+      "name": "Movie Ticket Booking App Project",
+      "type": "Academic",
+      "tech_used": [
+        "Flutter",
+        "NestJS",
+        "Provider",
+        "Render",
+        "Vietnix"
+      ],
+      "description": "Led a team to develop a movie ticket booking app with Flutter frontend and NestJS backend. Responsible for backend design and task delegation, utilizing Provider for state management. Backend deployed on Render with Vietnix database hosting."
+    ,
+      "link": "https://github.com/quocthai1810/Tmt-Project.git"
+    }
+  ],
   "education": [
     {
-      "degree": "Computer Science",
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Science",
       "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
+      "status": "Graduated"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "Cybersoft Programming Training Center",
-      "description": "Completed theoretical lessons in Flutter, covering the fundamentals of Dart and UI design. Explored advanced Flutter topics independently beyond what was taught in class. Learned additional frameworks such as NestJS and React to support project development. Expanded programming skills from Dart to JavaScript and TypeScript, which share similar concepts. Currently learning Java to use in Spring backend development.",
-      "job_title": "Mobile Developer",
-      "years_worked": "04/2025 - present"
+      "name": "Toeic 715",
+      "issuer": null,
+      "year": "2022"
     }
-  ],
-  "languages": [
-    "English"
-  ],
-  "name": "Nguyễn Quốc Thái",
-  "normalized_job_titles": [
-    "Mobile Developer"
-  ],
-  "skills": [
-    "Flutter",
-    "NestJS",
-    "React Native",
-    "React",
-    "Dart",
-    "JavaScript",
-    "TypeScript",
-    "Java",
-    "SQLite",
-    "GetX",
-    "Provider",
-    "Riverpod",
-    "UI Design",
-    "Backend Development",
-    "Team Leadership"
-  ],
-  "years_of_experience": 0
+  ]
 }

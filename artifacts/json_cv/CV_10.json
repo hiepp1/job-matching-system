@@ -1,80 +1,136 @@
 {
-  "certifications": [
-    "APTIS GENERAL (OVERALL B2)",
-    "AGILE DEVELOPMENT & SCRUM FRAMEWORK"
+  "candidate_profile": {
+    "name": "NGUYỄN THỊ BẢO TRÂN",
+    "role_focus": "Software Engineer Intern",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Master",
+    "english_proficiency": "Intermediate (B2)",
+    "gpa": 8.01,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "C",
+      "C++",
+      "C#",
+      "Dart",
+      "Hack",
+      "HTML",
+      "Java",
+      "JavaScript",
+      "Kotlin",
+      "PHP",
+      "Python",
+      "Swift",
+      "XML"
+    ],
+    "frameworks_libraries": [],
+    "databases": [
+      "MySQL",
+      "NoSQL",
+      "SQL",
+      "TSQL"
+    ],
+    "devops_cloud": [],
+    "tools_platforms": [
+      "CMake",
+      "Git"
+    ],
+    "architectures_models": [
+      "IoT Architecture"
+    ],
+    "techniques_concepts": [
+      "Agile",
+      "Scrum",
+      "Web Development",
+      "Mobile App Development",
+      "Desktop App Development",
+      "System Design"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "SMARTLOCK - Ổ KHÓA THÔNG MINH",
+      "type": "Academic",
+      "tech_used": [
+        "C++",
+        "C",
+        "CMake",
+        "Dart",
+        "Swift",
+        "HTML"
+      ],
+      "description": "Built an IoT system including a smart lock combined with smartphone usage for unlocking and other utility features such as creating temporary passcodes, firmware updates, door locking, abnormal activity alerts, unlock history, etc."
+    },
+    {
+      "name": "APP ĐẶT VÉ XEM PHIM",
+      "type": "Academic",
+      "tech_used": [
+        "Java",
+        "Kotlin"
+      ],
+      "description": "Developed an Android application for online movie ticket booking, including features like viewing showtimes, movie details, booking tickets, seat selection, payment, saving booking history, and reviews."
+    },
+    {
+      "name": "APP QUẢN LÝ SINH VIÊN",
+      "type": "Academic",
+      "tech_used": [
+        "Java",
+        "Kotlin"
+      ],
+      "description": "Developed a comprehensive Android application for student information management, including functions to add, delete, edit student information, view timetables, academic progress, and lecturer teaching schedules."
+    },
+    {
+      "name": "WEBSITE BÁN HÀNG",
+      "type": "Academic",
+      "tech_used": [
+        "PHP",
+        "Javascript",
+        "CSS",
+        "HTML",
+        "Hack"
+      ],
+      "description": "Developed an e-commerce website with typical functions such as viewing order details, purchasing, adding to cart, viewing product information, payment, and a separate Admin website for product updates."
+    },
+    {
+      "name": "TASMANA-PHẦN MỀM QUẢN LÝ CÔNG VIỆC",
+      "type": "Academic",
+      "tech_used": [
+        "C#",
+        "TSQL"
+      ],
+      "description": "Implemented a comprehensive Work Management system, including Employee Management and Work Tracking, managing information for each member in each department, coordinating work, and maintaining a central database."
+    }
   ],
-  "detected_industry": "information_technology",
   "education": [
     {
-      "degree": "Bachelor of Software Engineering",
+      "institution": "Đại học Tôn Đức Thắng",
+      "degree": "Bachelor",
+      "major": "Software Engineering",
       "graduation_year": "2026",
-      "institution_name": "Ton Duc Thang University"
+      "status": "In Progress"
     },
     {
-      "degree": "Master of Computer Science",
+      "institution": "Đại học Tôn Đức Thắng",
+      "degree": "Master",
+      "major": "Computer Science",
       "graduation_year": "2026",
-      "institution_name": "Ton Duc Thang University"
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "SMARTLOCK - Smart Lock Project",
-      "description": "Developed features related to smart lock functionalities, including an IoT system combining a smart lock with smartphone control for unlocking, temporary key codes, firmware updates, door locking, abnormal activity alerts, and unlock history.",
-      "job_title": "Team member, Coder",
-      "years_worked": "January 2025 - April 2025 (4 months)"
+      "name": "APTIS GENERAL (OVERALL B2)",
+      "issuer": null,
+      "year": "2023"
     },
     {
-      "company_name": "Movie Ticket Booking App Project",
-      "description": "Developed an Android app for online movie ticket booking with features such as viewing showtimes, movie details, booking tickets, seat selection, payment, booking history, and reviews.",
-      "job_title": "Team leader, Coder",
-      "years_worked": "April 2024 - June 2024 (3 months)"
-    },
-    {
-      "company_name": "Student Management App Project",
-      "description": "Developed a full-featured Android app for managing student information, including adding, deleting, and editing student details, viewing timetables, study paths, and lecturer teaching lists.",
-      "job_title": "Team leader",
-      "years_worked": "April 2024 - June 2024 (3 months)"
-    },
-    {
-      "company_name": "E-commerce Website Project",
-      "description": "Developed an e-commerce website with typical functions like viewing order details, purchasing, adding to cart, viewing product information, payment, and a separate Admin website for product updates.",
-      "job_title": "Team leader, Coder",
-      "years_worked": "January 2024 - March 2024 (3 months)"
-    },
-    {
-      "company_name": "TASMANA - Work Management Software Project",
-      "description": "Implemented a comprehensive Work Management system, including Employee Management and Work Tracking, managing member information across departments, coordinating work, and maintaining a central database.",
-      "job_title": "Team member, Coder",
-      "years_worked": "August 2023 - December 2023 (5 months)"
+      "name": "AGILE DEVELOPMENT & SCRUM FRAMEWORK",
+      "issuer": null,
+      "year": "2024"
     }
-  ],
-  "languages": [
-    "English",
-    "Vietnamese"
-  ],
-  "name": "NGUYỄN THỊ BẢO TRÂN",
-  "normalized_job_titles": [
-    "Software Engineer",
-    "IT Intern",
-    "Team Lead",
-    "Team Member"
-  ],
-  "skills": [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "PHP",
-    "SQL",
-    "MySQL",
-    "C#",
-    "Java",
-    "XML",
-    "NoSQL",
-    "C++",
-    "Python",
-    "Kotlin",
-    "TSQL",
-    "Dart"
-  ],
-  "years_of_experience": 1
+  ]
 }

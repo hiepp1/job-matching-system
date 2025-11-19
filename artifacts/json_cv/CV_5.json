@@ -1,54 +1,98 @@
 {
-  "certifications": [
-    "Aptis Esol B2"
-  ],
-  "detected_industry": "information_technology",
-  "education": [
+  "candidate_profile": {
+    "name": "Quang Nguyen",
+    "role_focus": "Flutter Developer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "B2",
+    "gpa": "8.1/10",
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Dart",
+      "Java",
+      "JavaScript"
+    ],
+    "frameworks_libraries": [
+      "Flutter",
+      "Riverpod",
+      "GetX",
+      "Provider",
+      "Retrofit"
+    ],
+    "databases": [
+      "Firebase",
+      "MySQL",
+      "SQL Server",
+      "Hive"
+    ],
+    "devops_cloud": [
+      "Firebase Cloud Functions",
+      "Firestore",
+      "Firebase Realtime Database"
+    ],
+    "tools_platforms": [
+      "Git",
+      "GitHub",
+      "Android Studio",
+      "VS Code"
+    ],
+    "architectures_models": [],
+    "techniques_concepts": [
+      "Cross-platform Mobile Development",
+      "State Management",
+      "Responsive UI",
+      "Scalability",
+      "Optimized Queries",
+      "Caching",
+      "Real-time Data",
+      "REST APIs"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
     {
-      "degree": "Computer Science",
-      "graduation_year": "2026",
-      "institution_name": "Ton Duc Thang University"
-    }
-  ],
-  "experience": [
-    {
-      "company_name": "N/A",
-      "description": "Developed product module (pagination, variants, advanced search/filter/sort) with optimized Firestore queries and Hive caching. Built cart, checkout, discounts, and loyalty program; moved complex business logic to Cloud Functions for scalability. Integrated Firebase for real-time product reviews & ratings and managed product data on Firestore. Developed responsive UI across Android, Windows, and Web.",
-      "job_title": "Flutter Developer",
-      "years_worked": "2 months"
+      "name": "E-commerce Cross-platform App",
+      "type": "Academic",
+      "tech_used": [
+        "Flutter",
+        "Firebase",
+        "Firestore",
+        "Hive",
+        "Cloud Functions",
+        "Dart"
+      ],
+      "description": "Developed product module with pagination, variants, advanced search/filter/sort, optimized Firestore queries, and Hive caching. Built cart, checkout, discounts, and loyalty program, moving complex business logic to Cloud Functions for scalability. Integrated Firebase for real-time product reviews & ratings and managed product data on Firestore. Developed responsive UI across Android, Windows, and Web."
     },
     {
-      "company_name": "N/A",
-      "description": "Developed task management features: add, edit, delete, search, and filter tasks. Designed and implemented responsive UI/UX with Riverpod state management. Integrated Firebase Realtime Database for instant updates across devices.",
-      "job_title": "Flutter Developer",
-      "years_worked": "1 month"
+      "name": "To-Do List App",
+      "type": "Academic",
+      "tech_used": [
+        "Flutter",
+        "Riverpod",
+        "Firebase Realtime Database",
+        "Dart"
+      ],
+      "description": "Developed task management features including add, edit, delete, search, and filter tasks. Designed and implemented responsive UI/UX with Riverpod state management. Integrated Firebase Realtime Database for instant updates across devices."
     }
   ],
-  "languages": [
-    "English"
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor's Degree",
+      "major": "Computer Science",
+      "graduation_year": "2026",
+      "status": "In Progress"
+    }
   ],
-  "name": "QUANG NGUYEN",
-  "normalized_job_titles": [
-    "Flutter Developer",
-    "Mobile Developer"
-  ],
-  "skills": [
-    "Dart",
-    "Java",
-    "JavaScript",
-    "Flutter",
-    "Riverpod",
-    "GetX",
-    "Provider",
-    "Firebase",
-    "MySQL",
-    "SQL Server",
-    "REST APIs",
-    "Retrofit",
-    "Hive",
-    "Git/GitHub",
-    "Android Studio",
-    "VS Code"
-  ],
-  "years_of_experience": 0
+  "certifications": [
+    {
+      "name": "Aptis Esol B2",
+      "issuer": "Aptis Esol",
+      "year": null
+    }
+  ]
 }

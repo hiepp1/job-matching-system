@@ -1,1 +1,115 @@
-{"certifications":["Aptis Esol B2"],"detected_industry":"information_technology","education":[{"degree":"Computer Science","graduation_year":"2026","institution_name":"Ton Duc Thang University"}],"experience":[{"company_name":"N/A","description":"Built a real estate web platform allowing users to post, search, and manage property listings with online payment integration. Developed backend services using Spring Boot, Spring Security, JWT, and MySQL database. Designed RESTful APIs for authentication, property listing, contracts, and VNPay payment integration. Created the frontend using Thymeleaf, HTML/CSS, JavaScript, Bootstrap for dynamic pages and responsive UI.","job_title":"Backend Developer","years_worked":"N/A"},{"company_name":"N/A","description":"Built an e-commerce app with product listing, search, filtering, cart and checkout. Developed RESTful APIs with Spring Boot, Spring Security, JWT, MySQL and integrated VNPay & image uploads (AWS S3/Firebase). Created ReactJS frontend consuming APIs, managed state with Redux Toolkit. Wrote JUnit 5 and Mockito tests and used Postman for API testing.","job_title":"Full Stack Developer","years_worked":"N/A"}],"languages":["English"],"name":"QUANG NGUYEN","normalized_job_titles":["Backend Developer","Full Stack Developer"],"skills":["Java","Spring Boot","Spring Security","RESTful APIs","MySQL","JavaScript","HTML/CSS","ReactJS","Git","Docker","Maven","JUnit","Mockito","Postman","AWS S3"],"years_of_experience":0}
+{
+  "candidate_profile": {
+    "name": "Quang Nguyen",
+    "role_focus": "Java Backend Developer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate",
+    "gpa": 8.13,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Java",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "frameworks_libraries": [
+      "Spring Boot",
+      "Spring MVC",
+      "Spring Security",
+      "Spring Data JPA",
+      "Hibernate",
+      "JQuery",
+      "Bootstrap",
+      "Thymeleaf",
+      "ReactJS",
+      "Redux Toolkit",
+      "JUnit",
+      "Mockito"
+    ],
+    "databases": [
+      "MySQL",
+      "SQL Server"
+    ],
+    "devops_cloud": [
+      "Docker",
+      "AWS S3",
+      "Firebase"
+    ],
+    "tools_platforms": [
+      "Git",
+      "GitHub",
+      "Maven",
+      "Postman"
+    ],
+    "architectures_models": [
+      "RESTful APIs"
+    ],
+    "techniques_concepts": [
+      "JWT",
+      "OOP",
+      "Authentication",
+      "Payment Integration"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "Real Estate Web",
+      "type": "Academic",
+      "tech_used": [
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "MySQL",
+        "Thymeleaf",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "VNPay"
+      ],
+      "description": "Built a real estate web platform allowing users to post, search, and manage property listings with online payment integration. Developed backend services using Spring Boot, Spring Security, JWT, and MySQL database. Designed RESTful APIs for authentication, property listing, contracts, and VNPay payment integration. Created the frontend using Thymeleaf, HTML/CSS, JavaScript, Bootstrap for dynamic pages and responsive UI."
+    },
+    {
+      "name": "Spring Ecomerce Web",
+      "type": "Personal",
+      "tech_used": [
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "MySQL",
+        "VNPay",
+        "AWS S3",
+        "Firebase",
+        "ReactJS",
+        "Redux Toolkit",
+        "JUnit 5",
+        "Mockito",
+        "Postman"
+      ],
+      "description": "Built an e-commerce app with product listing, search, filtering, cart and checkout. Developed RESTful APIs with Spring Boot, Spring Security, JWT, MySQL and integrated VNPay & image uploads (AWS S3/Firebase). Created ReactJS frontend consuming APIs, managed state with Redux Toolkit. Wrote JUnit 5 and Mockito tests and used Postman for API testing."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ton Duc Thang University",
+      "degree": "Bachelor",
+      "major": "Computer Science",
+      "graduation_year": "2026",
+      "status": "In Progress"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Aptis Esol B2",
+      "issuer": "Aptis Esol",
+      "year": null
+    }
+  ]
+}

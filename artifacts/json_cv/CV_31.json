@@ -1,1 +1,136 @@
-{"certifications":["AWS: Fundamentals of Machine Learning and Artificial Intelligence","IBM: Mastering the Art of Prompting"],"detected_industry":"information_technology","education":[{"degree":"Computer Networks and Data Communication","graduation_year":"2025","institution_name":"TON DUC THANG UNIVERSITY"}],"experience":[],"languages":[],"name":"Trần Thị Anh Thư","normalized_job_titles":[],"skills":["Python","SQL","Ubuntu","Data Visualization","Data Analysis","Feature Engineering","Machine Learning","Natural Language Processing (NLP)","Network Security"],"years_of_experience":0}
+{
+  "candidate_profile": {
+    "name": "Trần Thị Anh Thư",
+    "role_focus": "AI/ML/Network Security Engineer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": null,
+    "gpa": null,
+    "years_experience": 0.0
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Python",
+      "SQL"
+    ],
+    "frameworks_libraries": [],
+    "databases": [],
+    "devops_cloud": [
+      "AWS"
+    ],
+    "tools_platforms": [
+      "Ubuntu",
+      "Mininet",
+      "iperf",
+      "Kali Linux",
+      "Windows Server Update Services (WSUS)",
+      "Active Directory",
+      "GitHub"
+    ],
+    "architectures_models": [
+      "Feed Forward Neural Networks",
+      "Recurrent Neural Networks",
+      "KNN",
+      "Random Forest",
+      "XGBoost",
+      "Ensemble Learning Models"
+    ],
+    "techniques_concepts": [
+      "Data Exploration",
+      "Data Analysis",
+      "Machine Learning",
+      "Natural Language Processing (NLP)",
+      "Network Security",
+      "Statistical Analysis",
+      "Visualization",
+      "Feature Engineering",
+      "Feature Evaluation",
+      "Overfitting Prevention",
+      "Network Management",
+      "DDoS Attack Prevention",
+      "Software-Defined Networking (SDN)",
+      "Traffic Anomalies",
+      "Prompt Engineering",
+      "Teamwork",
+      "Self-motivation",
+      "Self-learning"
+    ]
+  },
+  "work_experience": [],
+  "projects": [
+    {
+      "name": "MACHINE LEARNING HEART DISEASE DATASET",
+      "type": "Academic",
+      "tech_used": [
+        "Machine Learning",
+        "Statistical Analysis",
+        "Visualization",
+        "Feature Evaluation",
+        "Feed Forward Neural Networks",
+        "Recurrent Neural Networks",
+        "Ensemble Learning Models",
+        "Python"
+      ],
+      "description": "Predict Heart disease dataset. It includes statistical analysis, visualization, and feature evaluation, employing basic and ensemble learning models, as well as Feed Forward and Recurrent Neural Networks. Overfitting prevention techniques are used to improve model."
+    ,
+      "url": "https://github.com/tranthianhthu21032003/Machine-Learning-Final-Project"
+    },
+    {
+      "name": "COMPUTER NETWORK & NETWORK MANAGEMENT",
+      "type": "Academic",
+      "tech_used": [
+        "Windows Server Update Services (WSUS)",
+        "Active Directory",
+        "Network Management",
+        "Network Topology",
+        "Routers",
+        "Switches"
+      ],
+      "description": "This project designs a small-scale network using Windows Server Update Services (WSUS) for centralized update management. A secure network topology is created with routers and switches, while WSUS automates software updates to enhance security and efficiency. Active Directory and monitoring tools ensure reliable network management. The solution is scalable and suitable for small organizations."
+    ,
+      "url": "https://github.com/tranthianhthu21032003/QuanTriMang-MangMayTinh"
+    },
+    {
+      "name": "IT PROJECT ON DDOS ATTACK PREVENTION USING SOFTWARE-DEFINED NETWORKING (SDN)",
+      "type": "Academic",
+      "tech_used": [
+        "DDoS Attack Detection",
+        "Software-Defined Networking (SDN)",
+        "Machine Learning",
+        "KNN",
+        "Random Forest",
+        "XGBoost",
+        "Mininet",
+        "Ubuntu",
+        "iperf",
+        "Kali Linux"
+      ],
+      "description": "The IT project develops a DDoS attack detection solution for SDN networks, comparing machine learning techniques (e.g., KNN, Random Forest, XGBoost) to identify DDoS attacks by analyzing traffic anomalies in datasets representing normal and attacked network flows. Using Mininet to simulate network topology with multiple hosts and switches, the solution classifies traffic into normal, suspicious, and malicious categories to detect and mitigate DDoS attacks. Virtual machines running Ubuntu host simulations (e.g., h1, h2 for ping), with Mininet and iperf on Kali Linux used to detect traffic."
+    ,
+      "url": "https://github.com/tranthianhthu21032003/DuAnCNTTBaoMatMang"
+    }
+  ],
+  "education": [
+    {
+      "institution": "TON DUC THANG UNIVERSITY",
+      "degree": "Bachelor's Degree",
+      "major": "Computer Networks and Data Communication",
+      "graduation_year": "2025",
+      "status": "In Progress"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Fundamentals of Machine Learning and Artificial Intelligence",
+      "issuer": "AWS",
+      "year": null
+    },
+    {
+      "name": "Mastering the Art of Prompting",
+      "issuer": "IBM",
+      "year": null
+    }
+  ]
+}

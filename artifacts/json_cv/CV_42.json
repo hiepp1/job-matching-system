@@ -1,49 +1,173 @@
 {
-  "certifications": [
-    "Preliminary English Test (B1)",
-    "Agile-Scrum certificate"
+  "candidate_profile": {
+    "name": "Nguyễn Hoàng Sang",
+    "role_focus": "Software Engineer",
+    "seniority_level": "Intern"
+  },
+  "metrics": {
+    "education_level": "Bachelor",
+    "english_proficiency": "Intermediate (B1)",
+    "gpa": 3.18,
+    "years_experience": 0.33
+  },
+  "tech_stack": {
+    "programming_languages": [
+      "Javascript",
+      "Java",
+      "Typescript"
+    ],
+    "frameworks_libraries": [
+      "NestJs",
+      "ReactJs",
+      "ExpressJs",
+      "ReactNative",
+      "NextJs",
+      "Redux Toolkit",
+      "Axios",
+      "MUI (Material UI)",
+      "Node.js"
+    ],
+    "databases": [
+      "Mongodb",
+      "SQL server",
+      "MySQL",
+      "Postgresql",
+      "Firebase"
+    ],
+    "devops_cloud": [
+      "Docker",
+      "GitHub actions",
+      "AWS S3",
+      "Vercel",
+      "Google Cloud"
+    ],
+    "tools_platforms": [
+      "Git",
+      "Postman",
+      "Clerk",
+      "MoMo",
+      "RabbitMQ"
+    ],
+    "architectures_models": [
+      "microservices"
+    ],
+    "techniques_concepts": [
+      "Design pattern",
+      "OOP",
+      "Redis",
+      "RESTful API",
+      "WebSocket",
+      "JWT",
+      "Email verification",
+      "Agile",
+      "Scrum"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "FPT IS - HCM BRANCH",
+      "role": "ERP Programmer Intern",
+      "start_date": "2025-04",
+      "end_date": "2025-07",
+      "duration_months": 4,
+      "is_internship": true,
+      "tech_used": [
+        "Oracle ERP",
+        "Inventory Management (INV)",
+        "Accounts Payable (AP)",
+        "Accounts Receivable (AR)",
+        "Purchase Order (PO)",
+        "Order Management (OM)",
+        "BI Publisher",
+        "XML Publisher",
+        "Form Builder"
+      ],
+      "responsibilities": "Gained in-depth knowledge and hands-on experience with the Oracle ERP system, focusing on key modules like Inventory Management, Accounts Payable, Accounts Receivable, Purchase Order, and Order Management. Proficiently utilized Oracle reporting tools such as BI Publisher, XML Publisher, and Form Builder for report development and form modification."
+    }
   ],
-  "detected_industry": "information_technology",
+  "projects": [
+    {
+      "name": "EVENT MANAGEMENT APP",
+      "type": "Academic",
+      "tech_used": [
+        "Git",
+        "ReactNative",
+        "TypeScript",
+        "Redux Toolkit",
+        "Axios",
+        "Clerk",
+        "NestJS",
+        "MongoDB",
+        "PostgreSQL",
+        "Firebase",
+        "JWT",
+        "RESTful API",
+        "Message queue (RabbitMQ)",
+        "WebSocket",
+        "GitHub actions",
+        "Docker",
+        "microservices"
+      ],
+      "description": "This event management app allows the admin to manage events, posts, and users. Everyone else can create events, post, or rate events, participate in them, and watch their statistics. Implemented as a fullstack application."
+    },
+    {
+      "name": "NHA TRANG SEA FOOD",
+      "type": "Academic",
+      "tech_used": [
+        "Git",
+        "ExpressJS",
+        "JavaScript",
+        "Node.js",
+        "Firebase",
+        "JWT",
+        "Email verification",
+        "AWS S3",
+        "RESTful architecture",
+        "MoMo",
+        "Vercel",
+        "React",
+        "Redux toolkit",
+        "Axios"
+      ],
+      "description": "An e-commerce platform specializing in fresh seafood delivery, the website caters to two distinct user groups: customers and administrators, each with tailored functionalities. Developed the frontend of the application."
+    },
+    {
+      "name": "WEB MOVIE",
+      "type": "Academic",
+      "tech_used": [
+        "Git",
+        "ReactJS",
+        "JavaScript",
+        "MUI (Material UI)",
+        "Axios",
+        "NestJS",
+        "MongoDB",
+        "JWT",
+        "RESTful API",
+        "Google Cloud"
+      ],
+      "description": "A website where users can search and watch movies, create watchlists, comment, and add to favorites. The admin can manage films and users. Contributed to the frontend and authentication service."
+    }
+  ],
   "education": [
     {
-      "degree": "Software Engineering",
-      "graduation_year": "2025",
-      "institution_name": "Ton Duc Thang University"
+      "institution": "TON DUC THANG UNIVERSITY",
+      "degree": "Bachelor",
+      "major": "Software Engineering",
+      "graduation_year": null,
+      "status": "In Progress"
     }
   ],
-  "experience": [
+  "certifications": [
     {
-      "company_name": "FPT IS - HCM BRANCH",
-      "description": "Gained in-depth knowledge and hands-on experience with the Oracle ERP system, focusing on Inventory Management, Accounts Payable, Accounts Receivable, Purchase Order, and Order Management modules. Proficiently utilized Oracle reporting tools like BI Publisher, XML Publisher, and Form Builder.",
-      "job_title": "ERP Programmer Intern",
-      "years_worked": "3 months"
+      "name": "Preliminary English Test (B1)",
+      "issuer": "CAMBRIDGE",
+      "year": "2024"
+    },
+    {
+      "name": "Agile-Scrum certificate",
+      "issuer": "TECH BASE VIETNAM",
+      "year": "2023"
     }
-  ],
-  "languages": [
-    "English"
-  ],
-  "name": "Nguyễn Hoàng Sang",
-  "normalized_job_titles": [
-    "Software Engineer Intern"
-  ],
-  "skills": [
-    "Javascript",
-    "Java",
-    "Typescript",
-    "NestJs",
-    "ReactJs",
-    "ExpressJs",
-    "ReactNative",
-    "NextJs",
-    "MongoDB",
-    "PostgreSQL",
-    "Git",
-    "Docker",
-    "RESTful API",
-    "Microservices",
-    "OOP",
-    "Teamwork",
-    "Problem-solving"
-  ],
-  "years_of_experience": 0
+  ]
 }
