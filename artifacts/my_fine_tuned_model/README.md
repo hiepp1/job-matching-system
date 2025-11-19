@@ -4,7 +4,7 @@ tags:
 - cross-encoder
 - reranker
 - generated_from_trainer
-- dataset_size:160
+- dataset_size:153
 - loss:BinaryCrossEntropyLoss
 base_model: cross-encoder/ms-marco-MiniLM-L6-v2
 pipeline_tag: text-ranking
@@ -23,10 +23,10 @@ model-index:
       type: val_evaluator
     metrics:
     - type: pearson
-      value: 0.8561063034315164
+      value: 0.915987188835166
       name: Pearson
     - type: spearman
-      value: 0.794032386330642
+      value: 0.8660291720002777
       name: Spearman
 ---
 
@@ -70,11 +70,11 @@ from sentence_transformers import CrossEncoder
 model = CrossEncoder("cross_encoder_model_id")
 # Get scores for pairs of texts
 pairs = [
-    ['**Junior Flutter Developer**\n\nWe are seeking a highly motivated Junior Flutter Developer to join our innovative team. This role is perfect for a final-year student or recent graduate passionate about building cross-platform mobile and web applications. You will contribute to developing new features and maintaining existing apps using Flutter, Dart, and Firebase. A solid understanding of OOP, MVC/MVVM, and database integration (Firebase, SQLite) is essential, along with strong problem-solving skills and a collaborative spirit.', 'ID: CV_73.json\nRole: Game Developer\nSkills: Unity, C#, Excel, Word, Powerpoint\nExp: 0 years.'],
-    ['We are seeking a highly motivated Junior AI/ML Developer to join our innovative research and development team. This entry-level role is ideal for a recent Computer Science graduate or final-year student passionate about Machine Learning, Natural Language Processing, and Computer Vision. You will contribute to cutting-edge AI solutions, applying strong Python skills and foundational knowledge in Transformers, data preprocessing, and model fine-tuning. This is an excellent opportunity to gain hands-on experience, learn from experts, and make a tangible impact in a dynamic, AI-driven environment.', 'ID: CV_61.json\nRole: Full-stack Developer, Game Developer\nSkills: Software Engineering, Node.js, Express.js, React.js, MongoDB, Docker, HTML/CSS, JavaScript, Java, C#, Unity, SQL Server, MySQL, RESTful API Design, Data Structures and Algorithms\nExp: 0 years.'],
-    ['**Junior Full-stack Developer**\n\nWe are seeking a driven Junior Full-stack Developer with a passion for building robust web applications. The ideal candidate possesses hands-on project experience with Node.js and Express.js for backend development, alongside React.js for intuitive frontends. Proficiency in MongoDB, Docker containerization, and RESTful API design is essential. You will contribute to our projects, leveraging your skills in software engineering and modern web technologies. Knowledge of MVC patterns and responsive design is a plus.', 'ID: CV_12.json\nRole: Backend Developer, WordPress PHP Developer\nSkills: PHP, WordPress, MySQL, SEO, Ajax, Scrum Agile, ACF Pro, WPBakery, Elementor, JavaScript, HTML5, CSS3, FileZilla, GitLab, Yoast SEO\nExp: 0 years.'],
-    ['**Junior Machine Learning Engineer**\n\nWe are seeking a highly motivated Junior Machine Learning Engineer to contribute to our innovative AI initiatives. This role focuses on developing, training, and optimizing deep learning models for tasks in Natural Language Processing and Computer Vision. You will leverage frameworks like PyTorch and TensorFlow, with opportunities to work with generative AI, transformer architectures, and advanced text/image processing. We value strong Python skills, a collaborative mindset, and practical project experience in AI/ML. Perfect for a recent Computer Science graduate passionate about applied deep learning.', 'ID: CV_66.json\nRole: Server, Barista\nSkills: Network Administration, Network Security, Configuration, Troubleshooting, VPN, Network Design, System Administration, Linux, Windows, Virtualization, Python, SQL, HTML/CSS, Java, Command Line Interface\nExp: 0 years.'],
-    ["**Junior AI/Data Engineer**\n\nWe are seeking a highly driven Junior AI/Data Engineer to contribute to our advanced analytics and intelligent systems development. This role involves designing and implementing machine learning algorithms, developing data processing pipelines with big data technologies like Hadoop/Spark, and tackling challenges in areas such as computer vision. You'll leverage strong Python skills, experience with deep learning frameworks (PyTorch/TensorFlow), and a passion for problem-solving. If you thrive on applying theoretical knowledge to real-world data and AI problems, this is your opportunity.", 'ID: CV_1.json\nRole: Software Engineer, Backend Developer, Team Leader\nSkills: Flutter, Python, Node.js, Java, MongoDB, MySQL, Firebase, SQL Server, RESTful APIs, WebSocket, Microservices, MVC, Git, Agile/Scrum, Problem-solving\nExp: 2 years.'],
+    ["We are seeking an FPGA Design Intern to contribute to our hardware acceleration projects. You'll work with Verilog/VHDL for RTL design, conduct simulations, and assist with FPGA synthesis and implementation. A solid understanding of digital logic, embedded systems concepts, and experience with Vivado or Quartus tools is essential.", 'Role: Software Developer (Intern/Fresher). Skills: Python, SQL, JavaScript, Java, C#, Node.js, PySpark.'],
+    ['Junior Cybersecurity Analyst desired to protect our digital assets. Monitor security systems, respond to incidents, and perform vulnerability assessments. Work with SIEM tools, firewalls, and intrusion detection systems. Develop and implement security policies. Strong understanding of network protocols and threat landscapes is required. Secure our future!', 'Role: AI Developer or Data Engineer (Junior). Skills: Python, Java, C, JavaScript, HTML, CSS, OpenCV, PyTorch, TensorFlow, Keras, NLTK, Pandas, Scikit-learn, Matplotlib, Hugging Face, Gensim, NumPy, Pickle.'],
+    ['Seeking a Senior Full-stack Development Lead with 7+ years experience. Must excel in architecting solutions using C#, ASP.NET Core, SQL, and JavaScript. Lead critical projects, mentor teams, and leverage Flutter, Dart, Python, and Pandas. Deep expertise in .NET Framework and modern web technologies is essential for this leadership role.', 'Role: Full-stack Developer (Intern/Fresher). Skills: C#, Python, SQL, JavaScript, Dart, ASP.NET Core, HTML, CSS, Flutter, .NET Framework, Pandas.'],
+    ['Senior Full-Stack Engineering Director sought (7+ years experience). Oversee complex web applications using Java, PHP, JavaScript, Spring Boot, and Laravel. Architect scalable frontends with React, Redux, Axios, React Router, HTML, CSS. Lead multiple teams, define tech strategy, and drive innovation.', 'Role: Full-Stack Developer (Fresher). Skills: Java, PHP, JavaScript, HTML, CSS, Spring Boot, Laravel, React, React Router, Axios, Redux.'],
+    ['We need a pioneering Senior AI Engineering Manager (7+ years) to lead our AI initiatives. Expertise in Python, C, Java, Pandas, Numpy, PyTorch, TensorFlow, Ultralytics, and Transformer models is crucial. Drive projects utilizing YOLO, LangChain, Gradio, and crawl4ai. Oversee large-scale model deployment and mentor a high-performing AI team.', 'Role: AI Engineer (Intern). Skills: Python, C, Java, Pandas, Numpy, Matplotlib, Seaborn, OpenCV, PyTorch, TensorFlow, Ultralytics, LangChain, Gradio, Transformer, YOLO, Torch, crawl4ai.'],
 ]
 scores = model.predict(pairs)
 print(scores.shape)
@@ -82,13 +82,13 @@ print(scores.shape)
 
 # Or rank different texts based on similarity to a single text
 ranks = model.rank(
-    '**Junior Flutter Developer**\n\nWe are seeking a highly motivated Junior Flutter Developer to join our innovative team. This role is perfect for a final-year student or recent graduate passionate about building cross-platform mobile and web applications. You will contribute to developing new features and maintaining existing apps using Flutter, Dart, and Firebase. A solid understanding of OOP, MVC/MVVM, and database integration (Firebase, SQLite) is essential, along with strong problem-solving skills and a collaborative spirit.',
+    "We are seeking an FPGA Design Intern to contribute to our hardware acceleration projects. You'll work with Verilog/VHDL for RTL design, conduct simulations, and assist with FPGA synthesis and implementation. A solid understanding of digital logic, embedded systems concepts, and experience with Vivado or Quartus tools is essential.",
     [
-        'ID: CV_73.json\nRole: Game Developer\nSkills: Unity, C#, Excel, Word, Powerpoint\nExp: 0 years.',
-        'ID: CV_61.json\nRole: Full-stack Developer, Game Developer\nSkills: Software Engineering, Node.js, Express.js, React.js, MongoDB, Docker, HTML/CSS, JavaScript, Java, C#, Unity, SQL Server, MySQL, RESTful API Design, Data Structures and Algorithms\nExp: 0 years.',
-        'ID: CV_12.json\nRole: Backend Developer, WordPress PHP Developer\nSkills: PHP, WordPress, MySQL, SEO, Ajax, Scrum Agile, ACF Pro, WPBakery, Elementor, JavaScript, HTML5, CSS3, FileZilla, GitLab, Yoast SEO\nExp: 0 years.',
-        'ID: CV_66.json\nRole: Server, Barista\nSkills: Network Administration, Network Security, Configuration, Troubleshooting, VPN, Network Design, System Administration, Linux, Windows, Virtualization, Python, SQL, HTML/CSS, Java, Command Line Interface\nExp: 0 years.',
-        'ID: CV_1.json\nRole: Software Engineer, Backend Developer, Team Leader\nSkills: Flutter, Python, Node.js, Java, MongoDB, MySQL, Firebase, SQL Server, RESTful APIs, WebSocket, Microservices, MVC, Git, Agile/Scrum, Problem-solving\nExp: 2 years.',
+        'Role: Software Developer (Intern/Fresher). Skills: Python, SQL, JavaScript, Java, C#, Node.js, PySpark.',
+        'Role: AI Developer or Data Engineer (Junior). Skills: Python, Java, C, JavaScript, HTML, CSS, OpenCV, PyTorch, TensorFlow, Keras, NLTK, Pandas, Scikit-learn, Matplotlib, Hugging Face, Gensim, NumPy, Pickle.',
+        'Role: Full-stack Developer (Intern/Fresher). Skills: C#, Python, SQL, JavaScript, Dart, ASP.NET Core, HTML, CSS, Flutter, .NET Framework, Pandas.',
+        'Role: Full-Stack Developer (Fresher). Skills: Java, PHP, JavaScript, HTML, CSS, Spring Boot, Laravel, React, React Router, Axios, Redux.',
+        'Role: AI Engineer (Intern). Skills: Python, C, Java, Pandas, Numpy, Matplotlib, Seaborn, OpenCV, PyTorch, TensorFlow, Ultralytics, LangChain, Gradio, Transformer, YOLO, Torch, crawl4ai.',
     ]
 )
 # [{'corpus_id': ..., 'score': ...}, {'corpus_id': ..., 'score': ...}, ...]
@@ -129,8 +129,8 @@ You can finetune this model on your own dataset.
 
 | Metric       | Value     |
 |:-------------|:----------|
-| pearson      | 0.8561    |
-| **spearman** | **0.794** |
+| pearson      | 0.916     |
+| **spearman** | **0.866** |
 
 <!--
 ## Bias, Risks and Limitations
@@ -150,19 +150,19 @@ You can finetune this model on your own dataset.
 
 #### Unnamed Dataset
 
-* Size: 160 training samples
+* Size: 153 training samples
 * Columns: <code>sentence_0</code>, <code>sentence_1</code>, and <code>label</code>
-* Approximate statistics based on the first 160 samples:
-  |         | sentence_0                                                                                        | sentence_1                                                                                      | label                                                          |
-  |:--------|:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-  | type    | string                                                                                            | string                                                                                          | float                                                          |
-  | details | <ul><li>min: 467 characters</li><li>mean: 573.39 characters</li><li>max: 693 characters</li></ul> | <ul><li>min: 92 characters</li><li>mean: 218.7 characters</li><li>max: 320 characters</li></ul> | <ul><li>min: 0.0</li><li>mean: 0.38</li><li>max: 1.0</li></ul> |
+* Approximate statistics based on the first 153 samples:
+  |         | sentence_0                                                                                       | sentence_1                                                                                       | label                                                         |
+  |:--------|:-------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------|:--------------------------------------------------------------|
+  | type    | string                                                                                           | string                                                                                           | float                                                         |
+  | details | <ul><li>min: 256 characters</li><li>mean: 331.2 characters</li><li>max: 429 characters</li></ul> | <ul><li>min: 46 characters</li><li>mean: 120.59 characters</li><li>max: 263 characters</li></ul> | <ul><li>min: 0.1</li><li>mean: 0.5</li><li>max: 1.0</li></ul> |
 * Samples:
-  | sentence_0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | sentence_1                                                                                                                                                                                                                                                                               | label            |
-  |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
-  | <code>**Junior Flutter Developer**<br><br>We are seeking a highly motivated Junior Flutter Developer to join our innovative team. This role is perfect for a final-year student or recent graduate passionate about building cross-platform mobile and web applications. You will contribute to developing new features and maintaining existing apps using Flutter, Dart, and Firebase. A solid understanding of OOP, MVC/MVVM, and database integration (Firebase, SQLite) is essential, along with strong problem-solving skills and a collaborative spirit.</code>                                                                | <code>ID: CV_73.json<br>Role: Game Developer<br>Skills: Unity, C#, Excel, Word, Powerpoint<br>Exp: 0 years.</code>                                                                                                                                                                       | <code>0.1</code> |
-  | <code>We are seeking a highly motivated Junior AI/ML Developer to join our innovative research and development team. This entry-level role is ideal for a recent Computer Science graduate or final-year student passionate about Machine Learning, Natural Language Processing, and Computer Vision. You will contribute to cutting-edge AI solutions, applying strong Python skills and foundational knowledge in Transformers, data preprocessing, and model fine-tuning. This is an excellent opportunity to gain hands-on experience, learn from experts, and make a tangible impact in a dynamic, AI-driven environment.</code> | <code>ID: CV_61.json<br>Role: Full-stack Developer, Game Developer<br>Skills: Software Engineering, Node.js, Express.js, React.js, MongoDB, Docker, HTML/CSS, JavaScript, Java, C#, Unity, SQL Server, MySQL, RESTful API Design, Data Structures and Algorithms<br>Exp: 0 years.</code> | <code>0.0</code> |
-  | <code>**Junior Full-stack Developer**<br><br>We are seeking a driven Junior Full-stack Developer with a passion for building robust web applications. The ideal candidate possesses hands-on project experience with Node.js and Express.js for backend development, alongside React.js for intuitive frontends. Proficiency in MongoDB, Docker containerization, and RESTful API design is essential. You will contribute to our projects, leveraging your skills in software engineering and modern web technologies. Knowledge of MVC patterns and responsive design is a plus.</code>                                             | <code>ID: CV_12.json<br>Role: Backend Developer, WordPress PHP Developer<br>Skills: PHP, WordPress, MySQL, SEO, Ajax, Scrum Agile, ACF Pro, WPBakery, Elementor, JavaScript, HTML5, CSS3, FileZilla, GitLab, Yoast SEO<br>Exp: 0 years.</code>                                           | <code>0.1</code> |
+  | sentence_0                                                                                                                                                                                                                                                                                                                                                                         | sentence_1                                                                                                                                                                                                                  | label            |
+  |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
+  | <code>We are seeking an FPGA Design Intern to contribute to our hardware acceleration projects. You'll work with Verilog/VHDL for RTL design, conduct simulations, and assist with FPGA synthesis and implementation. A solid understanding of digital logic, embedded systems concepts, and experience with Vivado or Quartus tools is essential.</code>                          | <code>Role: Software Developer (Intern/Fresher). Skills: Python, SQL, JavaScript, Java, C#, Node.js, PySpark.</code>                                                                                                        | <code>0.1</code> |
+  | <code>Junior Cybersecurity Analyst desired to protect our digital assets. Monitor security systems, respond to incidents, and perform vulnerability assessments. Work with SIEM tools, firewalls, and intrusion detection systems. Develop and implement security policies. Strong understanding of network protocols and threat landscapes is required. Secure our future!</code> | <code>Role: AI Developer or Data Engineer (Junior). Skills: Python, Java, C, JavaScript, HTML, CSS, OpenCV, PyTorch, TensorFlow, Keras, NLTK, Pandas, Scikit-learn, Matplotlib, Hugging Face, Gensim, NumPy, Pickle.</code> | <code>0.1</code> |
+  | <code>Seeking a Senior Full-stack Development Lead with 7+ years experience. Must excel in architecting solutions using C#, ASP.NET Core, SQL, and JavaScript. Lead critical projects, mentor teams, and leverage Flutter, Dart, Python, and Pandas. Deep expertise in .NET Framework and modern web technologies is essential for this leadership role.</code>                    | <code>Role: Full-stack Developer (Intern/Fresher). Skills: C#, Python, SQL, JavaScript, Dart, ASP.NET Core, HTML, CSS, Flutter, .NET Framework, Pandas.</code>                                                              | <code>0.2</code> |
 * Loss: [<code>BinaryCrossEntropyLoss</code>](https://sbert.net/docs/package_reference/cross_encoder/losses.html#binarycrossentropyloss) with these parameters:
   ```json
   {
@@ -174,7 +174,7 @@ You can finetune this model on your own dataset.
 ### Training Hyperparameters
 #### Non-Default Hyperparameters
 
-- `num_train_epochs`: 5
+- `num_train_epochs`: 1
 
 #### All Hyperparameters
 <details><summary>Click to expand</summary>
@@ -196,7 +196,7 @@ You can finetune this model on your own dataset.
 - `adam_beta2`: 0.999
 - `adam_epsilon`: 1e-08
 - `max_grad_norm`: 1
-- `num_train_epochs`: 5
+- `num_train_epochs`: 1
 - `max_steps`: -1
 - `lr_scheduler_type`: linear
 - `lr_scheduler_kwargs`: {}
@@ -304,11 +304,7 @@ You can finetune this model on your own dataset.
 ### Training Logs
 | Epoch | Step | val_evaluator_spearman |
 |:-----:|:----:|:----------------------:|
-| 1.0   | 20   | 0.3333                 |
-| 2.0   | 40   | 0.6902                 |
-| 3.0   | 60   | 0.7608                 |
-| 4.0   | 80   | 0.7865                 |
-| 5.0   | 100  | 0.7940                 |
+| -1    | -1   | 0.8660                 |
 
 
 ### Framework Versions
