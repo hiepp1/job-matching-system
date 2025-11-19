@@ -31,13 +31,13 @@ def main():
 
     # 4.  Step 3: Tạo FAISS Index
     print("\n[Bước 3/4] Đang xây dựng FAISS Index...")
-    build_rich_faiss_index_offline(
-        summary_folder=config.CV_SUMMARY_FOLDER,
-        json_folder=config.CV_JSON_FOLDER,
-        pdf_folder=config.CV_FOLDER,
-        output_folder=config.CV_DATASET_FOLDER,
-        dimension=config.EMBEDDING_DIMENSION
-    )
+    # build_rich_faiss_index_offline(
+    #     summary_folder=config.CV_SUMMARY_FOLDER,
+    #     json_folder=config.CV_JSON_FOLDER,
+    #     pdf_folder=config.CV_FOLDER,
+    #     output_folder=config.CV_DATASET_FOLDER,
+    #     dimension=config.EMBEDDING_DIMENSION
+    # )
     print("Hoàn tất Bước 3.")
 
     # 5.  Step 4: Tạo BM25 Index

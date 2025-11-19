@@ -1,4 +1,3 @@
-# build_golden_dataset.py
 import os
 import json
 import time
@@ -9,224 +8,209 @@ from tqdm import tqdm
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-# --- 1. CẤU HÌNH & LOAD API KEYS ---
+# --- 1. CẤU HÌNH ---
 load_dotenv()
-
-# Load danh sách các Key
+# Load 3 Keys
 API_KEYS = [
-    os.getenv("GEMINI_API_KEY_1"),
-    os.getenv("GEMINI_API_KEY_2"),
-    os.getenv("GEMINI_API_KEY_3")
+    os.getenv("GEMINI_API_KEY_1"), 
+    os.getenv("GEMINI_API_KEY_2"), 
+    os.getenv("GEMINI_API_KEY_3"),
+    os.getenv("GEMINI_API_KEY_4")
 ]
-# Lọc bỏ các key None (trong trường hợp file .env thiếu)
 API_KEYS = [k for k in API_KEYS if k]
 
-if not API_KEYS:
-    raise ValueError("❌ Không tìm thấy API Key nào trong file .env!")
+if not API_KEYS: 
+    raise ValueError("❌ Lỗi: Không tìm thấy API Key nào!")
 
-print(f"✅ Đã load thành công {len(API_KEYS)} API Keys để xoay vòng.")
+print(f"✅ Đã load {len(API_KEYS)} API Keys. Chế độ: Batch Processing.")
 
-# Cấu hình đường dẫn
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CV_JSON_FOLDER = os.path.join(BASE_DIR, 'artifacts', 'json_cv')
-OUTPUT_FILE = os.path.join(BASE_DIR, 'artifacts', 'golden_dataset.csv')
+OUTPUT_FILE = os.path.join(BASE_DIR, 'artifacts', 'golden_dataset_v2.csv')
 
-# --- 2. CLASS QUẢN LÝ API (Key Rotation) ---
+# --- 2. CLASS QUẢN LÝ API ---
 class GeminiManager:
     def __init__(self, keys):
         self.keys = keys
-        self.current_key_index = 0
-        self.model_name = "gemini-2.5-flash" 
+        self.index = 0
+        self.model_name = "gemini-2.5-flash"
 
-    def _get_model(self):
-        """Lấy model với key hiện tại"""
-        current_key = self.keys[self.current_key_index]
-        genai.configure(api_key=current_key)
-        return genai.GenerativeModel(self.model_name)
-
-    def _switch_key(self):
-        """Chuyển sang key tiếp theo trong danh sách"""
-        self.current_key_index = (self.current_key_index + 1) % len(self.keys)
-        # print(f"🔄 Switching to API Key #{self.current_key_index + 1}...")
-
-    def generate_content_safe(self, prompt, max_retries=10):
-        """Hàm gọi API an toàn với cơ chế Retry + Rotate Key"""
-        for attempt in range(max_retries):
+    def generate_batch(self, prompt):
+        """Hàm gọi API có Retry & Rotation"""
+        for _ in range(len(self.keys) * 2): # Thử xoay vòng 2 lượt
             try:
-                model = self._get_model()
-                response = model.generate_content(prompt)
-                return response.text
+                genai.configure(api_key=self.keys[self.index])
+                model = genai.GenerativeModel(self.model_name)
+                # Ép trả về JSON
+                response = model.generate_content(
+                    prompt,
+                    generation_config=genai.GenerationConfig(response_mime_type="application/json")
+                )
+                return json.loads(response.text)
             except Exception as e:
-                # Nếu lỗi (Rate Limit 429, Server Error 503...), in nhẹ và đổi key
-                # print(f"⚠️ Error with Key #{self.current_key_index + 1}: {e}. Retrying...")
-                self._switch_key()
-                time.sleep(2) # Nghỉ 2s để thở
-        
-        print("❌ Thất bại sau nhiều lần thử.")
-        return None
+                print(f"  ⚠️ Key #{self.index+1} bị lỗi/limit. Đổi key...")
+                self.index = (self.index + 1) % len(self.keys)
+                time.sleep(5) # Nghỉ 5s trước khi thử key mới
+        return {}
 
-# Khởi tạo Manager
-gemini_manager = GeminiManager(API_KEYS)
+manager = GeminiManager(API_KEYS)
 
-# --- 3. CÁC HÀM LOGIC ---
-
-def load_local_cv_data():
-    """Đọc CV từ ổ cứng"""
-    cv_list = []
-    if not os.path.exists(CV_JSON_FOLDER):
-        print(f"❌ Không tìm thấy thư mục: {CV_JSON_FOLDER}")
-        return []
-
+# --- 3. HÀM LOAD DỮ LIỆU ---
+def load_cvs(limit=60):
+    cvs = []
+    if not os.path.exists(CV_JSON_FOLDER): return []
+    
     files = [f for f in os.listdir(CV_JSON_FOLDER) if f.endswith('.json')]
-    print(f"📂 Tìm thấy {len(files)} file CV JSON.")
+    selected_files = random.sample(files, min(limit, len(files)))
     
-    for filename in tqdm(files, desc="Loading CVs"):
-        file_path = os.path.join(CV_JSON_FOLDER, filename)
+    print(f"📂 Đang đọc {len(selected_files)} file CV...")
+    
+    for f in selected_files:
         try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                # Tạo text đại diện
-                text_rep = f"ID: {filename}\nRole: {', '.join(data.get('normalized_job_titles', []))}\n" \
-                           f"Skills: {', '.join(data.get('skills', []))}\n" \
-                           f"Exp: {data.get('years_of_experience', 0)} years."
+            with open(os.path.join(CV_JSON_FOLDER, f), 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                # Lấy dữ liệu tinh gọn
+                profile = data.get('candidate_profile', {})
+                tech = data.get('tech_stack', {})
                 
-                cv_list.append({
-                    "id": filename,
-                    "content": text_rep,
-                    "full_json": data
-                })
-        except Exception:
-            pass
-    return cv_list
+                langs = tech.get('programming_languages', [])
+                libs = tech.get('frameworks_libraries', [])
+                
+                if not langs and not libs: continue
+                
+                # Text đại diện
+                text_rep = f"Role: {profile.get('role_focus')} ({profile.get('seniority_level')}). Skills: {', '.join(langs + libs)}."
+                
+                # ID ngắn gọn để làm key cho JSON
+                cv_id = f.replace(".json", "")
+                cvs.append({"id": cv_id, "json": data, "text": text_rep})
+        except: pass
+    return cvs
 
-def generate_synthetic_jds(cv_list, num_jds=20):
-    """Dùng Gemini để bịa ra JD dựa trên CV thật"""
-    synthetic_jds = []
-    selected_cvs = random.sample(cv_list, min(num_jds, len(cv_list)))
-    
-    print(f"\n🤖 Đang sinh {len(selected_cvs)} JD giả lập...")
-    
-    for cv in tqdm(selected_cvs, desc="Generating JDs"):
-        prompt = f"""
-        Act as an expert HR Manager. Based on this candidate profile, write a short, realistic Job Description (JD) that this candidate would be a Perfect Match for.
-        
-        Candidate Profile:
-        {json.dumps(cv['full_json'])}
-        
-        Output Requirement:
-        - Output ONLY the JD text.
-        - Length: 50-100 words.
-        - No intro/outro.
-        """
-        
-        jd_text = gemini_manager.generate_content_safe(prompt)
-        if jd_text:
-            synthetic_jds.append(jd_text.strip())
-            
-    return synthetic_jds
+# --- 4. PROMPTS BATCHING (Xử lý nhiều CV 1 lúc) ---
 
-def score_batch(jd_text, cv_list):
+PROMPT_TEMPLATE = """
+You are a Technical Recruiter. I will provide a list of Candidate Profiles (ID and Details).
+Your task is to write a specific Job Description (JD) for EACH candidate based on the instructions below.
+
+INSTRUCTION TYPE: {type_instruction}
+
+CANDIDATE LIST:
+{candidates_text}
+
+OUTPUT REQUIREMENT:
+Return a JSON object where keys are "Candidate_ID" and values are the "JD Text".
+Example:
+{{
+  "CV_1": "JD text for CV 1...",
+  "CV_2": "JD text for CV 2..."
+}}
+"""
+
+# Các chỉ dẫn cụ thể (Inject vào {type_instruction})
+INSTRUCTIONS = {
+    "Positive": """
+    - Write a JD that is a **PERFECT 100% MATCH** for the candidate.
+    - Use the EXACT Job Title, Seniority, and Tech Stack from the profile.
+    - Length: 50 words.
+    """,
+    
+    "Partial": """
+    - Write a JD that is a **PARTIAL MATCH (60%)**.
+    - Keep the Seniority MATCHING.
+    - Require 50% of their skills, but ADD 2-3 NEW skills they DO NOT have (e.g., if Python, ask for Go; if AWS, ask for Azure).
+    - Length: 50 words.
+    """,
+    
+    "Seniority_Mismatch": """
+    - Write a JD with a **SERIOUS SENIORITY MISMATCH**.
+    - If candidate is Intern/Junior -> Write JD for "Senior Lead/Manager" (7+ years exp).
+    - If candidate is Senior -> Write JD for "Unpaid Intern".
+    - KEEP the Tech Stack MATCHING (to confuse the AI).
+    - Length: 50 words.
+    """,
+    
+    "Tech_Mismatch": """
+    - Write a JD with a **COMPLETE TECH MISMATCH**.
+    - Keep the Seniority Level similar.
+    - CHANGE the Domain entirely (e.g., Web -> Embedded, AI -> Mobile).
+    - Length: 50 words.
     """
-    Kỹ thuật Batching: Gửi 1 JD + 10 CV cùng lúc.
-    Prompt V2: Thêm luật Seniority & Tech Stack chặt chẽ.
-    """
-    # Chuẩn bị text input
-    candidates_text = ""
-    for cv in cv_list:
-        candidates_text += f"--- START CANDIDATE: {cv['id']} ---\n{cv['content']}\n--- END CANDIDATE ---\n\n"
-    
-    prompt = f"""
-    You are a Strict AI Recruitment Manager. Your job is to evaluate candidates for a specific Job Description (JD).
-    
-    JOB DESCRIPTION:
-    {jd_text}
-    
-    CANDIDATE LIST:
-    {candidates_text}
-    
-    TASK:
-    Rate the relevance of each candidate on a scale from 0.0 to 1.0 based on the following STRICT RULES.
-    
-    SCORING RULES (MUST FOLLOW):
-    1. TECH STACK (50%): 
-       - Must match core technologies (e.g., Java, Python, React). 
-       - If core skills are missing -> Max Score 0.3.
-       
-    2. EXPERIENCE & SENIORITY (30% - CRITICAL):
-       - JD asks for "Senior"/"Lead" (3+ years) AND Candidate has < 2 years exp -> PENALTY: Max Score 0.4 (Even if skills are perfect).
-       - JD asks for "Junior"/"Intern" AND Candidate has > 5 years exp -> PENALTY: Max Score 0.6 (Overqualified).
-       - JD asks for "Intern" AND Candidate has 0 years -> FULL SCORE possible.
-       
-    3. DOMAIN FIT (20%):
-       - Example: JD needs "Web" but CV is "Embedded" -> Low score.
+}
 
-    OUTPUT FORMAT (Strict JSON):
-    Return a single JSON object where keys are the Candidate IDs and values are the scores (float).
-    Example: {{"CV_1.json": 0.8, "CV_2.json": 0.1}}
-    DO NOT output Markdown. DO NOT output explanation. ONLY JSON.
-    """
-    
-    response_text = gemini_manager.generate_content_safe(prompt)
-    
-    if response_text:
-        try:
-            # Làm sạch response để lấy JSON chuẩn
-            json_str = re.search(r"\{.*\}", response_text, re.DOTALL)
-            if json_str:
-                return json.loads(json_str.group())
-        except Exception as e:
-            print(f"  ⚠️ JSON Parse Error: {e}")
-    return {}
+SCORES = {
+    "Positive": 1.0,
+    "Partial": 0.6,
+    "Seniority_Mismatch": 0.2,
+    "Tech_Mismatch": 0.1
+}
 
-# --- 4. HÀM MAIN ---
+# --- 5. MAIN LOOP (BATCH PROCESSING) ---
 def main():
-    # 1. Load Data
-    cv_dataset = load_local_cv_data()
-    if not cv_dataset: return
+    cv_list = load_cvs(limit=50) 
+    if not cv_list: return print("❌ Không có dữ liệu CV.")
 
-    # 2. Sinh JD giả lập (Khoảng 20 cái để có tập dữ liệu 100-200 dòng)
-    NUM_JDS = 20
-    synthetic_jds = generate_synthetic_jds(cv_dataset, num_jds=NUM_JDS)
+    dataset = []
+    BATCH_SIZE = 5 # Gửi 5 CV một lúc -> Giảm 5 lần số request
     
-    # 3. Chấm điểm (Batching)
-    golden_data = []
-    BATCH_SIZE = 5 # Gửi 5 CV mỗi lần để Gemini không bị loạn
+    # Chia CV thành các batch
+    batches = [cv_list[i:i + BATCH_SIZE] for i in range(0, len(cv_list), BATCH_SIZE)]
     
-    print(f"\n⚖️ Đang chấm điểm (Mode: Batching + 3-Key Rotation)...")
+    print(f"🚀 Bắt đầu sinh dữ liệu: {len(cv_list)} CVs -> {len(batches)} Batches.")
     
-    for jd in tqdm(synthetic_jds, desc="Scoring Batches"):
-        # Với mỗi JD, chọn ngẫu nhiên 10 CV để chấm
-        # (Đảm bảo có cả match và không match)
-        sample_cvs = random.sample(cv_dataset, min(10, len(cv_dataset)))
-        
-        # Chia nhỏ thành các batch nhỏ hơn (ví dụ 5) để gửi
-        for i in range(0, len(sample_cvs), BATCH_SIZE):
-            batch = sample_cvs[i:i + BATCH_SIZE]
+    for batch in tqdm(batches, desc="Processing Batches"):
+        # Chuẩn bị text đầu vào cho cả batch
+        batch_text_input = ""
+        for cv in batch:
+            # Rút gọn JSON để tiết kiệm token
+            mini_profile = {
+                "role": cv['json'].get('candidate_profile', {}).get('role_focus'),
+                "level": cv['json'].get('candidate_profile', {}).get('seniority_level'),
+                "skills": cv['text']
+            }
+            batch_text_input += f"ID: {cv['id']}\nPROFILE: {json.dumps(mini_profile)}\n---\n"
+
+        # Duyệt qua 4 loại kịch bản (Positive, Partial...)
+        for label_type, instruction in INSTRUCTIONS.items():
+            # Tạo prompt
+            full_prompt = PROMPT_TEMPLATE.format(
+                type_instruction=instruction,
+                candidates_text=batch_text_input
+            )
             
-            # Gọi Gemini chấm cả batch
-            scores_dict = score_batch(jd, batch)
+            # Gọi API
+            results_dict = manager.generate_batch(full_prompt)
             
-            # Lưu kết quả
-            for cv in batch:
-                # Lấy điểm, nếu lỗi thì mặc định 0.0
-                score = scores_dict.get(cv['id'], 0.0)
-                
-                golden_data.append({
-                    "jd_text": jd,
-                    "cv_text": cv['content'],
-                    "score": score
-                })
-                
-    # 4. Lưu CSV
-    if golden_data:
-        df = pd.DataFrame(golden_data)
+            # Map kết quả vào dataset
+            if results_dict:
+                for cv in batch:
+                    # Tìm JD tương ứng với ID
+                    jd_text = results_dict.get(cv['id'])
+                    if jd_text:
+                        dataset.append({
+                            "jd_text": jd_text,
+                            "cv_text": cv['text'],
+                            "score": SCORES[label_type],
+                            "type": label_type
+                        })
+            
+            # Nghỉ nhẹ giữa các loại kịch bản
+            time.sleep(2)
+
+        # Nghỉ lớn sau mỗi batch CV để reset Rate Limit
+        # print("⏳ Cooling down (10s)...")
+        time.sleep(10)
+
+    # Lưu kết quả
+    if dataset:
+        df = pd.DataFrame(dataset)
         df.to_csv(OUTPUT_FILE, index=False)
-        print(f"\n✅ THÀNH CÔNG! Đã lưu {len(df)} dòng dữ liệu vào:")
+        print(f"\n✅ THÀNH CÔNG! Đã lưu {len(df)} dòng dữ liệu.")
         print(f"   -> {OUTPUT_FILE}")
-        print("\n5 dòng đầu tiên:")
-        print(df.head())
+        print("\nPhân phối dữ liệu:")
+        print(df['type'].value_counts())
     else:
-        print("❌ Không tạo được dữ liệu nào.")
+        print("❌ Thất bại: Không sinh được dữ liệu nào.")
 
 if __name__ == "__main__":
     main()
