@@ -94,6 +94,11 @@ def _pdf_to_base64(pdf_path: str) -> str:
     with open(pdf_path, "rb") as f:
         return base64.b64encode(f.read()).decode("utf-8")
 
+def get_clean_filename(path_str):
+    if not path_str: return ""
+    normalized_path = path_str.replace('\\', '/')
+    return normalized_path.split('/')[-1]
+
 def preview_cv_inline(rank_idx):
     global CURRENT_SEARCH_RESULTS
     try:
@@ -102,8 +107,11 @@ def preview_cv_inline(rank_idx):
             return "<div>⚠️ Please run 'Analyze & Match' and choose a valid rank.</div>", "Selected Candidate Score: N/A"
         
         candidate = CURRENT_SEARCH_RESULTS[idx]
-        pdf_name = candidate.get('pdf_filename') or os.path.basename(candidate.get('pdf_path', ''))
+
+        raw_path = candidate.get('pdf_path', '')
+        pdf_name = get_clean_filename(raw_path)
         full_path = os.path.join(config.CV_FOLDER, pdf_name)
+        
         score = candidate.get('final_score', 0.0)
         percent_score = f"{score * 100:.1f}%"
 
