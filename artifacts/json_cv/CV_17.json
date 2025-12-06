@@ -1,0 +1,136 @@
+{
+    "candidate_profile": {
+        "name": "Nguyen Trung Duc",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Backend Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": "8.29",
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "JavaScript",
+            "Java",
+            "Python",
+            "C/C++"
+        ],
+        "frameworks_libraries": [
+            "Node.js",
+            "Spring Boot",
+            "React.js",
+            "Express",
+            "JPA",
+            "Hibernate",
+            "EJS",
+            "Bootstrap",
+            "Vite",
+            "Spring Mail",
+            "JUnit",
+            "Mockito"
+        ],
+        "databases": [
+            "MySQL",
+            "MongoDB",
+            "MS SQL Server",
+            "Redis"
+        ],
+        "devops_cloud": [
+            "Docker",
+            "Nginx",
+            "AWS (EC2)",
+            "XAMPP"
+        ],
+        "tools_platforms": [
+            "Swagger",
+            "Git",
+            "Postman"
+        ],
+        "architectures_models": [
+            "Microservices Architecture",
+            "RESTful APIs"
+        ],
+        "techniques_concepts": [
+            "JWT authentication",
+            "Email notifications",
+            "Code quality",
+            "Horizontal scaling",
+            "Load balancing",
+            "User authentication",
+            "Product management",
+            "Shopping cart features",
+            "API Design"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Learning English App – Vocabulary Platform",
+            "type": "Academic",
+            "tech_used": [
+                "Spring Boot",
+                "MySQL",
+                "JPA",
+                "Hibernate",
+                "RESTful APIs",
+                "JWT",
+                "Spring Mail",
+                "JUnit",
+                "Mockito",
+                "PDF",
+                "Word"
+            ],
+            "description": "Developed a backend for a vocabulary platform, including RESTful APIs, JWT authentication, premium features, email notifications, and vocabulary exports, ensuring code quality with tests."
+        },
+        {
+            "name": "Ecolink – Green Consumer E-Commerce Platform",
+            "type": "Academic",
+            "tech_used": [
+                "Node.js",
+                "Express",
+                "MS SQL Server",
+                "EJS",
+                "Bootstrap",
+                "XAMPP"
+            ],
+            "description": "Built an e-commerce platform connecting users to eco-friendly products, developing REST APIs, implementing authentication, and handling image uploads."
+        },
+        {
+            "name": "Clothing Shop",
+            "type": "Academic",
+            "tech_used": [
+                "React",
+                "Vite",
+                "Node.js",
+                "Express",
+                "MongoDB",
+                "Redis",
+                "Docker",
+                "Nginx",
+                "Microservices Architecture",
+                "RESTful APIs"
+            ],
+            "description": "Built a full-stack e-commerce website using a microservices architecture, containerized with Docker, implemented horizontal scaling and load balancing, and designed secure RESTful APIs."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Software Engineering",
+            "major": "Software Engineering",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": [
+        {
+            "title": "Consolation Prize – ISC Academic Competition",
+            "issuer": "UIT – VNU-HCM"
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "candidate_profile": {
+        "name": "TONG NGUYEN KHANG",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": 8.0,
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "C#"
+        ],
+        "frameworks_libraries": [
+            "OpenCV",
+            "ASP.NET MVC"
+        ],
+        "databases": [
+            "Relational Database"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Git",
+            "VSCode",
+            "Linux Terminal"
+        ],
+        "architectures_models": [
+            "Transformer-based architecture",
+            "Attention mechanisms",
+            "Modular object-oriented design"
+        ],
+        "techniques_concepts": [
+            "Digital Image Processing",
+            "Traffic Sign Detection",
+            "HSV color thresholding",
+            "Template matching",
+            "Deep Learning",
+            "Sentiment Analysis",
+            "Software Engineering",
+            "UML modeling",
+            "CRC cards",
+            "Workflow analysis",
+            "Design and Analysis of Algorithms",
+            "Top-K Frequent Pattern Mining",
+            "Object-Oriented Design",
+            "Pattern Discovery"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Traffic Sign Detection in Road Videos",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "OpenCV",
+                "HSV color thresholding",
+                "Template matching"
+            ],
+            "description": "Developed a real-time video processing pipeline in Python using OpenCV to detect and highlight traffic signs in road footage. The system applied HSV color thresholding to filter red and blue regions and used template matching to identify valid traffic signs. Successfully highlighted detected signs on video frames in real time."
+        },
+        {
+            "name": "Context-Aware Sentiment Analysis Using Transformers",
+            "type": "Academic",
+            "tech_used": [
+                "Transformer-based architecture",
+                "Attention mechanisms"
+            ],
+            "description": "Built a sentiment analysis model using a Transformer-based architecture with attention mechanisms. The model processes short text and its supplementary context independently, then fuses their representations to predict sentiment labels accurately."
+        },
+        {
+            "name": "Restaurant Information System",
+            "type": "Academic",
+            "tech_used": [
+                "ASP.NET MVC",
+                "C#",
+                "UML modeling",
+                "CRC cards",
+                "Relational database",
+                "Object-oriented design"
+            ],
+            "description": "Built a restaurant management system using ASP.NET MVC and C#. Key features include real-time table availability, order management, a reservations system with customer requests, and payment processing. The backend was built with a modular object-oriented design and relational database. Applied UML modeling, CRC cards, and rigorous workflow analysis to ensure scalability, reliability, and high cohesion across components."
+        },
+        {
+            "name": "Interactive Top-K Frequent Pattern Mining from Uncertain Data",
+            "type": "Academic",
+            "tech_used": [
+                "Algorithms",
+                "Top-K frequent patterns"
+            ],
+            "description": "Researched and implemented algorithms for mining Top-K frequent patterns from uncertain datasets. Developed an interactive system that allows users to specify the number of top itemsets to retrieve, enhancing flexibility and efficiency in pattern discovery."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Computer Science",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": [
+        {
+            "title": "2nd place in Coding Competition",
+            "issuer": "Nguyen Thi Minh Khai High School"
+        }
+    ]
+}

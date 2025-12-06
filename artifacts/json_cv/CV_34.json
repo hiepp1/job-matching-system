@@ -1,0 +1,161 @@
+{
+    "candidate_profile": {
+        "name": "LE NGUYEN VIET HIEP",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "B2",
+        "years_experience": 0.67
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "C++"
+        ],
+        "frameworks_libraries": [
+            "TensorFlow",
+            "PyTorch",
+            "Hugging Face",
+            "LangChain",
+            "XChart",
+            "DenseNet201"
+        ],
+        "databases": [
+            "PostgreSQL"
+        ],
+        "devops_cloud": [
+            "Firebase",
+            "n8n",
+            "Google Gemini API",
+            "Google Colab"
+        ],
+        "tools_platforms": [
+            "GitHub",
+            "VSCode",
+            "Facebook Messenger"
+        ],
+        "architectures_models": [
+            "CNN",
+            "RNN",
+            "Transformer",
+            "Attention Mechanism",
+            "GPT",
+            "Gemini",
+            "LLMs",
+            "CNN-LSTM architecture"
+        ],
+        "techniques_concepts": [
+            "Machine Learning",
+            "Deep Learning",
+            "Fine-tuning LLMs",
+            "NLP",
+            "Data Preprocessing",
+            "Deployment",
+            "Integration",
+            "Network Configuration",
+            "DNS",
+            "IP",
+            "Data Handling",
+            "Troubleshooting",
+            "Data Mining Algorithm",
+            "Probability-based utility",
+            "DFS tree structures",
+            "PRIU pruning strategies",
+            "PLIU pruning strategies",
+            "Tokenization",
+            "Padding",
+            "Adam optimizer",
+            "BLEU score",
+            "Low-code AI integration",
+            "Agile",
+            "Scrum",
+            "RAG"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "Garena",
+            "role": "Esports Match Operations (Part-time)",
+            "start_date": "2024-09",
+            "end_date": "2025-05",
+            "duration_months": 8,
+            "is_internship": false,
+            "tech_used": [
+                "IT systems",
+                "electronic devices",
+                "PCs",
+                "storage",
+                "headsets",
+                "network configuration",
+                "DNS",
+                "IP"
+            ],
+            "responsibilities": "Operated and monitored IT systems & electronic devices during professional esports tournaments, ensuring network stability and hardware reliability. Applied knowledge of network configuration (DNS and IP), data handling, and troubleshooting to maintain high-performance environments under real-time pressure."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Short-time Mining of Top-K Periodic High-Utility Probabilistic Itemsets",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "Java",
+                "XChart",
+                "data mining algorithm",
+                "probability-based utility",
+                "DFS tree structures",
+                "PRIU pruning strategies",
+                "PLIU pruning strategies"
+            ],
+            "description": "Developed a data mining algorithm in Java to extract high-utility itemsets from transactional data, utilized probability-based utility and DFS tree structures, incorporating PRIU and PLIU pruning strategies for optimization. Evaluated using XChart."
+        },
+        {
+            "name": "Image Captioning",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "CNN-LSTM architecture",
+                "DenseNet201",
+                "TensorFlow",
+                "tokenization",
+                "padding",
+                "Adam optimizer",
+                "BLEU score"
+            ],
+            "description": "A deep learning model using CNN-LSTM architecture with DenseNet201 and TensorFlow to generate image captions. Applied tokenization, padding, and Adam optimizer for training. Evaluated with BLEU score."
+        },
+        {
+            "name": "Personal AI Agent Assistant",
+            "type": "Personal",
+            "tech_used": [
+                "n8n",
+                "Google Gemini API",
+                "PostgreSQL",
+                "LangChain",
+                "Facebook Messenger"
+            ],
+            "description": "An intelligent Facebook Messenger chatbot using n8n for automation, Google Gemini API for NLP, PostgreSQL for memory, and LangChain for scalable conversations. Demonstrates low-code AI integration."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "LLM Engineering: Master AI and Large Language Models",
+            "issuer": "Udemy",
+            "year": "2025"
+        }
+    ],
+    "honors_and_awards": []
+}

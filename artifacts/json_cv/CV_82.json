@@ -1,0 +1,50 @@
+{
+    "candidate_profile": {
+        "name": "Nguyễn Hùng",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Engineer Intern",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [],
+        "frameworks_libraries": [],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [],
+        "architectures_models": [],
+        "techniques_concepts": []
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "E-commerce Website for Technology Products",
+            "type": "Academic",
+            "tech_used": [],
+            "description": "E-commerce website for technology products."
+        },
+        {
+            "name": "Photo Library Application",
+            "type": "Academic",
+            "tech_used": [],
+            "description": "Photo library application."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Bachelor",
+            "major": "Software Engineering (English program)",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

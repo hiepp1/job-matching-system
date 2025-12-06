@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "version": "test"
+  },
+  "skills": {
+    "Python": {
+      "canonical": "Python",
+      "synonyms": [
+        "python3",
+        "py"
+      ],
+      "related_skills": [
+        "Django",
+        "Pandas"
+      ],
+      "category": "programming_languages"
+    },
+    "Django": {
+      "canonical": "Django",
+      "synonyms": [
+        "django_framework"
+      ],
+      "related_skills": [
+        "Python"
+      ],
+      "category": "web_development"
+    },
+    "PostgreSQL": {
+      "canonical": "PostgreSQL",
+      "synonyms": [
+        "postgres",
+        "pg"
+      ],
+      "related_skills": [
+        "SQL"
+      ],
+      "category": "databases"
+    },
+    "MySQL": {
+      "canonical": "MySQL",
+      "synonyms": [
+        "mysql_db"
+      ],
+      "related_skills": [
+        "SQL"
+      ],
+      "category": "databases"
+    },
+    "React": {
+      "canonical": "React",
+      "synonyms": [
+        "reactjs",
+        "react.js"
+      ],
+      "related_skills": [
+        "JavaScript"
+      ],
+      "category": "web_development"
+    },
+    "TypeScript": {
+      "canonical": "TypeScript",
+      "synonyms": [
+        "ts"
+      ],
+      "related_skills": [
+        "JavaScript"
+      ],
+      "category": "programming_languages"
+    }
+  },
+  "skill_relationships": {
+    "complements": [
+      [
+        "React",
+        "TypeScript"
+      ]
+    ],
+    "alternatives": [
+      [
+        "PostgreSQL",
+        "MySQL"
+      ],
+      [
+        "Java",
+        "Python"
+      ]
+    ],
+    "progression_paths": []
+  }
+}

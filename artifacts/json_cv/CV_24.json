@@ -1,0 +1,111 @@
+{
+    "candidate_profile": {
+        "name": "QUANG NGUYEN",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Backend Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": 8.13,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            "Spring Boot",
+            "Spring MVC",
+            "Spring Security",
+            "Spring Data JPA",
+            "Hibernate",
+            "JQuery",
+            "Bootstrap",
+            "Thymeleaf",
+            "ReactJS",
+            "Redux Toolkit",
+            "JUnit",
+            "Mockito"
+        ],
+        "databases": [
+            "MySQL",
+            "SQL Server"
+        ],
+        "devops_cloud": [
+            "Docker",
+            "AWS S3",
+            "Firebase"
+        ],
+        "tools_platforms": [
+            "Git",
+            "GitHub",
+            "Maven",
+            "Postman"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "OOP",
+            "RESTful",
+            "JWT",
+            "Online Payment Integration",
+            "Authentication"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Real Estate Web",
+            "type": "Team Project",
+            "tech_used": [
+                "Spring Boot",
+                "Spring Security",
+                "JWT",
+                "MySQL",
+                "Thymeleaf",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "VNPay"
+            ],
+            "description": "Built a real estate web platform allowing users to post, search, and manage property listings with online payment integration. Developed backend services using Spring Boot, Spring Security, JWT, and MySQL database. Designed RESTful APIs for authentication, property listing, contracts, and VNPay payment integration. Created the frontend using Thymeleaf, HTML/CSS, JavaScript, Bootstrap for dynamic pages and responsive UI."
+        },
+        {
+            "name": "Spring Ecomerce Web",
+            "type": "Personal Project",
+            "tech_used": [
+                "Spring Boot",
+                "Spring Security",
+                "JWT",
+                "MySQL",
+                "VNPay",
+                "AWS S3",
+                "Firebase",
+                "ReactJS",
+                "Redux Toolkit",
+                "JUnit 5",
+                "Mockito",
+                "Postman"
+            ],
+            "description": "Built an e-commerce app with product listing, search, filtering, cart and checkout. Developed RESTful APIs with Spring Boot, Spring Security, JWT, MySQL and integrated VNPay & image uploads (AWS S3/Firebase). Created ReactJS frontend consuming APIs, managed state with Redux Toolkit. Wrote JUnit 5 and Mockito tests and used Postman for API testing."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

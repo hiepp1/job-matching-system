@@ -1,0 +1,107 @@
+{
+    "candidate_profile": {
+        "name": "Nguyễn Quốc Dũng",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "JavaScript",
+            "HTML/CSS",
+            "C#"
+        ],
+        "frameworks_libraries": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "Unity"
+        ],
+        "databases": [
+            "SQL Server",
+            "MySQL",
+            "MongoDB"
+        ],
+        "devops_cloud": [
+            "Docker",
+            "Docker Compose"
+        ],
+        "tools_platforms": [
+            "Git"
+        ],
+        "architectures_models": [
+            "MVC"
+        ],
+        "techniques_concepts": [
+            "Data Structures and Algorithms",
+            "Game Development",
+            "Web Application Development",
+            "Artificial Intelligence",
+            "User Authentication",
+            "CRUD Operations",
+            "RESTful API",
+            "Containerization",
+            "Real-Time Messaging",
+            "Responsive Design",
+            "Full-stack Development",
+            "Software Deployment"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "E-commerce Website",
+            "type": "Academic",
+            "tech_used": [
+                "Node.js",
+                "Express.js",
+                "Docker",
+                "Docker Compose",
+                "MVC",
+                "RESTful API",
+                "HTML/CSS"
+            ],
+            "description": "Developed a full-stack e-commerce web application as a final-year university project, utilizing Node.js and Express.js for the backend. The project follows the Model-View-Controller (MVC) architectural pattern and is containerized using Docker. Key features include user authentication, product management (CRUD), a dynamic shopping cart, order processing, and responsive design."
+        },
+        {
+            "name": "Realtime Chat App",
+            "type": "Personal",
+            "tech_used": [
+                "MongoDB",
+                "Express.js",
+                "React.js",
+                "Node.js",
+                "JavaScript"
+            ],
+            "description": "Developed a real-time chat application utilizing the MERN stack. The project features secure user authentication, instant messaging capabilities between users, responsive design, backend integration with Express.js and Node.js, and database management with MongoDB."
+        },
+        {
+            "name": "Game 2048",
+            "type": "Personal",
+            "tech_used": [
+                "Unity",
+                "C#"
+            ],
+            "description": "Developed a digital version of the classic 2048 puzzle game using Unity. This project showcases proficiency in game development and understanding of game mechanics, including tile movement, merging, score calculation, user interface design, and cross-platform deployment."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Software Engineering",
+            "major": "Software Engineering",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

@@ -1,0 +1,134 @@
+{
+    "candidate_profile": {
+        "name": "HA TRONG NGUYEN",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Machine Learning Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": 8.33,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "C#",
+            "Java",
+            "C"
+        ],
+        "frameworks_libraries": [
+            "PyTorch",
+            "Scikit-learn",
+            "Ultralytics",
+            "FastAPI",
+            "VietOCR",
+            "TrOCR",
+            "PaddleOCR",
+            "Vintern-1B-v3.5"
+        ],
+        "databases": [],
+        "devops_cloud": [
+            "Docker"
+        ],
+        "tools_platforms": [
+            "Git",
+            "VS Code",
+            "Google Colab",
+            "Kaggle",
+            "Linux",
+            "Jupyter notebooks"
+        ],
+        "architectures_models": [
+            "YOLOv11",
+            "ResNet",
+            "Transformer",
+            "Encoder-Decoder"
+        ],
+        "techniques_concepts": [
+            "Artificial Intelligence",
+            "Computer Vision",
+            "OCR",
+            "Image Classification",
+            "Data Labeling",
+            "Deep Learning",
+            "Image Processing",
+            "Agile",
+            "Scrum",
+            "Data Analysis",
+            "Prompt Engineering",
+            "Fine-tuning"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Application for Product Details Recognition and Expiration Date Management",
+            "type": "Academic",
+            "tech_used": [
+                "YOLOv11",
+                "VietOCR",
+                "TrOCR",
+                "PaddleOCR",
+                "Vintern-1B-v3.5"
+            ],
+            "description": "Led model development for product label detection and text recognition using various OCR models on an expanded VNProductKIE dataset, resulting in a First Prize award."
+        },
+        {
+            "name": "Vietnamese OCR from Images",
+            "type": "Academic",
+            "tech_used": [
+                "ResNet",
+                "Transformer",
+                "Jupyter notebooks"
+            ],
+            "description": "Developed a Vietnamese OCR system using a ResNet–Transformer encoder–decoder architecture, trained and evaluated on VinAI’s dict-guided dataset 2, and deployed via command line and Jupyter notebooks."
+        },
+        {
+            "name": "Dental Clinic Management System",
+            "type": "Academic",
+            "tech_used": [
+                "C#"
+            ],
+            "description": "Collaborated in an Agile team to develop a C# desktop application for dental clinics, designing UX/UI and implementing core features for patient records, appointment scheduling, and reporting, recognized as an outstanding group."
+        },
+        {
+            "name": "Attendance System",
+            "type": "Academic",
+            "tech_used": [
+                "C#",
+                "Google Sheets"
+            ],
+            "description": "Engineered a complete attendance management system from scratch in C#, integrating Google Sheets as a cloud-based database, implementing data management functions, user-friendly interface, and reporting features to automate attendance."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Computer Science",
+            "major": "Computer Science",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "DeepLearning.AI",
+            "issuer": "DeepLearning.AI",
+            "year": null
+        },
+        {
+            "name": "Prompt Engineering",
+            "issuer": null,
+            "year": null
+        }
+    ],
+    "honors_and_awards": [
+        {
+            "title": "First Prize – Student Research Competition",
+            "issuer": "Ton Duc Thang University"
+        }
+    ]
+}

@@ -1,0 +1,224 @@
+{
+    "candidate_profile": {
+        "name": "NGUYỄN THÀNH LONG",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Master",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "JavaScript",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            "TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Keras",
+            "HuggingFace Transformers",
+            "OpenCV",
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "Seaborn",
+            "Streamlit",
+            "FastAPI",
+            "XGBoost",
+            "Random Forest",
+            "Linear Regression",
+            "Decision Tree",
+            "SHAP",
+            "ColumnTransformer",
+            "Heapq"
+        ],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Git",
+            "Linux",
+            "Google Colab",
+            "Jupyter",
+            "Tableau"
+        ],
+        "architectures_models": [
+            "CNNs",
+            "YOLO",
+            "Transformers",
+            "BERT",
+            "GPT",
+            "LSTM",
+            "Encoder-Decoder Model",
+            "Random Forest Regression Model",
+            "XGBoost",
+            "Linear Regression",
+            "Decision Tree"
+        ],
+        "techniques_concepts": [
+            "Deep Learning",
+            "Time Series Forecasting",
+            "Multimodal Learning",
+            "Computer Vision",
+            "Sequence Modeling",
+            "Image Segmentation",
+            "Visual Question Answering",
+            "Natural Language Processing",
+            "Text Summarization",
+            "Sentiment Analysis",
+            "Data Science",
+            "Data Visualization",
+            "Mixed-precision training",
+            "Data augmentation",
+            "Image preprocessing",
+            "OCR",
+            "Top-K High Utility Itemset Mining",
+            "Depth-first search (DFS)",
+            "Pruning strategies",
+            "Uncertain data",
+            "Interactive mining",
+            "Agile Workflow",
+            "Research & Technical Writing",
+            "Problem-solving",
+            "Teamwork",
+            "Quantitative Analysis"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Visual Question Answering (VQA) System",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "PyTorch",
+                "CNN",
+                "Transformer",
+                "COCO-VQA Dataset"
+            ],
+            "description": "Designed a deep learning pipeline combining CNN and Transformer architectures to answer natural language questions about images. Achieved 78% accuracy on the COCO-VQA dataset, surpassing baseline models by 12%. Optimized model inference speed by 25% using mixed-precision training."
+        },
+        {
+            "name": "Neural Machine Translation with GPT",
+            "type": "Academic",
+            "tech_used": [
+                "HuggingFace Transformers",
+                "PyTorch",
+                "FastAPI",
+                "GPT-3",
+                "Vietnamese-English Dataset"
+            ],
+            "description": "Fine-tuned a GPT-3 model for Vietnamese-to-English translation, achieving a BLEU score of 32. Preprocessed a dataset of 50,000 sentence pairs, improving model robustness with data augmentation. Deployed model using FastAPI, enabling real-time translation for 100+ users."
+        },
+        {
+            "name": "Image Captioning System",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "CNN",
+                "LSTM",
+                "Transformer",
+                "PyTorch",
+                "Streamlit",
+                "Flickr8k Dataset"
+            ],
+            "description": "Developed an encoder-decoder model using CNN and LSTM to generate descriptive captions for images. Achieved a BLEU-4 score of 0.65 on the Flickr8k dataset. Integrated model into a web app using Streamlit for real-time demonstrations."
+        },
+        {
+            "name": "OCR System for Scanned Documents",
+            "type": "Academic",
+            "tech_used": [
+                "OpenCV",
+                "CNN",
+                "Transformer",
+                "Python"
+            ],
+            "description": "Built an OCR pipeline for extracting text from scanned documents. Applied image preprocessing techniques (e.g., binarization, noise reduction) to improve text recognition. Automated processing of 1,000+ documents, reducing manual effort by 80%."
+        },
+        {
+            "name": "Real Estate Price Prediction",
+            "type": "Academic",
+            "tech_used": [
+                "Pandas",
+                "Scikit-learn",
+                "XGBoost",
+                "Random Forest",
+                "Linear Regression",
+                "Decision Tree",
+                "SHAP",
+                "ColumnTransformer"
+            ],
+            "description": "Developed a Random Forest regression model to predict resale HDB prices in Singapore, achieving an R2 score of 0.89. Applied SHAP to interpret predictions, highlighting floor area and lease remaining as key factors. Processed 10,000+ listings with ‘ColumnTransformer‘, including imputation, scaling, and encoding."
+        },
+        {
+            "name": "Top-K High Utility Itemset Mining",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "Heapq",
+                "Data Mining",
+                "Uncertain data",
+                "Top-K high-utility itemsets mining",
+                "Interactive mining",
+                "Matplotlib"
+            ],
+            "description": "Built a ‘Node‘ structure representing itemsets and their associated transaction subsets to support utility mining. Implemented a Top-K High Utility Itemset Mining algorithm using depth-first search (DFS) and pruning strategies. Simulated uncertain databases and visualized performance trends using Matplotlib."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University (TDTU)",
+            "degree": "Master of Science",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        },
+        {
+            "institution": "Ton Duc Thang University (TDTU)",
+            "degree": "Bachelor of Science",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Advanced Computer Vision with TensorFlow",
+            "issuer": "Coursera",
+            "year": "2025"
+        },
+        {
+            "name": "Neural Networks and Deep Learning",
+            "issuer": "Coursera",
+            "year": "2025"
+        },
+        {
+            "name": "Python for Data Analysis: Pandas & NumPy",
+            "issuer": "Coursera",
+            "year": "2025"
+        },
+        {
+            "name": "Sequences, Time Series and Prediction",
+            "issuer": "Coursera",
+            "year": "2025"
+        },
+        {
+            "name": "Time Series Mastery: Forecasting with ETS, ARIMA, Python",
+            "issuer": "Coursera",
+            "year": "2025"
+        },
+        {
+            "name": "Attention Mechanisms and Transformer Models Course",
+            "issuer": "Coursera",
+            "year": "2025"
+        }
+    ],
+    "honors_and_awards": []
+}

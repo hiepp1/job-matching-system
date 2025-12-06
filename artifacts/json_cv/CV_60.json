@@ -1,0 +1,111 @@
+{
+    "candidate_profile": {
+        "name": "PHẠM THÁI AN BÌNH",
+        "current_location": null,
+        "role_focus": "Software Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "C#",
+            "Python",
+            "SQL",
+            "JavaScript",
+            "Dart"
+        ],
+        "frameworks_libraries": [
+            "ASP.NET Core",
+            "Flutter",
+            "Pandas",
+            ".NET Framework"
+        ],
+        "databases": [
+            "SQL Server"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Git",
+            "GitHub",
+            "Visual Studio",
+            "SQL Server Management Studio",
+            "Jupyter Notebook"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Data Analysis",
+            "Machine Learning",
+            "Artificial Intelligence",
+            "Database Design",
+            "Web Development",
+            "Data Processing"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "CrossPlatformMidterm Project - Cross-Platform Mobile Application",
+            "type": "Academic",
+            "tech_used": [
+                "Dart",
+                "Flutter"
+            ],
+            "description": "Developed a mobile application using Dart and the Flutter framework. Focused on creating a consistent user experience across different platforms."
+        },
+        {
+            "name": "FinalSE Project - Data Analysis & Web Application",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "Jupyter Notebook",
+                "C#",
+                "T-SQL",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "description": "Developed a complete system combining data analysis with a user-facing web interface. Utilized Python (Jupyter Notebook) for data processing, analysis, and model building. Integrated a T-SQL database for storage and querying. Built an interactive user interface with HTML, CSS, and JavaScript to visualize data and analysis results."
+        },
+        {
+            "name": "Lab7 Project - ASP.NET Core Web Application",
+            "type": "Academic",
+            "tech_used": [
+                "C#",
+                "ASP.NET Core",
+                "JavaScript",
+                "T-SQL",
+                "HTML",
+                "CSS"
+            ],
+            "description": "Built a dynamic, full-stack web application. Developed APIs and business logic using C# with the ASP.NET Core framework. Designed a responsive user interface using JavaScript, HTML, and CSS. Integrated and managed the application's database using T-SQL."
+        },
+        {
+            "name": "Process1 Project - ASP.NET Web Application",
+            "type": "Academic",
+            "tech_used": [
+                "C#",
+                ".NET Framework",
+                "HTML",
+                "CSS"
+            ],
+            "description": "Developed a web application focused on server-side business logic processing. Built the core application logic using C# and the .NET Framework. Designed a functional user interface with HTML and CSS for user interaction."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science / Information Technology",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

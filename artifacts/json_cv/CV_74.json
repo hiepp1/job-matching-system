@@ -1,0 +1,71 @@
+{
+    "candidate_profile": {
+        "name": "Đỗ Hoàng Phong",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "C1",
+        "years_experience": 0.4
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "HTML"
+        ],
+        "frameworks_libraries": [],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [],
+        "architectures_models": [],
+        "techniques_concepts": []
+    },
+    "work_experience": [
+        {
+            "company": "Arrow Education",
+            "role": "IT Assistant",
+            "start_date": "2023-11",
+            "end_date": "2024-03",
+            "duration_months": 5,
+            "is_internship": false,
+            "tech_used": [],
+            "responsibilities": "Fixed tech issues as a part-time IT assistant."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Intelligent Traffic Density Prediction and Navigation System Student Scientific Research Project",
+            "type": "Academic",
+            "tech_used": [],
+            "description": "Developed an intelligent system for predicting traffic density and aiding navigation."
+        }
+    ],
+    "education": [
+        {
+            "institution": "ALBERT EINSTEIN HIGH SCHOOL",
+            "degree": "High School Diploma",
+            "major": null,
+            "graduation_year": "2021",
+            "status": "Graduated"
+        },
+        {
+            "institution": "TON DUC THANG UNIVERSITY",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": [
+        {
+            "title": "Second Place, Student Scientific Research Competition (Computer Science)",
+            "issuer": "Ton Duc Thang University"
+        }
+    ]
+}

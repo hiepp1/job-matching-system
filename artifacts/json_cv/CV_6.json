@@ -1,0 +1,94 @@
+{
+    "candidate_profile": {
+        "name": "Dang Nguyen Le",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            "TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Numpy",
+            "Pandas"
+        ],
+        "databases": [
+            "SQL"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [],
+        "architectures_models": [
+            "Supervised Models",
+            "Unsupervised Models",
+            "Deep Neural Networks",
+            "CNN",
+            "RNN",
+            "Transformers"
+        ],
+        "techniques_concepts": [
+            "Machine Learning",
+            "Deep Learning",
+            "Data Cleaning",
+            "Data Transformation",
+            "Exploratory Data Analysis (EDA)",
+            "Search Algorithms",
+            "Sorting Algorithms",
+            "Classification Algorithms",
+            "Trees",
+            "Graphs",
+            "Queues",
+            "Stacks"
+        ]
+    },
+    "work_experience": [],
+    "projects": [],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Computer Science",
+            "major": "Computer Science",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        },
+        {
+            "institution": "OTH Regensburg",
+            "degree": "Exchange Program",
+            "major": "Computer Science",
+            "graduation_year": "2024",
+            "status": "Completed"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Project Management Certification",
+            "issuer": "Virtuelle Hochschule Bayern, Germany",
+            "year": "2024"
+        }
+    ],
+    "honors_and_awards": [
+        {
+            "title": "TL-Stiftung Exchange Scholarship",
+            "issuer": "Germany"
+        },
+        {
+            "title": "Merit-Based Scholarship – Academic Excellence",
+            "issuer": "Ton Duc Thang University"
+        },
+        {
+            "title": "Merit-Based Scholarship – Academic Excellence, Semester 1",
+            "issuer": "Ton Duc Thang University"
+        }
+    ]
+}

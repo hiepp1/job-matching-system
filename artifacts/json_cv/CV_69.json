@@ -1,0 +1,84 @@
+{
+    "candidate_profile": {
+        "name": "Hồ Lê Trung Tín",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": 7.25,
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Typescript"
+        ],
+        "frameworks_libraries": [
+            "Prisma",
+            "Dexie.js"
+        ],
+        "databases": [
+            "SQL",
+            "IndexedDB",
+            "PostgreSQL"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "IntelliJ",
+            "Visual Studio",
+            "Visual Studio Code",
+            "PyCharm",
+            "GitHub"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Software Testing",
+            "Frontend Development",
+            "Backend Development"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Esports Team Website",
+            "type": "Academic",
+            "tech_used": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "Dexie.js"
+            ],
+            "description": "Built interface and management functions for players, statistics tracking. Achieved basic player management and information display without errors."
+        },
+        {
+            "name": "Football Tournament Website",
+            "type": "Academic",
+            "tech_used": [
+                "HTML",
+                "CSS",
+                "Javascript",
+                "Typescript",
+                "Prisma"
+            ],
+            "description": "Built interface and management functions for players, statistics, and player profiles. Achieved nearly complete display of team information, with some parts like player biographies still pending."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

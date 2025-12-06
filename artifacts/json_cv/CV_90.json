@@ -1,0 +1,64 @@
+{
+    "candidate_profile": {
+        "name": "Trần Lê Yên Nhiên",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Network Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": null,
+        "gpa": 7.0,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "C",
+            "Python",
+            "Java"
+        ],
+        "frameworks_libraries": [],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Cisco Packet Tracer",
+            "eve-ng"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Network Design",
+            "Network Configuration",
+            "Network Security",
+            "IoT"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "IoT Product Design",
+            "type": "Academic",
+            "tech_used": [
+                "IoT"
+            ],
+            "description": "Participated in a team activity to design an IoT product for a course."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Bachelor",
+            "major": "Computer Networks and Data Communications",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Ethical Hacker Course Completion Certificate",
+            "issuer": null,
+            "year": "2025"
+        }
+    ],
+    "honors_and_awards": []
+}

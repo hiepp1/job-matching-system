@@ -1,0 +1,99 @@
+{
+    "candidate_profile": {
+        "name": "Nguyễn Anh Quân",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Cybersecurity Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": 7.5,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Node.js",
+            "Java",
+            "Python"
+        ],
+        "frameworks_libraries": [
+            "Express.js",
+            "Flutter",
+            ".NET"
+        ],
+        "databases": [
+            "MongoDB",
+            "MySQL"
+        ],
+        "devops_cloud": [
+            "Docker"
+        ],
+        "tools_platforms": [
+            "Kali Linux",
+            "Burp Suite",
+            "Wireshark",
+            "Git"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Basic Cybersecurity Concepts",
+            "NIST Cybersecurity Framework (CSF)",
+            "Common Vulnerabilities",
+            "Network Security",
+            "Website Vulnerabilities",
+            "Penetration Testing",
+            "CTF",
+            "Web Exploitation",
+            "Forensics",
+            "User Authentication",
+            "Data Management"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Retail POS System for Mobile Phones and Accessories",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "JWT",
+                "Docker"
+            ],
+            "description": "Developed a backend system for a web application with features like user authentication and data management."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Google Cybersecurity Certificate",
+            "issuer": "Google",
+            "year": null
+        }
+    ],
+    "honors_and_awards": [
+        {
+            "title": "Consolation Prize (Top 5) - Sinh viên với An toàn thông tin 2025",
+            "issuer": "HUTECH"
+        },
+        {
+            "title": "Ranked Top 25 - HOLA CTF 2025",
+            "issuer": null
+        },
+        {
+            "title": "Participated - Digital Dragon CTF 2025",
+            "issuer": null
+        }
+    ]
+}

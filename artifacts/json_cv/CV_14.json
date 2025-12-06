@@ -1,0 +1,148 @@
+{
+    "candidate_profile": {
+        "name": "Doan Ngoc Bao",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": "3.3/4.0",
+        "english_cefr_level": "B2",
+        "years_experience": 0.08
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "C",
+            "Java"
+        ],
+        "frameworks_libraries": [
+            "Pandas",
+            "Numpy",
+            "Matplotlib",
+            "Seaborn",
+            "OpenCV",
+            "PyTorch",
+            "TensorFlow",
+            "Ultralytics",
+            "LangChain",
+            "Gradio",
+            "Transformer",
+            "YOLO",
+            "Roboflow",
+            "Torch",
+            "crawl4ai",
+            "Groq API"
+        ],
+        "databases": [
+            "SQLite"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Visual Studio Code",
+            "Jupyter Notebook",
+            "Linux",
+            "Google Colab",
+            "GitHub",
+            "GIT",
+            "Hugging Face"
+        ],
+        "architectures_models": [
+            "YOLOv11n",
+            "ViT5",
+            "LLM"
+        ],
+        "techniques_concepts": [
+            "RAG",
+            "Machine Learning",
+            "Deep Learning",
+            "Computer Vision",
+            "Natural Language Processing",
+            "Sequence to Sequence",
+            "Data Crawling",
+            "Data Annotation"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "SPORTPLUS JOINT STOCK COMPANY",
+            "role": "AI Agent Creator Intern",
+            "start_date": "2025-07",
+            "end_date": "2025-08",
+            "duration_months": 1,
+            "is_internship": true,
+            "tech_used": [
+                "SQLite",
+                "RAG",
+                "Groq API",
+                "crawl4ai"
+            ],
+            "responsibilities": "Crawled data and created a demo customer service AI agent including tool crawler, SQLite, RAG, Groq API."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Parking Detection Project",
+            "type": "Personal",
+            "tech_used": [
+                "Python",
+                "YOLO",
+                "OpenCV",
+                "Ultralytics",
+                "Roboflow"
+            ],
+            "description": "Built a real-time parking detection system using YOLOv11n model with Ultralytics. Collected diverse data from multiple sources and used Roboflow to annotate the data."
+        },
+        {
+            "name": "OCR Receipt - Extract text content from invoice image",
+            "type": "Personal",
+            "tech_used": [
+                "Python",
+                "Gradio",
+                "Torch",
+                "OpenCV",
+                "NumPy"
+            ],
+            "description": "Built a system to extract text content from images, applied extraction to English invoices and taxes. Developed an untrained model that can be extended and modified for other versions by changing the dataset."
+        },
+        {
+            "name": "GEC - Gramma Error Correction for Vietnamese document based on sequence to sequence",
+            "type": "Personal",
+            "tech_used": [
+                "Python",
+                "Torch",
+                "Gradio",
+                "NumPy",
+                "Transformer"
+            ],
+            "description": "Built a spelling correction system for Vietnamese text based on sequential structure with input-target data. Developed a model based on the pre-trained ViT5 model to identify errors and automatically correct complete sentences."
+        },
+        {
+            "name": "DUPR customer service AI Agent - Demo version",
+            "type": "Personal",
+            "tech_used": [
+                "Python",
+                "crawl4ai",
+                "SQLite",
+                "RAG",
+                "LangChain",
+                "Groq API",
+                "LLM"
+            ],
+            "description": "Built an AI Agent to serve customers in the sports field (Pickleball), including a data collection tool. Developed the AI Agent with RAG + LLM, connected to a database for data, and used LangChain to store chat history and call Groq API."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

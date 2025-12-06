@@ -1,0 +1,82 @@
+{
+    "candidate_profile": {
+        "name": "VO DAT CONG KHANH",
+        "current_location": null,
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": null,
+        "gpa": 6.89,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "JavaScript"
+        ],
+        "frameworks_libraries": [
+            "PyTorch",
+            "Hugging Face Transformers",
+            "TRL",
+            "Unsloth"
+        ],
+        "databases": [
+            "Microsoft SQL Server",
+            "MongoDB",
+            "PostgreSQL"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Github",
+            "TensorBoard"
+        ],
+        "architectures_models": [
+            "Qwen2.5-1.5B",
+            "LLM"
+        ],
+        "techniques_concepts": [
+            "Machine Learning",
+            "Deep Learning",
+            "Data Structures And Algorithms",
+            "Artificial Intelligence",
+            "Knowledge Discovery and Data Mining",
+            "RLHF",
+            "SFT",
+            "DPO",
+            "PPO",
+            "LoRA",
+            "Reward Modeling",
+            "Fine-tuning"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Fine-tune Qwen2.5-1.5B for Vietnamese Healthcare Chatbot",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "PyTorch",
+                "Hugging Face Transformers",
+                "TRL",
+                "Unsloth",
+                "TensorBoard"
+            ],
+            "description": "Implemented a full RLHF pipeline (SFT, DPO, PPO) to fine-tune the Qwen2.5-1.5B model for a Vietnamese medical Q&A chatbot. The model was trained on healthcare dialogues and optimized with both expert-curated data and automated evaluation (LLM-as-judge). Results demonstrated that DPO outperformed other methods, achieving the highest improvement in response quality."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

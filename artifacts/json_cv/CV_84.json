@@ -1,0 +1,124 @@
+{
+    "candidate_profile": {
+        "name": "NGUYỄN DIỆP ĐĂNG TRƯỜNG",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Network Security Intern",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Basic Communication",
+        "gpa": 3.08,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "C#",
+            "Python",
+            "JavaScript"
+        ],
+        "frameworks_libraries": [
+            "HTML",
+            "CSS",
+            "PyTorch",
+            "Windows Forms"
+        ],
+        "databases": [
+            "SQL",
+            "MongoDB"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Linux",
+            "Google Colab",
+            "Git"
+        ],
+        "architectures_models": [
+            "Transformer",
+            "GPT"
+        ],
+        "techniques_concepts": [
+            "Network configuration",
+            "Security testing",
+            "Wi-Fi security",
+            "MITM attacks",
+            "Firewall",
+            "Cybersecurity principles",
+            "Dataset preprocessing",
+            "Model training",
+            "BLEU scores"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "MindX Technology School",
+            "role": "Game & Robotics Instructor",
+            "start_date": null,
+            "end_date": null,
+            "duration_months": null,
+            "is_internship": false,
+            "tech_used": [
+                "Programming fundamentals",
+                "Game development",
+                "Robotics"
+            ],
+            "responsibilities": "Guided students in learning programming fundamentals through game development and robotics projects. Designed interactive lessons, supported hands-on coding activities, and encouraged problem-solving skills in a classroom environment. Gained experience in mentoring, communication, and adapting teaching methods for different age groups."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Cellphone Shop Website",
+            "type": "Personal",
+            "tech_used": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description": "Built a responsive website interface for an online cellphone shop. Designed user-friendly layouts and implemented interactive features to enhance browsing experience."
+        },
+        {
+            "name": "Recruitment Management Application",
+            "type": "Personal",
+            "tech_used": [
+                "C#",
+                "Windows Forms"
+            ],
+            "description": "Developed a recruitment management application using C# (Windows Forms), handling core modules such as candidate management and interview scheduling. Designed and implemented UI components to improve usability and streamline the recruitment process."
+        },
+        {
+            "name": "Network Security with Linux",
+            "type": "Personal",
+            "tech_used": [
+                "Linux",
+                "Wi-Fi",
+                "MITM",
+                "Firewall"
+            ],
+            "description": "Conducted independent research on wireless network security using a Linux-based lab environment. Explored techniques for evaluating Wi-Fi password strength and performed controlled simulations of man-in-the-middle (MITM) attacks to understand vulnerabilities in data transmission. Analyzed the potential impact of these security risks and studied defensive strategies to strengthen wireless network protection."
+        },
+        {
+            "name": "Machine Translation Project (Transformer & GPT)",
+            "type": "Personal",
+            "tech_used": [
+                "Transformer",
+                "GPT",
+                "PyTorch",
+                "Google Colab",
+                "BLEU scores"
+            ],
+            "description": "Designed and implemented an English–Vietnamese machine translation system using the Transformer model and experimented with GPT-based fine-tuning for improved accuracy. The project involved dataset preprocessing, model training on Google Colab with PyTorch, and evaluation of translation quality using BLEU scores to compare model performance."
+        }
+    ],
+    "education": [
+        {
+            "institution": "TON DUC THANG UNIVERSITY",
+            "degree": "Bachelor of Information Technology",
+            "major": "Computer Networks and Security",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

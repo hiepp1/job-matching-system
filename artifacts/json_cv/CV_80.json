@@ -1,0 +1,102 @@
+{
+    "candidate_profile": {
+        "name": "NGUYEN NHAT KHOA",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": 7.48,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "C#"
+        ],
+        "frameworks_libraries": [
+            "OpenCV",
+            "Transformers"
+        ],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Git",
+            "VS Code"
+        ],
+        "architectures_models": [
+            "CNN",
+            "Transformer"
+        ],
+        "techniques_concepts": [
+            "HSV color thresholding",
+            "template matching",
+            "object detection",
+            "attention mechanisms",
+            "Top-K frequent pattern mining",
+            "sentiment analysis",
+            "Digital Image Processing",
+            "Computer Vision",
+            "Deep Learning",
+            "Algorithms",
+            "COCO dataset"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Traffic Sign Detection in Road Videos",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "OpenCV",
+                "HSV color thresholding",
+                "template matching"
+            ],
+            "description": "Built a real-time video processing system in Python with OpenCV to detect and emphasize traffic signs in road footage. The pipeline utilized HSV color thresholding to isolate red and blue areas, combined with template matching to recognize valid signs, and displayed them on video frames in real time."
+        },
+        {
+            "name": "Context-Aware Object Detection Using Transformers",
+            "type": "Academic",
+            "tech_used": [
+                "Transformers",
+                "COCO dataset",
+                "CNN"
+            ],
+            "description": "Implemented an object detection model leveraging Transformer-based attention mechanisms. The system independently encoded image regions and their surrounding context, then fused these representations to improve detection accuracy. Trained and evaluated the model on the COCO dataset, achieving competitive performance compared to baseline CNN models."
+        },
+        {
+            "name": "Interactive Top-K Frequent Pattern Mining from Uncertain Data",
+            "type": "Academic",
+            "tech_used": [
+                "Algorithms",
+                "Top-K frequent pattern mining"
+            ],
+            "description": "Conducted research on Top-K frequent pattern mining for uncertain datasets and implemented efficient algorithms. Designed an interactive tool that allows users to customize the number of retrieved patterns, enhancing flexibility and practical application."
+        },
+        {
+            "name": "Context-Aware Sentiment Analysis Using Transformers",
+            "type": "Academic",
+            "tech_used": [
+                "Transformers",
+                "attention mechanisms"
+            ],
+            "description": "Designed a sentiment analysis model leveraging Transformer architecture with attention mechanisms. The system independently encoded short texts and their contextual information, then integrated both representations to achieve accurate sentiment classification."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Computer Science",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

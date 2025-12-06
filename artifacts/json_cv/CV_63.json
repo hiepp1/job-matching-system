@@ -1,0 +1,105 @@
+{
+    "candidate_profile": {
+        "name": "PHẠM DUY TÂM",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": null,
+        "gpa": null,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "JavaScript"
+        ],
+        "frameworks_libraries": [
+            "Odoo",
+            "JWT",
+            "bcrypt"
+        ],
+        "databases": [
+            "MongoDB"
+        ],
+        "devops_cloud": [
+            "Git",
+            "GitHub",
+            "DevOps"
+        ],
+        "tools_platforms": [],
+        "architectures_models": [
+            "RESTful API"
+        ],
+        "techniques_concepts": [
+            "Software Development Life Cycle",
+            "Software Design",
+            "Software Testing",
+            "Software Maintenance",
+            "Data Structures",
+            "Algorithms",
+            "Software Project Management",
+            "Database Management",
+            "Web Technologies",
+            "Mobile Application Development",
+            "Agile",
+            "Server-side Logic",
+            "HTTP Methods",
+            "CRUD Operations",
+            "User Authentication",
+            "Password Hashing",
+            "Source Code Management",
+            "Access Control",
+            "System Monitoring",
+            "Performance Analysis",
+            "ERP Systems",
+            "CRM Systems",
+            "Business Process Analysis",
+            "Odoo Customization",
+            "Data Encryption",
+            "System Backup",
+            "System Integration",
+            "Technical Process Improvement"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "E-commerce Web Development",
+            "type": "Academic",
+            "tech_used": [
+                "JavaScript",
+                "MongoDB",
+                "JWT",
+                "bcrypt",
+                "Git",
+                "GitHub",
+                "RESTful API"
+            ],
+            "description": "Developed server-side logic, RESTful APIs for frontend-backend communication, handled HTTP requests, performed CRUD operations with MongoDB, implemented user authentication with JWT, secured passwords with bcrypt, and managed source code with Git/GitHub."
+        },
+        {
+            "name": "Odoo ERP System Implementation and Customization",
+            "type": "Academic",
+            "tech_used": [
+                "Odoo",
+                "Python"
+            ],
+            "description": "Understood business processes, created and customized Odoo modules (e.g., product management by batch/expiry, HR management), implemented basic security measures (access control, data encryption, system backup), and enhanced logical thinking by resolving module customization and system integration issues."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

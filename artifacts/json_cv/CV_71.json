@@ -1,0 +1,92 @@
+{
+    "candidate_profile": {
+        "name": "MAI NHAT DUY",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java"
+        ],
+        "frameworks_libraries": [
+            "PyTorch",
+            "Unsloth",
+            "Transformer",
+            "DeepSpeed",
+            "Hugging Face",
+            "LangGraph",
+            "LangChain"
+        ],
+        "databases": [
+            "Elasticsearch",
+            "Vector Database",
+            "SQL Database"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Marker",
+            "Datatrove"
+        ],
+        "architectures_models": [
+            "LLM",
+            "SLM",
+            "Agnetic RAG"
+        ],
+        "techniques_concepts": [
+            "AI",
+            "NLP",
+            "Language Model Training",
+            "Data Collection",
+            "Data Preprocessing",
+            "Fine-tuning",
+            "Retrieval-Augmented Generation"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Lightweight LLM for Vietnamese Medical Texts",
+            "type": "Academic",
+            "tech_used": [
+                "Marker",
+                "Datatrove",
+                "Unsloth",
+                "Hugging Face",
+                "GPU"
+            ],
+            "description": "Developed a small language model (SLM) for Vietnamese medical texts, capable of understanding and accurately answering medical questions, using Marker for document digitization, Datatrove for data cleaning, and Unsloth for training on limited GPU infrastructure."
+        },
+        {
+            "name": "Agnetic RAG Chatbot",
+            "type": "Academic",
+            "tech_used": [
+                "LangGraph",
+                "LangChain",
+                "Elasticsearch",
+                "Vector Database",
+                "SQL Database"
+            ],
+            "description": "Developed a chatbot integrated with Agnetic RAG using LangGraph, LangChain, and Elasticsearch, capable of simultaneously querying vector and SQL databases to enhance information retrieval flexibility and accuracy."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

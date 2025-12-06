@@ -1,0 +1,131 @@
+{
+    "candidate_profile": {
+        "name": "Wai Yan Moe",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": null,
+        "years_experience": 0.08
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "JavaScript",
+            "PHP",
+            "Java",
+            "Kotlin",
+            "HTML",
+            "CSS"
+        ],
+        "frameworks_libraries": [
+            "Flutter",
+            "Node.js",
+            "Android SDK"
+        ],
+        "databases": [
+            "MySQL",
+            "Firebase",
+            "MongoDB",
+            "Microsoft SQL"
+        ],
+        "devops_cloud": [
+            "Docker",
+            "Git",
+            "Firebase"
+        ],
+        "tools_platforms": [
+            "XAMPP",
+            "Eclipse",
+            "Android Studio"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Artificial Intelligence",
+            "Computer Vision",
+            "Web Development",
+            "Mobile Development"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "FPT IS",
+            "role": "Mobile Developer Intern",
+            "start_date": null,
+            "end_date": null,
+            "duration_months": 1,
+            "is_internship": true,
+            "tech_used": [
+                "Flutter",
+                "Android SDK"
+            ],
+            "responsibilities": null
+        }
+    ],
+    "projects": [
+        {
+            "name": "My Portfolio Website",
+            "type": "Personal",
+            "tech_used": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Node.js",
+                "PHP",
+                "Python"
+            ],
+            "description": null
+        },
+        {
+            "name": "Real Time Traffic Prediction App",
+            "type": "Academic",
+            "tech_used": [
+                "Flutter",
+                "Artificial Intelligence",
+                "Computer Vision"
+            ],
+            "description": "App to predict traffic density and optimize routes in scientific research"
+        },
+        {
+            "name": "AI-powered Vietnamese water puppetry application",
+            "type": "Hackathon",
+            "tech_used": [
+                "Flutter",
+                "Artificial Intelligence"
+            ],
+            "description": "Application built with Flutter in 28 hours hackathon"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Software Engineering (Information Technology)",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": [
+        {
+            "title": "First runner up in scientific research project",
+            "issuer": "Ton Duc Thang University"
+        },
+        {
+            "title": "First-runner up in the Eco-Future Business plan competition",
+            "issuer": null
+        },
+        {
+            "title": "Consolation Prize in UEH Biz Tech Hackathon",
+            "issuer": "UEH"
+        },
+        {
+            "title": "Scholarship-winner for the Bachelor’s program",
+            "issuer": "Ton Duc Thang University"
+        }
+    ]
+}

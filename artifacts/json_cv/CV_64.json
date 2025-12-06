@@ -1,0 +1,137 @@
+{
+    "candidate_profile": {
+        "name": "Lê Hữu Thắng",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Java Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": null,
+        "gpa": null,
+        "english_cefr_level": null,
+        "years_experience": 0.5
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "Python",
+            "C#"
+        ],
+        "frameworks_libraries": [
+            "Spring MVC",
+            "Spring Boot",
+            "Hibernate",
+            "Android",
+            "Spring Data JPA",
+            "ASP.NET MVC",
+            "Winform C#",
+            "Thymeleaf"
+        ],
+        "databases": [
+            "MySQL",
+            "SQL Server",
+            "SQL Lite"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "IntelliJ IDEA",
+            "Eclipse",
+            "Visual Studio Code",
+            "Visual Studio",
+            "Git"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Design pattern",
+            "UI/UX",
+            "Data Structures",
+            "Algorithms",
+            "Software Engineering",
+            "Database Systems",
+            "Command Pattern",
+            "Decorator Pattern",
+            "Observer Pattern",
+            "State Pattern",
+            "Template Pattern",
+            "APIs"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "ELLIOT COMPANY LIMITED",
+            "role": "DATA PROCESSING STAFF",
+            "start_date": "2023-07",
+            "end_date": "2023-12",
+            "duration_months": 6,
+            "is_internship": true,
+            "tech_used": [],
+            "responsibilities": "Manage and process data to support organizational progress and operational decisions. Key responsibilities and duties include collecting, storing, processing, checking for errors, and entering decision product data."
+        },
+        {
+            "company": "Elliot Company Limited",
+            "role": "TESTING COLLABORATOR",
+            "start_date": "2023-07",
+            "end_date": "2023-12",
+            "duration_months": 6,
+            "is_internship": true,
+            "tech_used": [],
+            "responsibilities": "Coordinate with testers to perform manual testing with given test scenarios."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Applying Design pattern to buid Winform application",
+            "type": "Academic",
+            "tech_used": [
+                "Winform C#",
+                "Command Pattern",
+                "Decorator Pattern",
+                "Observer Pattern",
+                "State Pattern",
+                "Template Pattern"
+            ],
+            "description": "Developed a Winform application applying various design patterns."
+        },
+        {
+            "name": "Android Driving licence Application",
+            "type": "Academic",
+            "tech_used": [
+                "Java Android",
+                "SQL Lite"
+            ],
+            "description": "Designed database, created UI, and designed an Android application for driving licenses."
+        },
+        {
+            "name": "Email website",
+            "type": "Academic",
+            "tech_used": [
+                "Spring Boot",
+                "Thymeleaf",
+                "MySQL"
+            ],
+            "description": "Designed database, model, and created APIs for an email website."
+        },
+        {
+            "name": "Ecommerce Website",
+            "type": "Academic",
+            "tech_used": [
+                "Spring Boot",
+                "Thymeleaf",
+                "MySQL"
+            ],
+            "description": "Designed database, model, created APIs for an e-commerce website."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor's",
+            "major": "Software Engineering",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

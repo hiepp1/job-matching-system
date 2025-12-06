@@ -1,0 +1,79 @@
+{
+    "candidate_profile": {
+        "name": "LE PHAM HOANG PHUONG",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "SQL",
+            "JavaScript",
+            "Java",
+            "C#"
+        ],
+        "frameworks_libraries": [
+            "Node.js",
+            "PySpark"
+        ],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "HTML",
+            "CSS",
+            "Web Development",
+            "Classic Machine Learning",
+            "Business Intelligence",
+            "Enterprise Information System Management",
+            "PCY algorithm"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Analyzing Viettel Post's ERP System",
+            "type": "Academic",
+            "tech_used": [
+                "SQL",
+                "ERP Systems"
+            ],
+            "description": "Managed and optimized an ERP system to streamline logistics operations, including warehousing, transportation, and finance. Leveraged a robust database for efficient data analysis, supporting strategic business decisions."
+        },
+        {
+            "name": "PCY Implementation in PySpark",
+            "type": "Academic",
+            "tech_used": [
+                "PySpark",
+                "PCY algorithm"
+            ],
+            "description": "Utilized the PCY algorithm and PySpark to efficiently analyze large-scale market basket data and identify frequent item pairs."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Science",
+            "major": "Computer Science",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "SEO GOOGLE",
+            "issuer": "Google",
+            "year": "2022"
+        }
+    ],
+    "honors_and_awards": []
+}

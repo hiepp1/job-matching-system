@@ -1,0 +1,118 @@
+{
+    "candidate_profile": {
+        "name": "Huynh Minh Phuoc",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Network Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": 7.28,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python"
+        ],
+        "frameworks_libraries": [],
+        "databases": [
+            "MySQL",
+            "SQL Server"
+        ],
+        "devops_cloud": [
+            "Docker",
+            "Git/Github"
+        ],
+        "tools_platforms": [
+            "Windows Server",
+            "Ubuntu",
+            "Check Point R81",
+            "Fortigate",
+            "Wireshark",
+            "Vmware",
+            "Mininet",
+            "PowerShell",
+            "Active Directory"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Routing & Switching",
+            "VLANs",
+            "OSPF",
+            "NAT",
+            "ACLs",
+            "DDoS Detection",
+            "Machine learning",
+            "SDN",
+            "IPv4/IPv6",
+            "EIGRP",
+            "PPP",
+            "GRE tunneling",
+            "DHCP",
+            "EtherChannel",
+            "DFS Namespace",
+            "DFS Replication"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Distributed File System (DFS)",
+            "type": "Academic",
+            "tech_used": [
+                "Windows Server",
+                "Active Directory",
+                "DFS Namespace",
+                "DFS Replication",
+                "PowerShell"
+            ],
+            "description": "Deployment and configuration of DFS on Windows Server, including Active Directory, DFS Namespace, and DFS Replication. Implemented via GUI and PowerShell."
+        },
+        {
+            "name": "DDoS Detection in SDN Networks",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "Mininet",
+                "Machine learning",
+                "SDN"
+            ],
+            "description": "Machine learning-based system for detecting DDoS attacks in SDN environments, using Python, Mininet, and classification models."
+        },
+        {
+            "name": "HQ–Branch Network Design and Configuration",
+            "type": "Academic",
+            "tech_used": [
+                "IPv4/IPv6",
+                "EIGRP",
+                "OSPF",
+                "PPP",
+                "GRE tunneling",
+                "VLANs",
+                "NAT",
+                "DHCP",
+                "EtherChannel"
+            ],
+            "description": "Designed and configured a network topology with IPv4/IPv6, EIGRP/OSPF routing, PPP, GRE tunneling, VLANs, NAT, DHCP, and EtherChannel for HQ and Branch sites."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Networks and Data Communications",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "CCNA Intensive Course (1-on-1)",
+            "issuer": "HaiNguyenIT",
+            "year": "2025"
+        }
+    ],
+    "honors_and_awards": []
+}

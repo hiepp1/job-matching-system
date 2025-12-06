@@ -1,0 +1,87 @@
+{
+    "candidate_profile": {
+        "name": "Lương Mai Thanh Khôi",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Web/Mobile Developer Intern",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": 7.1,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "Python",
+            "C",
+            "C#",
+            "PHP",
+            "SQL",
+            "Kotlin"
+        ],
+        "frameworks_libraries": [
+            "ASP.NET Core",
+            "Spring",
+            "Spring Boot",
+            "HTML",
+            "CSS",
+            "Thymeleaf",
+            "Android"
+        ],
+        "databases": [
+            "MySQL",
+            "Firebase",
+            "PostgreSQL",
+            "MongoDB"
+        ],
+        "devops_cloud": [
+            "Git"
+        ],
+        "tools_platforms": [
+            "Figma"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "UI/UX Design",
+            "OOP",
+            "RESTful"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Real Estate Trading/Rental Web System",
+            "type": "Personal",
+            "tech_used": [
+                "Java Spring Boot",
+                "MySQL",
+                "PostgreSQL",
+                "MongoDB",
+                "Thymeleaf"
+            ],
+            "description": "Designed a system with 5 main services: Listing, Sales, Rental, Payment, Security. Implemented with Java Spring Boot, MySQL/Postgres + MongoDB. Built CRUD APIs for services and developed the user interface using Thymeleaf. Resulted in a basic functional real estate trading website."
+        },
+        {
+            "name": "Phone Sales Web System (POS)",
+            "type": "Personal",
+            "tech_used": [
+                "PHP"
+            ],
+            "description": "Developed a POS system for a phone store, designed for sales staff and administrators (not customers). The system supported sales transaction processing, product management, employee management, customer management, and statistical reporting. The POS system fully met the sales management requirements for a phone store."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

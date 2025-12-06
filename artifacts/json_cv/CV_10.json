@@ -1,0 +1,130 @@
+{
+    "candidate_profile": {
+        "name": "NGUYỄN THỊ BẢO TRÂN",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Engineer Intern",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Master",
+        "english_proficiency": "Advanced",
+        "gpa": 8.01,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "C#",
+            "Java",
+            "XML",
+            "C",
+            "C++",
+            "Python",
+            "Dart",
+            "Swift",
+            "Kotlin",
+            "Hack"
+        ],
+        "frameworks_libraries": [],
+        "databases": [
+            "SQL",
+            "MySQL",
+            "NoSQL",
+            "TSQL"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "CMake",
+            "Git"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "IoT",
+            "Agile",
+            "Scrum"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "SMARTLOCK - Ổ KHÓA THÔNG MINH",
+            "type": "Academic",
+            "tech_used": [
+                "C++",
+                "C",
+                "CMake",
+                "Dart",
+                "Swift",
+                "HTML"
+            ],
+            "description": "Built an IoT system including a smart lock combined with smartphone usage for unlocking and other utility features such as creating temporary passcodes, updating firmware, locking doors, alerting for unusual signs, and tracking unlock history."
+        },
+        {
+            "name": "APP ĐẶT VÉ XEM PHIM",
+            "type": "Academic",
+            "tech_used": [
+                "Java",
+                "Kotlin"
+            ],
+            "description": "Developed an Android application for online movie ticket booking, including features like viewing showtimes, movie details, booking tickets, seat selection, payment, saving booking history, and ratings."
+        },
+        {
+            "name": "APP QUẢN LÝ SINH VIÊN",
+            "type": "Academic",
+            "tech_used": [
+                "Java",
+                "Kotlin"
+            ],
+            "description": "Developed a comprehensive Android application for student information management, including adding, deleting, editing student information, viewing timetables, tracking student learning paths, and viewing lecturer teaching schedules."
+        },
+        {
+            "name": "WEBSITE BÁN HÀNG",
+            "type": "Academic",
+            "tech_used": [
+                "PHP",
+                "Javascript",
+                "CSS",
+                "HTML",
+                "Hack"
+            ],
+            "description": "Developed an e-commerce website with typical functions such as viewing order details, purchasing, adding to cart, viewing product information, payment, and a separate Admin website for product updates."
+        },
+        {
+            "name": "TASMANA-PHẦN MỀM QUẢN LÝ CÔNG VIỆC",
+            "type": "Academic",
+            "tech_used": [
+                "C#",
+                "TSQL"
+            ],
+            "description": "Implemented a comprehensive Work Management system, including Employee Management and Work Tracking, managing information for each member in different departments, coordinating work, and maintaining a central database."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Bachelor of Software Engineering",
+            "major": "Software Engineering",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        },
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Master of Computer Science",
+            "major": "Computer Science",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "AGILE DEVELOPMENT & SCRUM FRAMWORK",
+            "issuer": null,
+            "year": "2024"
+        }
+    ],
+    "honors_and_awards": []
+}

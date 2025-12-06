@@ -1,0 +1,114 @@
+{
+    "candidate_profile": {
+        "name": "Nguyen Tran Mai Thanh",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Java Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": "7.65",
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "frameworks_libraries": [
+            "Spring Boot",
+            "Spring Cloud",
+            "React",
+            "Axon Framework"
+        ],
+        "databases": [
+            "MySQL",
+            "SQL Server",
+            "H2 Console"
+        ],
+        "devops_cloud": [
+            "Docker",
+            "Kubernetes",
+            "Apache Kafka",
+            "Git",
+            "GitHub"
+        ],
+        "tools_platforms": [
+            "IntelliJ IDEA",
+            "VS Code",
+            "Swagger",
+            "Keycloak",
+            "OAuth 2.0",
+            "OpenID Connect",
+            "JWT",
+            "API Gateway",
+            "Eureka Discovery"
+        ],
+        "architectures_models": [
+            "Microservices",
+            "Domain-Driven Design",
+            "CQRS",
+            "Event Sourcing",
+            "Saga",
+            "Restful API"
+        ],
+        "techniques_concepts": []
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Book Shop Service",
+            "type": "Academic",
+            "tech_used": [
+                "Java",
+                "Spring Boot",
+                "Spring Cloud",
+                "Axon Framework",
+                "Microservices",
+                "Domain-Driven Design",
+                "CQRS",
+                "EventSourcing",
+                "Saga",
+                "Docker",
+                "Kubernetes",
+                "Github",
+                "Swagger",
+                "Apache Kafka",
+                "Keycloak",
+                "OAuth 2.0",
+                "OpenID",
+                "Spring Cloud Gateway",
+                "Spring Cloud Netflix Eureka"
+            ],
+            "description": "This project streamlines library operations by digitizing data and connecting services on a unified platform. It enables users to search, borrow, and return books easily, while staff manage inventory and members more efficiently. The solution improves service quality, reduces errors, and scales with business growth."
+        },
+        {
+            "name": "Fixora Shop",
+            "type": "Academic",
+            "tech_used": [
+                "ReactJs",
+                "CSS",
+                "JavaScript",
+                "Java",
+                "Spring Boot",
+                "MySQL"
+            ],
+            "description": "Fixora Shop is an e-commerce platform for selling toys online, helping the business expand its reach and boost revenue. It handles product browsing, cart management, and secure order placement to streamline the shopping process. The system provides a responsive interface optimized for both desktop and mobile users. It improves customer convenience and supports store owners with better inventory and order management."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

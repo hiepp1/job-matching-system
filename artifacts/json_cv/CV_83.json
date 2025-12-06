@@ -1,0 +1,120 @@
+{
+    "candidate_profile": {
+        "name": "LANGUYEN QUOC THINH",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": "7.3/10",
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [],
+        "frameworks_libraries": [
+            "PyTorch",
+            "TensorFlow",
+            "LangChain",
+            "SentenceTransformers",
+            "Hugging Face Transformers",
+            "LLaMAIndex",
+            "Pandas",
+            "NumPy",
+            "spaCy",
+            "OpenCV",
+            "BeautifulSoup",
+            "Matplotlib",
+            "Torchvision",
+            "PIL"
+        ],
+        "databases": [
+            "Pinecone"
+        ],
+        "devops_cloud": [
+            "Docker"
+        ],
+        "tools_platforms": [
+            "Git",
+            "Colab",
+            "Kaggle",
+            "Streamlit",
+            "Gemini API",
+            "Google GenAI",
+            "Google Generative AI"
+        ],
+        "architectures_models": [
+            "ResNet",
+            "LSTM",
+            "Attention",
+            "LLaMA"
+        ],
+        "techniques_concepts": [
+            "RAG",
+            "BM25",
+            "Prompt Engineering",
+            "NLP",
+            "LLM",
+            "Computer Vision",
+            "Deep Learning",
+            "Machine Learning",
+            "Beam Search",
+            "Transfer Learning",
+            "Early Stopping"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "RAG Chatbot for History of Communist Party of Vietnam and Marxist Philosophy Education",
+            "type": "Academic",
+            "tech_used": [
+                "Pandas",
+                "NumPy",
+                "LangChain",
+                "BeautifulSoup4",
+                "Rank-BM25",
+                "Streamlit",
+                "Matplotlib",
+                "Google GenAI",
+                "Google Generative AI",
+                "SentenceTransformers",
+                "Pinecone",
+                "Gemini Pro",
+                "Gemini 2.5 pro"
+            ],
+            "description": "Built a question-answering system using Retrieval-Augmented Generation (RAG) for academic subjects. Involved data collection, chunking, hybrid and parent-document retrieval, and generation using Gemini Pro/Flash. Evaluated with LLMs-as-a-judge and developed a Streamlit UI."
+        },
+        {
+            "name": "VQA Generate-based | Resnet50-LSTM",
+            "type": "Academic",
+            "tech_used": [
+                "PyTorch",
+                "spaCy",
+                "Matplotlib",
+                "Torchvision",
+                "PIL",
+                "NumPy",
+                "Pandas",
+                "ResNet-50",
+                "LSTM",
+                "Gemini 1.5 Flash",
+                "Beam Search"
+            ],
+            "description": "Developed an AI model for Visual Question Answering (VQA) to generate full-sentence answers from images. Designed a pipeline to transform VQA classification into a generation task, utilizing pretrained ResNet-50 for image features and LSTM for question encoding, with Beam Search for improved answer fluency."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

@@ -1,0 +1,88 @@
+{
+    "candidate_profile": {
+        "name": "Trần Bỉnh Quyền",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Web Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": null,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Javascript",
+            "HTML",
+            "CSS",
+            "Java",
+            "PHP",
+            "C#",
+            "Node.js"
+        ],
+        "frameworks_libraries": [
+            "Vite",
+            "JQuery",
+            "Bootstrap",
+            "React.js",
+            "Servlet",
+            "Spring Boot",
+            "ASP.NET",
+            "Express"
+        ],
+        "databases": [],
+        "devops_cloud": [
+            "Docker"
+        ],
+        "tools_platforms": [
+            "Git"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "CRUD",
+            "RESTful",
+            "OOP"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Website học từ vựng tiếng anh",
+            "type": "Academic",
+            "tech_used": [
+                "Javascript",
+                "TSX",
+                "Vite",
+                "HTML",
+                "CSS",
+                "Java",
+                "Servlet"
+            ],
+            "description": "Developed a website for learning and reviewing English vocabulary. Key features include CRUD operations for users, vocabulary, and topics; providing traditional learning methods and flashcards; allowing users to add favorite words to a personal notebook; and tracking learning progress."
+        },
+        {
+            "name": "Website bán quần áo online",
+            "type": "Academic",
+            "tech_used": [
+                "Reactjs",
+                "Node.js",
+                "Express",
+                "Docker"
+            ],
+            "description": "Developed an online clothing sales website. Customers can view and purchase products, use coupons for discounts, receive email confirmations after ordering, and rate purchased products. The admin panel allows tracking products, orders, and managing coupons."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

@@ -1,0 +1,118 @@
+{
+    "candidate_profile": {
+        "name": "LÂM CHẤN KHẢI",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Network/System Administrator Intern",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": 3.3,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [],
+        "frameworks_libraries": [],
+        "databases": [],
+        "devops_cloud": [
+            "Azure Sentinel",
+            "Azure Security Center"
+        ],
+        "tools_platforms": [
+            "Wireshark",
+            "TCP dump",
+            "Packet Tracer",
+            "GNS3"
+        ],
+        "architectures_models": [
+            "OSI Model",
+            "TCP/IP Model"
+        ],
+        "techniques_concepts": [
+            "Networking",
+            "Redundancy",
+            "Security",
+            "VLAN",
+            "OSPF",
+            "RIP",
+            "TRUNKING",
+            "ACI",
+            "NAT",
+            "DNS",
+            "DHCP",
+            "VPN",
+            "RADIUS",
+            "NAP",
+            "ADDS",
+            "CA",
+            "GPO Management",
+            "Folder Redirection",
+            "Auditing",
+            "Load Balancing (NLB)",
+            "Backup Strategies",
+            "System Restore Procedures",
+            "HSRP",
+            "ACL",
+            "SVI",
+            "Access Point (AP)",
+            "Wireless LAN Controller (WLC)"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Network Simulation Model for a Bank",
+            "type": "Academic",
+            "tech_used": [
+                "HSRP",
+                "NAT",
+                "ACL",
+                "SVI",
+                "Packet Tracer"
+            ],
+            "description": "Designed and configured a network system for a bank, ensuring redundancy, load balancing, and security."
+        },
+        {
+            "name": "Corporate Wireless Network",
+            "type": "Academic",
+            "tech_used": [
+                "Access Point (AP)",
+                "Wireless LAN Controller (WLC)",
+                "Packet Tracer"
+            ],
+            "description": "Deployed and configured a corporate wireless network."
+        },
+        {
+            "name": "Basic Network Topology in GNS3",
+            "type": "Academic",
+            "tech_used": [
+                "GNS3"
+            ],
+            "description": "Constructed a basic network topology."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Network",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Cisco Certified Network Associate (CCNA) Training",
+            "issuer": "Cisco",
+            "year": null
+        },
+        {
+            "name": "JNCIA-Junos",
+            "issuer": "Juniper Networks",
+            "year": null
+        }
+    ],
+    "honors_and_awards": []
+}

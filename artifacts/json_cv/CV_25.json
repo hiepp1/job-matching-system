@@ -1,0 +1,131 @@
+{
+    "candidate_profile": {
+        "name": "Le Nguyen Huu Duc",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Fullstack Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Dart",
+            "Python",
+            "Java",
+            "JavaScript",
+            "SQL",
+            "C/C++",
+            "C#",
+            "HTML/CSS",
+            "GDScript"
+        ],
+        "frameworks_libraries": [
+            "Flutter",
+            "Node.js"
+        ],
+        "databases": [
+            "Firebase"
+        ],
+        "devops_cloud": [
+            "Firebase",
+            "Google Cloud APIs"
+        ],
+        "tools_platforms": [
+            "Git",
+            "Android Studio",
+            "VS Code",
+            "Godot",
+            "Google Maps API",
+            "Gemini API"
+        ],
+        "architectures_models": [
+            "MVC design pattern"
+        ],
+        "techniques_concepts": [
+            "Agile",
+            "Scrum",
+            "Prompt Injection",
+            "Data synchronization",
+            "State management",
+            "Error reporting workflow",
+            "UI/UX design",
+            "Testing",
+            "Debugging",
+            "Research"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Pharmacy App",
+            "type": "Personal",
+            "tech_used": [
+                "Dart",
+                "Flutter",
+                "Firebase",
+                "Google Cloud APIs"
+            ],
+            "description": "Developed a cross-platform pharmacy store application as a solo project, integrating Firebase for authentication, real-time storage, and synchronization. Optimized data retrieval by adding local caching, improving efficiency by up to 2x. Integrated Google Cloud APIs for address validation and enhanced user experience. Designed and tested the UI to ensure smooth functionality and usability.",
+            "start_date": "2024-09",
+            "end_date": "2024-12"
+        },
+        {
+            "name": "English Learning App",
+            "type": "Academic",
+            "tech_used": [
+                "Flutter",
+                "Dart",
+                "Firebase"
+            ],
+            "description": "Collaborated in a team of 3 to develop a Quizlet-inspired cross-platform app for vocabulary learning. Applied MVC design pattern for project architecture and maintainability. Implemented UI components and ensured correct data synchronization with Firebase. Gained proficiency in Flutter state management and improved error reporting workflow.",
+            "start_date": "2024-03",
+            "end_date": "2024-05"
+        },
+        {
+            "name": "Android Delivery App",
+            "type": "Academic",
+            "tech_used": [
+                "Java",
+                "Android Studio",
+                "Firebase",
+                "Google Maps API"
+            ],
+            "description": "Developed a scaled-down version of the Giao H`ang Nhanh delivery app as a final project in a team of 2. Designed and implemented the UI, integrating data from Firebase into Android XML layouts. Integrated Google Maps API for delivery route visualization and location tracking. Contributed to testing, debugging, and writing the submission report.",
+            "start_date": "2023-12",
+            "end_date": "2024-01"
+        },
+        {
+            "name": "Prompt Injection in Large Language Models",
+            "type": "Research",
+            "tech_used": [
+                "Python",
+                "Gemini API"
+            ],
+            "description": "Conducted a research project on prompt injection attacks in large language models, analyzing how malicious inputs can manipulate outputs. Implemented and tested multiple attack vectors using Python and the Gemini API. Evaluated effectiveness of existing mitigation strategies and documented limitations. Produced a written report summarizing findings and recommendations for safer prompt design.",
+            "start_date": "2025-05",
+            "end_date": "2025-08"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Software Engineering",
+            "major": "Software Engineering",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Agile & Scrum Framework Course",
+            "issuer": "Techbase Vietnam",
+            "year": "2022"
+        }
+    ],
+    "honors_and_awards": []
+}

@@ -1,0 +1,77 @@
+{
+    "candidate_profile": {
+        "name": "PHAM TRUONG VIET THONG",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "App Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": "8.2/10",
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Dart",
+            "Java",
+            "Python",
+            "HTML",
+            "CSS"
+        ],
+        "frameworks_libraries": [
+            "Flutter",
+            "Android Native",
+            "FastAPI"
+        ],
+        "databases": [
+            "MySQL"
+        ],
+        "devops_cloud": [
+            "Firebase"
+        ],
+        "tools_platforms": [
+            "Git"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "CRUD",
+            "Cross-platform Development",
+            "Application Development"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Online English Learning App E-Study",
+            "type": "Academic",
+            "tech_used": [
+                "Android Native",
+                "Java",
+                "Firebase"
+            ],
+            "description": "English learning application on the Android platform, integrated with Firebase. Key features include login, registration, CRUD for vocabulary/topics/directory, and vocabulary learning function."
+        },
+        {
+            "name": "E-commerce Application CompoTech Shop",
+            "type": "Academic",
+            "tech_used": [
+                "Flutter",
+                "Firebase"
+            ],
+            "description": "Flutter e-commerce application integrated with Firebase. Key features include login, registration, product search/filter/sort, add products to cart, purchase items, and CRUD for products/orders/customers/vouchers."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University (TDTU)",
+            "degree": "Bachelor",
+            "major": "Software Engineer",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

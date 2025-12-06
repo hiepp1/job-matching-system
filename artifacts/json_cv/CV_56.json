@@ -1,0 +1,162 @@
+{
+    "candidate_profile": {
+        "name": "TRAN DINH QUANG VINH",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Developer or Data Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": null,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "C",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "frameworks_libraries": [
+            "OpenCV",
+            "PyTorch",
+            "TensorFlow",
+            "Keras",
+            "NLTK",
+            "Pandas",
+            "Scikit-learn",
+            "Matplotlib",
+            "Hugging Face",
+            "Gensim",
+            "NumPy",
+            "Pickle"
+        ],
+        "databases": [
+            "SQL",
+            "Microsoft SQL Server"
+        ],
+        "devops_cloud": [
+            "Git",
+            "GitHub",
+            "Google Drive"
+        ],
+        "tools_platforms": [
+            "Postman",
+            "Draw.io"
+        ],
+        "architectures_models": [
+            "LSTM",
+            "Bahdanau Attention",
+            "Transformer",
+            "GPT",
+            "Seq2Seq",
+            "Doc2Vec",
+            "Naive Bayes",
+            "Logistic Regression",
+            "Decision Tree",
+            "Large Language Models",
+            "Deep Learning (face embeddings)"
+        ],
+        "techniques_concepts": [
+            "OOP",
+            "Data Structures & Algorithms",
+            "Machine Learning",
+            "Deep Learning",
+            "NLP",
+            "Big Data",
+            "Computer Vision",
+            "Byte Pair Encoding",
+            "Reinforcement Learning",
+            "Proximal Policy Optimization",
+            "Direct Preference Optimization",
+            "Exploratory Data Analysis",
+            "Data Preprocessing",
+            "Text Classification",
+            "Face Encoding",
+            "Face Recognition",
+            "Hyperparameter Optimization",
+            "BLEU score evaluation",
+            "F1 score",
+            "Data Cleaning",
+            "Version Control",
+            "Reproducibility"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "MACHINE TRANSLATION USING LSTM WITH ATTENTION",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "PyTorch",
+                "Hugging Face",
+                "Seq2Seq with LSTM",
+                "Bahdanau Attention"
+            ],
+            "description": "Collected and preprocessed over 250,000 English–Vietnamese sentence pairs. Implemented a sequence-to-sequence model with LSTM encoder–decoder and integrated Bahdanau attention mechanism. Experimented with baseline LSTM without attention for comparison. Managed dataset training and evaluation pipelines on HuggingFace Datasets and used PyTorch for model implementation. Applied BLEU score evaluation and monitored validation loss to optimize hyperparameters."
+        },
+        {
+            "name": "MEDICAL BOT WITH TRANSFORMER AND GPT",
+            "type": "Academic",
+            "tech_used": [
+                "PyTorch (Transformer, GPT, RL with PPO & DPO)",
+                "TensorFlow",
+                "Byte Pair Encoding",
+                "EDA",
+                "Google Drive"
+            ],
+            "description": "Built deep learning models from scratch using Transformer and GPT architectures with PyTorch, trained on trusted Vietnamese medical datasets. Applied Byte Pair Encoding (BPE) for efficient dataset preprocessing. Integrated Reinforcement Learning (RL) approaches to fine-tune language models, applying Proximal Policy Optimization (PPO) and Direct Preference Optimization (DPO). Conducted Exploratory Data Analysis (EDA) on the UCI Heart Disease dataset. Trained and evaluated multiple machine learning models in TensorFlow, optimizing hyperparameters. Designed training pipelines, implemented data cleaning, and maintained datasets on Google Drive."
+        },
+        {
+            "name": "NLP FAKE NEWS CLASSIFICATION",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "Scikit-learn (Naive Bayes, Logistic Regression, Decision Tree)",
+                "Gensim (Doc2Vec)",
+                "Large Language Models",
+                "Data Preprocessing"
+            ],
+            "description": "Constructed a custom dataset for text classification by collecting and processing raw data sources; partially synthesized data using Large Language Models (LLMs). Implemented traditional text representation methods such as Bag of Words (BoW), applying machine learning algorithms including Naive Bayes, Logistic Regression, and Decision Tree. Applied deep learning approaches with Doc2Vec for document embeddings. Compared different approaches based on text representation techniques, dataset quality, and learning methods. Derived insights on selecting effective strategies for text classification."
+        },
+        {
+            "name": "FACE RECOGNITION SYSTEM USING OPENCV AND DEEP LEARNING",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "OpenCV",
+                "Deep Learning (face embeddings)",
+                "NumPy",
+                "Pickle"
+            ],
+            "description": "Explored Computer Vision fundamentals and OpenCV applications. Built a face recognition pipeline including dataset construction, face encoding, and recognition on static images and live video streams. Implemented core modules: build_dataset, encode_face, recognize_faces_image, and recognize_faces_video. Applied Deep Learning face embedding techniques to improve recognition accuracy. Conducted experiments with multiple test images and live webcam streams to evaluate system performance."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Data Analyst Certificate Program",
+            "issuer": "Dataquest",
+            "year": null
+        },
+        {
+            "name": "Python Programming Course",
+            "issuer": "MCI",
+            "year": null
+        }
+    ],
+    "honors_and_awards": []
+}

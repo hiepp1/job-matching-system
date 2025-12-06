@@ -1,0 +1,118 @@
+{
+    "candidate_profile": {
+        "name": "TRAN THANH DAI",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Machine Learning/Data Science Intern",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": "7.13",
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "C#",
+            "Kotlin"
+        ],
+        "frameworks_libraries": [
+            "TensorFlow",
+            "Keras",
+            "PyTorch",
+            "YOLOv5",
+            "YOLOv8",
+            "PySpark",
+            "OpenCV"
+        ],
+        "databases": [
+            "MySQL"
+        ],
+        "devops_cloud": [
+            "Firebase",
+            "Git",
+            "Google Colab",
+            "Kaggle"
+        ],
+        "tools_platforms": [
+            "Android Studio",
+            "Visual Studio",
+            "LaTeX",
+            "Ubuntu"
+        ],
+        "architectures_models": [
+            "LSTM",
+            "Attention mechanism",
+            "YOLO"
+        ],
+        "techniques_concepts": [
+            "AI engineering",
+            "Datamining",
+            "Natural Language Processing",
+            "Computer Vision",
+            "Object Detection",
+            "Apriori",
+            "FP-Growth",
+            "High Utility Occupancy Datamining Algorithm",
+            "Big Data"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Design LLM model to correct grammar in Vietnamese",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "Python",
+                "TensorFlow",
+                "Keras",
+                "PyTorch",
+                "LSTM",
+                "Attention mechanism"
+            ],
+            "description": "Built an automatic Vietnamese grammar correction model (with context detection) using LSTM and attention mechanism."
+        },
+        {
+            "name": "Research and Adapt Datamining Algorithm for big Data",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "Python",
+                "PySpark",
+                "Google Colab",
+                "Ubuntu",
+                "Apriori",
+                "FP-Growth",
+                "HUOMIL",
+                "HUOPM"
+            ],
+            "description": "Understood and applied datamining algorithms like Apriori, FP-Growth, implemented High Utility Occupancy Datamining Algorithm (HUOMIL and HUOPM) and adapted them to work on Big Data."
+        },
+        {
+            "name": "Detect and Classify Objects on Images and Videos",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "YOLOv5",
+                "YOLOv8",
+                "OpenCV",
+                "DeepSORT",
+                "Computer Vision",
+                "Object Detection"
+            ],
+            "description": "Applied Computer Vision knowledge to build an AI agent to detect and classify objects appearing in real-time video or still images."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

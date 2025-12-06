@@ -1,0 +1,118 @@
+{
+    "candidate_profile": {
+        "name": "PHAM DUY BAO",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "Dart"
+        ],
+        "frameworks_libraries": [
+            "React",
+            "Tailwind CSS",
+            "Vite",
+            "Node.js",
+            "Express",
+            "Flutter"
+        ],
+        "databases": [
+            "MySQL",
+            "MongoDB"
+        ],
+        "devops_cloud": [
+            "Docker",
+            "Docker Compose",
+            "Nginx"
+        ],
+        "tools_platforms": [
+            "SVN",
+            "Git"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "OOP",
+            "RESTful API"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Job Website",
+            "type": "Academic",
+            "tech_used": [
+                "HTML",
+                "CSS",
+                "PHP"
+            ],
+            "description": "A web platform that supports job registration and application."
+        },
+        {
+            "name": "Ecommerce Website",
+            "type": "Academic",
+            "tech_used": [
+                "React",
+                "Tailwind CSS",
+                "Vite",
+                "Node.js",
+                "Express",
+                "Docker",
+                "Docker Compose",
+                "Nginx"
+            ],
+            "description": "An e-commerce platform providing a complete shopping and management experience."
+        },
+        {
+            "name": "Multilingual Managing Recipe Flutter Application",
+            "type": "Academic",
+            "tech_used": [
+                "Dart",
+                "Flutter"
+            ],
+            "description": "A multilingual recipe management application built with Flutter."
+        },
+        {
+            "name": "Simulated Email Service Application",
+            "type": "Academic",
+            "tech_used": [
+                "Dart",
+                "Flutter"
+            ],
+            "description": "A simulated mail service application developed using Flutter."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "CCNA: Introduction to Networks",
+            "issuer": "Cisco",
+            "year": null
+        },
+        {
+            "name": "CCNA: Switching, Routing, and Wireless Essentials",
+            "issuer": "Cisco",
+            "year": null
+        }
+    ],
+    "honors_and_awards": []
+}

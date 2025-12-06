@@ -1,0 +1,105 @@
+{
+    "candidate_profile": {
+        "name": "Le Nguyen Hoang Yen",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Machine Learning Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": "7.36/10",
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "C#"
+        ],
+        "frameworks_libraries": [
+            "Scikit-learn",
+            "TensorFlow",
+            "PyTorch"
+        ],
+        "databases": [
+            "MySQL",
+            "SQL Server"
+        ],
+        "devops_cloud": [
+            "Docker"
+        ],
+        "tools_platforms": [
+            "Google Colab",
+            "Kaggle"
+        ],
+        "architectures_models": [
+            "Transformer"
+        ],
+        "techniques_concepts": [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Deep Learning",
+            "Computer Vision",
+            "Algorithms",
+            "Data Analysis",
+            "Model Development",
+            "Optimization",
+            "OCR"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Design and analysis of algorithms interactively searching for Top-K high-utility itemsets from uncertain databases",
+            "type": "Academic",
+            "tech_used": [
+                "Algorithms",
+                "Databases"
+            ],
+            "description": "Searching for Top-K high-utility itemsets from uncertain databases."
+        },
+        {
+            "name": "Stock Price Prediction Using Optimization and Deep Learning",
+            "type": "Academic",
+            "tech_used": [
+                "Deep Learning",
+                "Optimization",
+                "Python",
+                "TensorFlow",
+                "PyTorch"
+            ],
+            "description": "Predicting stock prices using optimization and deep learning techniques."
+        },
+        {
+            "name": "Transformer-Based OCR for Diverse Documents",
+            "type": "Academic",
+            "tech_used": [
+                "Transformer",
+                "OCR",
+                "Python",
+                "TensorFlow",
+                "PyTorch"
+            ],
+            "description": "Developing a Transformer-based OCR system for diverse documents."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Foundations of Usability Testing",
+            "issuer": "Coursera",
+            "year": "2025"
+        }
+    ],
+    "honors_and_awards": []
+}

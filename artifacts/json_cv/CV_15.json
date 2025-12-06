@@ -1,0 +1,135 @@
+{
+    "candidate_profile": {
+        "name": "Ho Nguyen An Khang",
+        "current_location": null,
+        "role_focus": "Back-end Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": "8.48",
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "JavaScript",
+            "Python",
+            "C++",
+            "HTML/CSS"
+        ],
+        "frameworks_libraries": [
+            "ReactJS",
+            "Bootstrap",
+            "Spring Boot",
+            "NodeJS",
+            "Django",
+            "Spring Security",
+            "Spring Data JPA",
+            "JWT",
+            "Stripe",
+            "Bulma",
+            "Selenium",
+            "BeautifulSoup",
+            "Android Native"
+        ],
+        "databases": [
+            "MySQL",
+            "MongoDB",
+            "SQLite",
+            "Firebase Database"
+        ],
+        "devops_cloud": [
+            "AWS S3",
+            "AWS Lambda",
+            "AWS ECS",
+            "AWS API Gateway",
+            "Docker",
+            "Gitlab"
+        ],
+        "tools_platforms": [
+            "Git"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "OOP",
+            "Design Patterns",
+            "Data Structures",
+            "Algorithms",
+            "REST APIs"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Yolma Food App",
+            "type": "Personal",
+            "tech_used": [
+                "Spring Boot",
+                "Spring Security",
+                "Spring Data JPA",
+                "JWT",
+                "Stripe",
+                "AWS S3",
+                "ReactJS"
+            ],
+            "description": "Actively developing a full-stack food ordering website with secure authentication, online payments, and cloud-based image storage."
+        },
+        {
+            "name": "IMDb Actor Insights Platform",
+            "type": "Personal",
+            "tech_used": [
+                "Django",
+                "ReactJS",
+                "Bulma",
+                "SQLite",
+                "Selenium",
+                "BeautifulSoup"
+            ],
+            "description": "A Django & React web app using scraped IMDb data to visualize actor filmographies, awards, and ratings."
+        },
+        {
+            "name": "Cloud Document Converter (AWS)",
+            "type": "Personal",
+            "tech_used": [
+                "NodeJS",
+                "ReactJS",
+                "AWS Lambda",
+                "S3",
+                "API Gateway",
+                "Docker"
+            ],
+            "description": "Lightweight web app for converting Word documents to PDF"
+        },
+        {
+            "name": "English Learning App",
+            "type": "Personal",
+            "tech_used": [
+                "Android Native",
+                "Firebase Database",
+                "Gitlab"
+            ],
+            "description": "Led a team of 3 to develop an Android app for learning English vocabulary with flashcards, quizzes, and progress tracking."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University, Vietnam",
+            "degree": "B.Sc.",
+            "major": "Software Engineering",
+            "graduation_year": null,
+            "status": "In Progress"
+        },
+        {
+            "institution": "Regensburg University of Applied Sciences, Germany",
+            "degree": "Exchange Student",
+            "major": "Computer Science",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

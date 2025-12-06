@@ -1,0 +1,110 @@
+{
+    "candidate_profile": {
+        "name": "Huynh Lau Chanh Hy",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Engineering Intern",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": "8.0/10.0",
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "JavaScript",
+            "TypeScript",
+            "Java",
+            "Python"
+        ],
+        "frameworks_libraries": [
+            "Node.js",
+            "Express.js",
+            "NextJS",
+            "Spring Boot",
+            "React",
+            "Flutter",
+            "Bloc"
+        ],
+        "databases": [
+            "MySQL",
+            "MongoDB"
+        ],
+        "devops_cloud": [
+            "Docker",
+            "Nginx"
+        ],
+        "tools_platforms": [
+            "Postman",
+            "Git",
+            "GitHub"
+        ],
+        "architectures_models": [
+            "RESTful API",
+            "WebSocket"
+        ],
+        "techniques_concepts": [
+            "JWT",
+            "OAuth2",
+            "Object-Oriented Programming",
+            "State Management",
+            "Data Integrity",
+            "Concurrent Access",
+            "Session Management",
+            "Authentication",
+            "Authorization",
+            "Refresh Token Rotation"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Phone Store Website",
+            "type": "Academic",
+            "tech_used": [
+                "Node.js",
+                "Express.js",
+                "React",
+                "JavaScript",
+                "JWT",
+                "RESTful API"
+            ],
+            "description": "Developed a full-stack e-commerce web application for a phone store, handling frontend and backend authentication features (secure login, registration, JWT-based session management), building responsive user interfaces with React, and implementing RESTful APIs using Node.js and Express.js for product management, user accounts, and order processing. Ensured secure authentication and authorization mechanisms, session handling, and smooth integration between frontend and backend services."
+        },
+        {
+            "name": "Booking Ticket",
+            "type": "Academic",
+            "tech_used": [
+                "Java",
+                "Object-Oriented Programming",
+                "Refresh Token Rotation"
+            ],
+            "description": "Developed a ticket booking system using Java, implementing core object-oriented principles and managing seat reservations, ticket availability, and user interactions. The system allowed users to search, book, and cancel tickets, while maintaining data integrity and concurrent access, applied refresh token rotation."
+        },
+        {
+            "name": "Gmail Simulator",
+            "type": "Academic",
+            "tech_used": [
+                "Flutter",
+                "Bloc",
+                "WebSocket",
+                "Node.js",
+                "MongoDB"
+            ],
+            "description": "Developed a Gmail-like email simulator using Flutter and Bloc for state management. Implemented real-time messaging features with WebSocket, including sending, receiving, and updating emails. Integrated with a Node.js backend and MongoDB for data storage, supporting search, notifications, and email management."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Information Technology (Software Engineering)",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

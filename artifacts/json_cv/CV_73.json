@@ -1,0 +1,74 @@
+{
+    "candidate_profile": {
+        "name": "Nguyen Anh Tuan",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Game Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Upper Intermediate",
+        "gpa": null,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "C#"
+        ],
+        "frameworks_libraries": [
+            "Unity"
+        ],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Finite State Machine",
+            "Saving System",
+            "2D UI",
+            "Tile-based game"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Field Of Echoes",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "Unity",
+                "C#"
+            ],
+            "description": "A role-play, farming game developed as a final project and continued as a personal IT project. Involved character FSM, item, inventory, farming, trading, NPC dialog, crafting, placeable objects, item conversion, combat mechanics, and scene consistency."
+        },
+        {
+            "name": "Quizza",
+            "type": "Personal",
+            "tech_used": [
+                "Unity",
+                "C#"
+            ],
+            "description": "A simple 2D UI-focused quiz game developed to learn Unity UI and C#. Features question/answer panels, scriptable objects for data, score tracking, and game restart functionality."
+        },
+        {
+            "name": "Maze Runner",
+            "type": "Personal",
+            "tech_used": [
+                "Unity",
+                "C#"
+            ],
+            "description": "A 2D Mario-like tile-based game developed to learn Unity tile and tilemap system. Features player character, monsters, obstacles, score, lives, and stage progression with save/restore mechanics."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Science",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

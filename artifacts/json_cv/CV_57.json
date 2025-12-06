@@ -1,0 +1,112 @@
+{
+    "candidate_profile": {
+        "name": "TRAN TRUNG DUNG",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI/ML Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": null,
+        "gpa": 3.14,
+        "english_cefr_level": null,
+        "years_experience": 0.25
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            "Scikit-learn",
+            "TensorFlow",
+            "PyTorch",
+            "HuggingFace",
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "Seaborn"
+        ],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Git",
+            "Jupyter Notebook",
+            "Colab"
+        ],
+        "architectures_models": [
+            "NLP Models",
+            "Classification Models",
+            "Regression Models",
+            "Clustering Models"
+        ],
+        "techniques_concepts": [
+            "Algorithms",
+            "Machine Learning",
+            "Data Processing",
+            "NLP",
+            "Data Modeling",
+            "Data Structures",
+            "Databases",
+            "Data Preprocessing",
+            "Experimentation",
+            "Testing",
+            "Technical Documentation",
+            "Probability",
+            "Linear Algebra",
+            "Optimization"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "WISDOM Engineering & Business Solutions",
+            "role": "AI R&D Research Engineer Intern",
+            "start_date": "2023-11",
+            "end_date": "2024-02",
+            "duration_months": 3,
+            "is_internship": true,
+            "tech_used": [
+                "AI Models",
+                "NLP",
+                "ML Algorithms",
+                "Python"
+            ],
+            "responsibilities": "Contributed to research and prototyping of AI models for business and engineering solutions. Preprocessed datasets, applied NLP and ML algorithms, and evaluated model performance. Collaborated with senior engineers on experimentation, testing, and reporting of AI-driven approaches. Produced clear technical documentation to support ongoing R&D efforts."
+        }
+    ],
+    "projects": [
+        {
+            "name": "NLP Model Development",
+            "type": "Personal",
+            "tech_used": [
+                "HuggingFace Transformers",
+                "NLP",
+                "Data Preprocessing",
+                "Python"
+            ],
+            "description": "Fine-tuned multilingual NLP models using HuggingFace Transformers. Designed data preprocessing pipelines to improve training efficiency. Documented workflows for reproducibility and open collaboration."
+        },
+        {
+            "name": "University Coursework Projects",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "ML Models",
+                "SQL",
+                "Data Visualization"
+            ],
+            "description": "Implemented ML models (classification, regression, clustering) in Python. Built database-driven applications with SQL and data visualization in Python."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University HCMC",
+            "degree": "Bachelor of Computer Science",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

@@ -1,0 +1,181 @@
+{
+    "candidate_profile": {
+        "name": "Nguyễn Trường Duy",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Network & System Administrator Intern",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": null,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "C#",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "frameworks_libraries": [
+            ".NET Core",
+            "ASP.NET MVC",
+            "Entity Framework Core",
+            "Razor"
+        ],
+        "databases": [
+            "SQL Server",
+            "MySQL",
+            "MongoDB",
+            "phpMyAdmin"
+        ],
+        "devops_cloud": [
+            "GitHub",
+            "Git",
+            "GitLab",
+            "VMWare",
+            "SharePoint Server",
+            "Cisco Packet Tracer",
+            "DHCP",
+            "VLAN",
+            "ACL",
+            "WLC",
+            "WPA2/WPA3",
+            "ASA Firewall"
+        ],
+        "tools_platforms": [
+            "Visual Studio",
+            "Word",
+            "Excel",
+            "PowerPoint"
+        ],
+        "architectures_models": [
+            "MVC"
+        ],
+        "techniques_concepts": [
+            "SEO",
+            "System Administration",
+            "Network Security",
+            "Network Design",
+            "Business Analysis",
+            "System Analysis",
+            "Routing Configuration",
+            "Debugging",
+            "Testing",
+            "CRUD",
+            "HTTPS",
+            "SSL Certificates",
+            "Backup/Restore",
+            "Active Directory",
+            "Domain Management",
+            "GUI",
+            "Network Segmentation",
+            "Access Control",
+            "Wireless Security",
+            "Monitoring",
+            "Logging",
+            "Firewall Configuration",
+            "Agile Development",
+            "Scrum"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Thiết kế hệ thống phòng gym",
+            "type": "Academic",
+            "tech_used": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "C#",
+                ".NET Core",
+                "ASP.NET MVC",
+                "SQL Server",
+                "phpMyAdmin",
+                "Entity Framework Core",
+                "Razor",
+                "SEO",
+                "Token-based authentication",
+                "Access control",
+                "ILogger",
+                "Debugging",
+                "Testing",
+                "GitHub"
+            ],
+            "description": "Designed a gym management system with Front-End, Back-End, and Database components, implementing MVC architecture, dynamic UI, SEO optimization, and security features.",
+            "start_date": "2024-09",
+            "end_date": "2024-12",
+            "duration_months": 4
+        },
+        {
+            "name": "Cấu hình, triển khai, quản lý SharePoint Server",
+            "type": "Academic",
+            "tech_used": [
+                "MySQL",
+                "SQL Server",
+                "MongoDB",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "C#",
+                ".NET Core",
+                "ASP.NET MVC",
+                "GitHub",
+                "GitLab",
+                "Git",
+                "VMWare",
+                "SharePoint Server",
+                "Active Directory",
+                "HTTPS",
+                "SSL Certificates",
+                "Backup/Restore"
+            ],
+            "description": "Configured, deployed, and managed SharePoint Server, including network configuration, Active Directory integration, SQL Server setup, and security measures like HTTPS and backup/restore.",
+            "start_date": "2023-09",
+            "end_date": "2023-12",
+            "duration_months": 4
+        },
+        {
+            "name": "Thiết kế, bảo mật mạng WiFi cho doanh nghiệp vừa và nhỏ",
+            "type": "Academic",
+            "tech_used": [
+                "Cisco Packet Tracer",
+                "DHCP",
+                "VLAN",
+                "ACL",
+                "WLC",
+                "WPA2/WPA3",
+                "ASA Firewall"
+            ],
+            "description": "Designed and secured WiFi networks for small and medium businesses, involving network diagramming, security solutions, DHCP, VLANs, ACLs, WLC, WPA2/WPA3, and ASA firewall configuration.",
+            "start_date": "2025-02",
+            "end_date": "2025-05",
+            "duration_months": 4
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Networks and Data Communications",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Agile Development & Scrum Course",
+            "issuer": "Cisco",
+            "year": "2024"
+        },
+        {
+            "name": "Ethical Hacker",
+            "issuer": "Cisco",
+            "year": "2025"
+        }
+    ],
+    "honors_and_awards": []
+}

@@ -1,0 +1,111 @@
+{
+    "candidate_profile": {
+        "name": "Luu Phuc Phu",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Backend Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": 6.68,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "C#",
+            "Java"
+        ],
+        "frameworks_libraries": [
+            ".NET Core",
+            "Laravel",
+            "Android SDK",
+            "EF Core",
+            "Retrofit",
+            "Gson",
+            "Razor Pages",
+            "Bootstrap"
+        ],
+        "databases": [
+            "MSSQL",
+            "MySQL",
+            "SQL Server",
+            "Redis"
+        ],
+        "devops_cloud": [
+            "Docker",
+            "Docker Compose",
+            "RabbitMQ"
+        ],
+        "tools_platforms": [
+            "Git",
+            "API Gateway"
+        ],
+        "architectures_models": [
+            "Microservices",
+            "RESTful API"
+        ],
+        "techniques_concepts": [
+            "JWT",
+            "Event-driven messaging",
+            "Polling"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Smart Project Management System - API",
+            "type": "Academic",
+            "tech_used": [
+                "C#",
+                ".NET Core",
+                "EF Core",
+                "MSSQL",
+                "RabbitMQ",
+                "Redis",
+                "JWT",
+                "API Gateway",
+                "RESTful APIs"
+            ],
+            "description": "Designed 4 microservices with RESTful APIs, secured via JWT and routed through API Gateway. Integrated RabbitMQ for event-driven messaging and Redis for caching to boost performance. Managed MSSQL database with EF Core for scalable data operations. Link: https://github.com/lpphu/Smart-Project-Management-System-API"
+        },
+        {
+            "name": "Smart Project Management System - Mobile",
+            "type": "Academic",
+            "tech_used": [
+                "Java",
+                "Android SDK",
+                "Retrofit",
+                "Gson",
+                "XML",
+                "JWT",
+                "RESTful APIs"
+            ],
+            "description": "Developed an Android app for project and task management, integrating RESTful APIs with Retrofit. Implemented real-time task updates via polling for seamless UX. Secured user authentication with JWT and designed UI with RecyclerView. Link: https://github.com/lpphu/Smart-Project-Management-System-Mobile"
+        },
+        {
+            "name": "E-commerce Platform (Minky Shop)",
+            "type": "Personal",
+            "tech_used": [
+                "C#",
+                ".NET Core",
+                "SQL Server",
+                "Razor Pages",
+                "Bootstrap"
+            ],
+            "description": "Built e-commerce website for pet supplies and mobile phones using .NET Core MVC. Designed SQL Server schemas for products, categories, orders, and users. Implemented search and filter APIs for efficient product discovery. Link: https://github.com/lpphu/-Minky-Shop"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Bachelor",
+            "major": "Computer Networks and Data Communications",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

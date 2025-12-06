@@ -1,0 +1,90 @@
+{
+    "candidate_profile": {
+        "name": "Nguyễn Thạch",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Tester",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": null,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "C#",
+            "Dart",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            ".Net",
+            "Flutter"
+        ],
+        "databases": [
+            "SQL",
+            "MongoDB",
+            "Firebase"
+        ],
+        "devops_cloud": [
+            "Kafka",
+            "Nginx",
+            "Firebase"
+        ],
+        "tools_platforms": [
+            "Postman",
+            "Git",
+            "GitHub"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "SDLC",
+            "STLC",
+            "Test Case Design",
+            "Manual Testing",
+            "API Testing",
+            "SQL Validation",
+            "Test Reporting",
+            "Database Testing"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "EVENT MANAGEMENT FLUTTER APP",
+            "type": "Academic",
+            "tech_used": [
+                "Java",
+                "C#",
+                "Dart",
+                "SQL",
+                "Firebase",
+                "Kafka",
+                "Nginx",
+                "Postman"
+            ],
+            "description": "Developed key features such as user registration, event booking, and QR code check-in. Designed and executed test cases for event workflows and validated results with SQL/Firebase. Performed API testing with Postman and reported bugs to the team.",
+            "link": "https://github.com/Suimei1208/event_management_fontend, https://github.com/Suimei1208/event_management_backend"
+        },
+        {
+            "name": "FINAL PROJECT – SOFTWARE TESTING",
+            "type": "Academic",
+            "tech_used": [],
+            "description": "Designed Test Cases for a simulated application. Executed test cases and classified results as Pass/Fail. Created Bug Reports including reproduction steps, severity, priority, expected results vs. actual results.",
+            "link": "View Test Case & Bug Report here"
+        }
+    ],
+    "education": [
+        {
+            "institution": "TON DUC THANG UNIVERSITY",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

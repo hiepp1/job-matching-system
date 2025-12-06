@@ -1,0 +1,441 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-01-25",
+    "total_skills": 150,
+    "categories": 12,
+    "language": "en",
+    "description": "Comprehensive IT Skills Ontology for job matching"
+  },
+  
+  "skill_categories": {
+    "programming_languages": {
+      "name": "Programming Languages",
+      "description": "General-purpose and specialized programming languages",
+      "skills": [
+        "python", "javascript", "java", "csharp", "cpp", "go", 
+        "rust", "typescript", "php", "ruby", "swift", "kotlin",
+        "scala", "r", "matlab"
+      ]
+    },
+    "web_development": {
+      "name": "Web Development",
+      "description": "Frontend, backend, and full-stack web technologies",
+      "skills": [
+        "react", "angular", "vuejs", "nodejs", "express", "django",
+        "flask", "spring_boot", "aspnet", "laravel", "nextjs", "nuxtjs",
+        "graphql", "rest_api", "websockets", "html5", "css3", "sass",
+        "tailwind_css", "bootstrap", "jquery"
+      ]
+    },
+    "mobile_development": {
+      "name": "Mobile Development",
+      "description": "Native and cross-platform mobile app development",
+      "skills": [
+        "android", "ios", "react_native", "flutter", "kotlin_mobile",
+        "swift_ios", "xamarin", "ionic", "cordova", "swiftui"
+      ]
+    },
+    "databases": {
+      "name": "Databases & Data Storage",
+      "description": "SQL, NoSQL, and data management systems",
+      "skills": [
+        "mysql", "postgresql", "mongodb", "redis", "elasticsearch",
+        "cassandra", "dynamodb", "oracle_db", "sql_server", "sqlite",
+        "mariadb", "couchdb", "neo4j", "influxdb", "timescaledb"
+      ]
+    },
+    "cloud_platforms": {
+      "name": "Cloud Platforms & Services",
+      "description": "Cloud computing platforms and services",
+      "skills": [
+        "aws", "azure", "gcp", "aws_ec2", "aws_s3", "aws_lambda",
+        "azure_functions", "gcp_compute", "kubernetes", "docker",
+        "terraform", "cloudformation", "ansible", "helm"
+      ]
+    },
+    "devops_cicd": {
+      "name": "DevOps & CI/CD",
+      "description": "Development operations and continuous integration/deployment",
+      "skills": [
+        "jenkins", "gitlab_ci", "github_actions", "circleci", "travis_ci",
+        "docker_compose", "kubernetes_ops", "prometheus", "grafana",
+        "elk_stack", "datadog", "new_relic", "nginx", "apache",
+        "infrastructure_as_code", "gitops", "argocd"
+      ]
+    },
+    "data_science_ml": {
+      "name": "Data Science & Machine Learning",
+      "description": "Data analysis, ML, and AI technologies",
+      "skills": [
+        "machine_learning", "deep_learning", "tensorflow", "pytorch",
+        "scikit_learn", "pandas", "numpy", "keras", "xgboost",
+        "data_analysis", "data_visualization", "jupyter", "apache_spark",
+        "hadoop", "nlp", "computer_vision", "reinforcement_learning",
+        "mlops", "feature_engineering", "model_deployment"
+      ]
+    },
+    "security": {
+      "name": "Security & Compliance",
+      "description": "Cybersecurity, authentication, and compliance",
+      "skills": [
+        "oauth", "jwt", "saml", "ssl_tls", "penetration_testing",
+        "security_audit", "owasp", "cryptography", "blockchain",
+        "identity_management", "sso", "mfa", "pki", "firewall",
+        "ids_ips", "siem", "iso27001", "gdpr", "soc2", "pci_dss"
+      ]
+    },
+    "software_architecture": {
+      "name": "Software Architecture & Design",
+      "description": "Architecture patterns and software design",
+      "skills": [
+        "microservices", "monolithic", "event_driven", "cqrs",
+        "domain_driven_design", "clean_architecture", "hexagonal_architecture",
+        "mvc", "mvvm", "design_patterns", "solid_principles",
+        "serverless", "service_mesh", "api_gateway", "message_queue"
+      ]
+    },
+    "messaging_streaming": {
+      "name": "Messaging & Streaming",
+      "description": "Message brokers and stream processing",
+      "skills": [
+        "kafka", "rabbitmq", "activemq", "redis_streams", "nats",
+        "pulsar", "mqtt", "websocket", "grpc", "apache_flink",
+        "apache_storm", "kinesis"
+      ]
+    },
+    "testing_qa": {
+      "name": "Testing & Quality Assurance",
+      "description": "Testing frameworks and QA methodologies",
+      "skills": [
+        "unit_testing", "integration_testing", "e2e_testing", "jest",
+        "mocha", "pytest", "junit", "selenium", "cypress", "playwright",
+        "testng", "cucumber", "load_testing", "performance_testing",
+        "jmeter", "k6", "tdd", "bdd"
+      ]
+    },
+    "version_control": {
+      "name": "Version Control & Collaboration",
+      "description": "Version control systems and collaboration tools",
+      "skills": [
+        "git", "github", "gitlab", "bitbucket", "svn", "mercurial",
+        "git_flow", "trunk_based_development", "code_review", "jira",
+        "confluence", "slack_integration", "agile", "scrum", "kanban"
+      ]
+    }
+  },
+
+  "skills": {
+    "python": {
+      "canonical": "Python",
+      "synonyms": ["python", "python3", "py"],
+      "category": "programming_languages",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["django", "flask", "pandas", "numpy", "tensorflow", "pytest"],
+      "prerequisites": [],
+      "typical_job_roles": ["Backend Developer", "Data Scientist", "ML Engineer", "DevOps Engineer"],
+      "proficiency_indicators": {
+        "beginner": ["Basic syntax", "Control flow", "Functions"],
+        "intermediate": ["OOP", "Decorators", "Context managers", "Generators"],
+        "advanced": ["Metaclasses", "Async/await", "Performance optimization"],
+        "expert": ["CPython internals", "Custom C extensions", "Architecture design"]
+      }
+    },
+    
+    "javascript": {
+      "canonical": "JavaScript",
+      "synonyms": ["javascript", "js", "ecmascript", "es6", "es2015"],
+      "category": "programming_languages",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["typescript", "nodejs", "react", "vuejs", "angular"],
+      "prerequisites": ["html5", "css3"],
+      "typical_job_roles": ["Frontend Developer", "Full Stack Developer", "Node.js Developer"],
+      "proficiency_indicators": {
+        "beginner": ["Variables", "Functions", "DOM manipulation"],
+        "intermediate": ["Promises", "Async/await", "Closures", "Prototypes"],
+        "advanced": ["Event loop", "Memory management", "Design patterns"],
+        "expert": ["V8 engine", "Performance optimization", "Framework development"]
+      }
+    },
+
+    "react": {
+      "canonical": "React",
+      "synonyms": ["react", "reactjs", "react.js"],
+      "category": "web_development",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["javascript", "typescript", "redux", "nextjs", "react_native"],
+      "prerequisites": ["javascript", "html5", "css3"],
+      "typical_job_roles": ["Frontend Developer", "React Developer", "Full Stack Developer"],
+      "proficiency_indicators": {
+        "beginner": ["Components", "Props", "State", "JSX"],
+        "intermediate": ["Hooks", "Context API", "Lifecycle", "Custom hooks"],
+        "advanced": ["Performance optimization", "Code splitting", "SSR", "Testing"],
+        "expert": ["React internals", "Fiber architecture", "Library development"]
+      }
+    },
+
+    "docker": {
+      "canonical": "Docker",
+      "synonyms": ["docker", "containerization", "docker-compose"],
+      "category": "cloud_platforms",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["kubernetes", "docker_compose", "containerization", "linux"],
+      "prerequisites": ["linux_basics", "networking"],
+      "typical_job_roles": ["DevOps Engineer", "Cloud Engineer", "Backend Developer"],
+      "proficiency_indicators": {
+        "beginner": ["Dockerfile", "Images", "Containers", "Basic commands"],
+        "intermediate": ["Multi-stage builds", "Docker Compose", "Volumes", "Networks"],
+        "advanced": ["Registry management", "Security", "Optimization", "Swarm"],
+        "expert": ["Architecture design", "Custom runtimes", "Production deployment"]
+      }
+    },
+
+    "kubernetes": {
+      "canonical": "Kubernetes",
+      "synonyms": ["kubernetes", "k8s", "kube"],
+      "category": "cloud_platforms",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["docker", "helm", "istio", "prometheus", "grafana"],
+      "prerequisites": ["docker", "linux_basics", "networking"],
+      "typical_job_roles": ["DevOps Engineer", "Cloud Architect", "SRE"],
+      "proficiency_indicators": {
+        "beginner": ["Pods", "Deployments", "Services", "kubectl basics"],
+        "intermediate": ["ConfigMaps", "Secrets", "Ingress", "StatefulSets"],
+        "advanced": ["Operators", "Custom resources", "RBAC", "Network policies"],
+        "expert": ["Cluster design", "Multi-cluster", "Custom schedulers", "HA setup"]
+      }
+    },
+
+    "aws": {
+      "canonical": "Amazon Web Services",
+      "synonyms": ["aws", "amazon web services"],
+      "category": "cloud_platforms",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["aws_ec2", "aws_s3", "aws_lambda", "terraform", "cloudformation"],
+      "prerequisites": ["linux_basics", "networking"],
+      "typical_job_roles": ["Cloud Engineer", "DevOps Engineer", "Solutions Architect"],
+      "proficiency_indicators": {
+        "beginner": ["EC2", "S3", "IAM", "Basic networking"],
+        "intermediate": ["Lambda", "RDS", "CloudFormation", "Load balancing"],
+        "advanced": ["Multi-region", "Security best practices", "Cost optimization"],
+        "expert": ["Well-Architected Framework", "Enterprise migration", "Custom solutions"]
+      }
+    },
+
+    "machine_learning": {
+      "canonical": "Machine Learning",
+      "synonyms": ["machine learning", "ml", "predictive modeling"],
+      "category": "data_science_ml",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["python", "tensorflow", "pytorch", "scikit_learn", "data_analysis"],
+      "prerequisites": ["python", "statistics", "linear_algebra"],
+      "typical_job_roles": ["ML Engineer", "Data Scientist", "AI Researcher"],
+      "proficiency_indicators": {
+        "beginner": ["Supervised learning", "Basic algorithms", "Model evaluation"],
+        "intermediate": ["Feature engineering", "Ensemble methods", "Cross-validation"],
+        "advanced": ["Deep learning", "Model optimization", "Deployment", "MLOps"],
+        "expert": ["Research", "Novel architectures", "Production systems", "AutoML"]
+      }
+    },
+
+    "postgresql": {
+      "canonical": "PostgreSQL",
+      "synonyms": ["postgresql", "postgres", "psql"],
+      "category": "databases",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["sql", "database_design", "sql_optimization", "backup_recovery"],
+      "prerequisites": ["sql_basics"],
+      "typical_job_roles": ["Database Administrator", "Backend Developer", "Data Engineer"],
+      "proficiency_indicators": {
+        "beginner": ["CRUD operations", "Joins", "Basic queries"],
+        "intermediate": ["Indexes", "Views", "Stored procedures", "Transactions"],
+        "advanced": ["Query optimization", "Replication", "Partitioning", "JSONB"],
+        "expert": ["Performance tuning", "High availability", "Custom extensions"]
+      }
+    },
+
+    "oauth": {
+      "canonical": "OAuth 2.0",
+      "synonyms": ["oauth", "oauth2", "oauth 2.0", "oauth2.0"],
+      "category": "security",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["jwt", "saml", "identity_management", "sso", "api_security"],
+      "prerequisites": ["http_protocol", "rest_api"],
+      "typical_job_roles": ["Security Engineer", "Backend Developer", "API Developer"],
+      "proficiency_indicators": {
+        "beginner": ["OAuth flows", "Tokens", "Scopes"],
+        "intermediate": ["Grant types", "Token refresh", "PKCE"],
+        "advanced": ["Custom providers", "Security best practices", "Multi-tenancy"],
+        "expert": ["Protocol design", "Enterprise SSO", "Federation"]
+      }
+    },
+
+    "microservices": {
+      "canonical": "Microservices Architecture",
+      "synonyms": ["microservices", "microservice architecture", "distributed systems"],
+      "category": "software_architecture",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["api_gateway", "service_mesh", "docker", "kubernetes", "message_queue"],
+      "prerequisites": ["rest_api", "distributed_systems_basics"],
+      "typical_job_roles": ["Software Architect", "Senior Developer", "DevOps Engineer"],
+      "proficiency_indicators": {
+        "beginner": ["Service decomposition", "API design", "Basic patterns"],
+        "intermediate": ["Service discovery", "Circuit breaker", "API gateway"],
+        "advanced": ["Event sourcing", "CQRS", "Saga pattern", "Service mesh"],
+        "expert": ["System design", "Organizational impact", "Migration strategy"]
+      }
+    },
+
+    "kafka": {
+      "canonical": "Apache Kafka",
+      "synonyms": ["kafka", "apache kafka"],
+      "category": "messaging_streaming",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["event_driven", "stream_processing", "microservices", "data_pipeline"],
+      "prerequisites": ["distributed_systems_basics", "java"],
+      "typical_job_roles": ["Data Engineer", "Backend Developer", "Platform Engineer"],
+      "proficiency_indicators": {
+        "beginner": ["Topics", "Producers", "Consumers", "Basic concepts"],
+        "intermediate": ["Partitioning", "Consumer groups", "Connectors", "Streams API"],
+        "advanced": ["Performance tuning", "Cluster management", "Security", "Monitoring"],
+        "expert": ["Architecture design", "Multi-datacenter", "Custom solutions"]
+      }
+    },
+
+    "jenkins": {
+      "canonical": "Jenkins",
+      "synonyms": ["jenkins", "jenkins ci", "jenkins cd"],
+      "category": "devops_cicd",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["cicd", "docker", "kubernetes", "groovy", "pipeline_as_code"],
+      "prerequisites": ["version_control", "scripting"],
+      "typical_job_roles": ["DevOps Engineer", "Build Engineer", "Release Manager"],
+      "proficiency_indicators": {
+        "beginner": ["Jobs", "Builds", "Plugins", "Basic pipelines"],
+        "intermediate": ["Declarative pipelines", "Shared libraries", "Webhooks"],
+        "advanced": ["Distributed builds", "Security", "Custom plugins", "Kubernetes agents"],
+        "expert": ["Enterprise architecture", "Migration", "Custom integrations"]
+      }
+    },
+
+    "graphql": {
+      "canonical": "GraphQL",
+      "synonyms": ["graphql", "graph ql"],
+      "category": "web_development",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["rest_api", "apollo", "nodejs", "react"],
+      "prerequisites": ["rest_api", "javascript"],
+      "typical_job_roles": ["Backend Developer", "Full Stack Developer", "API Developer"],
+      "proficiency_indicators": {
+        "beginner": ["Queries", "Mutations", "Schema", "Types"],
+        "intermediate": ["Resolvers", "Subscriptions", "DataLoader", "Fragments"],
+        "advanced": ["Schema design", "Performance", "Caching", "Federation"],
+        "expert": ["Custom directives", "Schema stitching", "Enterprise patterns"]
+      }
+    },
+
+    "terraform": {
+      "canonical": "Terraform",
+      "synonyms": ["terraform", "tf", "infrastructure as code"],
+      "category": "cloud_platforms",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["aws", "azure", "gcp", "infrastructure_as_code", "ansible"],
+      "prerequisites": ["cloud_platforms", "scripting"],
+      "typical_job_roles": ["DevOps Engineer", "Cloud Engineer", "Infrastructure Engineer"],
+      "proficiency_indicators": {
+        "beginner": ["Resources", "Providers", "Variables", "State"],
+        "intermediate": ["Modules", "Remote state", "Workspaces", "Provisioners"],
+        "advanced": ["Custom providers", "Policy as code", "CI/CD integration"],
+        "expert": ["Enterprise patterns", "Multi-cloud", "Custom solutions"]
+      }
+    },
+
+    "typescript": {
+      "canonical": "TypeScript",
+      "synonyms": ["typescript", "ts"],
+      "category": "programming_languages",
+      "level": ["beginner", "intermediate", "advanced", "expert"],
+      "related_skills": ["javascript", "react", "nodejs", "angular"],
+      "prerequisites": ["javascript"],
+      "typical_job_roles": ["Frontend Developer", "Full Stack Developer", "Node.js Developer"],
+      "proficiency_indicators": {
+        "beginner": ["Types", "Interfaces", "Basic annotations"],
+        "intermediate": ["Generics", "Decorators", "Utility types", "Enums"],
+        "advanced": ["Advanced types", "Conditional types", "Mapped types"],
+        "expert": ["Type system internals", "Compiler API", "Library authoring"]
+      }
+    }
+  },
+
+  "skill_relationships": {
+    "complements": [
+      ["react", "typescript"],
+      ["docker", "kubernetes"],
+      ["aws", "terraform"],
+      ["python", "machine_learning"],
+      ["nodejs", "express"],
+      ["postgresql", "sql_optimization"],
+      ["microservices", "kafka"],
+      ["jenkins", "docker"],
+      ["oauth", "jwt"],
+      ["graphql", "apollo"]
+    ],
+    "alternatives": [
+      ["react", "angular", "vuejs"],
+      ["mysql", "postgresql", "mongodb"],
+      ["aws", "azure", "gcp"],
+      ["jenkins", "gitlab_ci", "github_actions"],
+      ["kafka", "rabbitmq", "redis_streams"]
+    ],
+    "progression_paths": [
+      ["html5", "css3", "javascript", "react", "typescript"],
+      ["python", "django", "rest_api", "microservices"],
+      ["docker", "kubernetes", "helm", "service_mesh"],
+      ["sql", "postgresql", "database_design", "distributed_databases"],
+      ["git", "cicd", "jenkins", "gitops"]
+    ]
+  },
+
+  "job_role_mappings": {
+    "frontend_developer": {
+      "required_skills": ["javascript", "html5", "css3", "react"],
+      "preferred_skills": ["typescript", "redux", "webpack", "testing"],
+      "nice_to_have": ["nodejs", "graphql", "nextjs"]
+    },
+    "backend_developer": {
+      "required_skills": ["python", "rest_api", "database"],
+      "preferred_skills": ["docker", "microservices", "postgresql", "redis"],
+      "nice_to_have": ["kubernetes", "kafka", "graphql"]
+    },
+    "full_stack_developer": {
+      "required_skills": ["javascript", "react", "nodejs", "database"],
+      "preferred_skills": ["typescript", "docker", "rest_api", "postgresql"],
+      "nice_to_have": ["aws", "microservices", "graphql"]
+    },
+    "devops_engineer": {
+      "required_skills": ["docker", "kubernetes", "cicd", "linux"],
+      "preferred_skills": ["terraform", "aws", "jenkins", "monitoring"],
+      "nice_to_have": ["ansible", "prometheus", "grafana"]
+    },
+    "data_scientist": {
+      "required_skills": ["python", "machine_learning", "statistics", "data_analysis"],
+      "preferred_skills": ["tensorflow", "pandas", "scikit_learn", "sql"],
+      "nice_to_have": ["deep_learning", "mlops", "apache_spark"]
+    },
+    "ml_engineer": {
+      "required_skills": ["python", "machine_learning", "tensorflow", "model_deployment"],
+      "preferred_skills": ["mlops", "docker", "kubernetes", "api_development"],
+      "nice_to_have": ["aws", "feature_engineering", "monitoring"]
+    },
+    "security_engineer": {
+      "required_skills": ["security", "networking", "linux", "cryptography"],
+      "preferred_skills": ["penetration_testing", "oauth", "siem", "firewall"],
+      "nice_to_have": ["kubernetes", "cloud_security", "compliance"]
+    },
+    "cloud_architect": {
+      "required_skills": ["aws", "architecture_design", "networking", "security"],
+      "preferred_skills": ["terraform", "kubernetes", "microservices", "monitoring"],
+      "nice_to_have": ["multi_cloud", "cost_optimization", "disaster_recovery"]
+    }
+  }
+}

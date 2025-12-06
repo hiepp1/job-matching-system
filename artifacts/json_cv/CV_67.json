@@ -1,0 +1,121 @@
+{
+    "candidate_profile": {
+        "name": "Phan Bội Thúy",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Full Stack Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": null,
+        "gpa": "7.52/10.0",
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "JavaScript",
+            "TypeScript",
+            "HTML5",
+            "CSS3",
+            "SASS",
+            "PHP",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            "ReactJS",
+            "React Hooks",
+            "Context API",
+            "Next.js",
+            "TailwindCSS",
+            "Spring Boot",
+            "Node.js"
+        ],
+        "databases": [
+            "MySQL",
+            "MongoDB"
+        ],
+        "devops_cloud": [
+            "Docker"
+        ],
+        "tools_platforms": [
+            "Git",
+            "Figma"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "System Architecture",
+            "Web Development",
+            "UI/UX Design"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Fixora Project",
+            "type": "Academic",
+            "tech_used": [
+                "ReactJS",
+                "Spring Boot",
+                "MySQL"
+            ],
+            "description": "Coordinated with a 4-person team to build an e-commerce website."
+        },
+        {
+            "name": "BoxyBunny Project",
+            "type": "Academic",
+            "tech_used": [
+                "ReactJS",
+                "Node.js",
+                "MongoDB"
+            ],
+            "description": "Coordinated with a 2-person team to build an e-commerce website."
+        },
+        {
+            "name": "Jewelry_Shop Project",
+            "type": "Academic",
+            "tech_used": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "PHP"
+            ],
+            "description": "Coordinated with a 2-person team to build an e-commerce website."
+        },
+        {
+            "name": "Reis project",
+            "type": "Academic",
+            "tech_used": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "PHP"
+            ],
+            "description": "Coordinated with a 3-person team to build a travel booking website."
+        },
+        {
+            "name": "Team_Building project",
+            "type": "Academic",
+            "tech_used": [
+                "Figma"
+            ],
+            "description": "Coordinated with a 3-person team to design a team building website interface."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": [
+        {
+            "title": "Second Prize in IT-Zone Software Design Competition",
+            "issuer": "IT-ZONE"
+        }
+    ]
+}

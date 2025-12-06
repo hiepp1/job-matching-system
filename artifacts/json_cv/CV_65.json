@@ -1,0 +1,126 @@
+{
+    "candidate_profile": {
+        "name": "Nguyễn Quốc Thái",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Mobile Developer",
+        "seniority_level": "Fresher"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "B1 (TOEIC 715)",
+        "gpa": null,
+        "english_cefr_level": "B1",
+        "years_experience": 0.75
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Dart",
+            "JavaScript",
+            "TypeScript",
+            "Java"
+        ],
+        "frameworks_libraries": [
+            "Flutter",
+            "NestJS",
+            "React-Native",
+            "React-Dom",
+            "GetX",
+            "Provider",
+            "Riverpod",
+            "Spring"
+        ],
+        "databases": [
+            "SQLite",
+            "JSON"
+        ],
+        "devops_cloud": [
+            "Render",
+            "Vietnix"
+        ],
+        "tools_platforms": [
+            "Git",
+            "GitHub",
+            "Gemini API"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "UI Design",
+            "State Management",
+            "Backend Development",
+            "Frontend Development",
+            "Team Leadership",
+            "Task Delegation",
+            "Workflow Coordination",
+            "OOP",
+            "RESTful"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "Cybersoft Programming Training Center",
+            "role": "Mobile Developer",
+            "start_date": "2025-04",
+            "end_date": "Present",
+            "duration_months": 9,
+            "is_internship": true,
+            "tech_used": [
+                "Flutter",
+                "Dart",
+                "NestJS",
+                "React",
+                "JavaScript",
+                "TypeScript",
+                "Java",
+                "Spring"
+            ],
+            "responsibilities": "Completed theoretical lessons in Flutter, covering Dart fundamentals and UI design. Explored advanced Flutter topics independently. Learned additional frameworks such as NestJS and React. Expanded programming skills from Dart to JavaScript and TypeScript. Currently learning Java for Spring backend development."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Music Streaming App Project",
+            "type": "Personal",
+            "tech_used": [
+                "Flutter",
+                "GetX",
+                "Provider",
+                "JSON"
+            ],
+            "description": "First Flutter project allowing users to stream music online. Utilized GetX and Provider for state management. Data stored in JSON files containing links to music tracks hosted online. Helped understand Flutter workflow and practical app development."
+        },
+        {
+            "name": "Supercar Showroom App Project",
+            "type": "Personal",
+            "tech_used": [
+                "Flutter",
+                "SQLite",
+                "Riverpod",
+                "Gemini API"
+            ],
+            "description": "Developed a mobile app allowing customers to book appointments at a supercar showroom. Frontend built with Flutter and backend simulated using SQLite. Riverpod used for efficient state management. Integrated Gemini API to compare specifications between two supercars."
+        },
+        {
+            "name": "Movie Ticket Booking App Project",
+            "type": "Academic/Team Project",
+            "tech_used": [
+                "Flutter",
+                "NestJS",
+                "Provider",
+                "Render",
+                "Vietnix"
+            ],
+            "description": "Team project to allow customers to book movie tickets online. Served as team lead, delegating tasks and coordinating workflow. Designed frontend with Flutter and backend with NestJS. Used Provider for state management. Personally designed the backend despite limited experience. Backend deployed on Render with database hosted on Vietnix."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": "2025",
+            "status": "Graduated"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

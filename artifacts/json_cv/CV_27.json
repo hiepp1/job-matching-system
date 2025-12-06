@@ -1,0 +1,48 @@
+{
+    "candidate_profile": {
+        "name": "HOÀNG MINH QUÂN",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Web Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "javascript"
+        ],
+        "frameworks_libraries": [
+            "Node.js"
+        ],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Packet Tracer",
+            "Microsoft Office"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Computer Networks",
+            "Data Communication",
+            "Web Development (HTML)"
+        ]
+    },
+    "work_experience": [],
+    "projects": [],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Networks and Data Communication",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

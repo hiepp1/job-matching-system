@@ -1,0 +1,98 @@
+{
+    "candidate_profile": {
+        "name": "Nguyen Thuy Khanh",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Backend Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": 3.2,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "PHP",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "frameworks_libraries": [
+            "Spring Boot",
+            "Laravel",
+            "React",
+            "React Router",
+            "Axios",
+            "Redux"
+        ],
+        "databases": [
+            "MySQL",
+            "SQL Server",
+            "H2 Console"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Git",
+            "GitHub",
+            "IntelliJ IDEA",
+            "VS Code"
+        ],
+        "architectures_models": [
+            "Microservices",
+            "Layered Architecture",
+            "MVC"
+        ],
+        "techniques_concepts": [
+            "OAuth 2.0",
+            "OpenID Connect",
+            "JWT"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Fixora Shop",
+            "type": "Academic",
+            "tech_used": [
+                "ReactJs",
+                "CSS",
+                "JavaScript",
+                "Java",
+                "Spring Boot",
+                "MySQL"
+            ],
+            "description": "A comprehensive web application that streamlines toy store operations with role-based features. Unregistered customers can browse, search, and register. Registered customers can log in, shop, manage cart and favorites, track and manage orders, make payments, and leave reviews. Staff members handle order approvals and shipping, while administrators manage products, users, orders, discounts, and feedback via a centralized dashboard, enhancing efficiency and the overall shopping experience."
+        },
+        {
+            "name": "Jewelry Shop",
+            "type": "Academic",
+            "tech_used": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "PHP",
+                "MySQL"
+            ],
+            "description": "This project streamlines jewelry store operations with role-based features. Unregistered customers can browse products and register for an account. Registered customers can log in, shop, manage cart and profile, view purchase history, track or cancel orders, confirm receipt, and send feedback. Staff can view, approve, or reject orders and handle shipping, while administrators manage products, suppliers, and staff accounts via a centralized dashboard, ensuring efficient operations and an enhanced shopping experience."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": [
+        {
+            "title": "Academic Encouragement Scholarship – Good Classification",
+            "issuer": "Ton Duc Thang University"
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+{
+    "candidate_profile": {
+        "name": "Tung Huynh Minh",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Network & Data Analyst",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": null,
+        "gpa": 7.2,
+        "english_cefr_level": null,
+        "years_experience": 0.4
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "C",
+            "PHP",
+            "HTML/CSS",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            "PySpark"
+        ],
+        "databases": [],
+        "devops_cloud": [
+            "Salesforce",
+            "AWS",
+            "VMware",
+            "VirtualBox",
+            "Linux",
+            "Windows Server"
+        ],
+        "tools_platforms": [
+            "Cisco Packet Tracer",
+            "GNS3",
+            "Wireshark",
+            "XAMPP"
+        ],
+        "architectures_models": [
+            "Singular Value Decomposition",
+            "Collaborative Filtering",
+            "Attention mechanisms"
+        ],
+        "techniques_concepts": [
+            "OSI & TCP/IP models",
+            "subnetting",
+            "routing",
+            "switching",
+            "VLAN",
+            "VPN",
+            "ACL",
+            "Wi-Fi security",
+            "Data encryption methods",
+            "Keylogging detection",
+            "Network Access Protection",
+            "Data Visualization",
+            "TCP/UDP programming",
+            "Association rules",
+            "Machine Learning",
+            "Deep Learning",
+            "Named Entity Recognition",
+            "Network Design",
+            "Network Configuration",
+            "Network Automation",
+            "Cloud Technologies",
+            "Data Analytics",
+            "Business Intelligence",
+            "E-commerce strategies",
+            "Decision Making"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "Ton Duc Thang University",
+            "role": "Network & Data Analyst Intern",
+            "start_date": "2024-01",
+            "end_date": "Present",
+            "duration_months": 5,
+            "is_internship": true,
+            "tech_used": [
+                "Networking",
+                "Data Analytics",
+                "Cloud Technologies",
+                "Network Design",
+                "Network Configuration",
+                "Network Automation"
+            ],
+            "responsibilities": "Applying knowledge of network design, configuration, automation, cloud technologies and data analytics in a professional environment to support organizational efficiency and strengthen expertise for a future career in Information Technology Infrastructure or Data Engineering."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Enterprise Network Design and Deployment",
+            "type": "Academic",
+            "tech_used": [
+                "Cisco Packet Tracer",
+                "GNS3",
+                "VLAN",
+                "VPN",
+                "Wi-Fi security",
+                "Network Access Protection"
+            ],
+            "description": "Designed and deployed enterprise networks for multi-branch organizations, built and secured enterprise Wi-Fi systems. Configured VLAN, VPN; implemented Network Access Protection."
+        },
+        {
+            "name": "Keylogging Detection and Encryption Methods Research",
+            "type": "Academic",
+            "tech_used": [
+                "Keylogging detection",
+                "Data encryption methods"
+            ],
+            "description": "Researched and implemented keylogging detection. Studied encryption methods for secure data transmission."
+        },
+        {
+            "name": "Recommendation System & Data Mining",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "PySpark",
+                "Singular Value Decomposition",
+                "Collaborative Filtering",
+                "Association rules",
+                "Machine Learning"
+            ],
+            "description": "Built a recommendation system using Singular Value Decomposition and Collaborative Filtering. Applied association rules and Machine Learning with PySpark for Mining Massive Data Sets."
+        },
+        {
+            "name": "Business Intelligence System for Co.op Mart",
+            "type": "Academic",
+            "tech_used": [
+                "SQL",
+                "Data Analytics",
+                "Business Intelligence"
+            ],
+            "description": "Analyzed and managed a Business Intelligence system for Co.op Mart, supporting e-commerce strategies and decision making."
+        },
+        {
+            "name": "Vietnamese Named Entity Recognition & Machine Translation Research",
+            "type": "Academic",
+            "tech_used": [
+                "Machine Learning",
+                "Deep Learning",
+                "Named Entity Recognition",
+                "Attention mechanisms"
+            ],
+            "description": "Experimented with Vietnamese Named Entity Recognition using basic Machine Learning/Deep Learning; researched Attention mechanisms machine translation and medical text extraction."
+        },
+        {
+            "name": "Chat App & E-commerce Website Development",
+            "type": "Academic",
+            "tech_used": [
+                "TCP/UDP programming",
+                "PHP",
+                "HTML/CSS",
+                "XAMPP"
+            ],
+            "description": "Designed and developed a basic chat app using TCP/UDP protocols; built an e-commerce website using PHP, HTML/CSS on XAMPP."
+        },
+        {
+            "name": "Customer Relationship Management System Deployment",
+            "type": "Academic",
+            "tech_used": [
+                "Salesforce"
+            ],
+            "description": "Deployed and customized a Customer Relationship Management system with Salesforce."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Networks and Data Communication",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Ethical Hacker",
+            "issuer": "Cisco Network Academy",
+            "year": "2024"
+        }
+    ],
+    "honors_and_awards": []
+}

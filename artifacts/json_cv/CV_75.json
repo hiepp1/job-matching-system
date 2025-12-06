@@ -1,0 +1,130 @@
+{
+    "candidate_profile": {
+        "name": "TRAN HOANG SON",
+        "current_location": null,
+        "role_focus": "Software Tester",
+        "seniority_level": "Junior/Middle"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "C1",
+        "years_experience": 2.41
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            "Selenium",
+            "JUnit",
+            "Cucumber",
+            "Apache POI",
+            "Appium"
+        ],
+        "databases": [],
+        "devops_cloud": [
+            "Git"
+        ],
+        "tools_platforms": [
+            "Jira",
+            "Postman"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Black box testing",
+            "White box testing",
+            "API testing",
+            "SDLC",
+            "STLC",
+            "Functional testing",
+            "GUI testing",
+            "Regression testing",
+            "Retesting",
+            "Integration testing",
+            "System testing",
+            "User Acceptance Testing",
+            "Agile",
+            "Scrum",
+            "OOP",
+            "BDD",
+            "Page Object Model"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "Superfine",
+            "role": "QA Analyst",
+            "start_date": "2025-01",
+            "end_date": "2025-06",
+            "duration_months": 6,
+            "is_internship": false,
+            "tech_used": [
+                "Jira",
+                "Java",
+                "Selenium"
+            ],
+            "responsibilities": "Created checklists for new features and maintained existing ones. Performed testing based on checklists and raised bugs using Jira. Developed automation scripts using Java and Selenium. Proposed improvements to enhance UI/UX across the system. Researched ad network documentation and collaborated with developers to align Superfine features with ad networks. Worked closely with developers and customer representatives to define acceptance criteria for user stories."
+        },
+        {
+            "company": "DXC Viet Nam",
+            "role": "Software Tester/ QC",
+            "start_date": "2023-08",
+            "end_date": "2025-01",
+            "duration_months": 18,
+            "is_internship": false,
+            "tech_used": [
+                "Java",
+                "JUnit",
+                "Jira",
+                "Postman",
+                "Agile",
+                "Scrum"
+            ],
+            "responsibilities": "Worked in a team to build and perform testing on products weekly. Collaborated with the developer team to create effective test scripts and resolve bugs. Worked with Product Owners to clarify requirements and acceptance criteria. Defined automation test scripts for API testing using Java and JUnit. Reported defects to Jira. Worked in Agile Scrum teams, collaborating closely with developers to reproduce and resolve bugs. Supported in managing a small team. Collaborated with Business Analysts to clarify system functional requirements. Defined test cases based on user stories. Reported defects in Jira and retested defects. Coordinated with the on-site team to execute device-related test cases. Executed test cases for fund transfer, card services, payment loan, and corp B modules. Demonstrated fund transfer module functionality to the on-site team. Performed smoke testing for admin modules, fund transfer, card services, deposit. Estimated testing time for requirement changes in the fund transfer module. Retested defects in the UAT environment for fund transfers, card services, deposits."
+        },
+        {
+            "company": "HCL Viet Nam Company Limited",
+            "role": "Tester Trainee",
+            "start_date": "2023-03",
+            "end_date": "2023-07",
+            "duration_months": 5,
+            "is_internship": true,
+            "tech_used": [
+                "Java",
+                "Selenium",
+                "SQL",
+                "Page Object Model",
+                "Apache POI",
+                "Cucumber",
+                "Appium"
+            ],
+            "responsibilities": "Underwent technical training in Testing Fundamentals, Java, Selenium, SQL, Page Object Model (POM), Apache POI, BDD using Cucumber, and Appium. Received soft skill training in presentation, teamwork, email writing in an international business environment, and English communication."
+        }
+    ],
+    "projects": [],
+    "education": [
+        {
+            "institution": "TON DUC THANG UNIVERSITY",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": null,
+            "status": "Graduated"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "ISTQB Certified Tester Foundation Level",
+            "issuer": "ISTQB",
+            "year": null
+        },
+        {
+            "name": "ISTQB Certified - Agile Tester",
+            "issuer": "ISTQB",
+            "year": null
+        }
+    ],
+    "honors_and_awards": []
+}

@@ -1,0 +1,146 @@
+{
+    "candidate_profile": {
+        "name": "Ngoc Minh Nguyen",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "B2",
+        "years_experience": 0.25
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java"
+        ],
+        "frameworks_libraries": [
+            "Langchain",
+            "Pytorch",
+            "Chainlit",
+            "Gradio",
+            "Langgraph",
+            "Hugging Face",
+            "Unsloth",
+            "Cleanlab",
+            "OpenCV",
+            "Scikit-learn",
+            "Pandas",
+            "FastAPI"
+        ],
+        "databases": [
+            "SQLite",
+            "MongoDB"
+        ],
+        "devops_cloud": [
+            "AWS",
+            "Docker"
+        ],
+        "tools_platforms": [
+            "Git"
+        ],
+        "architectures_models": [
+            "LLMs",
+            "LLaMA 3",
+            "Mistral",
+            "Phi-4",
+            "Multi-agent systems"
+        ],
+        "techniques_concepts": [
+            "Data Structures and Algorithms",
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Digital Image Processing",
+            "Deep Learning",
+            "Computer Vision",
+            "NLP",
+            "RAG",
+            "Fine-tuning",
+            "QLoRA",
+            "Reasoning-driven tool-use",
+            "Memory retention",
+            "Context-aware conversations",
+            "Response verification",
+            "Image processing pipeline",
+            "End-to-end AI system design",
+            "Secure user management",
+            "Human-in-the-loop confirmation"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "NLP & KD Lab, Ton Duc Thang University",
+            "role": "AI Intern",
+            "start_date": "2025-04",
+            "end_date": "2025-07",
+            "duration_months": 3,
+            "is_internship": true,
+            "tech_used": [
+                "LangChain",
+                "FastAPI",
+                "NLP",
+                "LLMs"
+            ],
+            "responsibilities": "Collaborated in a 2-member team to design and implement an AI-powered website, integrating natural language interfaces. Developed a User Agent using LangChain for lab information and research paper retrieval. Built an Admin Agent with secure user management and human-in-the-loop confirmation. Focused on end-to-end AI system design, FastAPI backend integration, and intuitive user experiences."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Multimodal Multi-Agent Travel Support Bot",
+            "type": "Academic",
+            "tech_used": [
+                "LangGraph",
+                "MongoDB"
+            ],
+            "description": "Designed and implemented a scalable multi-agent AI system coordinating 4 specialized agents (Flight, Shuttle, Hotel, Tour) for complex travel planning. Leveraged reasoning-driven tool-use, memory retention, and context-aware conversations. Integrated MongoDB for real-time transactional updates and implemented a response verification mechanism to minimize hallucination risks."
+        },
+        {
+            "name": "Vietnam Legal Assistant",
+            "type": "Academic",
+            "tech_used": [
+                "RAG",
+                "LLMs",
+                "LLaMA 3",
+                "Mistral",
+                "Phi-4",
+                "QLoRA",
+                "Unsloth"
+            ],
+            "description": "Developed an AI-powered legal assistant using RAG to provide accurate legal information for Vietnamese users. Fine-tuned LLMs (LLaMA 3, Mistral, Phi-4) using QLoRA via Unsloth, achieving high evaluation scores (BERTScore F1 = 0.8913, ROUGE-1/2/L > 0.7). Reduced hallucination risks through RAG retrieval optimization and reranking."
+        },
+        {
+            "name": "Extracting Time from Analog Wall Clock",
+            "type": "Academic",
+            "tech_used": [
+                "OpenCV",
+                "NumPy"
+            ],
+            "description": "Built a vision solution to extract time from analog clock images using OpenCV & NumPy, focusing on an image processing pipeline without deep learning."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Deep Research with LangGraph",
+            "issuer": "LangChain Academy",
+            "year": "2025"
+        },
+        {
+            "name": "Long-Term Agentic Memory with LangGraph",
+            "issuer": "DeepLearning.AI",
+            "year": "2025"
+        }
+    ],
+    "honors_and_awards": []
+}

@@ -1,0 +1,83 @@
+{
+    "candidate_profile": {
+        "name": "Hoàng Đức Minh",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": null,
+        "gpa": 7.2,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java"
+        ],
+        "frameworks_libraries": [
+            "PyTorch",
+            "scikit-learn",
+            "pandas",
+            "numpy"
+        ],
+        "databases": [
+            "MySQL",
+            "Firebase"
+        ],
+        "devops_cloud": [
+            "Firebase"
+        ],
+        "tools_platforms": [
+            "Git",
+            "GitHub"
+        ],
+        "architectures_models": [
+            "GAN",
+            "Machine Learning Models"
+        ],
+        "techniques_concepts": [
+            "Data Processing",
+            "Data Balancing",
+            "Feature Selection",
+            "Fraud Detection",
+            "Steganography Detection"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Machine Learning Fraud Detection",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "scikit-learn",
+                "pandas",
+                "numpy"
+            ],
+            "description": "Built a machine learning model to detect fraudulent transactions in financial data. Achieved a balanced trade-off between precision and recall, demonstrating the model’s applicability in real-world fraud detection."
+        },
+        {
+            "name": "Steganography Detection using RS-GAN",
+            "type": "Academic",
+            "tech_used": [
+                "PyTorch",
+                "GAN"
+            ],
+            "description": "Re-implemented the RS-GAN model from a research paper to detect hidden data files and protect information from hackers. The model achieved relatively high results despite hardware and memory limitations, still delivering reliable outcomes."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

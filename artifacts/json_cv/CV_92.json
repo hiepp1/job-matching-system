@@ -1,0 +1,173 @@
+{
+    "candidate_profile": {
+        "name": "LE NGUYEN VIET HIEP",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "C++"
+        ],
+        "frameworks_libraries": [
+            "TensorFlow",
+            "PyTorch",
+            "Hugging Face",
+            "LangChain",
+            "NLTK",
+            "Underthesea",
+            "Keras",
+            "FAISS",
+            "BM25",
+            "Gradio"
+        ],
+        "databases": [
+            "PostgreSQL"
+        ],
+        "devops_cloud": [
+            "Hugging Face Spaces",
+            "Git LFS",
+            "n8n"
+        ],
+        "tools_platforms": [
+            "GitHub",
+            "VSCode",
+            "Google Colab",
+            "Gemini API"
+        ],
+        "architectures_models": [
+            "CNN",
+            "RNN",
+            "Transformer",
+            "Attention Mechanism",
+            "LLMs",
+            "DenseNet201",
+            "Encoder-Decoder"
+        ],
+        "techniques_concepts": [
+            "Fine-tuning",
+            "Retrieval-Augmented Generation (RAG)",
+            "MLOps",
+            "NLP preprocessing",
+            "Semantic vector search",
+            "Keyword retrieval",
+            "ETL",
+            "Sequence padding",
+            "Look-ahead masking",
+            "Teacher-forcing",
+            "Agile",
+            "Scrum",
+            "Data preprocessing",
+            "Model fine-tuning",
+            "Experiment tracking",
+            "Machine Translation",
+            "Image Captioning",
+            "Hybrid Search",
+            "Self-attention mechanisms",
+            "Positional encoding",
+            "Deep learning",
+            "Low-code AI integration",
+            "SacreBLEU",
+            "BLEU"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "NewAI Vietnam",
+            "role": "AI Engineer (Intern)",
+            "start_date": "2025-08",
+            "end_date": "Present",
+            "duration_months": 0,
+            "is_internship": true,
+            "tech_used": [
+                "LLMs",
+                "NLP",
+                "RAG",
+                "APIs"
+            ],
+            "responsibilities": "Supported internal chatbot development by fine-tuning LLMs for specialized company tasks. Implemented NLP preprocessing pipelines for Vietnamese text to prepare datasets for RAG system. Coordinated the integration and testing of third-party APIs into existing company frameworks and applications."
+        }
+    ],
+    "projects": [
+        {
+            "name": "AI-Powered Job Matching System",
+            "type": "Personal",
+            "tech_used": [
+                "MLOps",
+                "FAISS",
+                "BM25",
+                "Gemini API",
+                "Gradio",
+                "Hugging Face Spaces",
+                "Git LFS",
+                "Python"
+            ],
+            "description": "Designed, built, and deployed an end-to-end MLOps application that intelligently ranks and matches CVs to Job Descriptions. Implemented a Hybrid Search engine combining FAISS (for semantic vector search) with BM25 (for precise keyword retrieval). Utilized Gemini API for intelligent ETL (parsing PDFs to structured JSON), architected a full MLOps pipeline, built a Gradio web UI, and deployed on Hugging Face Spaces with Git LFS for artifact versioning."
+        },
+        {
+            "name": "Machine Translation Transformer",
+            "type": "Academic",
+            "tech_used": [
+                "Transformer",
+                "PyTorch",
+                "Encoder-Decoder",
+                "NLTK",
+                "Underthesea",
+                "Python"
+            ],
+            "description": "Built and trained a Transformer model from scratch using PyTorch for English-to-Vietnamese machine translation. Implemented the complete Encoder-Decoder architecture (4 layers, 8 heads), including self-attention mechanisms and positional encoding. Built a custom NLP pipeline with specialized tokenization (NLTK & Underthesea), managed sequence padding, and implemented look-ahead masking and teacher-forcing for decoder training. Trained the model on a 150,000 parallel sentence-pair corpus and evaluated translation fluency with SacreBLEU equals 29.3303."
+        },
+        {
+            "name": "Image Captioning Generator",
+            "type": "Academic",
+            "tech_used": [
+                "CNN",
+                "LSTM",
+                "Encoder-Decoder",
+                "TensorFlow",
+                "Keras",
+                "DenseNet201",
+                "Python"
+            ],
+            "description": "Developed a deep learning model to automatically generate descriptive, human-like captions for any given image. Implemented a CNN-LSTM Encoder-Decoder architecture using TensorFlow/Keras with a pre-trained DenseNet201 as the feature encoder. Executed a two-phase training strategy (base-train on Flickr8k, fine-tune on Flickr30k), managed a vocabulary of 8,769 tokens, and used a custom Keras data generator. Improved model performance via fine-tuning, the BLEU-1 score from 0.570 to 0.606, and the BLEU-4 score from 0.152 to 0.176."
+        },
+        {
+            "name": "Personal AI Agent Assistant",
+            "type": "Personal",
+            "tech_used": [
+                "n8n",
+                "Google Gemini API",
+                "PostgreSQL",
+                "LangChain",
+                "Python"
+            ],
+            "description": "An intelligent Facebook Messenger chatbot using n8n for automation, Google Gemini API for NLP, PostgreSQL for memory, and LangChain for scalable conversations. Demonstrates low-code AI integration."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "LLM Engineering: Master AI and Large Language Models",
+            "issuer": "Udemy",
+            "year": "2025"
+        }
+    ],
+    "honors_and_awards": []
+}

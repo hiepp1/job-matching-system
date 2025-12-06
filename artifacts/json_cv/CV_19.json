@@ -1,0 +1,115 @@
+{
+    "candidate_profile": {
+        "name": "PHAM KHANH LINH",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": null,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "C#"
+        ],
+        "frameworks_libraries": [
+            "Spring Boot",
+            "ASP.NET Core MVC",
+            "Spring Security",
+            "Spring Data JPA",
+            "Entity Framework Core",
+            "TensorFlow",
+            "Keras",
+            "PyTorch",
+            "Thymeleaf",
+            "Bootstrap",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "databases": [
+            "MySQL",
+            "SQL Server"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "IntelliJ",
+            "Git",
+            "Visual Studio",
+            "Google Colab",
+            "Kaggle"
+        ],
+        "architectures_models": [
+            "LSTM",
+            "Attention Networks"
+        ],
+        "techniques_concepts": [
+            "RESTful API",
+            "Deep Learning",
+            "Web Development",
+            "Database Management",
+            "OOP"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Real Estate Transaction Website",
+            "type": "Academic",
+            "tech_used": [
+                "Java 17",
+                "Spring Security",
+                "Spring Data JPA",
+                "JWT",
+                "RESTful API",
+                "Thymeleaf"
+            ],
+            "description": "A real estate management platform enabling users, brokers, and administrators to manage properties, transactions, and personal information. Features include posting, searching, filtering, profile management, wishlist, transaction history, and responsive design."
+        },
+        {
+            "name": "Fast Food Ordering Website",
+            "type": "Academic",
+            "tech_used": [
+                "ASP.NET Core MVC",
+                "C#",
+                "Entity Framework Core",
+                "SQL Server",
+                "Bootstrap",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description": "Developed a fast-food ordering website for users to view menus, add items to cart, place orders, and manage accounts. Administrators can manage products, orders, and users."
+        },
+        {
+            "name": "Vietnamese Spell Correction Model using Deep Learning",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "TensorFlow",
+                "Keras",
+                "PyTorch",
+                "LSTM",
+                "Attention Networks"
+            ],
+            "description": "Built an automatic spell correction model for Vietnamese using LSTM and attention networks."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

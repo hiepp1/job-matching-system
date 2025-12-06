@@ -1,0 +1,74 @@
+{
+    "candidate_profile": {
+        "name": "Vu Minh Phuc",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "DevOps/SRE Engineer",
+        "seniority_level": "Junior/Middle"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "B2",
+        "years_experience": 2.41
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "JavaScript",
+            "Java",
+            "Scratch",
+            "Lua"
+        ],
+        "frameworks_libraries": [
+            "React"
+        ],
+        "databases": [
+            "MySQL"
+        ],
+        "devops_cloud": [
+            "Git",
+            "CI/CD",
+            "DevOps",
+            "SRE"
+        ],
+        "tools_platforms": [],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Software Development",
+            "Problem Solving",
+            "Teamwork",
+            "Communication",
+            "Logical Thinking",
+            "Foundational Programming Skills"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "Algorithmics Vietnam",
+            "role": "Programming Teacher",
+            "start_date": "2023-04",
+            "end_date": "2025-08",
+            "duration_months": 29,
+            "is_internship": false,
+            "tech_used": [
+                "Scratch",
+                "Python",
+                "Lua"
+            ],
+            "responsibilities": "Independently led coding classes for students aged 7-18, covering curriculum topics such as Scratch, Python, and Lua. Took full responsibility as the main instructor for multiple classes, ensuring lesson delivery, student engagement, and classroom management. Adapted teaching methods to different age groups and learning styles, helping students develop logical thinking and foundational programming skills. Monitored student progress, provided constructive feedback, and maintained communication with parents to support student development."
+        }
+    ],
+    "projects": [],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

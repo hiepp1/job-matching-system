@@ -1,0 +1,92 @@
+{
+    "candidate_profile": {
+        "name": "Quang Nguyen",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Flutter Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": 8.1,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Dart",
+            "Java",
+            "JavaScript"
+        ],
+        "frameworks_libraries": [
+            "Flutter",
+            "Riverpod",
+            "GetX",
+            "Provider",
+            "Retrofit"
+        ],
+        "databases": [
+            "Firebase",
+            "MySQL",
+            "SQL Server",
+            "Hive"
+        ],
+        "devops_cloud": [
+            "Firebase"
+        ],
+        "tools_platforms": [
+            "Git",
+            "GitHub",
+            "Android Studio",
+            "VS Code"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "REST APIs",
+            "Cross-platform mobile development",
+            "State Management",
+            "Optimized Firestore queries",
+            "Caching",
+            "Scalable architectures",
+            "Responsive UI"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "E-commerce Cross-platform App",
+            "type": "Academic",
+            "tech_used": [
+                "Flutter",
+                "Firebase",
+                "Firestore",
+                "Hive",
+                "Cloud Functions",
+                "Android",
+                "Windows",
+                "Web"
+            ],
+            "description": "Developed product module with pagination, variants, advanced search/filter/sort, optimized Firestore queries, and Hive caching. Built cart, checkout, discounts, and loyalty program, moving complex business logic to Cloud Functions for scalability. Integrated Firebase for real-time product reviews & ratings and managed product data on Firestore. Developed responsive UI across Android, Windows, and Web."
+        },
+        {
+            "name": "To-Do List App",
+            "type": "Academic",
+            "tech_used": [
+                "Riverpod",
+                "Firebase Realtime Database"
+            ],
+            "description": "Developed task management features including add, edit, delete, search, and filter tasks. Designed and implemented responsive UI/UX with Riverpod state management. Integrated Firebase Realtime Database for instant updates across devices."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

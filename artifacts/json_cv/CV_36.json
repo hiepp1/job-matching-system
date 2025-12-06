@@ -1,0 +1,64 @@
+{
+    "candidate_profile": {
+        "name": "Nguyễn Anh Tuấn",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "QA Tester",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": null,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "SQL",
+            "HTML",
+            "CSS"
+        ],
+        "frameworks_libraries": [],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Manual Testing",
+            "Test Case Design",
+            "Test Plan Development",
+            "Software Testing Life Cycle (STLC)",
+            "Software Development Life Cycle (SDLC)",
+            "Bug Reporting",
+            "Module Integration Testing",
+            "Test Automation Concepts"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Restaurant Management Software Gimji",
+            "type": "Academic",
+            "tech_used": [
+                "Manual Testing",
+                "Test Case Design",
+                "Test Plan Development",
+                "Unit Testing",
+                "Bug Reporting",
+                "Module Integration Testing"
+            ],
+            "description": "As a Tester in a 5-member team, analyzed SRS documents, developed test plans and methodologies. Wrote and refined test cases, performed unit testing, and tested module interactions. Prepared test reports and project documentation related to the entire testing process. Monitored bug resolution by the development team and compiled test progress reports."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

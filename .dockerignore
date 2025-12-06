@@ -1,0 +1,7 @@
+.git
+.gitignore
+venv
+__pycache__
+.env
+artifacts/my_fine_tuned_model/*.bin 
+*.pdf

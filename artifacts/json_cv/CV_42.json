@@ -1,0 +1,185 @@
+{
+    "candidate_profile": {
+        "name": "Nguyễn Hoàng Sang",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "B1",
+        "gpa": 3.18,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Javascript",
+            "Java",
+            "Typescript"
+        ],
+        "frameworks_libraries": [
+            "NestJs",
+            "ReactJs",
+            "ExpressJs",
+            "ReactNative",
+            "NextJs",
+            "Redux Toolkit",
+            "Axios",
+            "Clerk",
+            "Node.js",
+            "MUI",
+            "Oracle ERP"
+        ],
+        "databases": [
+            "Mongodb",
+            "SQL server",
+            "MySQL",
+            "Postgresql",
+            "Firebase",
+            "PostgreSQL"
+        ],
+        "devops_cloud": [
+            "Git",
+            "Docker",
+            "GitHub actions",
+            "AWS S3",
+            "Vercel",
+            "Google Cloud"
+        ],
+        "tools_platforms": [
+            "Postman",
+            "BI Publisher",
+            "XML Publisher",
+            "Form Builder"
+        ],
+        "architectures_models": [
+            "microservices",
+            "RESTful API",
+            "Message queue",
+            "WebSocket"
+        ],
+        "techniques_concepts": [
+            "Design pattern",
+            "OOP",
+            "Agile",
+            "Scrum",
+            "JWT",
+            "Email verification",
+            "Payment Integration",
+            "Inventory Management",
+            "Accounts Payable",
+            "Accounts Receivable",
+            "Purchase Order",
+            "Order Management"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "FPT IS - HCM BRANCH",
+            "role": "ERP Programmer Intern",
+            "start_date": "2025-04",
+            "end_date": "2025-07",
+            "duration_months": 3,
+            "is_internship": true,
+            "tech_used": [
+                "Oracle ERP",
+                "Inventory Management",
+                "Accounts Payable",
+                "Accounts Receivable",
+                "Purchase Order",
+                "Order Management",
+                "BI Publisher",
+                "XML Publisher",
+                "Form Builder"
+            ],
+            "responsibilities": "Gained in-depth knowledge and hands-on experience with the Oracle ERP system, focusing on key modules: Inventory Management (INV), Accounts Payable (AP), Accounts Receivable (AR), Purchase Order (PO) & Order Management (OM). Proficiently utilized Oracle reporting tools: BI Publisher & XML Publisher, Form Builder."
+        }
+    ],
+    "projects": [
+        {
+            "name": "EVENT MANAGEMENT APP",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "Git",
+                "ReactNative",
+                "TypeScript",
+                "Redux Toolkit",
+                "Axios",
+                "Clerk",
+                "NestJS",
+                "MongoDB",
+                "PostgreSQL",
+                "Firebase",
+                "JWT",
+                "RESTful API",
+                "RabbitMQ",
+                "WebSocket",
+                "GitHub actions",
+                "Docker",
+                "microservices"
+            ],
+            "description": "This event management app allows the admin to manage events, posts, and users. Everyone else can create events, post, or rate events, participate in them, and watch their statistics."
+        },
+        {
+            "name": "NHA TRANG SEA FOOD",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "Git",
+                "ExpressJS",
+                "JavaScript",
+                "Node.js",
+                "Firebase",
+                "JWT",
+                "Email verification",
+                "AWS S3",
+                "RESTful architecture",
+                "MoMo",
+                "Vercel",
+                "React",
+                "Redux toolkit",
+                "Axios"
+            ],
+            "description": "An e-commerce platform specializing in fresh seafood delivery, the website caters to two distinct user groups: customers and administrators, each with tailored functionalities."
+        },
+        {
+            "name": "WEB MOVIE",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "Git",
+                "ReactJS",
+                "JavaScript",
+                "MUI",
+                "Axios",
+                "NestJS",
+                "MongoDB",
+                "JWT",
+                "RESTful API",
+                "Google Cloud"
+            ],
+            "description": "A website where everybody can search and watch movies, create a list of movies to watch later, comment, or add it to their favorite list,... Besides, the website allows the admin to manage films and users."
+        }
+    ],
+    "education": [
+        {
+            "institution": "TON DUC THANG UNIVERSITY",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Agile-Scrum certificate",
+            "issuer": "TECH BASE VIETNAM",
+            "year": "2023"
+        }
+    ],
+    "honors_and_awards": [
+        {
+            "title": "High scores in the 2021 enrollment period",
+            "issuer": "TON DUC THANG UNIVERSITY"
+        }
+    ]
+}

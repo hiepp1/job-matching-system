@@ -1,0 +1,106 @@
+{
+    "candidate_profile": {
+        "name": "Thằng Ngọc Quỳnh",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": null,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            "LangChain",
+            "Streamlit"
+        ],
+        "databases": [
+            "MySQL",
+            "MongoDB"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Flowise",
+            "Odoo",
+            "Git",
+            "GitHub",
+            "Jira"
+        ],
+        "architectures_models": [
+            "Microservices",
+            "TinyBERT"
+        ],
+        "techniques_concepts": [
+            "SDLC",
+            "Waterfall",
+            "Agile",
+            "Scrum",
+            "Natural Language Processing",
+            "Machine Learning",
+            "Service-Oriented Architecture",
+            "Enterprise Resource Planning",
+            "Sentiment Analysis",
+            "RAG"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Multi-Stage RAG Agent with FlowiseAI",
+            "type": "Academic",
+            "tech_used": [
+                "FlowiseAI",
+                "LangChain",
+                "RAG"
+            ],
+            "description": "Designed a multi-stage pipeline with FlowiseAI and LangChain for a RAG system, and tested its accuracy via the FlowiseAI interface and locally."
+        },
+        {
+            "name": "Sentiment Analysis with TinyBERT & Logistic Regression",
+            "type": "Academic",
+            "tech_used": [
+                "TinyBERT",
+                "Logistic Regression",
+                "Streamlit",
+                "Python"
+            ],
+            "description": "Trained a sentiment classification model on 51,000 Kaggle samples, achieving 87% accuracy, and deployed a demo using Streamlit to support text and Reddit data input."
+        },
+        {
+            "name": "Dental Clinic Management System",
+            "type": "Academic",
+            "tech_used": [
+                "MySQL",
+                "MongoDB",
+                "Microservices"
+            ],
+            "description": "Designed requirements, ERD, and system architecture, then implemented the system with MySQL and MongoDB following a microservices model."
+        },
+        {
+            "name": "Recruitment and Fixed Asset Management Process with Odoo",
+            "type": "Academic",
+            "tech_used": [
+                "Odoo"
+            ],
+            "description": "Configured various Odoo modules (Recruitment, Employees, Surveys, Fixed Assets) and simulated recruitment and fixed asset management processes in a classroom setting."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Bachelor",
+            "major": "Computer Networks and Data Communications",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

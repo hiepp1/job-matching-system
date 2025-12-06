@@ -1,0 +1,151 @@
+{
+    "candidate_profile": {
+        "name": "Nguyễn Hà My",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": 8.68,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "Python",
+            "Dart",
+            "C#",
+            "C",
+            "JavaScript"
+        ],
+        "frameworks_libraries": [
+            "ExpressJs",
+            "Bootstrap",
+            "HTML",
+            "CSS",
+            "Tailwind CSS",
+            "XML",
+            "JWT",
+            "Flutter",
+            "ReactJS",
+            "Node.js"
+        ],
+        "databases": [
+            "SQL Server",
+            "MongoDB",
+            "Firebase",
+            "Appwrite"
+        ],
+        "devops_cloud": [
+            "AWS",
+            "Railway",
+            "Docker",
+            "Git",
+            "GitHub",
+            "GitLab"
+        ],
+        "tools_platforms": [
+            "Postman"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Singleton Pattern",
+            "Factory Pattern",
+            "Strategy Pattern",
+            "Observer Pattern",
+            "Command Pattern",
+            "Decorator Pattern",
+            "Adapter Pattern",
+            "Template Pattern",
+            "State Pattern",
+            "Builder Pattern",
+            "RESTful API",
+            "Agile Development",
+            "Scrum Framework",
+            "Clean Architecture",
+            "CRUD Operations",
+            "Secure Authentication and Authorization",
+            "Real-time Communication",
+            "WebSocket"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "English Learning App & Design pattern",
+            "type": "Personal",
+            "tech_used": [
+                "Java",
+                "XML",
+                "Firebase"
+            ],
+            "description": "A mobile application for learning English with an XML-based UI, applying design patterns for clean architecture, and using Firebase for real-time data storage and authentication."
+        },
+        {
+            "name": "Electronic Components Management Website",
+            "type": "Personal",
+            "tech_used": [
+                "Tailwind CSS",
+                "Express.js",
+                "JWT",
+                "MongoDB"
+            ],
+            "description": "A responsive website for managing electronic components inventory and sales."
+        },
+        {
+            "name": "Cross-Platform Electronic Components App",
+            "type": "Personal",
+            "tech_used": [
+                "Dart",
+                "Flutter",
+                "Python",
+                "Firebase",
+                "WebSocket"
+            ],
+            "description": "A multi-platform e-commerce application for electronic components, supporting both customers and administrators, with real-time communication features."
+        },
+        {
+            "name": "High School Student Management Website",
+            "type": "Personal",
+            "tech_used": [
+                "ReactJS",
+                "Node.js",
+                "MongoDB"
+            ],
+            "description": "A web-based platform for managing and tracking high school student scores."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Information Technology - Software Engineering",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Agile Development & Scrum Framework Course",
+            "issuer": "TECH BASE Vietnam",
+            "year": "2024"
+        }
+    ],
+    "honors_and_awards": [
+        {
+            "title": "Scholarship semester I & II",
+            "issuer": "Ton Duc Thang University"
+        },
+        {
+            "title": "Scholarship semester I & II",
+            "issuer": "Ton Duc Thang University"
+        },
+        {
+            "title": "Scholarship semester I",
+            "issuer": "Ton Duc Thang University"
+        }
+    ]
+}

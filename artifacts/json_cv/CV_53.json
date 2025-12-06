@@ -1,0 +1,122 @@
+{
+    "candidate_profile": {
+        "name": "Pham Tien Dat",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer Intern",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": "8.2/10",
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python"
+        ],
+        "frameworks_libraries": [
+            "PyTorch",
+            "Scikit-learn",
+            "NumPy",
+            "Pandas",
+            "OpenCV",
+            "Ultralytics YOLOv8",
+            "TorchText",
+            "Matplotlib",
+            "FlagEmbedding",
+            "Rank BM25"
+        ],
+        "databases": [
+            "ChromaDB"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "GPT-4o"
+        ],
+        "architectures_models": [
+            "YOLOv8",
+            "GPT-4",
+            "LLM",
+            "SVM"
+        ],
+        "techniques_concepts": [
+            "Hybrid search",
+            "Vector-based search",
+            "Keyword-based search",
+            "Re-ranking",
+            "Data preprocessing",
+            "Fine-tuning",
+            "Object detection",
+            "Multi-object tracking",
+            "Deep learning",
+            "Poem generation",
+            "Temperature sampling",
+            "Computer Vision",
+            "Natural Language Processing",
+            "Traditional Machine Learning",
+            "Image processing",
+            "Feature extraction",
+            "RAG"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "RAG-based Chatbot for the 2019 Labor Law",
+            "type": "Academic",
+            "tech_used": [
+                "ChromaDB",
+                "Hybrid search",
+                "FlagEmbedding",
+                "GPT-4o",
+                "Rank BM25",
+                "GPT-4"
+            ],
+            "description": "Built an efficient hybrid retrieval architecture combining ChromaDB for vector-based search and Rank BM25 for keyword-based search. Implemented a re-ranking mechanism with FlagEmbedding to filter and reorder documents, ensuring high-quality, relevant information for GPT-4 answer generation."
+        },
+        {
+            "name": "Video Tracking on MOT17 Dataset",
+            "type": "Personal",
+            "tech_used": [
+                "Ultralytics YOLOv8",
+                "pandas",
+                "OpenCV"
+            ],
+            "description": "Developed a comprehensive Computer Vision project focused on multi-object tracking, demonstrating understanding of the full ML pipeline from data preprocessing (converting MOT17 dataset to YOLO format) to fine-tuning a pre-trained YOLOv8 model for object detection."
+        },
+        {
+            "name": "Poem Generation",
+            "type": "Personal",
+            "tech_used": [
+                "PyTorch",
+                "TorchText",
+                "Pandas"
+            ],
+            "description": "Independently developed a deep learning model for automated poem generation. The project involved collecting and preprocessing data, training the model using PyTorch, integrating special tokens (<sos>, <eos>, <eol>), and applying temperature sampling to control randomness for unique verse generation."
+        },
+        {
+            "name": "Traffic Sign Detection",
+            "type": "Personal",
+            "tech_used": [
+                "Scikit-learn",
+                "OpenCV",
+                "NumPy",
+                "Matplotlib"
+            ],
+            "description": "Focused on applying Traditional Machine Learning techniques, using OpenCV for image processing, extracting key features, and training a Support Vector Machine (SVM) classifier with Scikit-learn to categorize different types of traffic signs."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Computer Science",
+            "major": "Computer Science",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

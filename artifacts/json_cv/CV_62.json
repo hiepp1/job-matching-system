@@ -1,0 +1,60 @@
+{
+    "candidate_profile": {
+        "name": "Ngô Hoàng Khôi",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Fullstack Developer",
+        "seniority_level": "Fresher"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "Javascript",
+            "Python",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            "Spring Boot",
+            "Node.js"
+        ],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Figma",
+            "draw.io"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Authentication"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "E-commerce Website",
+            "type": "Personal",
+            "tech_used": [
+                "SQL",
+                "Spring Boot"
+            ],
+            "description": "Designed user interface. Implemented product management features (add, delete, edit) for the store side. Enabled viewing and purchasing products. Implemented authentication (Sign in, Sign up)."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": "2024",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

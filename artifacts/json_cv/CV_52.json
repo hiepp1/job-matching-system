@@ -1,0 +1,83 @@
+{
+    "candidate_profile": {
+        "name": "DOAN THAI TU",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Frontend Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": null,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "TypeScript",
+            "PHP"
+        ],
+        "frameworks_libraries": [
+            "React.js",
+            "Tailwind CSS"
+        ],
+        "databases": [
+            "MySQL"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Git",
+            "GitHub",
+            "Node.js",
+            "Vite"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "RESTful",
+            "Responsive UI",
+            "Data Visualization",
+            "Web Development",
+            "Frontend Development"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Student Management System",
+            "type": "Academic",
+            "tech_used": [
+                "PHP",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "MySQL"
+            ],
+            "description": "Developed a web-based application to manage student accounts with login, registration, and admin dashboard."
+        },
+        {
+            "name": "Data Visualization Frontend",
+            "type": "Academic",
+            "tech_used": [
+                "React.js",
+                "TypeScript",
+                "Vite",
+                "Tailwind CSS"
+            ],
+            "description": "Created a frontend dashboard to visualize datasets from the backend API. Implemented responsive UI and data-driven charts."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Software Engineering",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

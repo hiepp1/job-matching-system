@@ -1,0 +1,91 @@
+{
+    "candidate_profile": {
+        "name": "NGUYEN CONG TOAN",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Network/Cybersecurity Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": null,
+        "gpa": 7.35,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Bash",
+            "Assembly",
+            "C",
+            "C++",
+            "SQL",
+            "HTML",
+            "CSS",
+            "PHP"
+        ],
+        "frameworks_libraries": [],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Snort",
+            "Wazuh",
+            "Burp Suite",
+            "Wireshark",
+            "Nmap",
+            "Linux",
+            "Windows Server",
+            "LetsDefend",
+            "TryHackMe",
+            "Bandit",
+            "Natas",
+            "Leviathan",
+            "Krypton"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "IDS/IPS",
+            "SIEM",
+            "Computer architecture",
+            "Computer networks",
+            "System security",
+            "Anomaly detection",
+            "Log analysis (regex)",
+            "Syslog configuration",
+            "Cybersecurity",
+            "Web development"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Cybersecurity Wargame Challenges",
+            "type": "Personal",
+            "tech_used": [
+                "Bandit",
+                "Natas",
+                "Leviathan",
+                "Krypton",
+                "Cybersecurity concepts"
+            ],
+            "description": "Completed various cybersecurity wargame challenges to enhance practical skills in information security."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Networks and Data Communication",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "CCNA",
+            "issuer": "Cisco",
+            "year": null
+        }
+    ],
+    "honors_and_awards": []
+}

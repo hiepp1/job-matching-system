@@ -1,0 +1,102 @@
+{
+    "candidate_profile": {
+        "name": "Nguyễn Hoàng Lộc",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": null,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "C/C++",
+            "Java",
+            "Python",
+            "Dart",
+            "C#"
+        ],
+        "frameworks_libraries": [
+            "Flutter",
+            "Unity"
+        ],
+        "databases": [
+            "MySQL",
+            "SQLite",
+            "Firebase Realtime Database",
+            "Firestore"
+        ],
+        "devops_cloud": [
+            "Firebase"
+        ],
+        "tools_platforms": [
+            "Git",
+            "GitHub",
+            "VS Code",
+            "Android Studio",
+            "Unity Editor",
+            "Trello",
+            "Jira",
+            "Postman"
+        ],
+        "architectures_models": [
+            "MVC",
+            "MVVM"
+        ],
+        "techniques_concepts": [
+            "Object-Oriented Programming (OOP)",
+            "Error Handling",
+            "Performance Optimization",
+            "REST API",
+            "Responsive Design",
+            "Version Control",
+            "CRUD",
+            "Database Schema Design",
+            "Query Optimization",
+            "Web Development",
+            "Game Development",
+            "Mobile Development"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "E-Learning Management App",
+            "type": "Academic",
+            "tech_used": [
+                "Flutter",
+                "Dart",
+                "Firebase",
+                "SQLite",
+                "REST API",
+                "GitHub"
+            ],
+            "description": "Developed a cross-platform E-Learning application (Web, Android, Windows) inspired by Google Classroom, enabling instructors and students to interact, manage, and track online learning. Built with Flutter (Dart), integrated Firebase and SQLite for both online and offline functionality. Key features included: dual interfaces (Instructor/Student), semester/course/group/student management with CSV import and duplicate checking, assignment/quiz/notification/learning material system with deadlines, attachments, and score statistics, discussion forum and private chat (in-app notifications, automated email), learning dashboard (progress, deadlines, result charts), responsive, high-speed UI. Project duration: 3 months (Feb 2024 - May 2024)."
+        },
+        {
+            "name": "Movie Ticket Booking Website",
+            "type": "Academic",
+            "tech_used": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "description": "Designed and built a movie ticket booking website with a modern, intuitive interface. Key pages: Homepage, Movie List, Movie Details, Showtimes, Seat Selection, Booking Confirmation. Features included: movie list with posters, trailers, short descriptions; movie details page with duration, genre, cast, and showtimes; intuitive seat selection system using colors for seat status (empty, booked, selected); booking confirmation interface with total price and clear ticket information; responsive interface compatible with multiple platforms (mobile, tablet, desktop); applied CSS effects (hover, transition) for enhanced user experience. Project duration: 3 months (Feb 2024 - May 2024)."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Information Technology",
+            "major": "Software Engineering",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

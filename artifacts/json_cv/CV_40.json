@@ -1,0 +1,82 @@
+{
+    "candidate_profile": {
+        "name": "Tuấn Đăng Khoa Lê",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Network Administrator Intern",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": null,
+        "gpa": null,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [],
+        "frameworks_libraries": [],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Cisco Router",
+            "Cisco Switch",
+            "Packet Tracer",
+            "GNS3",
+            "Windows Server",
+            "Ubuntu"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Subnetting",
+            "VLAN",
+            "VPN",
+            "DHCP",
+            "DNS",
+            "Firewall Configuration",
+            "IPSec VPN",
+            "User Permission Management",
+            "Network Management",
+            "Network Security",
+            "Routing Protocols",
+            "Troubleshooting"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Network Management System Development",
+            "type": "Academic",
+            "tech_used": [
+                "LAN",
+                "WAN",
+                "Network Monitoring",
+                "Alerting Systems",
+                "Network Security Analysis",
+                "Reporting Tools"
+            ],
+            "description": "Developed an internal network management system to monitor, alert on unauthorized connections and critical device failures. Analyzed and handled unauthorized connection alerts, ensuring internal network security. Built automated reports on network status and incidents to support maintenance."
+        },
+        {
+            "name": "Network Model Design and Deployment",
+            "type": "Academic",
+            "tech_used": [
+                "Routing Protocols",
+                "Network Security",
+                "Router Configuration",
+                "Switch Configuration"
+            ],
+            "description": "Designed and deployed a network model for a medium-sized enterprise. Implemented routing protocols and network security to enhance information safety. Selected and configured network devices like routers and switches to ensure performance and stability."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Bachelor",
+            "major": "Computer Networks and Data Communications",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

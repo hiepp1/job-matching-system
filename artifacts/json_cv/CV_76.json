@@ -1,0 +1,93 @@
+{
+    "candidate_profile": {
+        "name": "Lê Tự Huy",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": 7.0,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "HTML",
+            "CSS",
+            "PHP"
+        ],
+        "frameworks_libraries": [
+            "Qt Designer",
+            "Laravel"
+        ],
+        "databases": [
+            "SQL Server",
+            "MySQL"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Git"
+        ],
+        "architectures_models": [
+            "AI Models"
+        ],
+        "techniques_concepts": [
+            "UI/UX Design",
+            "Responsive Design",
+            "Database Optimization",
+            "SQL Query Optimization",
+            "Data Analysis",
+            "System Architecture",
+            "AI Integration",
+            "Computer Vision",
+            "Image Recognition",
+            "Desktop Application Development",
+            "Web Development",
+            "Performance Optimization",
+            "Data Processing",
+            "Object-Oriented Programming"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Chinese Dictionary Software",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "HTML",
+                "CSS",
+                "Qt Designer",
+                "SQL Server",
+                "MySQL"
+            ],
+            "description": "Developed a high-performance dictionary application for Windows and MacOS, handling large datasets (60,000 dictionary types). Implemented features like multi-language lookup (Han, Han-Viet, Pinyin), character recognition using AI models, and customizable UI/UX. Optimized database queries for fast and accurate data retrieval. Integrated image input for lookup."
+        },
+        {
+            "name": "E-commerce Website",
+            "type": "Academic",
+            "tech_used": [
+                "PHP",
+                "HTML",
+                "CSS",
+                "Laravel",
+                "SQL Server"
+            ],
+            "description": "Designed and developed a responsive e-commerce website with features including product search, filtering, user authentication, contact forms, chat support, product posting, and a store revenue management dashboard. Optimized database architecture and SQL queries for efficient handling of user and product data."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

@@ -1,0 +1,93 @@
+{
+    "candidate_profile": {
+        "name": "ĐẶNG QUANG VINH",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Network Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": null,
+        "gpa": 7.76,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java"
+        ],
+        "frameworks_libraries": [],
+        "databases": [
+            "MySQL",
+            "SQL Server"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Cisco Packet Tracer",
+            "GNS3",
+            "Wireshark",
+            "VMware",
+            "VirtualBox",
+            "Windows Server",
+            "Linux"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "LAN/WAN",
+            "TCP/IP",
+            "OSI",
+            "VLAN",
+            "NAT",
+            "ACL",
+            "EIGRP",
+            "OSPF",
+            "Firewall",
+            "VPN",
+            "SSL/TLS",
+            "OOP",
+            "Network Automation",
+            "Data Processing",
+            "Network Design",
+            "Data Collection",
+            "Network Flow Analysis"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Small Business Network System Simulation on Packet Tracer",
+            "type": "Academic",
+            "tech_used": [
+                "Packet Tracer",
+                "VLAN",
+                "EIGRP",
+                "NAT",
+                "DHCP",
+                "WAN"
+            ],
+            "description": "Designed a network diagram including VLAN, EIGRP, NAT, DHCP, and WAN connection."
+        },
+        {
+            "name": "Research and Development of DoH (DNS over HTTPS) and Non-DoH Traffic Dataset",
+            "type": "Academic",
+            "tech_used": [
+                "Wireshark",
+                "Java",
+                "Python"
+            ],
+            "description": "Collected data using Wireshark; data processed and analyzed with Java and Python to extract network flow characteristics such as inter-packet latency, size, byte count, symmetry, and correlation within the flow."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Networks and Data Communications",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

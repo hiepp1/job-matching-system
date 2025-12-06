@@ -1,0 +1,86 @@
+{
+    "candidate_profile": {
+        "name": "HUNG TRUONG THAI GIA",
+        "current_location": null,
+        "role_focus": "Data Analyst",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            "Pandas",
+            "Scikit-Learn",
+            "PyQt6"
+        ],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Tableau",
+            "GitHub"
+        ],
+        "architectures_models": [
+            "Logistic Regression",
+            "KNN",
+            "Random Forest",
+            "SVM"
+        ],
+        "techniques_concepts": [
+            "Data Cleaning",
+            "Data Analysis",
+            "Data Visualization",
+            "GUI Programming",
+            "Data Preprocessing",
+            "Model Evaluation",
+            "Classification Problem",
+            "Exploratory Data Analysis (EDA)"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Building Han-Nom dictionary software in desktop",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "PyQt6",
+                "JSON"
+            ],
+            "description": "Built a Han-Nom dictionary software with 4 functional tabs (lookup, root search, stroke writing, conversion) using Python and PyQt6. Collected and converted data from JSON, designed processing flowcharts, and labeled image data for accurate search."
+        },
+        {
+            "name": "Machine Learning for classification problem",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "Pandas",
+                "Scikit-Learn",
+                "Logistic Regression",
+                "KNN",
+                "Random Forest",
+                "SVM"
+            ],
+            "description": "Implemented a classification process using the White Wine Quality dataset. Processed data (cleaning, normalizing, transforming) and built classification models (Logistic Regression, KNN, Random Forest, SVM) to classify wines into 'good' or 'bad' categories."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

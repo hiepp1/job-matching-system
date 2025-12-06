@@ -1,0 +1,98 @@
+{
+    "candidate_profile": {
+        "name": "ĐẶNG MINH THẮNG",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Frontend Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": 3.0,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "C#",
+            "Javascript",
+            "HTML/CSS"
+        ],
+        "frameworks_libraries": [
+            "ReactJS",
+            "Winform"
+        ],
+        "databases": [
+            "Sql Server",
+            "MySQL"
+        ],
+        "devops_cloud": [
+            "Debian 12"
+        ],
+        "tools_platforms": [
+            "Postman",
+            "Visual Studio Code",
+            "GitHub",
+            "FusionPBX"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Networking",
+            "AI",
+            "Software Development",
+            "Web Development",
+            "Game Development",
+            "UI/UX Design",
+            "Responsive Design",
+            "Business Logic",
+            "Call Management",
+            "VoIP"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "PetGrooming Website",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "ReactJS",
+                "UI/UX Design",
+                "Responsive Design"
+            ],
+            "description": "Designed UI/UX for the project, focusing on user experience and intuitive interface. Utilized ReactJS framework to build reusable components and ensure responsive design. Delivered a demo product with a user-friendly interface, optimized performance, and scalability for future features."
+        },
+        {
+            "name": "CallCenter – Enterprise Communication System",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "ReactJS",
+                "Debian 12",
+                "FusionPBX",
+                "UI/UX Design",
+                "VoIP"
+            ],
+            "description": "Contributed to UI/UX design, feature development, and system testing for a Call Center system. Enabled call management and integration with VoIP infrastructure."
+        },
+        {
+            "name": "Motorbike Rental Management System",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "C# WinForms",
+                "SQL Server"
+            ],
+            "description": "Built the user interface using C# WinForms, including login, vehicle management, billing, and admin modules. Designed and implemented business logic for rental/return tracking and customer management. Managed SQL Server database and performed comprehensive testing to ensure smooth operation."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Computer Networks and Data Communications",
+            "major": "Computer Networks and Data Communications",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

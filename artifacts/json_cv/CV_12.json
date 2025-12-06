@@ -1,0 +1,203 @@
+{
+    "candidate_profile": {
+        "name": "TANG CHAN HUNG",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Backend Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": null,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "PHP",
+            "JavaScript",
+            "HTML5",
+            "SCSS",
+            "CSS3",
+            "SQL",
+            "Java",
+            "C#"
+        ],
+        "frameworks_libraries": [
+            "WordPress",
+            "ACF Pro",
+            "WPBakery",
+            "Elementor",
+            "jQuery",
+            "Springboot",
+            "ASP .NET Core MVC",
+            "Laravel",
+            "Bootstrap",
+            "Eloquent ORM",
+            "Blade templating",
+            "JSP"
+        ],
+        "databases": [
+            "MySQL",
+            "SQL Server"
+        ],
+        "devops_cloud": [
+            "GitLab",
+            "FileZilla",
+            "SMTP"
+        ],
+        "tools_platforms": [
+            "Yoast SEO",
+            "Lighthouse",
+            "PageSpeed Insights",
+            "Google reCAPTCHA",
+            "Composer"
+        ],
+        "architectures_models": [
+            "MVC"
+        ],
+        "techniques_concepts": [
+            "Agile",
+            "Scrum",
+            "OOP",
+            "RESTful",
+            "SEO",
+            "Performance Optimization",
+            "Database Optimization",
+            "Security Best Practices",
+            "Mobile Responsiveness",
+            "Cross-Browser Compatibility",
+            "Custom Post Types",
+            "Taxonomies",
+            "Meta Fields",
+            "Flexible Content Management",
+            "AJAX Pagination",
+            "Lazy Loading",
+            "Minification",
+            "Schema Markup",
+            "Breadcrumbs",
+            "Meta Optimization",
+            "Staging Environments",
+            "Debugging"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "Top On Seek",
+            "role": "WordPress PHP Developer",
+            "start_date": "2024-10",
+            "end_date": "Present",
+            "duration_months": 0,
+            "is_internship": false,
+            "tech_used": [
+                "WordPress",
+                "PHP",
+                "MySQL",
+                "ACF Pro",
+                "WPBakery",
+                "Elementor",
+                "JavaScript",
+                "jQuery",
+                "HTML5",
+                "SCSS",
+                "CSS3",
+                "Google reCAPTCHA",
+                "SMTP",
+                "FileZilla",
+                "GitLab",
+                "Yoast SEO",
+                "Lighthouse",
+                "PageSpeed Insights",
+                "Agile Process",
+                "Team Collaboration"
+            ],
+            "responsibilities": "Developed and customized WordPress themes and plugins, including custom post types, taxonomies, and meta fields. Built custom Elementor elements and implemented ACF Pro for flexible content management. Maintained and optimized websites for performance and security. Handled website maintenance, debugging, and feature extensions across staging environments with deployments via FileZilla. Ensured mobile responsiveness and cross-browser compatibility. Applied SEO best practices using Yoast SEO. Worked in Agile Scrum teams, collaborating with designers and project managers, and participating in sprints and daily stand-ups."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Happiness Clinic and Hospital (Estella)",
+            "type": "Commercial Client Project",
+            "tech_used": [
+                "WordPress",
+                "PHP",
+                "ACF Pro",
+                "AJAX",
+                "Google reCAPTCHA",
+                "SMTP",
+                "FileZilla",
+                "Agile Scrum"
+            ],
+            "description": "Developed and customized WordPress themes and plugins for doctors, services, specialties, and booking forms. Integrated ACF Pro for flexible content management. Optimized performance with AJAX pagination, lazy loading for images, and minification of CSS/JS. Ensured website security with Google reCAPTCHA and configured SMTP for secure email notifications. Collaborated in an Agile Scrum environment, attending sprint meetings and working on tasks according to deadlines. Developed on a staging environment using FileZilla for deployment and testing before going live."
+        },
+        {
+            "name": "Top On Seek",
+            "type": "Commercial Client Project",
+            "tech_used": [
+                "WordPress Core",
+                "Yoast SEO",
+                "FileZilla"
+            ],
+            "description": "Developed custom themes and templates using WordPress Core, including product listings, detailed pages, and user registration forms. Built responsive page layouts using WP Core custom templates and themes, ensuring full compatibility across devices. Implemented SEO best practices using Yoast SEO, including schema markup, breadcrumbs, and optimized meta tags for improved search engine visibility. Addressed website maintenance issues, performing regular updates, bug fixes, security patches, and ensuring smooth functionality across the site. Code development and testing occurred on a staging environment, with deployment via FileZilla."
+        },
+        {
+            "name": "SNA School",
+            "type": "Commercial Client Project",
+            "tech_used": [
+                "Elementor",
+                "WPBakery",
+                "ACF",
+                "FileZilla"
+            ],
+            "description": "Used Elementor (v1) and WPBakery (v2) to design dynamic, user-friendly pages for courses, enrollment forms, and faculty listings. Developed interactive widgets for testimonials, course highlights, and announcements, ensuring easy updates for non-technical users. Created custom elements in Elementor without relying on pre-built widgets, allowing for full control over the design and functionality of interactive features and page components. Optimized backend workflows with ACF for easy content management, allowing faculty and admin to manage and update content efficiently. Ensured mobile responsiveness and cross-browser compatibility for a consistent user experience across all devices. All development was performed on a staging environment, with FileZilla for deployment."
+        },
+        {
+            "name": "Ecommerce with Java",
+            "type": "Academic",
+            "tech_used": [
+                "Java",
+                "Springboot",
+                "MVC",
+                "SQL Server",
+                "JSP"
+            ],
+            "description": "A comprehensive online shopping platform built with Java, designed to provide a seamless and secure experience for users. It features core e-commerce functionalities, including user authentication, product catalog management, shopping cart, and an integrated checkout process. The application also incorporates secure payment gateways and supports responsive design, making it accessible across various devices. Developed following best practices for scalability and security."
+        },
+        {
+            "name": "Ecommerce with .Net",
+            "type": "Academic",
+            "tech_used": [
+                "C#",
+                "ASP .NET Core MVC",
+                "SQL"
+            ],
+            "description": "A robust online shopping solution developed using the .NET framework. It provides a complete suite of functionalities for managing an online store, including user authentication, product management, a shopping cart, and a streamlined checkout process. The application features secure payment integration and is designed with a responsive user interface, ensuring a seamless experience on both desktop and mobile devices. By adhering to industry best practices in software development, this .NET-based platform is highly scalable and secure."
+        },
+        {
+            "name": "Ecommerce with Laravel",
+            "type": "Academic",
+            "tech_used": [
+                "Laravel",
+                "PHP",
+                "MySQL",
+                "Bootstrap",
+                "Laravel Sanctum",
+                "Composer",
+                "Eloquent ORM",
+                "Blade templating"
+            ],
+            "description": "A comprehensive online shopping platform built with Laravel, a powerful PHP framework. The application includes key functionalities such as user authentication, product management, a shopping cart system, and a secure checkout process. It leverages Laravel’s Eloquent ORM for efficient database interactions and Blade templating for dynamic frontend rendering. The project also incorporates MySQL for database management, Bootstrap for responsive design, Laravel Sanctum for API token authentication, and Composer for dependency management."
+        }
+    ],
+    "education": [
+        {
+            "institution": "TonDucThang University",
+            "degree": "Bachelor",
+            "major": "Information Technology",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

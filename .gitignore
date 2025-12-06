@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Môi trường ảo
+.venv/
+venv/
+
+# File bí mật
+.env
+
+# Thư mục build
+build/
+dist/

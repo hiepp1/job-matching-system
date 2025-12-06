@@ -1,0 +1,85 @@
+{
+    "candidate_profile": {
+        "name": "Võ Thị Lan Chi",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Network Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": "7.49",
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "HTML",
+            "CSS",
+            "Python",
+            "Java",
+            "SQL"
+        ],
+        "frameworks_libraries": [],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "VirtualBox",
+            "VMware",
+            "Terminal",
+            "PowerShell",
+            "Command Prompt"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Network Configuration",
+            "Network Monitoring",
+            "Troubleshooting",
+            "Network Administration",
+            "Network Design",
+            "VPN",
+            "IoT",
+            "User Authentication"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Deploying, managing, and configuring VPN",
+            "type": "Academic",
+            "tech_used": [
+                "VPN",
+                "Network Configuration"
+            ],
+            "description": "Final project for Network Administration course, focusing on VPN deployment, management, and configuration."
+        },
+        {
+            "name": "Network system design for small businesses",
+            "type": "Academic",
+            "tech_used": [
+                "Network Design"
+            ],
+            "description": "Final project for Network Design course, focusing on designing a network system for a small business."
+        },
+        {
+            "name": "Building a classroom/meeting room booking system with IoT integration and user authentication",
+            "type": "Academic",
+            "tech_used": [
+                "IoT",
+                "User Authentication"
+            ],
+            "description": "Ongoing project to build a booking system for classrooms and meeting rooms, integrating IoT and user authentication."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Tôn Đức Thắng University",
+            "degree": "Bachelor",
+            "major": "Computer Networks and Data Communication",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

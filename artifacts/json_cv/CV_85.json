@@ -1,0 +1,169 @@
+{
+    "candidate_profile": {
+        "name": "Chí Kha",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Backend Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "C1",
+        "years_experience": 0.25
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "Python",
+            "PHP",
+            "JavaScript",
+            "C++"
+        ],
+        "frameworks_libraries": [
+            "Spring",
+            "Spring Boot",
+            "Laravel",
+            "React.js",
+            "Django",
+            "FastAPI",
+            "JQuery",
+            "Bootstrap",
+            "TailwindCSS",
+            "Flowbite",
+            "Blade templating",
+            "Vite",
+            "Laravel Breeze"
+        ],
+        "databases": [
+            "MySQL",
+            "MongoDB"
+        ],
+        "devops_cloud": [
+            "Docker",
+            "RabbitMQ",
+            "Google Drive API",
+            "Google Cloud Vision",
+            "Google Console"
+        ],
+        "tools_platforms": [
+            "Git",
+            "GitHub",
+            "Postman",
+            "Swagger",
+            "npm",
+            "JUnit",
+            "Mockito",
+            "Wordpress"
+        ],
+        "architectures_models": [
+            "RESTful APIs",
+            "Microservices"
+        ],
+        "techniques_concepts": [
+            "Data Structure and Algorithms",
+            "Object-Oriented Programming",
+            "Version Control",
+            "JWT authentication/authorization",
+            "Caching",
+            "Asynchronous Task Handling",
+            "Responsive UI",
+            "Real-time Chat",
+            "Unit Testing",
+            "Modular Design",
+            "Dependency Management",
+            "Automated Tests",
+            "System Design",
+            "Scalable Web Solutions"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "NAM LONG MEDIA & ADVERTISING CO., LTD.",
+            "role": "FRONT-END DEVELOPER INTERN",
+            "start_date": "2025-03",
+            "end_date": "2025-05",
+            "duration_months": 3,
+            "is_internship": true,
+            "tech_used": [
+                "Wordpress",
+                "Gmail API",
+                "Google Console",
+                "PHP"
+            ],
+            "responsibilities": "Assisted in customizing and improving website interfaces using Wordpress. Integrated Gmail API via Google Console to enable automated email notifications to administrators. Explored the company's PHP-based web applications for better understanding of system development."
+        }
+    ],
+    "projects": [
+        {
+            "name": "REAL ESTATE WEBSITE",
+            "type": "Personal",
+            "tech_used": [
+                "Spring Boot",
+                "React",
+                "MySQL",
+                "Docker",
+                "JWT",
+                "Caffeine",
+                "Redis",
+                "RabbitMQ",
+                "VNPay sandbox",
+                "Spring Mail",
+                "Google Drive API",
+                "Google Cloud Vision",
+                "WebSocket",
+                "JUnit",
+                "Mockito"
+            ],
+            "description": "Developed a full-stack real estate marketplace where users can create paid property listings, browse properties, and communicate through an integrated chat system. Designed optimized database schema and developed RESTful APIs with advanced filtering. Implemented JWT authentication/authorization, caching (Caffeine + Redis), and RabbitMQ for async task handling. Integrated VNPay sandbox for payments, Spring Mail for email, Google Drive API for storage, and Google Cloud Vision for image analysis. Developed a responsive UI with real-time chat (WebSocket) and lead capture forms. Wrote unit tests with JUnit & Mockito to ensure reliability."
+        },
+        {
+            "name": "IBANKING APPLICATION – TUITION PAYMENT SUBSYSTEM",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "FastAPI",
+                "MySQL",
+                "Docker",
+                "docker-compose"
+            ],
+            "description": "Developed a tuition payment micro-subsystem as part of a larger iBanking application, responsible for handling all logic related to student payments. Built using Python with modular design to ensure maintainability and testability. Containerized via Docker / docker-compose for consistent development and deployment environments. Designed database schema and implemented RESTful APIs to interact with frontend or other subsystems. Included dependency management and automated tests to ensure system reliability."
+        },
+        {
+            "name": "LAPTOP SHOP APP",
+            "type": "Personal",
+            "tech_used": [
+                "Laravel 10",
+                "MySQL 8",
+                "TailwindCSS",
+                "Flowbite",
+                "Blade templating",
+                "Laravel Breeze",
+                "Vite",
+                "npm",
+                "PHP"
+            ],
+            "description": "Developed an e-commerce web application for laptop shopping using Laravel 10, MySQL 8, TailwindCSS, and Flowbite. Features for users: search laptops by name/price, manage shopping cart, place orders, view shipment status. Features for admins: add/edit/delete laptops, manage users, update order status, lock user accounts."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Software Technology",
+            "major": "Software Technology",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": [
+        {
+            "title": "Top 30 – “Code Your Future” IT Contest",
+            "issuer": "CJ Group"
+        },
+        {
+            "title": "Top 5 – IT Competency Assessment Contest (Backend Track)",
+            "issuer": "Ton Duc Thang University"
+        }
+    ]
+}

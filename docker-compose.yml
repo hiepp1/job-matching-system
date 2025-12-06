@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  # 1. App Job Matching (Backend)
+  app:
+    build: .
+    container_name: job_matching_prod
+    restart: always
+    expose:
+      - "7860"
+    env_file:
+      - .env
+    volumes:
+      - ./artifacts:/app/artifacts
+    networks:
+      - production_network
+
+  # 2. Nginx Proxy Manager 
+  nginx:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: nginx_proxy_manager
+    restart: unless-stopped
+    ports:
+      - '80:80'     
+      - '81:81'      
+      - '443:443'    
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+    networks:
+      - production_network
+
+# Mạng nội bộ để 2 container nhìn thấy nhau
+networks:
+  production_network:
+    driver: bridge

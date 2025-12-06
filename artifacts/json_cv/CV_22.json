@@ -1,0 +1,103 @@
+{
+    "candidate_profile": {
+        "name": "Huỳnh Anh Tú",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Software Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": null,
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Java",
+            "Python",
+            "Kotlin",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            "Spring Boot",
+            "PyTorch",
+            "TensorFlow",
+            "LangChain",
+            "FastAPI",
+            "Hugging Face Transformers",
+            "PyQt5",
+            "Android"
+        ],
+        "databases": [
+            "MySQL",
+            "SQLite"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [],
+        "architectures_models": [
+            "Transformer",
+            "CRAG"
+        ],
+        "techniques_concepts": [
+            "Machine Learning",
+            "Backend Programming",
+            "Role-based Access Control",
+            "Real-time Data Processing",
+            "Offline Caching",
+            "Clean Architecture",
+            "Retrieval-Augmented Generation (RAG)",
+            "Web Search Integration",
+            "Hallucination Detection",
+            "GUI Development",
+            "Object-Oriented Programming"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "University System Desktop Application",
+            "type": "Academic",
+            "tech_used": [
+                "Java",
+                "MySQL"
+            ],
+            "description": "Developed a desktop application with Java GUI for a university system, implementing role-based login for teachers, students, and administrators, and integrating with MySQL for features like student registration and class search."
+        },
+        {
+            "name": "Weather Forecast Mobile App",
+            "type": "Academic",
+            "tech_used": [
+                "Java",
+                "Android",
+                "Python",
+                "FastAPI",
+                "OpenWeather API"
+            ],
+            "description": "Built a mobile weather app with Java (Android) frontend and Python (FastAPI) backend. Integrated the OpenWeather API for real-time forecasts, added offline caching, and applied clean system design principles to separate UI, backend, and services."
+        },
+        {
+            "name": "Hybrid RAG System",
+            "type": "Academic",
+            "tech_used": [
+                "Python",
+                "LangChain",
+                "Hugging Face Transformers",
+                "PyTorch",
+                "PyQt5"
+            ],
+            "description": "Designed a hybrid Retrieval-Augmented Generation (RAG) system using Python, LangChain, Hugging Face Transformers, and PyTorch. Combined CRAG with web search and hallucination detection to improve reliability. Delivered a working PyQt5 frontend demo."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University, Vietnam",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

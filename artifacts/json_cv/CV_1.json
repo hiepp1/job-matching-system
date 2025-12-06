@@ -1,0 +1,140 @@
+{
+    "candidate_profile": {
+        "name": "Đoàn Thống Lĩnh",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Backend Developer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": "8.64",
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Dart",
+            "Python",
+            "Node.js",
+            "C",
+            "C#",
+            "Java"
+        ],
+        "frameworks_libraries": [
+            "Flutter",
+            "Android"
+        ],
+        "databases": [
+            "MongoDB",
+            "MySQL",
+            "Firebase",
+            "SQL Server"
+        ],
+        "devops_cloud": [
+            "Git",
+            "GitHub",
+            "GitLab"
+        ],
+        "tools_platforms": [],
+        "architectures_models": [
+            "Microservices",
+            "MVC",
+            "Message Queue",
+            "RESTful APIs",
+            "WebSocket"
+        ],
+        "techniques_concepts": [
+            "Logical thinking",
+            "System analysis",
+            "Clean code",
+            "Energy optimization",
+            "Design Patterns",
+            "Singleton",
+            "Strategy",
+            "Template",
+            "Command",
+            "State",
+            "Builder",
+            "Observer",
+            "Flyweight",
+            "Decorator",
+            "Factory",
+            "Agile",
+            "Scrum",
+            "Problem-solving",
+            "Team collaboration",
+            "Communication",
+            "Documentation",
+            "User authentication",
+            "Search/filter/sort",
+            "Order management",
+            "Real-time sync",
+            "Text-to-speech",
+            "Progress tracking"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Bookworm - Library Management App",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "Flutter",
+                "RESTful APIs",
+                "WebSocket"
+            ],
+            "description": "Developed a cross-platform library management system with features like user authentication, book catalog with search/filter/sort, room reservation, borrow/return books, book due date tracking, and admin functions for managing books, categories, and users. Designed a responsive UI."
+        },
+        {
+            "name": "CPMAD_ECommerceApp - Laptop Store App",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "Flutter",
+                "RESTful APIs",
+                "WebSocket"
+            ],
+            "description": "Built a cross-platform e-commerce application deployed on Android, Web, and Windows. Implemented user authentication, product catalog with variants, search/filter/sort, shopping cart, checkout with coupons and loyalty points, order management with tracking, history, and email confirmation, and real-time reviews & ratings. Designed an admin dashboard and handled frontend-backend integration."
+        },
+        {
+            "name": "VOPET - English Vocabulary Learning App",
+            "type": "Academic/Personal",
+            "tech_used": [
+                "Firebase",
+                "Singleton",
+                "Strategy",
+                "Template",
+                "Command",
+                "State",
+                "Builder",
+                "Observer",
+                "Flyweight",
+                "Decorator",
+                "Factory"
+            ],
+            "description": "Built an application for English vocabulary learning, allowing users to create topics, study, and take tests. Implemented topic & folder management, CSV import/export, text-to-speech, progress tracking, and community features like public topic sharing, leaderboards, and achievements. Applied advanced design patterns and integrated Firebase for authentication and real-time sync."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Software Engineering",
+            "major": "Software Engineering",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Agile Development & Scrum Framework Course",
+            "issuer": "Techbase Vietna",
+            "year": "2024"
+        }
+    ],
+    "honors_and_awards": [
+        {
+            "title": "Academic Incentive Scholarship",
+            "issuer": "Ton Duc Thang University"
+        }
+    ]
+}

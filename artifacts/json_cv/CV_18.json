@@ -1,0 +1,121 @@
+{
+    "candidate_profile": {
+        "name": "NGUYEN TRUNG THANG",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Advanced",
+        "gpa": "7.78/10",
+        "english_cefr_level": "C1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "C",
+            "Java",
+            "JavaScript",
+            "PHP",
+            "SQL"
+        ],
+        "frameworks_libraries": [
+            "PyTorch",
+            "TensorFlow",
+            "Keras",
+            "Scikit-learn",
+            "HuggingFace Transformers",
+            "Django",
+            "OpenCV",
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "BLIP",
+            "Gemini API"
+        ],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Linux",
+            "Google Colab",
+            "GitHub"
+        ],
+        "architectures_models": [
+            "ViT5",
+            "BartPho",
+            "CNN",
+            "LSTM",
+            "Attention",
+            "Transformer Decoder",
+            "Generative AI"
+        ],
+        "techniques_concepts": [
+            "Deep Learning",
+            "Machine Learning",
+            "Computer Vision",
+            "Text Error Correction",
+            "Visual Question Answering",
+            "OCR",
+            "Feature Extraction",
+            "Sequence Modeling",
+            "Model Design",
+            "Model Training",
+            "Model Evaluation",
+            "Optimization",
+            "Dataset Creation",
+            "Image Captioning",
+            "Question-Answer Generation"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Deep Learning Research Project – Text Error Correction",
+            "type": "Academic",
+            "tech_used": [
+                "PyTorch",
+                "ViT5",
+                "BartPho"
+            ],
+            "description": "Trained and fine-tuned ViT5 and BartPho models in PyTorch for Vietnamese text correction, improving accuracy through iterative experiments and optimization within a 2-member team."
+        },
+        {
+            "name": "Visual Question Answering Project",
+            "type": "Academic",
+            "tech_used": [
+                "Generative AI",
+                "CNN",
+                "LSTM",
+                "Attention",
+                "BLIP",
+                "Gemini API",
+                "Google Colab"
+            ],
+            "description": "Developed an end-to-end VQA system using generative AI for dataset creation and a custom CNN–LSTM–Attention model for training, automating image captioning and question-answer generation with BLIP and Gemini API."
+        },
+        {
+            "name": "OCR System with CNN+Transformer Decoder",
+            "type": "Academic",
+            "tech_used": [
+                "CNN",
+                "Transformer Decoder",
+                "TensorFlow",
+                "PyTorch"
+            ],
+            "description": "Built an OCR pipeline combining CNNs for feature extraction and Transformer Decoder for sequence modeling, accurately extracting text from invoices and improving recognition performance on structured documents."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Computer Science",
+            "major": "Computer Science",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

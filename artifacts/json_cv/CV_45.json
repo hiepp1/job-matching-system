@@ -1,0 +1,107 @@
+{
+    "candidate_profile": {
+        "name": "GIA-MY (ASTRID) NGUYEN",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "Data Analyst",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "Intermediate",
+        "gpa": 2.8,
+        "english_cefr_level": "B2",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "JavaScript"
+        ],
+        "frameworks_libraries": [
+            "Pandas",
+            "Matplotlib",
+            "Scikit-learn"
+        ],
+        "databases": [
+            "MongoDB",
+            "SQL Server",
+            "PostgreSQL"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Power BI",
+            "Tableau",
+            "Streamlit",
+            "Google Sheets API"
+        ],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Data Analytics",
+            "Business Intelligence",
+            "Machine Learning",
+            "Regression",
+            "Classification",
+            "Data Visualization",
+            "Customer Churn Analysis",
+            "Trend Analysis"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Customer Churn Analysis",
+            "type": "Academic",
+            "tech_used": [],
+            "description": "Analyzed customer data and identified key trends in retention. Grouped customers by demographics and usage to find high-risk segments. Found main reasons for churn, such as service issues and usage patterns. Suggested strategies like targeted offers and better service to reduce churn and keep revenue."
+        },
+        {
+            "name": "Global Retail Business Analysis",
+            "type": "Academic",
+            "tech_used": [
+                "Power BI"
+            ],
+            "description": "Analyzed global retail sales data to evaluate payment methods and product performance. Created interactive dashboards in Power BI to visualize trends and support decision-making. Recommended strategies to optimize order methods and adjust pricing for key product categories."
+        },
+        {
+            "name": "Retail Store Analysis",
+            "type": "Academic",
+            "tech_used": [
+                "Streamlit",
+                "Google Sheets API",
+                "Python",
+                "Pandas",
+                "Matplotlib",
+                "Scikit-learn",
+                "Tableau"
+            ],
+            "description": "Developed an interactive dashboard in Streamlit with real-time updates every 5 seconds. Built a data collection form integrated with the Google Sheets API, with automatic storage of submissions. Applied Python (Pandas, Matplotlib, Scikit-learn) and Tableau to analyze retail performance and present insights effectively."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Computer Science",
+            "major": "Computer Science",
+            "graduation_year": "2026",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Data Analysis & Power BI",
+            "issuer": "Institute for Business and Economics Policy (TDTU)",
+            "year": null
+        },
+        {
+            "name": "Basic Data Visualization with Power BI",
+            "issuer": "STARTTRAIN",
+            "year": null
+        },
+        {
+            "name": "Supervised Machine Learning: Regression and Classification",
+            "issuer": "Coursera",
+            "year": null
+        }
+    ],
+    "honors_and_awards": []
+}

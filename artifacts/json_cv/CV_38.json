@@ -1,0 +1,105 @@
+{
+    "candidate_profile": {
+        "name": "Phạm Nhật Tuyên",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Intern",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "B1",
+        "gpa": 7.05,
+        "english_cefr_level": "B1",
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "C",
+            "JavaScript"
+        ],
+        "frameworks_libraries": [
+            "Node.js",
+            "SpringBoot",
+            "Angular"
+        ],
+        "databases": [
+            "MySQL",
+            "MongoDB",
+            "Firebase"
+        ],
+        "devops_cloud": [],
+        "tools_platforms": [
+            "Github",
+            "Kaggle"
+        ],
+        "architectures_models": [
+            "Transformer",
+            "Linear Regression",
+            "Random Forest",
+            "Decision Tree",
+            "Seq2seq",
+            "Image Captioning"
+        ],
+        "techniques_concepts": [
+            "Data Preprocessing",
+            "Tokenization",
+            "Embedding",
+            "Fine-tuning",
+            "OCR",
+            "Image Processing",
+            "Natural Language Processing (NLP)",
+            "ROUGE Metrics",
+            "Predictive Modeling",
+            "Machine Learning Classification"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "ID Card Recognition",
+            "type": "Academic",
+            "tech_used": [
+                "Machine Learning",
+                "Image Processing",
+                "OCR",
+                "Python"
+            ],
+            "description": "Developed a machine learning model to extract key information (full name, student ID, date of birth) from student ID images; Performed image processing and OCR-based character extraction; designed preprocessing pipelines to improve recognition accuracy."
+        },
+        {
+            "name": "Text Summarization",
+            "type": "Academic",
+            "tech_used": [
+                "Natural Language Processing (NLP)",
+                "Python",
+                "ROUGE Metrics"
+            ],
+            "description": "Developed an NLP model for text summarization, including preprocessing (tokenization, stopword removal) and performance evaluation using ROUGE metrics."
+        },
+        {
+            "name": "Weather Prediction",
+            "type": "Academic",
+            "tech_used": [
+                "Predictive Modeling",
+                "Linear Regression",
+                "Random Forest",
+                "Decision Tree",
+                "Python"
+            ],
+            "description": "Built a predictive model for temperature and rainfall forecasting using historical weather data; compared performance across Linear Regression, Random Forest Regressor, Random Forest Classifier, and Decision Tree Regressor."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Science",
+            "graduation_year": "2025",
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

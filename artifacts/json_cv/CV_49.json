@@ -1,0 +1,51 @@
+{
+    "candidate_profile": {
+        "name": "VÂN ĐẠI KIỆT",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "QA Tester",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": null,
+        "gpa": 7.01,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [],
+        "frameworks_libraries": [],
+        "databases": [],
+        "devops_cloud": [],
+        "tools_platforms": [],
+        "architectures_models": [],
+        "techniques_concepts": [
+            "Object-Oriented Programming (OOP)",
+            "Manual Testing",
+            "Smoke Testing",
+            "Integration Testing",
+            "Test Case Execution",
+            "Bug Reporting"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Railway website",
+            "type": "Academic",
+            "tech_used": [],
+            "description": "A train ticket booking website project. Key responsibilities included performing smoke and integration tests, writing and executing test cases, creating bug lists, and writing daily reports."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor",
+            "major": "Computer Network & System Administration",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}

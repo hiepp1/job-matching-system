@@ -1,0 +1,161 @@
+{
+    "candidate_profile": {
+        "name": "Nguyen Quang Trung",
+        "current_location": "Ho Chi Minh City, Vietnam",
+        "role_focus": "AI Engineer",
+        "seniority_level": "Intern"
+    },
+    "metrics": {
+        "education_level": "Bachelor",
+        "english_proficiency": "APTIS Certified",
+        "gpa": 3.0,
+        "english_cefr_level": null,
+        "years_experience": 0.0
+    },
+    "tech_stack": {
+        "programming_languages": [
+            "Python",
+            "Java",
+            "C#",
+            "C/C++"
+        ],
+        "frameworks_libraries": [
+            "PyTorch",
+            "TensorFlow",
+            "OpenCV",
+            "Hadoop",
+            "MapReduce",
+            "WinForms",
+            "PySpark",
+            "Spark DataFrame APIs",
+            "Spark SQL"
+        ],
+        "databases": [
+            "MySQL",
+            "MS SQL Server",
+            "MongoDB"
+        ],
+        "devops_cloud": [
+            "HDFS",
+            "YARN",
+            "CUDA"
+        ],
+        "tools_platforms": [
+            "Git",
+            "Jupyter"
+        ],
+        "architectures_models": [
+            "YOLOv11"
+        ],
+        "techniques_concepts": [
+            "Software Engineering",
+            "Data Structures",
+            "Machine Learning",
+            "Computer Vision",
+            "Big Data",
+            "Graph Data Structure",
+            "Traversal Algorithms",
+            "Search Methods",
+            "Alpha-Beta Pruning",
+            "Uniform Cost Search (UCS)",
+            "A*",
+            "Heuristics",
+            "Admissibility",
+            "Consistency",
+            "Apriori Algorithm",
+            "Distributed Storage",
+            "Resource Management",
+            "Data Partitioning",
+            "Web Graph Analysis",
+            "PageRank Algorithm",
+            "Real-time Detection",
+            "Data Augmentation",
+            "Object-Oriented Programming (OOP)"
+        ]
+    },
+    "work_experience": [],
+    "projects": [
+        {
+            "name": "Checklist System",
+            "type": "Academic",
+            "tech_used": [
+                "WinForms",
+                "C#",
+                "Excel",
+                "PDF"
+            ],
+            "description": "Automated task management desktop app. Built a WinForms C# checklist system for daily tracking, enabling 30% faster task completion. Automated Excel/PDF reporting, reducing manual documentation by 40%."
+        },
+        {
+            "name": "Movie Rating Analysis",
+            "type": "Academic",
+            "tech_used": [
+                "Data Structures",
+                "Algorithms",
+                "Graph Data Structure",
+                "Adjacency List Representation",
+                "Traversal Algorithms",
+                "Optimized Search Methods"
+            ],
+            "description": "Graph-based user-movie rating analysis project. Built a graph data structure from large-scale user–movie–rating dataset. Implemented efficient query algorithms on the graph to solve 7 analysis requirements. Applied adjacency list representation, traversal algorithms, and optimized search methods to handle queries. Validated outputs against provided test cases, ensuring full correctness. Achieved 100% score (10/10) for the project in Data Structures and Algorithms (504008)."
+        },
+        {
+            "name": "AI Game Projects (Tic-Tac-Toe & Pacman Search)",
+            "type": "Academic",
+            "tech_used": [
+                "Alpha-Beta Pruning",
+                "OOP",
+                "Uniform Cost Search (UCS)",
+                "A*",
+                "Heuristics"
+            ],
+            "description": "Artificial Intelligence course project. Developed an 8x8 Tic-Tac-Toe console game where the computer uses Alpha-Beta Pruning to choose optimal moves. Designed OOP-based classes (Problem, SearchStrategy) to manage state space and decision-making. Implemented intelligent search for Pacman to eat all food dots and visit four corners, using Uniform Cost Search (UCS) and A*. Proposed and analyzed heuristics for A* ensuring admissibility and consistency. Built a console-based visualization of Pacman’s path with actions (North, East, West, South, Stop) and total path cost."
+        },
+        {
+            "name": "Apriori Algorithm with Hadoop MapReduce",
+            "type": "Academic",
+            "tech_used": [
+                "Apriori Algorithm",
+                "Hadoop MapReduce",
+                "HDFS",
+                "YARN",
+                "Python",
+                "SQL"
+            ],
+            "description": "Frequent customer analysis with Big Data tools. Implemented Apriori algorithm with Hadoop MapReduce to discover frequent customer groups from large-scale transactional data. Utilized HDFS for distributed storage and YARN for resource management. Tuned job parameters (block size, number of reducers, data partitioning) to achieve higher scalability and throughput. Automated preprocessing with Python + SQL before feeding into Hadoop pipeline."
+        },
+        {
+            "name": "PageRank with PySpark",
+            "type": "Academic",
+            "tech_used": [
+                "PySpark",
+                "Spark DataFrame APIs",
+                "Spark SQL",
+                "PageRank Algorithm"
+            ],
+            "description": "Web graph analysis project. Crawled and built a directed graph of webpages from the TDTU domain. Implemented Google’s PageRank algorithm in PySpark to evaluate and rank page importance. Leveraged Spark DataFrame APIs & Spark SQL for performance optimization and large-scale query processing. Exported results to visualization tools for ranking analysis and reporting."
+        },
+        {
+            "name": "Football Object Detection using YOLOv11",
+            "type": "Academic",
+            "tech_used": [
+                "YOLOv11",
+                "OpenCV",
+                "CUDA",
+                "Data Augmentation"
+            ],
+            "description": "Computer vision system for football analytics. Trained a custom YOLOv11 model on 5K+ annotated frames. Achieved mAP@50 = 92% with data augmentation and tuning. Deployed real-time detection with <50ms latency using OpenCV + CUDA."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Ton Duc Thang University",
+            "degree": "Bachelor of Science",
+            "major": "Computer Science",
+            "graduation_year": null,
+            "status": "In Progress"
+        }
+    ],
+    "certifications": [],
+    "honors_and_awards": []
+}
