@@ -1,25 +1,36 @@
 import json
 from src.core.llm import call_smart_verification, PROMPT_VERIFY_MATCH, call_smart_json
 
-def verify_candidate_with_ai(jd_struct, cv_content):
+# ============================= VERIFICATION ============================= #
+def verify_candidate_with_ai(jd_struct: dict, cv_content: str) -> list:
     """
-    Chuẩn bị dữ liệu và gọi AI để so sánh.
+    Prepare data and call AI to verify candidate profile against JD requirements.
+
+    Args:
+        jd_struct (dict): Parsed Job Description structure.
+        cv_content (str): Candidate CV content (structured or text).
+
+    Returns:
+        list: Verification checks with status and reasoning.
     """
-    checklist = jd_struct.get("requirements_checklist", [])    
+    checklist = jd_struct.get("requirements_checklist", [])
 
     if checklist:
-
-        jd_text_list = [f"[{item.get('category', 'Requirement')}] {item.get('content', '')}" for item in checklist]
+        jd_text_list = [
+            f"[{item.get('category', 'Requirement')}] {item.get('content', '')}"
+            for item in checklist
+        ]
     else:
-
-        print("⚠️ Warning: JD missing 'requirements_checklist'. Using fallback fields.")
+        print("(W) Warning: JD missing 'requirements_checklist'. Using fallback fields.")
         qualifications = jd_struct.get("qualifications", [])
         req_skills = jd_struct.get("skills", {}).get("required", [])
         job_info = jd_struct.get("job_info", {})
-        
+
         jd_text_list = []
         if job_info.get("min_years_experience"):
-            jd_text_list.append(f"[Experience] At least {job_info['min_years_experience']} years experience.")
+            jd_text_list.append(
+                f"[Experience] At least {job_info['min_years_experience']} years experience."
+            )
         if qualifications:
             jd_text_list.extend([f"[Education] {q}" for q in qualifications])
         if req_skills:
@@ -27,10 +38,10 @@ def verify_candidate_with_ai(jd_struct, cv_content):
 
     jd_text_combined = "\n".join(jd_text_list)
 
-    prompt_filled = PROMPT_VERIFY_MATCH.replace("{jd_requirements}", jd_text_combined).replace("{cv_profile}", cv_content)
-        
-    from src.core.llm import call_smart_json 
-    from src.core.llm import call_smart_verification
+    # Fill prompt (not directly used here, but kept for clarity)
+    prompt_filled = PROMPT_VERIFY_MATCH.replace("{jd_requirements}", jd_text_combined).replace(
+        "{cv_profile}", cv_content
+    )
 
     verification_result = call_smart_verification(jd_text_combined, cv_content)
 
@@ -40,38 +51,45 @@ def verify_candidate_with_ai(jd_struct, cv_content):
         return verification_result
     return []
 
-def generate_verification_html(report):
-    """Render HTML giống LinkedIn"""
-    if not report: return "<p>Could not generate analysis.</p>"
-    
+# ============================= HTML RENDERING ============================= #
+def generate_verification_html(report: list) -> str:
+    """
+    Render verification report into LinkedIn-style HTML.
+
+    Args:
+        report (list): Verification checks with requirement, status, and reason.
+
+    Returns:
+        str: HTML string representation of the report.
+    """
+    if not report:
+        return "<p>Could not generate analysis.</p>"
+
     html = "<div style='font-family: Segoe UI, sans-serif; font-size: 0.95rem;'>"
-    
-    match_count = sum(1 for r in report if r['status'] == 'match')
+
+    match_count = sum(1 for r in report if r.get("status") == "match")
     total = len(report)
-    
-    html += f"<div style='margin-bottom: 15px; font-weight: bold; color: #333;'>Matches {match_count} of {total} requirements:</div>"
-    
+
+    html += (
+        f"<div style='margin-bottom: 15px; font-weight: bold; color: #333;'>"
+        f"Matches {match_count} of {total} requirements:</div>"
+    )
+
     for item in report:
-        status = item.get('status', 'unknown')
-        reason = item.get('reason', '')
-        req = item.get('requirement', '')
-        
+        status = item.get("status", "unknown")
+        reason = item.get("reason", "")
+        req = item.get("requirement", "")
+
         if status == "match":
-            icon = "✅"
-            color = "#166534" 
-            bg = ""
+            icon, color, bg = "(V)", "#166534", ""
         elif status == "partial":
-            icon = "⚠️" 
-            color = "#ca8a04" 
-            bg = "#fefce8"
-        else: # missing/unknown
-            icon = "❓"
-            color = "#525252" 
-            bg = ""
+            icon, color, bg = "(P)", "#ca8a04", "#fefce8"
+        else:  # missing/unknown
+            icon, color, bg = "(?)", "#525252", ""
 
         html += f"""
         <div style='margin-bottom: 12px; padding: 8px; border-radius: 6px; background: {bg};'>
-            <div style='display: flex; align_items: start;'>
+            <div style='display: flex; align-items: start;'>
                 <span style='margin-right: 10px; font-size: 1.1rem;'>{icon}</span>
                 <div>
                     <div style='color: #1f2937; font-weight: 500;'>{req}</div>
@@ -80,5 +98,6 @@ def generate_verification_html(report):
             </div>
         </div>
         """
+
     html += "</div>"
     return html

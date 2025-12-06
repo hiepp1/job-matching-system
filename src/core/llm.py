@@ -3,35 +3,35 @@ import json
 import faiss
 import re
 
-import google.generativeai as genai
-from groq import Groq
-
 from pydantic import BaseModel
 from typing import List
 from dotenv import load_dotenv
 
+import google.generativeai as genai
+from groq import Groq
+
+# ============================= ENVIRONMENT ============================= #
 load_dotenv()
 
+# Gemini API configuration
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY_1") or os.getenv("GEMINI_API_KEY_2")
 if not GEMINI_API_KEY:
-    print("⚠️ Warning: GEMINI_API_KEY not found. Checking KEY_2...")
+    print("(X) Warning: GEMINI_API_KEY not found. Checking KEY_2...")
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY_2")
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
+# Secondary Gemini API key
 GEMINI_API_KEY_2 = os.getenv("GEMINI_API_KEY_3") or os.getenv("GEMINI_API_KEY_4")
-if GEMINI_API_KEY_2:
-    model2 = genai.GenerativeModel("gemini-2.5-flash")
-else:
-    model2 = model
+model2 = genai.GenerativeModel("gemini-2.5-flash") if GEMINI_API_KEY_2 else model
 
-# Config Groq (for summarization)
+# Groq configuration (for summarization)
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 groq_client = Groq(api_key=GROQ_API_KEY)
 GROQ_MODEL_NAME = "llama-3.3-70b-versatile"
 
-## ============================= CV PROCESSING ========================== ##
+# ============================= PROMPTS ============================= #
 PROMPT_CV = """
 You are an Expert IT Technical Recruiter and CV Parser.
 Your task is to extract structured data from a candidate's CV text.
@@ -194,7 +194,6 @@ Technically, they demonstrate strong proficiency in [Languages] and [Frameworks]
 Analyze the input JSON. Pick the correct tone and template (only A or B). Generate the summary.
 """
 
-## ============================= JD PROCESSING ========================== ##
 PROMPT_JD = """
 You are an Expert IT Technical Recruiter. Your task is to extract structured requirements from a Job Description (JD) text.
 
@@ -293,7 +292,6 @@ Core mandatory technical skills include [List Required Skills]...
 Ideally, the candidate should also possess [List Preferred Skills]... Candidates with [Certifications/Languages] are highly valued."
 """
 
-## ============================= VERIFICATION ========================== ##
 PROMPT_VERIFY_MATCH = """
 You are an expert Tech Recruiter. Compare a Candidate Profile against the Job Requirements.
 
@@ -320,16 +318,20 @@ For each requirement in the list, check if the candidate matches.
 }
 **STATUS OPTIONS:** "match", "partial", "missing", "unknown"
 """
-    
-## ============================= PROCESSING ========================== ##
-def clean_response_text(text):
-    """Làm sạch phản hồi từ LLM (xóa markdown code block, các câu dẫn dắt)"""
-    if not text: return ""
-    # Xóa markdown json wrapper
+
+# ============================= UTILITIES ============================= #
+def clean_response_text(text: str) -> str:
+    """
+    Clean response text from LLM by removing JSON wrappers and unnecessary phrases.
+    """
+    if not text:
+        return ""
+
+    # Remove JSON markdown wrappers
     text = re.sub(r'```json\s*', '', text)
     text = re.sub(r'```\s*$', '', text)
-    
-    # Xóa các câu dẫn dắt thừa (cho Summary)
+
+    # Remove redundant leading phrases
     garbage_phrases = [
         "Based on the provided JSON", "Here is a dense", "Here is the summary",
         "Here represents", "The following is", "technical profile"
@@ -338,8 +340,10 @@ def clean_response_text(text):
     cleaned = [line for line in lines if not any(p.lower() in line.lower() for p in garbage_phrases)]
     return "\n".join(cleaned).strip()
 
-def call_smart_json(prompt, text_content):
-
+def call_smart_json(prompt: str, text_content: str):
+    """
+    Call Gemini model to extract structured JSON from CV or JD text.
+    """
     full_prompt = prompt.replace("{cv_text}", text_content).replace("{jd_text}", text_content)
     try:
         response = model.generate_content(
@@ -351,27 +355,15 @@ def call_smart_json(prompt, text_content):
         )
         return json.loads(response.text)
     except Exception as e:
-        print(f"⚠️ Gemini Extract Error: {e}")
+        print(f"(X) Gemini Extract Error: {e}")
         return None
 
-def call_smart_summary(prompt_template, json_data):
-    """Tóm tắt: Thử Groq trước -> Lỗi -> Dùng Gemini."""
+def call_smart_summary(prompt_template: str, json_data: dict) -> str:
+    """
+    Generate a summary using Groq (preferred) or Gemini as fallback.
+    """
     json_str = json.dumps(json_data, ensure_ascii=False, indent=2)
     full_prompt = prompt_template.replace("CV_JSON_DATA", json_str).replace("{jd_json}", json_str)
-    
-    # if groq_client:
-    #     try:
-    #         completion = groq_client.chat.completions.create(
-    #             model=GROQ_MODEL_NAME,
-    #             messages=[
-    #                 {"role": "system", "content": "You are an Expert Technical Writer."},
-    #                 {"role": "user", "content": full_prompt}
-    #             ],
-    #             temperature=0.3
-    #         )
-    #         return clean_response_text(completion.choices[0].message.content)
-    #     except Exception:
-    #         pass 
 
     try:
         response = model.generate_content(
@@ -380,16 +372,16 @@ def call_smart_summary(prompt_template, json_data):
         )
         return clean_response_text(response.text)
     except Exception as e:
-        print(f"❌ All AI Models Failed (Summary): {e}")
+        print(f"(X) All AI Models Failed (Summary): {e}")
         return ""
     
-def call_smart_verification(jd_text, cv_text):
+def call_smart_verification(jd_text: str, cv_text: str) -> list:
     """
-    Hàm Verification: So sánh JD và CV.
+    Compare JD requirements against CV profile and return structured verification checks.
     """
     full_prompt = PROMPT_VERIFY_MATCH.replace("{jd_requirements}", jd_text).replace("{cv_profile}", cv_text)
-    
-    # Ưu tiên Groq vì JSON Mode tốt
+
+    # Prefer Groq for JSON mode
     if groq_client:
         try:
             completion = groq_client.chat.completions.create(
@@ -404,8 +396,8 @@ def call_smart_verification(jd_text, cv_text):
             data = json.loads(completion.choices[0].message.content)
             return data.get("checks", [])
         except Exception as e:
-            print(f"⚠️ Groq Verify Error: {e}")
-        
+            print(f"(X) Groq Verify Error: {e}")
+
     # Fallback Gemini
     try:
         response = model.generate_content(
@@ -418,29 +410,32 @@ def call_smart_verification(jd_text, cv_text):
         data = json.loads(response.text)
         return data.get("checks", []) if isinstance(data, dict) else data
     except Exception as e:
-        print(f"❌ Gemini Verify Error: {e}")
+        print(f"(X) Gemini Verify Error: {e}")
         return []
-    
+
 call_gemini_json = call_smart_json
 call_groq_summary = call_smart_summary
 
+# ============================= JD PROCESSING ============================= #
 def process_jd_query(pdf_path: str) -> dict:
+    """
+    Process a Job Description PDF:
+    - Extract text
+    - Generate structured JD JSON
+    - Produce JD summary
+    """
     try:
         from ..data_pipeline.loader import extract_text_from_pdf
     except ImportError:
         from data_pipeline.loader import extract_text_from_pdf
 
-    print(f"📄 Processing JD: {pdf_path}")
+    print(f"Processing JD: {pdf_path}")
     text = extract_text_from_pdf(pdf_path)
-    if not text: 
+    if not text:
         return {"extracted": {}, "summary": ""}
 
     print("Extracting JD structure...")
-    jd_data = call_gemini_json(PROMPT_JD, text)
-    
-    if not jd_data:
-        print("❌ Failed to extract JD JSON.")
-        jd_data = {}
+    jd_data = call_gemini_json(PROMPT_JD, text) or {}
 
     print("Generating JD summary...")
     jd_summary = call_groq_summary(SUMMARY_PROMPT_JD, jd_data)

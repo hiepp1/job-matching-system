@@ -1,58 +1,68 @@
 import os
 import sys
 
+# ============================= PATH ============================= #
 current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(current_dir)
 sys.path.append(project_root)
 
-import config 
+import config
 from src.data_pipeline.loader import process_cvs_to_json, generate_summaries
 from src.data_pipeline.indexing import build_rich_faiss_index_offline, build_bm25_index
 
+# ============================= MAIN PIPELINE ============================= #
 def main():
-    print("--- BẮT ĐẦU QUÁ TRÌNH INDEXING ---")
+    """
+    End-to-end indexing pipeline:
+    1. Convert CV PDFs → JSON
+    2. Generate summaries from JSON
+    3. Build FAISS index
+    4. Build BM25 index
+    """
+    print("\n--- STARTING INDEXING PIPELINE ---")
 
-    # 1. Đảm bảo các thư mục tồn tại
+    # Ensure required folders exist
     os.makedirs(config.CV_JSON_FOLDER, exist_ok=True)
     os.makedirs(config.CV_SUMMARY_FOLDER, exist_ok=True)
     os.makedirs(config.CV_DATASET_FOLDER, exist_ok=True)
-    print("Đã kiểm tra/tạo các thư mục artifacts.")
+    print("(V) Verified/created artifact folders.")
 
-    # 2. Step 1: PDF -> JSON
-    print("\n[Bước 1/4] Đang xử lý CVs PDF sang JSON...")
+    # Step 1: PDF → JSON
+    print("\n[Step 1/4] Processing CV PDFs into JSON...")
     process_cvs_to_json(
         cv_folder_path=config.CV_FOLDER,
-        json_output_folder=config.CV_JSON_FOLDER
+        json_output_folder=config.CV_JSON_FOLDER,
     )
-    print("Hoàn tất Bước 1.")
+    print("✅ Step 1 complete.")
 
-    # 3.  Step 2: JSON -> Summary
-    print("\n[Bước 2/4] Đang tạo Summaries từ JSON...")
+    # Step 2: JSON → Summaries
+    print("\n[Step 2/4] Generating summaries from JSON...")
     generate_summaries(
         json_input_folder=config.CV_JSON_FOLDER,
-        summary_output_folder=config.CV_SUMMARY_FOLDER
+        summary_output_folder=config.CV_SUMMARY_FOLDER,
     )
-    print("Hoàn tất Bước 2.")
+    print("✅ Step 2 complete.")
 
-    # 4.  Step 3: Tạo FAISS Index
-    print("\n[Bước 3/4] Đang xây dựng FAISS Index...")
+    # Step 3: Build FAISS Index
+    print("\n[Step 3/4] Building FAISS Index...")
     build_rich_faiss_index_offline(
         summary_folder=config.CV_SUMMARY_FOLDER,
         json_folder=config.CV_JSON_FOLDER,
         pdf_folder=config.CV_FOLDER,
         output_folder=config.CV_DATASET_FOLDER,
-        dimension=config.EMBEDDING_DIMENSION
+        dimension=config.EMBEDDING_DIMENSION,
     )
-    print("Hoàn tất Bước 3.")
+    print("✅ Step 3 complete.")
 
-    # 5.  Step 4: Tạo BM25 Index
-    print("\n[Bước 4/4] Đang xây dựng BM25 Index...")
+    # Step 4: Build BM25 Index
+    print("\n[Step 4/4] Building BM25 Index...")
     build_bm25_index(
         map_path=config.MAP_PATH,
-        bm25_index_path=config.BM25_INDEX_PATH
+        bm25_index_path=config.BM25_INDEX_PATH,
     )
-    print("Hoàn tất Bước 4.")
-    print("\n--- QUÁ TRÌNH INDEXING HOÀN TẤT ---")
+    print("✅ Step 4 complete.")
+
+    print("\n--- INDEXING PIPELINE COMPLETED ---")
 
 if __name__ == "__main__":
     main()

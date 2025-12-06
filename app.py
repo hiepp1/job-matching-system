@@ -397,3 +397,100 @@ if __name__ == "__main__":
         share=False,           
         debug=True             
     )
+
+
+
+# import streamlit as st
+# import pandas as pd
+# import os
+# import json
+# import base64
+# import config
+
+# from src.core.llm import process_jd_query
+# from src.core.search import hybrid_search_v2
+# from src.verification import verify_candidate_with_ai, generate_verification_html
+# from src.core.ontology import skill_ontology
+
+# st.set_page_config(page_title="AI Job Matching System", layout="wide")
+# st.title("AI Job Matching System")
+
+# TOP_N = 15
+
+# # ---------------- Session state ---------------- #
+# if "jd_struct" not in st.session_state:
+#     st.session_state.jd_struct = {}
+# if "search_results" not in st.session_state:
+#     st.session_state.search_results = []
+# if "selected_rank" not in st.session_state:
+#     st.session_state.selected_rank = 1
+
+# # ---------------- Helpers ---------------- #
+# def pdf_to_base64(pdf_path: str) -> str:
+#     with open(pdf_path, "rb") as f:
+#         return base64.b64encode(f.read()).decode("utf-8")
+
+# def render_pdf_inline(pdf_path: str, height: int = 700):
+#     if not os.path.exists(pdf_path):
+#         st.error(f"PDF not found: {pdf_path}")
+#         return
+#     pdf_b64 = pdf_to_base64(pdf_path)
+#     html = f"""
+#     <iframe src="data:application/pdf;base64,{pdf_b64}" width="100%" height="{height}px" style="border:0;"></iframe>
+#     """
+#     st.components.v1.html(html, height=height + 20, scrolling=True)
+
+# # ---------------- Upload JD ---------------- #
+# jd_file = st.file_uploader("Upload Job Description (PDF)", type=["pdf"])
+
+# if jd_file and st.button("Analyze & Match"):
+#     jd_path = os.path.join("temp", jd_file.name)
+#     os.makedirs("temp", exist_ok=True)
+#     with open(jd_path, "wb") as f:
+#         f.write(jd_file.read())
+
+#     jd_result = process_jd_query(jd_path)
+#     st.session_state.jd_struct = jd_result.get("extracted", {})
+#     jd_summary = jd_result.get("summary", "")
+
+#     # Run search once
+#     with st.spinner("Searching candidates..."):
+#         results = hybrid_search_v2(
+#             jd_query=jd_summary,
+#             jd_struct=st.session_state.jd_struct,
+#             k_faiss=50,
+#             k_bm25=50,
+#             top_show=TOP_N,
+#         )
+#         st.session_state.search_results = results
+
+#     st.subheader("📑 JD Analysis")
+#     st.markdown(jd_summary)
+
+#     if results:
+#         df = pd.DataFrame(results)
+#         df["Match Score"] = df["final_score"].apply(lambda x: f"{x*100:.1f}%")
+#         st.subheader("🏆 Candidate Ranking")
+#         st.dataframe(df[["rank", "document_id", "Match Score", "cv_skills_list"]])
+
+# # ---------------- Tabs ---------------- #
+# if st.session_state.search_results:
+#     tab1, tab2 = st.tabs(["📄 CV Preview", "🔍 Detailed Analysis"])
+
+#     with tab1:
+#         st.session_state.selected_rank = st.number_input(
+#             "Select candidate rank", min_value=1, max_value=len(st.session_state.search_results), step=1,
+#             value=st.session_state.selected_rank
+#         )
+#         if st.button("Preview CV"):
+#             candidate = st.session_state.search_results[st.session_state.selected_rank - 1]
+#             st.markdown(f"### 🎯 Candidate Score: {candidate['final_score']*100:.1f}%")
+#             st.write("Skills:", ", ".join(candidate.get("cv_skills_list", [])))
+#             pdf_path = candidate.get("pdf_path", "")
+#             render_pdf_inline(pdf_path)
+
+#     with tab2:
+#         if st.button("Run Detailed Analysis"):
+#             candidate = st.session_state.search_results[st.session_state.selected_rank - 1]
+#             report = verify_candidate_with_ai(st.session_state.jd_struct, candidate.get("summary_snippet", ""))
+#             st.markdown(generate_verification_html(report), unsafe_allow_html=True)
